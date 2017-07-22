@@ -2,7 +2,7 @@ package com.lizhen.entity;
 
 import java.io.Serializable;
 
-public class UseEntity implements Serializable {
+public class UseEntity implements Serializable{
 	private String username;
 	private String password;
 	public UseEntity() {
