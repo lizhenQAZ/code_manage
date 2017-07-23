@@ -1,6 +1,7 @@
 package com.lizhen.dao.impl;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.lizhen.dao.UserDao;
@@ -36,6 +37,14 @@ public class UserDaoImpl implements UserDao {
 		PreparedStatement ps =conn.prepareStatement(deleteSql);
 		ps.setString(1, user.getName());
 		ps.execute();
+	}
+
+	@Override
+	public ResultSet get(Connection conn, User user) throws SQLException {
+		PreparedStatement ps=conn.prepareStatement("SELECT * FROM userpwd_tbl WHERE name = ? AND password =?");
+		ps.setString(1,user.getName());
+		ps.setString(2,user.getPassword());
+		return ps.executeQuery();
 	}
 
 }
