@@ -10,6 +10,7 @@ def tcp_server_main():
 
     # 3.监听端口
     tcp_server_socket.listen(128)
+    # print(tcp_server_socket.getsockname())
 
     # 4.等待连接
     tcp_client_socket, tcp_client_addr = tcp_server_socket.accept()
