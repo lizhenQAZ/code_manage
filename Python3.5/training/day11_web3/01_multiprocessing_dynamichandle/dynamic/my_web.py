@@ -8,7 +8,7 @@ g_templates_root = './templates'
 def index(filename):
     filename = filename.replace('.py', '.html')
     try:
-        fd = open(g_templates_root + filename)
+        fd = open(g_templates_root + filename, errors='ignore')
     except Exception as e:
         return '%s' % e
     else:
@@ -22,7 +22,7 @@ def index(filename):
 def center(filename):
     filename = filename.replace('.py', '.html')
     try:
-        fd = open(g_templates_root + filename)
+        fd = open(g_templates_root + filename, errors='ignore')
     except Exception as e:
         return '%s' % e
     else:

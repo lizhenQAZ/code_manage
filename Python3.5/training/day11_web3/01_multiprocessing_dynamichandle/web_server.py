@@ -45,7 +45,7 @@ class WSGISever(object):
                     if filename == '/':
                         filename = '/index.html'
                     try:
-                        f = open(self.filename_root + filename, 'rb')
+                        f = open(self.filename_root + filename, errors='ignore')
 
                     except IOError:
                         # response_header = 'HTTP/1.1 404 not found'
@@ -64,7 +64,9 @@ class WSGISever(object):
                         f.close()
 
                         response_body = content
+                        response_body = response_body.encode('utf-8')
                         response_header = 'HTTP/1.1 200 OK\r\n'
+                        # response_header += 'Content-Type: text/html; charset=utf-8\r\n'
                         response_header += 'Content-Length: %d\r\n\r\n' % len(response_body)
 
                         tcp_client_socket.send(response_header.encode('utf-8') + response_body)
@@ -77,7 +79,7 @@ class WSGISever(object):
                     response_header = 'HTTP/1.1 %s\r\n' % self.headers[0]
                     for response_style in self.headers[1]:
                         response_header += '%s:%s\r\n' % (response_style[0], response_style[1])
-                    response_header += 'Content-Length: %d\r\n\r\n' % len(response_body.encode('utf-8'))
+                    response_header += 'Content-Length: %d\r\n\r\n' % len(response_body)
                     response = response_header + response_body
                     tcp_client_socket.send(response.encode('utf-8'))
 
