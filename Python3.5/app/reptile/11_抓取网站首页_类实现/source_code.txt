@@ -1,0 +1,3108 @@
+
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Python从入门到精通视频_Python学习路线_Python知识体系图-极客学院</title>
+    <meta name="keywords" content="Python,Python核心编程,基础视频教程,简明视频教程,python学习手册,python 下载,tornado,restful,flask,django,mysql,apache,linuxl命令大全,操作系统,知识体系图" />
+    <meta name="description" content="Python核心编程基础简明视频教程知识体系图,从python ide,python restful,python参考手册等基础简明视频教程入手,引入Python flask,python tornado等Python web开发框架教程,再到Linux操作系统命令大全,Apache以及MySQL等重要课程,依据Python核心编程知识体系图全面讲述Python核心编程所需要的各种Python核心编程开发知识点,让学习Python核心编程想成为Python核心编程开发工程师大神的极客学院小小白即刻成为爱极客们并深度掌握Python核心编程开发." />
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://s1.jikexueyuan.com/common/pkg/common_sync0_libs_8b6ab40.css" /><link rel="stylesheet" href="https://s1.jikexueyuan.com/common/pkg/common_sync1_libs_769abc5.css" /><link rel="stylesheet" href="https://s1.jikexueyuan.com/common/widget/header/header_d41d8cd.css" /><link rel="stylesheet" href="https://s1.jikexueyuan.com/common/widget/loading/loading_03ba72f.css" /><style type="text/css">.i-lessonState.over,.i-lessonState.underway,.icon,.learnNum:before,.lessonTime:before,.path-matrix>header .over:before,.path-matrix>header .underway:before{background-image:url(https://s1.jikexueyuan.com/path/images/path-elem_9dfc40b.png);background-size:53px 61px}#container>.wrap:after{display:table;clear:both;content:" "}.icon{position:relative;top:-1px;display:inline-block;vertical-align:middle}.i-favorite{width:17px;height:17px;background-position:0 -14px}.i-favorite.ysc,.i-favorite:hover{cursor:pointer;background-position:-17px -14px}.i-favorite.ysc:hover{background-position:-34px -14px}.i-lessonState{position:relative;z-index:10;width:20px;height:20px;display:block;background-color:#35b558;background-image:none;background-repeat:no-repeat}.i-lessonState.null{background-color:#e4e4e4}.i-lessonState.advance{background-color:#11772d}.i-lessonState.advanced{background-color:#053e15}.i-lessonState.over{background-position:0 -31px}.i-lessonState.underway{background-position:-20px -31px}.path-describe{margin:0 0 28px;padding:14px;border:1px solid #e4e4e4}.path-describe>header{padding:0 0 12px;border-bottom:1px solid #e4e4e4}.path-describe>header:after{display:table;clear:both;content:" "}.path-describe>header h2{float:left;color:#666;font-size:20px;line-height:34px}.path-describe>header h2 img{position:relative;top:-2px;height:25px;margin:0 10px 0 0}.path-describe>header .mod-tips{float:left;margin:10px 0 0 20px}.path-describe>header h3{color:#35b558;font-size:18px;line-height:20px}.path-describe>.bd:after{display:table;clear:both;content:" "}.practice-text{margin:0;background:#f8f8f8}.practice-text .bd p{float:left;width:780px;padding:12px 0 0;color:#666;font-size:12px;line-height:24px}.practice-text .bd .btn{float:right;display:inline-block;width:144px;height:40px;margin:29px 7px 0 0;background:#35b558;color:#fff;font-size:18px;line-height:40px;text-align:center;-webkit-transition:background-color .8s;-moz-transition:background-color .8s;transition:background-color .8s}.practice-text .bd .btn:hover{background:#66d178}.path-matrix>header{padding:16px 0;line-height:40px}.path-matrix>header:after{display:table;clear:both;content:" "}.path-matrix>header h3{float:left;color:#35b558}.path-matrix>header aside{float:right;color:#666;text-align:right;font-size:12px}.path-matrix>header aside span{margin-left:20px}.path-matrix>header aside span:before{position:relative;top:-1px;display:inline-block;width:10px;height:10px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;margin-right:5px;background:#35b558;content:" ";vertical-align:middle}.path-matrix>header .advance:before{background:#11772d}.path-matrix>header .advanced:before{background:#053e15}.path-matrix>header .null:before{background:#e4e4e4}.path-matrix>header .over:before,.path-matrix>header .underway:before{background-color:transparent;background-repeat:no-repeat;background-position:0 -51px}.path-matrix>header .underway:before{background-position:-10px -51px}#pathMatrix>header section{display:none;clear:both}#pathMatrix>header section p{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;width:100%;max-height:66px;color:#666;font-size:12px;line-height:22px}#pathMatrix>header .mod-tips{display:inline-block;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}#pathMatrix>header .mod-tips .icon{margin-right:6px;cursor:pointer}#pathMatrix>header .tips-help .icon{width:14px;height:14px;background:#999;background-image:none;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;color:#fff;font:12px/14px arial}.mod-matrix ul{margin:0 -5px -5px 0}.mod-matrix ul:after{display:table;clear:both;content:" "}.mod-matrix li{overflow:visible;float:left;width:20px;height:20px;margin:0 5px 5px 0}.mod-matrix .i-lessonState{overflow:hidden}.mod-matrix .i-lessonState .mod-lesson{opacity:0;position:absolute;bottom:100%;left:-145px;width:310px}.mod-matrix .i-lessonState .mod-lesson .joint{display:block;content:" ";height:14px;width:32px;position:absolute;top:100%;left:50%;margin:0 0 0 -16px}.mod-matrix .i-lessonState .mod-lesson h3{text-indent:0;padding:0}.mod-matrix li.hover .i-lessonState{overflow:visible;z-index:1200}.mod-matrix li.hover .i-lessonState .mod-lesson{visibility:visible;opacity:1}.mod-matrix .i-lessonState .mod-lesson,.mod-matrix .i-lessonState .mod-lesson:hover{visibility:visible;overflow:visible;height:175px;padding:12px 14px;margin:0 0 9px;border:1px solid #e4e4e4;background:#fff}.mod-matrix .i-lessonState .mod-lesson .other,.mod-matrix .i-lessonState .mod-lesson p,.mod-matrix .i-lessonState .mod-lesson:hover .other,.mod-matrix .i-lessonState .mod-lesson:hover p{opacity:1;visibility:visible}.mod-matrix .i-lessonState .mod-lesson h3,.mod-matrix .i-lessonState .mod-lesson:hover h3{height:40px;white-space:normal}#path{margin:0 0 22px}.path-item{margin:0 0 28px;position:relative}.path-item h2{margin:0 0 5px;color:#666;font-size:18px;line-height:22px}.path-item>header{padding:0 0 15px}.path-item>header .describe{color:#999;font-size:12px;line-height:16px}.path-item>header .lessonTime{float:right;color:#666}.path-item>header .lessonTime em{color:#f90;margin-right:6px}.lessons{border:1px solid #e4e4e4;padding:14px 14px 0}.lessons:after{display:table;clear:both;content:" "}.lessons .l-item{float:left;width:316px;height:20px;margin:0 11px 20px 0}.mod-lesson{position:relative;z-index:20;overflow:hidden;height:20px;-webkit-transition:height .3s;-moz-transition:height .3s;-ms-transition:height .3s;transition:height .3s}.mod-lesson>dl:after{display:table;clear:both;content:" "}.mod-lesson>dl>dt{float:left;width:20px}.mod-lesson>dl>dd{margin-left:28px}.mod-lesson h3{overflow:hidden;text-overflow:ellipsis;height:20px;margin:0 0 12px;padding:0 0 0 1.1em;color:#333;font-size:14px;line-height:20px;text-indent:-1.1em;white-space:nowrap;cursor:default}.mod-lesson h3 a{color:#333}.mod-lesson h3 a:hover{color:#35b558}.mod-lesson .other,.mod-lesson p{-webkit-transition:opacity .3s .1s;-moz-transition:opacity .3s .1s;-ms-transition:opacity .3s .1s;transition:opacity .3s .1s}.mod-lesson p{visibility:hidden;opacity:0;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;width:100%;height:60px;margin:0 0 20px;color:#666;font-size:12px;line-height:20px;word-break:break-all}.mod-lesson .other{visibility:hidden;opacity:0;padding:0 0 4px;color:#999;font-size:12px;line-height:14px}.mod-lesson .other>span{display:inline-block;margin:0 14px 0 0;white-space:nowrap}.mod-lesson .other>.learnNum,.mod-lesson .other>.lessonTime{width:120px}.mod-lesson .other>.learnNum{margin-right:0}.mod-lesson .other .i-favorite{float:right;margin:0 4px 0 0}.mod-lesson .learnNum:before,.mod-lesson .lessonTime:before{position:relative;top:-1px;display:inline-block;width:14px;height:14px;margin-right:5px;background-position:0 0;content:" ";vertical-align:middle}.mod-lesson .learnNum:before{background-position:-14px 0}.mod-lesson>.arrow{position:absolute;top:100%;left:50%;margin:0 0 0 -8px}.mod-lesson>.arrow:after,.mod-lesson>.arrow:before{display:block;width:0!important;height:0!important;padding:0!important;font-size:0!important;line-height:0!important;border:8px solid transparent;border-bottom-width:0;border-top-color:#e4e4e4;content:" "}.mod-lesson>.arrow:after{position:absolute;bottom:1px;left:1px;border-width:7px;border-bottom-width:0;border-top-color:#fff}.mod-lesson:hover{z-index:100;overflow:visible;height:175px;margin:-11px -8px -11px -11px;padding:10px 7px 10px 10px;background:#f8f8f8;border:1px solid #e4e4e4}.mod-lesson:hover h3{height:40px;white-space:normal}.mod-lesson:hover .other,.mod-lesson:hover p{opacity:1;visibility:visible}.lessons .l-item:nth-child(3n+3){margin-right:0}.pathdescibe{border:1px solid #e4e4e4;padding:15px}.pathdescibe>img{display:block;width:50px;float:left}.pathdescibe h1{font-size:22px;color:#333;margin-left:65px;margin-bottom:10px;font-weight:500}.pathdescibe p{font-size:12px;color:#666;line-height:20px;margin-left:65px}.pathstage .pathstage-txt{text-align:center;line-height:22px}.pathstage .pathstage-txt h2{font-size:14px;color:#333;font-weight:500}.pathstage .pathstage-txt p{font-size:12px;color:#666}.pathstage .pathstage-txt span{font-size:12px;color:#666}.pathstage .stagebox{border:1px solid #e4e4e4;width:100%}.pathstage .stagebox .stagewidth{width:1100px}.pathstage .lesson-list ul{width:auto!important;margin-top:0!important;margin-left:-1px;margin-bottom:-1px}.pathstage .lesson-list ul li{margin-right:0!important;margin-bottom:0!important;width:250px!important;height:240px!important;padding:10px;border-bottom:1px solid #E4E4E4;border-right:1px solid #E4E4E4}.pathstage .lesson-list .lessonimg-box{width:230px!important;border:1px solid #fff}.pathstage .lesson-list .lesson-infor{border:0!important}.page-oneicon{width:100%;height:30px;text-align:center;position:relative}.page-oneicon img{position:absolute;top:0;left:50%;margin-left:-7px}.page-oneicon i{display:block;background:#dcdcdc;border-radius:50%;width:10px;height:10px;margin:0 auto}.page-oneicon div{border-right:1px solid #dcdcdc;width:50%;height:20px}.pathstage .stage-more{height:40px;cursor:pointer;font-size:12px;background:#f7f7f7;color:#333;text-align:center;line-height:40px}.over{font-size:12px;color:#333;text-align:center;padding-top:10px;font-weight:400}</style></head>
+    <body>
+        <div id="wrapper">
+        <script src="//e.jikexueyuan.com/static/js/browser.js?t=1495686193000"></script>
+<script src="//e.jikexueyuan.com/static/js/growingio.js?t=1495686193000"></script>
+<script src="//e.jikexueyuan.com/static/js/jquery.min.js?t=1495686193000"></script>
+<link rel="stylesheet" href="//e.jikexueyuan.com/headerandfooter/css/header.css?t=1495686193001" />
+<div id="header">
+    <div class="w-1000 relative">
+        <a href="//www.jikexueyuan.com" class="logo"><img src="//e.jikexueyuan.com/headerandfooter/images/logo.png?t=1495686193000" height="40" width="109" /></a>
+        <!--nav-->
+        <nav>
+            <ul class="header-nav">
+                <li><a href="//www.jikexueyuan.com">首页</a></li>
+                <li>职业学院<i class="arrow-icon"></i>
+                    <div class="submenu school-list">
+                        <h3>前端学院</h3>
+                        <a href="//www.jikexueyuan.com/zhiye/web"><i class="web-icon"></i>Web 前端工程师</a>
+                        <a href="//www.jikexueyuan.com/zhiye/wechatapp"><i class="wechat-icon"></i>微信小程序工程师</a>
+                        <h3>后端学院</h3>
+                        <a href="//www.jikexueyuan.com/zhiye/php"><i class="php-icon"></i>PHP 工程师<span class="new-icon">New</span></a>
+                        <a href="//www.jikexueyuan.com/zhiye/python"><i class="python-icon"></i>Python Web工程师</a>
+                        <a href="//www.jikexueyuan.com/zhiye/go"><i class="go-icon"></i>Go语言工程师</a>
+                        <!--<a href="//j.jikexueyuan.com/train/php?huodong=jiuye_php_in"><i class="php-icon"></i>PHP工程师</a>
+                        <a href="//j.jikexueyuan.com/train/javaweb?huodong=jiuye_javaweb_guide"><i class="java-icon"></i>Java Web工程师</a>-->
+                        <h3>移动学院</h3>
+                        <a href="//www.jikexueyuan.com/zhiye/android"><i class="android-icon"></i>Android工程师</a>
+                        <a href="//www.jikexueyuan.com/zhiye/ios"><i class="ios-icon"></i>iOS工程师</a>
+                    </div>
+                </li>
+                <li>会员课程<i class="arrow-icon"></i>
+                    <div class="submenu vip-lesson">
+                        <a href="//www.jikexueyuan.com/course/"><i class="kck-icon"></i>课程库<span>2500+</span></a>
+                        <a href="//ke.jikexueyuan.com/zhiye/"><i class="zyljt-icon"></i>职业路径图<span>9</span></a>
+                        <a href="//www.jikexueyuan.com/path/"><i class="zstxt-icon"></i>知识体系图<span>24</span></a>
+                        <a href="//ke.jikexueyuan.com/xilie/"><i class="xlkc-icon"></i>系列课程<span>101</span></a>
+                        <a href="//www.jikexueyuan.com/tag/"><i class="kcbq-icon"></i>课程标签<span>4000+</span></a>
+                        <a href="//www.jikexueyuan.com/vip/"><i class="vip-icon"></i>VIP会员购买<span>30/月  260/年</span></a>
+                    </div>
+                </li>
+                <li>极客社区<i class="arrow-icon"></i>
+                    <div class="submenu vip-lesson">
+                        <a href="//wenda.jikexueyuan.com"><i class="jswd-icon"></i>技术问答<span>20000+</span></a>
+                        <a href="//wiki.jikexueyuan.com"><i class="wiki-icon"></i>Wiki<span>351</span></a>
+                        <a href="//qun.jikexueyuan.com"><i class="sq-icon"></i>社群<span>7000+</span></a>
+                        <a href="//download.jikexueyuan.com"><i class="zygx-icon"></i>资源下载<span>3000+</span></a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!--nav end-->
+        <!--login-->
+        <div class="icon-box">
+            <span class="search-icon" id="search-btn"></span>
+            <span class="app-icon loginlist relative" id="appicon">
+                    <div class="submenu">
+                        <i class="top-icon"></i>
+                        <img src="//e.jikexueyuan.com/headerandfooter/images/heade-rwm.png?t=1495686193000" />
+                    </div>
+            </span>
+            <span class="noti-icon diaLoginBtn" id="openNoti"><em class="unread-count unread-style"></em></span>
+            <span class="relative loginlist" id="loginlist">
+                        <!--<dl class="submenu">
+                            <i class="top-icon"></i>
+                            <dd><a href="//passport.jikexueyuan.com/sso/reg_phone" class="reg-btn">注册</a>|<a href="//passport.jikexueyuan.com/sso/login" class="login-btn">登录</a></dd>
+                            <dd><a href="#"><i class="xxzx-icon"></i>学习中心</a></dd>
+                            <dd><a href="//my.jikexueyuan.com/"><i class="grzy-icon"></i>个人主页</a></dd>
+                            <dd><a href="//www.jikexueyuan.com/member/notifications/"><i class="xxtz-icon"></i>消息通知</a></dd>
+                            <dd><a href="//my.jikexueyuan.com/setting/user/"><i class="zhsz-icon"></i>账号设置</a></dd>
+                        </dl>-->
+            </span>
+            <div id="newMessageBox" class="messagebox">
+                <h3><em class="message-title">消息通知</em><em id="setRead" class="icon-read"></em></h3>
+                <div class="message-list">
+                    <!-- 加载动画 -->
+                    <div id="spinner" style="display: block;">
+                        <div class="rect1"></div>
+                        <div class="rect2"></div>
+                        <div class="rect3"></div>
+                        <div class="rect4"></div>
+                        <div class="rect5"></div>
+                    </div>
+                    <!-- 没有消息 -->
+                    <div class="no-message" style="display: none;">
+                        <img src="//e.jikexueyuan.com/headerandfooter/images/no-message.png?t=1495686193000">
+                        暂没有新消息哦～
+                    </div>
+                </div>
+                <a href="//www.jikexueyuan.com/member/notifications/" id="linkToMember" class="link-member">全部消息>></a>
+            </div>
+        </div>
+        <!--login-->
+        <!--searchbox-->
+        <div class="searchbox" id="searchbox">
+            <i class="close-icon" id="close-btn"></i>
+            <i class="search-icon" id="search-btn"></i>
+            <input id="web_search_header" placeholder="搜索课程、问答或Wiki" value="">
+            <div class="tagbox">
+                <a href="//search.jikexueyuan.com/course/?q=Android">Android</a>
+                <a href="//search.jikexueyuan.com/course/?q=iOS">iOS</a>
+                <a href="//search.jikexueyuan.com/course/?q=HTML5">HTML5</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="//e.jikexueyuan.com/headerandfooter/js/header.min.js?t=1495686193000"></script>
+<script src="//e.jikexueyuan.com/headerandfooter/js/web_socket.js?t=1495686193000"></script>
+<script src="//e.jikexueyuan.com/headerandfooter/js/websocket.js?t=1495686193000"></script>
+
+            <div  id="pager">
+
+	<div id="container">
+	<div class="wrap w-1000">
+		<!-- crumbs-->
+		<div class="crumbs">
+			<div class="w-1000">
+				<a href="//www.jikexueyuan.com">首页</a>
+				<em>&gt;</em>
+				<a href="//www.jikexueyuan.com/path/" jktag="&posGP=1001003&posArea=0004&posOper=24007&posColumns=4.1">知识体系图</a>
+				<em>&gt;</em>Python
+			</div>
+		</div>
+		<!-- crumbs-->
+		  <div class = "lesson_loading">
+        <div class="spinner">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+        <div class="txt">课程加载中...</div>
+  </div>
+
+		<!--pathdescibe-->
+		<div class="pathdescibe" style="display: none;">
+			<img src="https://a1.jikexueyuan.com/home/201411/04/921d/5457d0aee9018.png" />
+			<h1>Python开发知识体系图</h1>
+			<p>
+                   　　Python 是一种面向对象、解释型计算机程序设计语言，由 Guido van Rossum 于1989年底发明，第一个公开发行版发行于1991年，Python 源代码同样遵循 GPL(GNU General Public License)协议。Python 语法简洁而清晰，具有丰富和强大的类库。它常被昵称为胶水语言，能够把用其他语言制作的各种模块（尤其是C/C++）很轻松地联结在一起。正因为 Python 语言的简洁、优雅、开发效率高，它常被用于网站开发，网络编程，图形处理，黑客编程等等。
+
+			</p>
+		</div>
+		<!--pathdescibe-->
+
+		<!--pathstage -->
+
+		<div class="pathstage mar-t30" style="display: none;">
+			<div class="pathstage-txt">
+				<h2>1. Python快速入门</h2>
+				<p>本阶段主要是简单介绍 Python 语言的集成开发环境以及快速的介绍 Python 语言的基本语法，并通过一个轻量级的 Python Web 框架 Web2py 来快速一览 Python 开发网站的效果。</p>
+				<span>(共3课程，47分钟，146909人已经学习)</span>
+			</div>
+			<div class="page-oneicon mar-t10">
+				<i></i>
+				<div></div>
+			</div>
+
+			<div class="stagebox ">
+				<div class="stagewidth lesson-list" style="display: block;">
+					<ul class="cf" showNumber =0.75>
+
+
+
+<li id="201" test="0" deg="90" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=201&posColumn=201.1"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/201.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=201&posColumn=201.1">
+			<img src="https://a1.jikexueyuan.com/home/201408/21/a650/53f54af62c068.jpg" class="lessonimg" title="Python语言集成开发环境搭建" alt="Python语言集成开发环境搭建">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:59.5px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/201.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=201&posColumn=201.1">Python语言集成开发环境搭建</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课学习搭建Python语言集成开发环境。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							13分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">65789人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=201&posColumn=201.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="202" test="0" deg="60" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=202&posColumn=202.2"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/202.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=202&posColumn=202.2">
+			<img src="https://a1.jikexueyuan.com/home/201408/21/555e/53f54adeb408e.jpg" class="lessonimg" title="Python语言基本语法" alt="Python语言基本语法">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:39.666666666666664px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/202.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=202&posColumn=202.2">Python语言基本语法</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课讲解基本的Python语言语法。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>6课时
+							19分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">51051人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=202&posColumn=202.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="203" test="0" deg="120" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=203&posColumn=203.3"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/203.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=203&posColumn=203.3">
+			<img src="https://a1.jikexueyuan.com/home/201408/21/803e/53f5481280086.jpg" class="lessonimg" title="Python语言Web开发框架web2py" alt="Python语言Web开发框架web2py">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:79.33333333333333px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/203.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=203&posColumn=203.3">Python语言Web开发框架web2py</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			学会使用web2py创建网站
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							15分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">30069人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/web2py/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="web2py" title="web2py" jktag="&posGP=101001&posArea=&posOper=&aCId=203&posColumn=203.1&aCCate=web2py" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+					</ul>
+				</div>
+				<div class="stage-more" index ="total_0">
+					<!--查看更多课程 <img src="/static/images/more.png"/>-->
+					<div style="width:100px;height:40px; margin:0 auto">查看更多课程 <img src="https://s1.jikexueyuan.com/path/images/more_3b4d448.png" style="
+    float: right;
+    margin-top: 18px;
+"></div>
+				</div>
+			</div>
+
+			<div class="page-oneicon ">
+				<img src="https://s1.jikexueyuan.com/path/images/next_eaadfa6.png" />
+			</div>
+		</div>
+		<!--pathstage end-->
+
+		<div class="pathstage mar-t30" style="display: none;">
+			<div class="pathstage-txt">
+				<h2>2. Python初级课程</h2>
+				<p>本阶段课程主要介绍 Python 语言的初级知识和基本的语法概念等。</p>
+				<span>(共7课程，474分钟，149634人已经学习)</span>
+			</div>
+			<div class="page-oneicon mar-t10">
+				<i></i>
+				<div></div>
+			</div>
+
+			<div class="stagebox ">
+				<div class="stagewidth lesson-list" style="display: block;">
+					<ul class="cf" showNumber =1.75>
+
+
+
+<li id="594" test="0" deg="300" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=594&posColumn=594.1"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/594.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=594&posColumn=594.1">
+			<img src="https://a1.jikexueyuan.com/home/201503/10/a2bc/54fe4fc0542d8.jpg" class="lessonimg" title="Python 初识" alt="Python 初识">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:198.33333333333334px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/594.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=594&posColumn=594.1">Python 初识</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程让新手先从总体上快速认识 Python，第一节课会用十分钟学习 Python 精华，然后从第二到第六节课会从头开始认识 Python。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>6课时
+							46分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">36952人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=594&posColumn=594.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="699" test="0" deg="360" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=699&posColumn=699.2"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/699.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=699&posColumn=699.2">
+			<img src="https://a1.jikexueyuan.com/home/201504/09/103f/5525da7494596.jpg" class="lessonimg" title="Python 语法基础" alt="Python 语法基础">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:238px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/699.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=699&posColumn=699.2">Python 语法基础</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程会讲解 Python 的基础语法，包括变量、字符串、标识符、行与缩进等知识，并结合实际案例进行讲解，加深大家的理解。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>6课时
+							66分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">30461人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=699&posColumn=699.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="829" test="0" deg="240" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=829&posColumn=829.3"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/829.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=829&posColumn=829.3">
+			<img src="https://a1.jikexueyuan.com/home/201505/04/a5ce/5546d70414a1e.jpg" class="lessonimg" title="Python核心编程基础教程之Python运算符、运算符优先级、表达式简介" alt="Python核心编程基础教程之Python运算符、运算符优先级、表达式简介">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:158.66666666666666px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/829.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=829&posColumn=829.3">Python核心编程基础教程之Python运算符、运算符优先级、表达式简介</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本门课主要讲Python运算符与Python运算符优先级以及Python表达式等知识，并配以示例加以理解Python运算符与Python运算符优先级以及Python表达式。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>6课时
+							73分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">20424人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=829&posColumn=829.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="911" test="0" deg="180" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=911&posColumn=911.4"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/911.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=911&posColumn=911.4">
+			<img src="https://a1.jikexueyuan.com/home/201505/18/7ecd/555948c2d2a9b.jpg" class="lessonimg" title="Python 控制流" alt="Python 控制流">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:119px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/911.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=911&posColumn=911.4">Python 控制流</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本门课程会讲解 Python 的三种控制流：顺序、分支、循环，重点讲分支与循环控制流，同时配以示例加以理解。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>6课时
+							95分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">13933人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=911&posColumn=911.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="971" test="0" deg="72" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=971&posColumn=971.5"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/971.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=971&posColumn=971.5">
+			<img src="https://a1.jikexueyuan.com/home/201505/27/7244/55651b48625c4.jpg" class="lessonimg" title="Python 函数" alt="Python 函数">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:47.6px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/971.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=971&posColumn=971.5">Python 函数</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要讲 Python 当中的函数的基本知识，如形参、全局变量与局部变量、函数的使用与返回值等，并配以示例加以理解。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>5课时
+							69分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">15403人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=971&posColumn=971.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1230" test="0" deg="360" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1230&posColumn=1230.6"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/1230.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1230&posColumn=1230.6">
+			<img src="https://a1.jikexueyuan.com/home/201506/01/a53c/556bc282bfd8e.jpg" class="lessonimg" title="Python 模块" alt="Python 模块">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:238px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1230.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1230&posColumn=1230.6">Python 模块</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本门课程主要会讲 Python 中模块的使用以及如何创建自己的模块等操作，并配以示例加以理解。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>6课时
+							66分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">17487人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=1230&posColumn=1230.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1356" test="0" deg="360" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1356&posColumn=1356.7"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/1356.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1356&posColumn=1356.7">
+			<img src="https://a1.jikexueyuan.com/home/201506/15/923a/557e2b3013ef8.jpg" class="lessonimg" title="Python 数据结构初识" alt="Python 数据结构初识">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:238px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1356.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1356&posColumn=1356.7">Python 数据结构初识</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本门课程主要讲解 Python 中数据结构等知识，包括栈、队列等，并配以示例加以理解。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							59分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">14974人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=1356&posColumn=1356.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+					</ul>
+				</div>
+				<div class="stage-more" index ="total_1">
+					<!--查看更多课程 <img src="/static/images/more.png"/>-->
+					<div style="width:100px;height:40px; margin:0 auto">查看更多课程 <img src="https://s1.jikexueyuan.com/path/images/more_3b4d448.png" style="
+    float: right;
+    margin-top: 18px;
+"></div>
+				</div>
+			</div>
+
+			<div class="page-oneicon ">
+				<img src="https://s1.jikexueyuan.com/path/images/next_eaadfa6.png" />
+			</div>
+		</div>
+		<!--pathstage end-->
+
+		<div class="pathstage mar-t30" style="display: none;">
+			<div class="pathstage-txt">
+				<h2>3. Python 定向爬虫入门</h2>
+				<p>本阶段主要介绍了使用 Python 语言编写定向爬虫。网络爬虫（又被称为网页蜘蛛，网络机器人，在 FOAF 社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动的抓取万维网信息的程序或者脚本。另外一些不常使用的名字还有蚂蚁，自动索引，模拟程序或者蠕虫。</p>
+				<span>(共3课程，124分钟，61562人已经学习)</span>
+			</div>
+			<div class="page-oneicon mar-t10">
+				<i></i>
+				<div></div>
+			</div>
+
+			<div class="stagebox ">
+				<div class="stagewidth lesson-list" style="display: block;">
+					<ul class="cf" showNumber =0.75>
+
+
+
+<li id="777" test="0" deg="270" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=777&posColumn=777.1"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/777.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=777&posColumn=777.1">
+			<img src="https://a1.jikexueyuan.com/home/201504/23/3cbc/55384b99578af.jpg" class="lessonimg" title="基本的正则表达式" alt="基本的正则表达式">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:178.5px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/777.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=777&posColumn=777.1">基本的正则表达式</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程讲解在定向爬虫编写过程中涉及到的基本的正则表达式。实现从一段有规律的文本中根据规律提取出感兴趣的内容。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							47分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">21878人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=777&posColumn=777.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="821" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=821&posColumn=821.2"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/821.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=821&posColumn=821.2">
+			<img src="https://a1.jikexueyuan.com/home/201504/30/237c/55418ca919dde.jpg" class="lessonimg" title="Python 单线程爬虫" alt="Python 单线程爬虫">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=821&posColumn=821.2"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/821.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=821&posColumn=821.2">Python 单线程爬虫</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程讲解单线程爬虫的制作。通过 Requests 获取网页源代码，并使用正则表达式获取感兴趣的内容。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							41分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">23269人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=821&posColumn=821.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="902" test="0" deg="72" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=902&posColumn=902.3"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/902.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=902&posColumn=902.3">
+			<img src="https://a1.jikexueyuan.com/home/201505/15/bed7/55554ca32addf.jpg" class="lessonimg" title="XPath 与多线程爬虫" alt="XPath 与多线程爬虫">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:47.6px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/902.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=902&posColumn=902.3">XPath 与多线程爬虫</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程讲解超越正则表达式的高级匹配方式，从而简化爬虫的匹配过程。然后简要介绍多线程爬虫。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>5课时
+							36分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">16415人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=902&posColumn=902.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+					</ul>
+				</div>
+				<div class="stage-more" index ="total_2">
+					<!--查看更多课程 <img src="/static/images/more.png"/>-->
+					<div style="width:100px;height:40px; margin:0 auto">查看更多课程 <img src="https://s1.jikexueyuan.com/path/images/more_3b4d448.png" style="
+    float: right;
+    margin-top: 18px;
+"></div>
+				</div>
+			</div>
+
+			<div class="page-oneicon ">
+				<img src="https://s1.jikexueyuan.com/path/images/next_eaadfa6.png" />
+			</div>
+		</div>
+		<!--pathstage end-->
+
+		<div class="pathstage mar-t30" style="display: none;">
+			<div class="pathstage-txt">
+				<h2>4. Python数据库操作</h2>
+				<p>大多数类型的Web应用需要将一部分数据存储在数据库中，而数据库的类型又多种多言，有SQL数据库，NoSQL数据库，键值对数据库，时间序列数据库，分布式数据库等等。使用Python开发Web应用，难免要跟各种各样的数据库打交道，除了有些数据库提供了RESTful的接口之外，有些数据库仅提供了某种特定的协议访问。为了方便人们使用，很多公司和个人开发了针对各种数据库的Python客户端。在本系列课程中，我会为大家介绍各种数据库的基本使用，以及相关的Python客户端。</p>
+				<span>(共3课程，100分钟，21736人已经学习)</span>
+			</div>
+			<div class="page-oneicon mar-t10">
+				<i></i>
+				<div></div>
+			</div>
+
+			<div class="stagebox ">
+				<div class="stagewidth lesson-list" style="display: block;">
+					<ul class="cf" showNumber =0.75>
+
+
+
+<li id="1373" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1373&posColumn=1373.1"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/1373.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1373&posColumn=1373.1">
+			<img src="https://a1.jikexueyuan.com/home/201506/16/17ec/557f810aba158.jpg" class="lessonimg" title="Python 操作数据库—— MySQL 篇" alt="Python 操作数据库—— MySQL 篇">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=1373&posColumn=1373.1"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1373.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1373&posColumn=1373.1">Python 操作数据库—— MySQL 篇</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课首先会为大家介绍各种类型的数据库，包括 SQL 数据库，NoSQL 数据库，键值对数据库，时间序列数据库，分布式数据库等等。并且讲解最广为人知的 MySQL 数据库的基本使用，以及三个 Python 连接 MySQL 数据库的客户端：mysql-connector，MySQLdb，torndb。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							35分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">9998人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=1373&posColumn=1373.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1650" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1650&posColumn=1650.2"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/1650.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1650&posColumn=1650.2">
+			<img src="https://a1.jikexueyuan.com/home/201507/22/abb8/55af016145bed.jpg" class="lessonimg" title="Python 操作数据库－SQLAlchemy 篇" alt="Python 操作数据库－SQLAlchemy 篇">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=1650&posColumn=1650.2"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1650.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1650&posColumn=1650.2">Python 操作数据库－SQLAlchemy 篇</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程首先会为大家介绍 SQLAlchemy 的软件构架，之后会详解 SQLAlchemy ORM API 的使用，最后会详解 SQLAlchemy Core API 的使用。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							33分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">5263人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=1650&posColumn=1650.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="2234" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=2234&posColumn=2234.3"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/2234.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=2234&posColumn=2234.3">
+			<img src="https://a1.jikexueyuan.com/home/201511/09/8f74/563ffe9b472c6.jpg" class="lessonimg" title="Python 操作数据库——查询优化实战" alt="Python 操作数据库——查询优化实战">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=2234&posColumn=2234.3"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/2234.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=2234&posColumn=2234.3">Python 操作数据库——查询优化实战</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程会使用一个网上可以免费下载的 IP 库（大致包含40万条 IP 号段的记录），首先会使用Python 和 torndb 做 ETL（抽取-转化-加载）并创建一个 ip 库的表。之后会逐项的的对这张表进行查询优化，通过改变查询语句，创建索引，更改数据类型，增加缓存命中率等方法来提升查询效率。最后会通过在数据库端和 Python 客户端两端同时进行优化进一步提升性能。最终实现将一个数秒的查询优化成数毫秒的查询，以提升上千倍的查询效率的方式展现数据库优化的魅力。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							32分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">6475人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/mysql/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201604/28/7cdd/57218409711c9.png" alt="mysql" title="MySQL" jktag="&posGP=101001&posArea=&posOper=&aCId=2234&posColumn=2234.1&aCCate=mysql" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+					</ul>
+				</div>
+				<div class="stage-more" index ="total_3">
+					<!--查看更多课程 <img src="/static/images/more.png"/>-->
+					<div style="width:100px;height:40px; margin:0 auto">查看更多课程 <img src="https://s1.jikexueyuan.com/path/images/more_3b4d448.png" style="
+    float: right;
+    margin-top: 18px;
+"></div>
+				</div>
+			</div>
+
+			<div class="page-oneicon ">
+				<img src="https://s1.jikexueyuan.com/path/images/next_eaadfa6.png" />
+			</div>
+		</div>
+		<!--pathstage end-->
+
+		<div class="pathstage mar-t30" style="display: none;">
+			<div class="pathstage-txt">
+				<h2>5. Python Web开发</h2>
+				<p>该系列课程为已经具有基本 Python 语法知识的同学提供使用 Python 语言进行Web开发的课程。将主要为学员介绍web开发的基础知识，以及使用Flask框架进行Web开发的进阶课程。</p>
+				<span>(共6课程，170分钟，43405人已经学习)</span>
+			</div>
+			<div class="page-oneicon mar-t10">
+				<i></i>
+				<div></div>
+			</div>
+
+			<div class="stagebox ">
+				<div class="stagewidth lesson-list" style="display: block;">
+					<ul class="cf" showNumber =1.5>
+
+
+
+<li id="923" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=923&posColumn=923.1"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/923.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=923&posColumn=923.1">
+			<img src="https://a1.jikexueyuan.com/home/201505/20/ce9f/555be7be2acaa.jpg" class="lessonimg" title="Web 开发介绍" alt="Web 开发介绍">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=923&posColumn=923.1"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/923.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=923&posColumn=923.1">Web 开发介绍</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程介绍 Web 开发的基础知识，主要包括 Web 开发中的术语，MVC 的结构，通用网关接口等，以及一个 Web 程序的结构。让学员们对 Web 应用程序开发有一个大致的框架性了解，为之后的细节学习奠定基础。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							25分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">8672人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=923&posColumn=923.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1258" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1258&posColumn=1258.2"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/1258.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1258&posColumn=1258.2">
+			<img src="https://a1.jikexueyuan.com/home/201506/03/b3f8/556e5d1ab4316.jpg" class="lessonimg" title="用 Python 进行 CGI 编程" alt="用 Python 进行 CGI 编程">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=1258&posColumn=1258.2"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1258.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1258&posColumn=1258.2">用 Python 进行 CGI 编程</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程介绍在不使用框架的情况下如何进行 Web 编程。向学员介绍 Python 中内置的 Web 服务器，同时进行 Python Web 开发的实战。让学员对 CGI 编程有所了解。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							23分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">7765人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=1258&posColumn=1258.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1471" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1471&posColumn=1471.3"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/1471.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1471&posColumn=1471.3">
+			<img src="https://a1.jikexueyuan.com/home/201506/29/f349/5590a3b76dd41.jpg" class="lessonimg" title="Python Web 框架开发" alt="Python Web 框架开发">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=1471&posColumn=1471.3"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1471.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1471&posColumn=1471.3">Python Web 框架开发</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			这堂课主要向同学们介绍 Python 中的 Web 开发框架，通过这堂课的学习，同学们将能够了解到Python 中的 Web 框架知识，同时了解到 Django，Flask 等较为流行的框架，并使用框架编写一个加法器。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							26分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">9213人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/web2py/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="web2py" title="web2py" jktag="&posGP=101001&posArea=&posOper=&aCId=1471&posColumn=1471.1&aCCate=web2py" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1541" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1541&posColumn=1541.4"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/1541.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1541&posColumn=1541.4">
+			<img src="https://a1.jikexueyuan.com/home/201507/08/b17e/559c7a4a5a534.jpg" class="lessonimg" title="Flask 表单开发" alt="Flask 表单开发">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=1541&posColumn=1541.4"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1541.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1541&posColumn=1541.4">Flask 表单开发</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要向同学们介绍 Flask 中的表单开发，本课时讲解 Web 开发中关于表单的知识，以及Flask 中常用的对表单的操作，并使用Flask框架编写一个简单的用户登录的表单。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							31分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">6269人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/web2py/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="web2py" title="web2py" jktag="&posGP=101001&posArea=&posOper=&aCId=1541&posColumn=1541.1&aCCate=web2py" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1691" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1691&posColumn=1691.5"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/1691.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1691&posColumn=1691.5">
+			<img src="https://a1.jikexueyuan.com/home/201507/27/a5ec/55b590a36a97c.jpg" class="lessonimg" title="Python 的数据库连接" alt="Python 的数据库连接">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=1691&posColumn=1691.5"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1691.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1691&posColumn=1691.5">Python 的数据库连接</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要向同学们介绍 Python 中的数据库，本课时讲解 Web 开发中关于数据库的知识，以及Python 中对数据库的操作，并使用 Flask 框架完成用户管理模块。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							38分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">6806人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/flask/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="flask" title="Flask" jktag="&posGP=101001&posArea=&posOper=&aCId=1691&posColumn=1691.1&aCCate=flask" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1797" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1797&posColumn=1797.6"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/1797.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1797&posColumn=1797.6">
+			<img src="https://a1.jikexueyuan.com/home/201508/07/2ac7/55c40dad1265d.jpg" class="lessonimg" title="数据库进阶-对象关系映射（ORM）的使用" alt="数据库进阶-对象关系映射（ORM）的使用">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=1797&posColumn=1797.6"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1797.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1797&posColumn=1797.6">数据库进阶-对象关系映射（ORM）的使用</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要介绍 Python 中的对象关系映射，讲解  Web 开发中关于数据库的进阶知识，学习如何使用 ORM 来完成数据库操作，并使用 Flask 框架的 SQLAlchemy 扩展完成用户管理模块。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							27分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">4680人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/flask/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="flask" title="Flask" jktag="&posGP=101001&posArea=&posOper=&aCId=1797&posColumn=1797.1&aCCate=flask" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+					</ul>
+				</div>
+				<div class="stage-more" index ="total_4">
+					<!--查看更多课程 <img src="/static/images/more.png"/>-->
+					<div style="width:100px;height:40px; margin:0 auto">查看更多课程 <img src="https://s1.jikexueyuan.com/path/images/more_3b4d448.png" style="
+    float: right;
+    margin-top: 18px;
+"></div>
+				</div>
+			</div>
+
+			<div class="page-oneicon ">
+				<img src="https://s1.jikexueyuan.com/path/images/next_eaadfa6.png" />
+			</div>
+		</div>
+		<!--pathstage end-->
+
+		<div class="pathstage mar-t30" style="display: none;">
+			<div class="pathstage-txt">
+				<h2>6. Flask实战</h2>
+				<p>Flask 是一个优秀的 Python Web 开发框架，本系列课程将由浅⼊深的讲解 Flask Web 开发。本系列课程包含大量实际开发中的实例,并且通过一个⼩项目驱动整个课程的学习，最终还会学习 Flask 应用的部署。所以，通过本系列课程的学习，你将成为⼀名比较全面的 Flask 开发⼯程师，可以在⼯作中从事 Flask 开发。</p>
+				<span>(共2课程，69分钟，19753人已经学习)</span>
+			</div>
+			<div class="page-oneicon mar-t10">
+				<i></i>
+				<div></div>
+			</div>
+
+			<div class="stagebox ">
+				<div class="stagewidth lesson-list" style="display: block;">
+					<ul class="cf" showNumber =0.5>
+
+
+
+<li id="845" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=845&posColumn=845.1"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/845.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=845&posColumn=845.1">
+			<img src="https://a1.jikexueyuan.com/home/201505/06/3534/5549717e1417b.jpg" class="lessonimg" title="Flask概述" alt="Flask概述">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=845&posColumn=845.1"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/845.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=845&posColumn=845.1">Flask概述</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程是Flask的入门学习课程，主要向学员介绍Python Web开发以及Flask的设计特点与核心思想，并指导大家搭建开发环境，掌握常用的开发工具，为后续的深入学习与使用打下基础。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							33分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">9564人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=845&posColumn=845.1&aCCate=pythonbase" >
+					</a>
+
+					<a href="//www.jikexueyuan.com/course/flask/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="flask" title="Flask" jktag="&posGP=101001&posArea=&posOper=&aCId=845&posColumn=845.2&aCCate=flask" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="943" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=943&posColumn=943.2"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/943.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=943&posColumn=943.2">
+			<img src="https://a1.jikexueyuan.com/home/201505/25/ca11/55627fea2bf56.jpg" class="lessonimg" title="Flask 开发基础与入门" alt="Flask 开发基础与入门">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=943&posColumn=943.2"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/943.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=943&posColumn=943.2">Flask 开发基础与入门</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程是 Flask 应用开发的基础课程，主要向学员介绍 Flask 应用的基本结构，并详细介绍 Flask 的路由和模板。最终，通过本课程的学习，学员可以开发简单的 Flask 应用。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							36分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">10189人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/flask/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="flask" title="Flask" jktag="&posGP=101001&posArea=&posOper=&aCId=943&posColumn=943.1&aCCate=flask" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+					</ul>
+				</div>
+				<div class="stage-more" index ="total_5">
+					<!--查看更多课程 <img src="/static/images/more.png"/>-->
+					<div style="width:100px;height:40px; margin:0 auto">查看更多课程 <img src="https://s1.jikexueyuan.com/path/images/more_3b4d448.png" style="
+    float: right;
+    margin-top: 18px;
+"></div>
+				</div>
+			</div>
+
+			<div class="page-oneicon ">
+				<img src="https://s1.jikexueyuan.com/path/images/next_eaadfa6.png" />
+			</div>
+		</div>
+		<!--pathstage end-->
+
+		<div class="pathstage mar-t30" style="display: none;">
+			<div class="pathstage-txt">
+				<h2>7. Django 开发与进阶</h2>
+				<p>Django 是一个开放源代码的 Web 应用框架，由 Python 写成。采用了 MVC 的软件设计模式，即模型 M，视图 V 和控制器 C。它最初是被开发来用于管理劳伦斯出版集团旗下的一些以新闻内容为主的网站的，即是CMS（内容管理系统）软件。并于2005年7月在 BSD 许可证下发布。这套框架是以比利时的吉普赛爵士吉他手 Django Reinhardt 来命名的。</p>
+				<span>(共3课程，111分钟，27084人已经学习)</span>
+			</div>
+			<div class="page-oneicon mar-t10">
+				<i></i>
+				<div></div>
+			</div>
+
+			<div class="stagebox ">
+				<div class="stagewidth lesson-list" style="display: block;">
+					<ul class="cf" showNumber =0.75>
+
+
+
+<li id="679" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=679&posColumn=679.1"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/679.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=679&posColumn=679.1">
+			<img src="https://a1.jikexueyuan.com/home/201504/08/843a/55248fcc0b940.jpg" class="lessonimg" title="Django开发－基础篇" alt="Django开发－基础篇">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=679&posColumn=679.1"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/679.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=679&posColumn=679.1">Django开发－基础篇</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程首先介绍Django的历史发展，然后从视图、模型、模板与数据库交互等方面讲解如何快速开发一个Django应用，为进一步开发更完善、更高级的Django应用做准备。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>5课时
+							36分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">13377人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/django/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201604/28/9b19/5721d850987e0.png" alt="django" title="Django" jktag="&posGP=101001&posArea=&posOper=&aCId=679&posColumn=679.1&aCCate=django" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="753" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=753&posColumn=753.2"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/753.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=753&posColumn=753.2">
+			<img src="https://a1.jikexueyuan.com/home/201504/21/354f/5535a92989d11.jpg" class="lessonimg" title="Django 开发——进阶篇" alt="Django 开发——进阶篇">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=753&posColumn=753.2"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/753.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=753&posColumn=753.2">Django 开发——进阶篇</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程作为 Django 开发的进阶篇，首先介绍高级视图与 URL 配置，然后从高级模型、高级模板及通用视图等方面讲解如何开发一个完善、高级的 Django 应用。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>6课时
+							44分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">7385人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/django/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201604/28/9b19/5721d850987e0.png" alt="django" title="Django" jktag="&posGP=101001&posArea=&posOper=&aCId=753&posColumn=753.1&aCCate=django" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="962" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=962&posColumn=962.3"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/962.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=962&posColumn=962.3">
+			<img src="https://a1.jikexueyuan.com/home/201505/26/8161/5563d40f1c77c.jpg" class="lessonimg" title="Django 开发——API 设计" alt="Django 开发——API 设计">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=962&posColumn=962.3"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/962.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=962&posColumn=962.3">Django 开发——API 设计</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程作为 Django 开发的后续，主要讲解如何设计使用 API，通过序列化、权限管理以及类视图等完善 API。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							31分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">6322人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/django/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201604/28/9b19/5721d850987e0.png" alt="django" title="Django" jktag="&posGP=101001&posArea=&posOper=&aCId=962&posColumn=962.1&aCCate=django" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+					</ul>
+				</div>
+				<div class="stage-more" index ="total_6">
+					<!--查看更多课程 <img src="/static/images/more.png"/>-->
+					<div style="width:100px;height:40px; margin:0 auto">查看更多课程 <img src="https://s1.jikexueyuan.com/path/images/more_3b4d448.png" style="
+    float: right;
+    margin-top: 18px;
+"></div>
+				</div>
+			</div>
+
+			<div class="page-oneicon ">
+				<img src="https://s1.jikexueyuan.com/path/images/next_eaadfa6.png" />
+			</div>
+		</div>
+		<!--pathstage end-->
+
+		<div class="pathstage mar-t30" style="display: none;">
+			<div class="pathstage-txt">
+				<h2>8. Tornado</h2>
+				<p>Tornado 是一个 Python 的 Web 框架和异步网络库。Tornado 和现在的主流 Web 服务器框架（包括大多数 Python 的框架）有着明显区别：它是非阻塞式服务器，而且速度相当快。得利于其非阻塞的方式和对 epoll 的运用，Tornado 是一个理想的 Web 框架。Tornado 是 Facebook 开源技术之一，基于 Apache Licence，Version 2.0发布。</p>
+				<span>(共3课程，73分钟，13812人已经学习)</span>
+			</div>
+			<div class="page-oneicon mar-t10">
+				<i></i>
+				<div></div>
+			</div>
+
+			<div class="stagebox ">
+				<div class="stagewidth lesson-list" style="display: block;">
+					<ul class="cf" showNumber =0.75>
+
+
+
+<li id="956" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=956&posColumn=956.1"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/956.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=956&posColumn=956.1">
+			<img src="https://a1.jikexueyuan.com/home/201505/26/acf3/5563d187d4b78.jpg" class="lessonimg" title="Tornado 开发基础" alt="Tornado 开发基础">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=956&posColumn=956.1"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/956.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=956&posColumn=956.1">Tornado 开发基础</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要讲解 Tornado 开发的基础知识。首先介绍 Tornado 的历史背景，然后从视图、模板和数据库操作等方面讲解如何快速开发一个 Tornado 应用。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							25分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">5439人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=956&posColumn=956.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1233" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1233&posColumn=1233.2"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/1233.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1233&posColumn=1233.2">
+			<img src="https://a1.jikexueyuan.com/home/201506/01/c3fe/556bd0c2b73df.jpg" class="lessonimg" title="Tornado开发－异步实现" alt="Tornado开发－异步实现">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=1233&posColumn=1233.2"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1233.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1233&posColumn=1233.2">Tornado开发－异步实现</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要介绍Tornado中的异步操作。通过使用Tornado的异步生成器和装饰器等，实现简单的异步操作。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							21分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">4130人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=1233&posColumn=1233.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1324" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1324&posColumn=1324.3"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/1324.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1324&posColumn=1324.3">
+			<img src="https://a1.jikexueyuan.com/home/201506/10/e868/557797e5dc4b2.jpg" class="lessonimg" title="Tornado开发——高性能解读" alt="Tornado开发——高性能解读">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=1324&posColumn=1324.3"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1324.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1324&posColumn=1324.3">Tornado开发——高性能解读</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程主要解析 Tornado 常用模块源码及其相关功能，内容包括性能解析，RequestHandler 和 Application 源码解读，以及如何在 Tornado 服务器上部署其他项目。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							27分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon3"></i><em>高级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">4243人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=1324&posColumn=1324.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+					</ul>
+				</div>
+				<div class="stage-more" index ="total_7">
+					<!--查看更多课程 <img src="/static/images/more.png"/>-->
+					<div style="width:100px;height:40px; margin:0 auto">查看更多课程 <img src="https://s1.jikexueyuan.com/path/images/more_3b4d448.png" style="
+    float: right;
+    margin-top: 18px;
+"></div>
+				</div>
+			</div>
+
+			<div class="page-oneicon ">
+				<img src="https://s1.jikexueyuan.com/path/images/next_eaadfa6.png" />
+			</div>
+		</div>
+		<!--pathstage end-->
+
+		<div class="pathstage mar-t30" style="display: none;">
+			<div class="pathstage-txt">
+				<h2>9. Python RESTful API 开发</h2>
+				<p>随着社交网络的兴起，尤其以 Twitter、微博为代表的网站不仅面向普通用户提供服务，同时还为开发者提供“开放平台”。其中 RESTful API 以它结构清晰、符合标准、易于理解、扩展方便的优势成为了社交网站的首选方案。</p>
+				<span>(共6课程，158分钟，42598人已经学习)</span>
+			</div>
+			<div class="page-oneicon mar-t10">
+				<i></i>
+				<div></div>
+			</div>
+
+			<div class="stagebox ">
+				<div class="stagewidth lesson-list" style="display: block;">
+					<ul class="cf" showNumber =1.5>
+
+
+
+<li id="548" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=548&posColumn=548.1"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/548.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=548&posColumn=548.1">
+			<img src="https://a1.jikexueyuan.com/home/201503/03/b00a/54f5ab6075929.jpg" class="lessonimg" title="RESTful API 概述" alt="RESTful API 概述">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=548&posColumn=548.1"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/548.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=548&posColumn=548.1">RESTful API 概述</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程介绍 RESTful 的应用场景，应该如何理解 RESTful 构架、基本的 HTTP 协议、课程将要使用的 Flask 框架，并通过一个简单的例子演示使用 Python 编写的 RESTful API。最后总结后学课程需要的前置知识并推荐阅读内容。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							21分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">13549人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/flask/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="flask" title="Flask" jktag="&posGP=101001&posArea=&posOper=&aCId=548&posColumn=548.1&aCCate=flask" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="623" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=623&posColumn=623.2"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/623.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=623&posColumn=623.2">
+			<img src="https://a1.jikexueyuan.com/home/201503/18/ed9b/5508d9e29e3a1.jpg" class="lessonimg" title="Python RESTful API开发工具介绍及应用" alt="Python RESTful API开发工具介绍及应用">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=623&posColumn=623.2"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/623.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=623&posColumn=623.2">Python RESTful API开发工具介绍及应用</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程将会给学习者介绍需要使用的开发工具，以及相关资源，并帮助学习者编写第一个可运行的程序。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							23分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+						<i class="xinhao-icon"></i><em>初级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">8521人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/flask/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="flask" title="Flask" jktag="&posGP=101001&posArea=&posOper=&aCId=623&posColumn=623.1&aCCate=flask" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="695" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=695&posColumn=695.3"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/695.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=695&posColumn=695.3">
+			<img src="https://a1.jikexueyuan.com/home/201504/09/3943/5525d5418a62c.jpg" class="lessonimg" title="OAuth 2.0介绍和实现（上）" alt="OAuth 2.0介绍和实现（上）">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=695&posColumn=695.3"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/695.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=695&posColumn=695.3">OAuth 2.0介绍和实现（上）</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程讲解了 Twitter 和微博使用的 OAuth 2.0登录验证方法，并用 Flask 实现一个验证服务器。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							24分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">6713人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=695&posColumn=695.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="732" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=732&posColumn=732.4"></i>
+
+
+
+
+		<i class="rz-icon"></i>
+
+		<a href="//www.jikexueyuan.com/course/732.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=732&posColumn=732.4">
+			<img src="https://a1.jikexueyuan.com/home/201504/16/8051/552f13026b00e.jpg" class="lessonimg" title="OAuth 2.0介绍和实现（下）" alt="OAuth 2.0介绍和实现（下）">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=732&posColumn=732.4"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/732.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=732&posColumn=732.4">OAuth 2.0介绍和实现（下）</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本节将会继续完善上节的程序，加入授权回调页、密码框、登录按钮，并且也会保持会话，让我们的 OAuth 授权过程跟平时大家在网页上使用的情况类似。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>3课时
+							21分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">4437人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/flask/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="flask" title="Flask" jktag="&posGP=101001&posArea=&posOper=&aCId=732&posColumn=732.1&aCCate=flask" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="837" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=837&posColumn=837.5"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/837.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=837&posColumn=837.5">
+			<img src="https://a1.jikexueyuan.com/home/201505/05/f8ab/5548263bda121.jpg" class="lessonimg" title="Flask-RESTful 插件介绍及应用" alt="Flask-RESTful 插件介绍及应用">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=837&posColumn=837.5"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/837.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=837&posColumn=837.5">Flask-RESTful 插件介绍及应用</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课将会介绍 Flask-RESTful 插件的使用，可以使用更加方面、安全、可维护的方式开发 RESTful API 。并且将我们之前课程中编写的资源服务器改为使用 Flask-RESTful 插件编写。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							32分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">5164人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/flask/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="flask" title="Flask" jktag="&posGP=101001&posArea=&posOper=&aCId=837&posColumn=837.1&aCCate=flask" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="1396" test="0" deg="0" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1396&posColumn=1396.6"></i>
+
+
+
+		<i class="vip-icon"></i>
+
+
+		<a href="//www.jikexueyuan.com/course/1396.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1396&posColumn=1396.6">
+			<img src="https://a1.jikexueyuan.com/home/201506/18/4244/55821dc716ba0.jpg" class="lessonimg" title="HTTPs 以及 Flask-OAuthlib 插件使用" alt="HTTPs 以及 Flask-OAuthlib 插件使用">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<i class="playericon" jktag="&posGP=103001&posArea=&posOper=&aCId=1396&posColumn=1396.6"></i>
+			</div>
+
+
+		</a>
+
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1396.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1396&posColumn=1396.6">HTTPs 以及 Flask-OAuthlib 插件使用</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程讲解如何使用 HTTPs 加密传输的内容，利用 Flask-OAuthlib 插件搭建 OAuth2 Server，以及使用装饰器风格的方式保护资源服务器，并进一步重构之前课程的程序。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							37分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">4214人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/flask/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="flask" title="Flask" jktag="&posGP=101001&posArea=&posOper=&aCId=1396&posColumn=1396.1&aCCate=flask" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+					</ul>
+				</div>
+				<div class="stage-more" index ="total_8">
+					<!--查看更多课程 <img src="/static/images/more.png"/>-->
+					<div style="width:100px;height:40px; margin:0 auto">查看更多课程 <img src="https://s1.jikexueyuan.com/path/images/more_3b4d448.png" style="
+    float: right;
+    margin-top: 18px;
+"></div>
+				</div>
+			</div>
+
+			<div class="page-oneicon ">
+				<img src="https://s1.jikexueyuan.com/path/images/next_eaadfa6.png" />
+			</div>
+		</div>
+		<!--pathstage end-->
+
+		<div class="pathstage mar-t30" style="display: none;">
+			<div class="pathstage-txt">
+				<h2>10. Python实战：微信遥控电脑</h2>
+				<p>本系列课程讲述使用Python程序控制电脑，进而发展到使用微信控制电脑。</p>
+				<span>(共2课程，75分钟，25085人已经学习)</span>
+			</div>
+			<div class="page-oneicon mar-t10">
+				<i></i>
+				<div></div>
+			</div>
+
+			<div class="stagebox ">
+				<div class="stagewidth lesson-list" style="display: block;">
+					<ul class="cf" showNumber =0.5>
+
+
+
+<li id="1962" test="0" deg="270" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=1962&posColumn=1962.1"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/1962.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1962&posColumn=1962.1">
+			<img src="https://a1.jikexueyuan.com/home/201509/08/f453/55ee3def2d921.jpg" class="lessonimg" title="微信远控：Python 控制电脑的两种方法" alt="微信远控：Python 控制电脑的两种方法">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:178.5px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/1962.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=1962&posColumn=1962.1">微信远控：Python 控制电脑的两种方法</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课讲解使用 Python 编写程序，用两种方式控制电脑执行打开文件、播放音乐、关机等等常用操作。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>4课时
+							31分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">12636人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+					<a href="//www.jikexueyuan.com/course/pythonbase/">
+						<img width="16" src="https://a1.jikexueyuan.com/home/201411/03/9301/54578de87b2f1.png" alt="pythonbase" title="Python 基础" jktag="&posGP=101001&posArea=&posOper=&aCId=1962&posColumn=1962.1&aCCate=pythonbase" >
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+
+
+<li id="2120" test="0" deg="360" >
+	<div class="lessonimg-box">
+
+
+				<i class="user-action lesson-shoucang " style="display: none;" jktag="&posGP=103001&posArea=&posOper=&aCId=2120&posColumn=2120.2"></i>
+
+
+
+
+		<a href="//www.jikexueyuan.com/course/2120.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=2120&posColumn=2120.2">
+			<img src="https://a1.jikexueyuan.com/home/201510/14/e632/561daf3333188.jpg" class="lessonimg" title="微信远控：让微信控制电脑" alt="微信远控：让微信控制电脑">
+
+			<div class="lessonplay" style="opacity: 0;">
+				<div class="cricle">
+					<div class="mask"></div>
+					<div class="left">
+						<div class="bg"></div>
+					</div>
+					<div class="cright">
+						<div class="bg"></div>
+					</div>
+					<div class="text"></div>
+				</div>
+			</div>
+
+
+		</a>
+
+
+			<div class="jd-line" style="display: block;">
+				<div class="green-line" style="width:238px"></div>
+			</div>
+
+
+	</div>
+
+	<div class="lesson-infor" style="height: 88px;">
+		<h2 class="lesson-info-h2"><a href="//www.jikexueyuan.com/course/2120.html" target="_blank" jktag="&posGP=103001&posArea=&posOper=&aCId=2120&posColumn=2120.2">微信远控：让微信控制电脑</a></h2>
+		<p style="height: 0px; opacity: 0; display: none;">
+			本课程讲解使用微信的邮件助手给一个特定的邮箱发送命令，电脑上的 Python 程序通过读取命令来进行相应的操作。
+		</p>
+		<div class="timeandicon">
+			<div class="cf">
+				<dl>
+					<dd class="mar-b8"><i class="time-icon"></i><em>5课时
+							44分钟</em>
+					</dd>
+					<dd class="zhongji">
+
+					<i class="xinhao-icon2"></i><em>中级</em>
+					</dd>
+
+				</dl>
+				<em class="learn-number">12449人学习</em>
+			</div>
+			<div class="cf">
+				<div class="lessonicon-box">
+
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+
+
+
+					</ul>
+				</div>
+				<div class="stage-more" index ="total_9">
+					<!--查看更多课程 <img src="/static/images/more.png"/>-->
+					<div style="width:100px;height:40px; margin:0 auto">查看更多课程 <img src="https://s1.jikexueyuan.com/path/images/more_3b4d448.png" style="
+    float: right;
+    margin-top: 18px;
+"></div>
+				</div>
+			</div>
+
+			<div class="page-oneicon ">
+				<img src="https://s1.jikexueyuan.com/path/images/next_eaadfa6.png" />
+			</div>
+		</div>
+		<!--pathstage end-->
+
+			<div class="over" style="display: none;">不断完善中</div>
+		</div>
+
+	</div>
+</div>
+<script>
+	// 埋点统计需要 将 slug打到全局变量
+	window.pathSlug = 'python';
+</script>
+
+
+
+
+
+
+            </div>
+            <div id="footer" class="mar-t50">
+
+	<link rel="stylesheet" href="//e.jikexueyuan.com/headerandfooter/css/footer.css?t=1495686193000" />
+	<div class=" jkinfor-block">
+		<div class="jkinfor cf">
+			<div class="jk-logo">
+				<img src="//e.jikexueyuan.com/headerandfooter/images/jk-logo-footer.png?t=1495686193000">
+				<p>极客学院，编程是一种信仰！</p>
+			</div>
+			<dl>
+				<dt>职业学院</dt>
+				<dd><a target="_blank" href="//www.jikexueyuan.com/zhiye/web">Web前端工程师</a></dd>
+				<dd><a target="_blank" href="//www.jikexueyuan.com/zhiye/python">Python Web工程师</a></dd>
+				<dd><a target="_blank" href="//www.jikexueyuan.com/zhiye/go">Go语言工程师</a></dd>
+				<!--<dd><a target="_blank" href="//j.jikexueyuan.com/train/android?huodong=jiuye_android_in">Android学院</a></dd>-->
+				<dd><a target="_blank" href="//www.jikexueyuan.com/zhiye/ios">iOS工程师</a></dd>
+				<dd><a target="_blank" href="//www.jikexueyuan.com/zhiye/wechatapp">微信小程序工程师</a></dd>
+			</dl>
+			<dl>
+				<dt>会员课程</dt>
+				<dd><a target="_blank" href="//www.jikexueyuan.com/course/">课程库</a></dd>
+				<dd><a target="_blank" href="//www.jikexueyuan.com/path/">知识体系图</a></dd>
+				<dd><a target="_blank" href="//ke.jikexueyuan.com/zhiye/">职业路径图</a></dd>
+				<dd><a target="_blank" href="//ke.jikexueyuan.com/xilie/">系列课程</a></dd>
+				<dd><a target="_blank" href="//www.jikexueyuan.com/tag/">课程标签</a></dd>
+			</dl>
+			<dl>
+				<dt>极客社区</dt>
+				<dd><a target="_blank" href="//wenda.jikexueyuan.com/">技术问答</a></dd>
+				<dd><a target="_blank" href="//wiki.jikexueyuan.com/">Wiki</a></dd>
+				<dd><a target="_blank" href="//download.jikexueyuan.com/">资源下载</a></dd>
+				<dd><a target="_blank" href="//qun.jikexueyuan.com/">社群</a></dd>
+			</dl>
+			<dl>
+				<dt>其他</dt>
+				<dd><a target="_blank" href="//help.jikexueyuan.com/">关于我们</a></dd>
+				<dd><a target="_blank" href="//help.jikexueyuan.com/join.html">加入我们</a></dd>
+				<dd><a target="_blank" href="//j.jikexueyuan.com/evangelist/apply">讲师合作</a></dd>
+				<dd><a target="_blank" href="//help.jikexueyuan.com/contact.html">联系我们</a></dd>
+				<dd><a target="_blank" href="//www.jikexueyuan.com/friendlink.html">友情链接</a></dd>
+			</dl>
+
+			<div class="jk-down">
+				<p class="hot-tel">服务热线:400-678-8266</p>
+				<div class="downCon down-ios">
+					<img src="//e.jikexueyuan.com/headerandfooter/images/app.png?t=1495686193000" class="twoCode" alt="下载二维码"> iPhone
+				</div>
+				<div class="downCon down-and">
+					<img src="//e.jikexueyuan.com/headerandfooter/images/app.png?t=1495686193000" class="twoCode" alt="下载二维码"> Android
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="w-1000 copyright">
+		Copyright © 2013-2017&nbsp;<strong><a href="//www.jikexueyuan.com/" target="_blank">jikexueyuan.com</a></strong> All Rights Reserved. 京ICP备11018032号-8 京公网安备11010802020210
+		<a href="//qun.jikexueyuan.com/jikexueyuan/topic/430" target="_blank" class="down-wechat"></a>
+		<a href="//weibo.com/jikexueyuan" target="_blank" class="down-sina"></a>
+		<a style="display:block; margin: 15px auto 0" id='___szfw_logo___' href='https://credit.szfw.org/CX20160908025320080267.html' target='_blank'><img src='//e.jikexueyuan.com/headerandfooter/images/cert.png?t=1495686193000' width="60px" border='0' /></a> <script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+	</div>
+</div>
+
+<div class="gotop" id="gototop">
+	<span class="top" style="display: block;"></span>
+	<span class="erwma" style="display:none">
+		<img src="//e.jikexueyuan.com/headerandfooter/images/erwma.png?t=1495686193000" style="display: none;">
+	</span>
+	<a href="//www.jikexueyuan.com/app" alt="极客学院应用" target="_blank">
+		<span class="jk-app"><div class="appewm"></div></span>
+	</a>
+	<a href="javascript:;" id="diaochaid" class="diaocha"></a>
+	<!--<a onclick="doyoo.util.openChat('g=10059996');return false;" href="javascript:;" class="apply qq-online qq-online1" rel="nofollow"><span class="kefu">在线客服<br>  工作日9:00-21:00在线<i></i></span></a>-->
+</div>
+
+<!-- <div class="ad_layer">
+	<div class="baidu_gg" id="baiduAd"></div>
+	<i class="close"></i>
+</div>
+ -->
+<script src="//e.jikexueyuan.com/headerandfooter/js/footer.min.js?t=1495686193000"></script>
+
+<script src="//dup.baidustatic.com/js/os.js?t=1495686193000"></script>
+<script type="text/javascript">
+	BAIDU_CLB_fillSlotAsync('2478912', 'diaochaid');
+    // BAIDU_CLB_fillSlotAsync('3221920', 'baiduAd');
+</script>
+
+<script type="text/javascript" src="//e.jikexueyuan.com/static/js/dsp.js?t=1495686193000"></script>
+<script type="text/javascript" src="//e.jikexueyuan.com/static/js/login_register.min.js?t=1495686193000"></script>
+
+
+        </div>
+        <script type="text/javascript">LazyLoad=function(e){function t(t,n){var s,r=e.createElement(t);for(s in n)n.hasOwnProperty(s)&&r.setAttribute(s,n[s]);return r}function n(e){var t,n,s=i[e];s&&(t=s.callback,n=s.urls,n.shift(),u=0,n.length||(t&&t.call(s.context,s.obj),i[e]=null,f[e].length&&r(e)))}function s(){var t=navigator.userAgent;o={async:e.createElement("script").async===!0},(o.webkit=/AppleWebKit\//.test(t))||(o.ie=/MSIE|Trident/.test(t))||(o.opera=/Opera/.test(t))||(o.gecko=/Gecko\//.test(t))||(o.unknown=!0)}function r(r,u,h,g,d){var p,y,m,b,k,v,j=function(){n(r)},w="css"===r,E=[];if(o||s(),u)if(u="string"==typeof u?[u]:u.concat(),w||o.async||o.gecko||o.opera)f[r].push({urls:u,callback:h,obj:g,context:d});else for(p=0,y=u.length;y>p;++p)f[r].push({urls:[u[p]],callback:p===y-1?h:null,obj:g,context:d});if(!i[r]&&(b=i[r]=f[r].shift())){for(l||(l=e.head||e.getElementsByTagName("head")[0]),k=b.urls,p=0,y=k.length;y>p;++p){if(v=k[p],w?m=o.gecko?t("style"):t("link",{href:v,rel:"stylesheet"}):(m=t("script",{src:v}),m.async=!1),m.className="lazyload",m.setAttribute("charset","utf-8"),o.ie&&!w&&"onreadystatechange"in m&&!("draggable"in m))m.onreadystatechange=function(){/loaded|complete/.test(m.readyState)&&(m.onreadystatechange=null,j())};else if(w&&(o.gecko||o.webkit))if(o.webkit){var T;if(b.urls[p]=m.href,T=c()){p--,y=k.length;continue}}else m.innerHTML='@import "'+v+'";',a(m);else m.onload=m.onerror=j;E.push(m)}var A=document.createDocumentFragment();for(p=0,y=E.length;y>p;++p)A.appendChild(E[p]);var x;return"css"===r?x=l:"js"===r&&(x=document.getElementById("pages-container")||l),x.appendChild(A),E}}function a(e){var t;try{t=!!e.sheet.cssRules}catch(s){return u+=1,void(200>u?setTimeout(function(){a(e)},50):t&&n("css"))}n("css")}function c(){var e,t=i.css,s=!1;if(t){for(e=h.length;--e>=0;)if(h[e].href===t.urls[0]){s=!0,n("css");break}u+=1,t&&(200>u?setTimeout(c,50):n("css"))}return s}var o,l,i={},u=0,f={css:[],js:[]},h=e.styleSheets;return{css:function(e,t,n,s){r("css",e,t,n,s)},js:function(e,t,n,s){r("js",e,t,n,s)}}}(this.document);</script>
+
+     <script type="text/javascript">var _ready = false;_list = [];_when = function(cb) {_ready?cb():_list.push(cb);};LazyLoad.js(['https://s1.jikexueyuan.com/common/js/TweenMax.min_5a7da72.js', 'https://s1.jikexueyuan.com/common/pkg/common_sync0_libs_9c1a7aa.js', 'https://s1.jikexueyuan.com/common/js/setcookie_51991d5.js', 'https://s1.jikexueyuan.com/common/js/swfobject_5fb5452.js', 'https://s1.jikexueyuan.com/common/pkg/common_sync1_libs_e7422e7.js', 'https://s1.jikexueyuan.com/common/widget/loading/loading_197f16e.js', 'https://s1.jikexueyuan.com/path/widget/lessoninfor/lessoninfor_dcb7662.js'], function () {!function() {
+		require("common:widget/loading/loading.js").init();
+		$('.pathdescibe,.pathstage,.over').fadeIn();
+	}();
+!function() { require("path:widget/lessoninfor/lessoninfor.js").init(); }();;_ready=true;var _item; while((_item=_list.shift())){_item();}});</script></body>
+</html>

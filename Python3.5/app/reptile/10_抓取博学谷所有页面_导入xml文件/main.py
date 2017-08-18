@@ -6,6 +6,9 @@ import os
 import save_excel
 import save_mysql
 import save_csv
+import save_json
+import save_pickle
+import save_xml
 
 
 # 1.获取链接
@@ -66,26 +69,76 @@ def save_2_mysql():
 # 5.保存csv文件
 def save_2_csv():
     save_csv.create()
-    global_data.g_websites_list = ['id', 'website']
+    global_data.g_csv_websites_list = ['id', 'website']
     save_csv.write()
     for i, website in enumerate(global_data.g_query_links_list):
-        global_data.g_websites_list = [i, website]
+        global_data.g_csv_websites_list = [i, website]
         save_csv.write()
-    global_data.g_websites_list = ['id', 'resource']
+    global_data.g_csv_websites_list = ['id', 'resource']
     save_csv.write()
     for i, resource in enumerate(global_data.g_url_links_set):
-        global_data.g_websites_list = [i, resource]
+        global_data.g_csv_websites_list = [i, resource]
         save_csv.write()
     save_csv.close()
 
 
-def main():
+# 6.保存json文件
+def save_2_json():
+    save_json.create()
+    global_data.g_json_websites_list = ['id', 'website']
+    save_json.write()
+    for i, website in enumerate(global_data.g_query_links_list):
+        global_data.g_json_websites_list = [i, website]
+        save_json.write()
+    global_data.g_csv_websites_list = ['id', 'resource']
+    save_json.write()
+    for i, resource in enumerate(global_data.g_url_links_set):
+        global_data.g_json_websites_list = [i, resource]
+        save_json.write()
+    save_json.close()
+
+
+# 7.pickle方式序列化json文件
+def save_2_pickle():
+    save_pickle.create()
+    global_data.g_pickle_websites_list = ['id', 'website']
+    save_pickle.write()
+    global_data.g_pickle_websites_list = global_data.g_query_links_list
+    save_pickle.write()
+    global_data.g_pickle_websites_list = ['id', 'resource']
+    save_pickle.write()
+    global_data.g_pickle_ebsites_list = global_data.g_url_links_list
+    save_pickle.write()
+    save_pickle.close()
+
+
+# 8.保存xml文件
+def save_2_xml():
+    save_xml.create()
+    global_data.g_xml_websites_list = ['id', 'website']
+    save_xml.write()
+    for i, website in enumerate(global_data.g_query_links_list):
+        global_data.g_xml_websites_list = ['%s' % i, website]
+        save_xml.write()
+    global_data.g_xml_websites_list = ['id', 'resource']
+    save_xml.write()
+    for i, resource in enumerate(global_data.g_url_links_set):
+        global_data.g_xml_websites_list = ['%s' % i, resource]
+        save_xml.write()
+    save_xml.close()
+
+
+def __main():
     # 获取博学谷登陆页面，存储在对应的路径下
     set_all_links()
     # save_all_files(global_data.g_url_links_set)
     # save_2_excel()
     # save_2_mysql()
-    save_2_csv()
+    # save_2_csv()
+    # save_2_json()
+    # save_2_pickle()
+    save_2_xml()
+
 
 if __name__ == '__main__':
-    main()
+    __main()

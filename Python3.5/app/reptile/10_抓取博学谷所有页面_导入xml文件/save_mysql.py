@@ -39,13 +39,13 @@ def insert():
     conn.commit()
 
 
-def query_main():
+def __query_main():
     create_connection()
     query()
     close_connection()
 
 
-def insert_main():
+def __insert_main():
     create_connection()
     global_data.g_mysql_insert_sql = '''INSERT INTO scrapy_websites(id, websites) VALUES ('%d', '%s')''' % (1, 'www.baidu.com')
     insert()
@@ -53,5 +53,5 @@ def insert_main():
 
 
 if __name__ == '__main__':
-    # insert_main()
-    query_main()
+    __insert_main()
+    __query_main()

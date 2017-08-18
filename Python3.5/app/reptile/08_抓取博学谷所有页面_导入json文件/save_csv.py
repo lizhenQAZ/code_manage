@@ -9,7 +9,7 @@ def create():
 def write():
     f = global_data.g_csv_fd
     cw = csv.writer(f)
-    cw.writerow(global_data.g_websites_list)
+    cw.writerow(global_data.g_csv_websites_list)
 
 
 def close():
@@ -19,7 +19,7 @@ def close():
 def csv_main():
     create()
     temp_list = [1, 2]
-    global_data.g_websites_list = temp_list
+    global_data.g_csv_websites_list = temp_list
     write()
     close()
 
