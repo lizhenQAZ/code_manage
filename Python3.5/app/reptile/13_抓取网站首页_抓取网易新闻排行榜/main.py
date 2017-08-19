@@ -11,8 +11,9 @@ class Spider(object):
         print("正在爬取网页信息。。。。。。。。")
 
     def get_pic_url(self):
-        # <img src="https://a1.jikexueyuan.com/home/201408/21/a650/53f54af62c068.jpg" class="lessonimg"
-        # title="Python语言集成开发环境搭建" alt="Python语言集成开发环境搭建">
+        # <img src="https://a1.jikexueyuan.com/home/201408/21/a650/
+        # 53f54af62c068.jpg" class="lessonimg"title="Python语言集成开发环境搭建"
+        # alt="Python语言集成开发环境搭建">
         # 排除JS的影响：<!--查看更多课程 <img src="/static/images/more.png"/>-->
         l_img_content = re.findall(r'<img[^>]*>[^-]', self.content, re.S)
         return l_img_content
@@ -26,7 +27,8 @@ class Spider(object):
     def get_href_url(self):
         # < a href = "//www.jikexueyuan.com/course/201.html" target = "_blank"
         # jktag = "&posGP=103001&posArea=&posOper=&aCId=201&posColumn=201.1" >
-        # 排除异常格式的影响,<dd><a href="#"><i class="xxzx-icon"></i>学习中心</a></dd>
+        # 排除异常格式的影响,<dd><a href="#"><i class="xxzx-icon"></i>学习中心</a>
+        # </dd>
         l_href_content = re.findall(r'<a[^>#]*>', self.content)
         return l_href_content
 
