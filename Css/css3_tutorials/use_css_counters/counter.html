@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<style type="text/css">
+			body {
+				counter-reset: section;                     /* Se	a counter named 'section', and it`s initial value is 0. */
+			}
+			
+			h3::before {
+				counter-increment: section;                 /* 			Increment the value of section counter by 1 */
+				content: counter(section);                  /* Display the value of section counter */
+			}
+		</style>
+	</head>
+	<body>
+		<h3>Introduction</h3>
+		<h3>Body</h3>
+		<h3>Conclusion</h3>
+	</body>
+</html>

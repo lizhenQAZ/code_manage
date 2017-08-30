@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<style type="text/css">
+/* All spans with a "lang" attribute are bold */
+			span[lang] {font-weight:bold;}
+ 
+/* All spans in Portuguese are green */
+			span[lang="pt"] {color:green;}
+
+/* All spans in US English are blue  */
+			span[lang~="en-us"] {color: blue;}
+
+/* Any span in Chinese is red, matches
+   simplified (zh-CN) or traditional (zh-TW) */
+			span[lang|="zh"] {color: red;}
+
+/* All internal links have a gold background */
+			a[href^="#"] {background-color: gold;}
+
+/* All spans whose first declared class begins with "main" have a yellow background */
+/* Span with the class="banner main" would not be affected. */
+			span[class^="main"] {background-color: yellow;}
+
+/* All links to urls ending in ".cn" are red */
+			a[href$=".cn"] {color: red;}
+
+/* All links with "example" in the url have a grey background */
+			a[href*="example"] {background-color: #CCCCCC;}
+
+/* You could also use hyphenated attributes without double quote */ 
+			span[data-lang="zh-TW"] {color: #9C27B0;}
+
+/* All email inputs have a blue border */
+/* This matches any capitalization of
+   "email", e.g. "email", "EMAIL", "eMaIL", etc. */
+			input[type="email" i] {border-color: blue;}
+		</style>
+	</head>
+	<body>
+		<div class="hello-example">
+    		<a href="http://example.com">English:</a>
+    		<span lang="en-us en-gb en-au en-nz">Hello World!</span>
+		</div>
+
+		<div class="hello-example">
+    		<a href="#portuguese">Portuguese:</a>
+    		<span lang="pt">Olá Mundo!</span>
+		</div>
+
+		<div class="hello-example">
+   			<a href="http://example.cn">Chinese (Simplified):</a>
+    		<span lang="zh-CN">世界您好！</span>
+		</div>
+
+		<div class="hello-example"> 
+    		<a href="http://example.cn">Chinese (Traditional):</a> 
+    		<span lang="zh-TW">世界您好！</span> 
+		</div>
+		
+		<div class="hello-example">
+    		<a href="http://example.tw">Hyphenated Attribute:</a>
+    		<span data-lang="zh-TW">世界您好！</span>
+		</div>
+	</body>
+</html>

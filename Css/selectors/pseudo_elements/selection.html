@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<style type="text/css">
+			/* Make selected text gold on a red background */
+			::-moz-selection {
+			  color: gold;
+			  background: red;
+			}
+
+			::selection {
+			  color: gold;
+			  background: red;
+			} 
+
+			/* Make selected text in a paragraph white on a blue background */
+			p::-moz-selection {
+			  color: white;
+			  background: blue;
+			}
+
+			p::selection {
+			  color: white;
+			  background: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			This text has special styles when you highlight it.
+		</div>
+
+		<p>
+			Also try selecting text in this paragraph.
+		</p>		
+	</body>
+</html>
