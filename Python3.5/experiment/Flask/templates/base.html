@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends "bootstrap/base.html" %}
+    {% block head %}
+    <title>{% block title %}Flasky{% endblock %}MyApplication</title>
+    {% endblock %}
+</head>
+<body>
+    {% block navbar %}
+        <div class="navbar" role="navigation">
+            <div class="container">
+                <div class=navbar_header">
+                    <ul class="nav-collapse">
+                        <li><a href="/">home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+    {%  block content %}
+    <div class="container">
+        <div class="page-header">
+            <h1>hello,{{name}}!</h1>
+        </div>
+    </div>
+    {% endblock %}
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
