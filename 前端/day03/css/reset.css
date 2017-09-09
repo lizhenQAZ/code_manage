@@ -1,0 +1,41 @@
+h1,h2,h3,h4,h5,h6,body,ul,ol,dl,p{
+    /*去掉默认样式*/
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,ol{
+    /*去掉list的小圆点*/
+    list-style: none;
+}
+
+a{
+    /*去掉超链接的下划线*/
+    text-decoration: none;
+}
+
+em,i{
+    /*去掉斜体*/
+    font-style: normal;
+}
+
+b,strong{
+    /*去掉加粗*/
+    font-weight: normal;
+}
+
+.clearfix::before, .clearfix::after{
+    /*去除margin-top塌陷*/
+    content: "";
+    display: table;
+}
+
+.clearfix::after{
+    /*去除*/
+    clear: both;
+}
+
+.clearfix{
+    /*兼容ie*/
+    zoom: 1;
+}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block page_content %}
+    {% for messge in get_flashed_messages(with_categories=True) %}
+        <div class="alert alert-{{ messge[0] }}">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{ messge[1] }}
+        </div>
+    {% endfor %}
+    <p>You win!</p>
+    <a href="{{ url_for('index') }}">return to home</a>
+{% endblock %}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work1</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        /*最外层布局*/
+        .con{
+            width: 430px;
+            height: 513px;
+            background-color: #f9f9f9;
+            padding: 13px 34px 24px 36px;
+        }
+        /*头部布局*/
+        .header h3{
+            width: 430px;
+            height: 48px;
+            border-bottom: 1px solid #cccccc;
+            color: #fba375;
+            font: normal 24px/48px "Microsoft Yahei";
+            margin: 0px;
+        }
+        /*主体布局*/
+        .body{
+            /*width: 420px;*/
+            width: 430px;
+            height: 466px;
+            text-align: right;
+            font-size: 14px;
+        }
+
+
+        /*每个部分布局*/
+        .input,.password,.confirm,.mailbox,.brief,.agree,.register{
+            width: 404px;
+            height: 40px;
+            border: 0px;
+            margin-right: 0px;
+        }
+        /*用户名部分布局*/
+        .input{
+            margin-top: 20px;
+        }
+        /*密码、重复密码、邮箱部分布局*/
+        .password,.confirm,.mailbox{ 
+            margin-top: 25px;             
+        }
+        /*个人简介部分布局*/
+        .brief{
+            margin-top: 24px;
+        }
+        /*用户授权部分布局*/
+        .agree{
+            margin-top: 32px;
+        }
+        /*注册部分布局*/
+        .register{
+            margin-top: 29px;
+        }
+
+
+        /*每个控件的布局*/
+        /*#name,#password,#confirm,#mailbox,#brief{
+            width: 324px;
+            margin: 0px;
+        }
+        #name,#password,#confirm,#mailbox{
+            height: 34px;
+        }
+        .brief h3{
+            margin: 0px;
+            padding: 0px;
+            font-size: 14px;
+            font-weight: normal;
+            float: left
+        }
+        #brief{
+            height: 67px;
+            resize: none；
+            float：right；
+        }
+        #agree{
+            margin-left: 74px；
+        }
+        #register{
+            width: 330px;
+            height: 38px;
+            font: normal 18px/38px #fff;
+            border: 0px;
+            padding: 0px;
+            background-color: #02c9ff;
+        }*/
+    </style>
+</head>
+<body>
+    
+</body>
+    <div class="con">
+        <div class="header">
+            <h3>注册表单</h3>
+        </div>
+        <div class="body">
+            <form action="" method="GET">
+                <div class="input">
+                    <label for="name">用户名：</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="password">
+                    <label for="password">密码：</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="confirm">
+                    <label for="confirm">确认密码：</label>
+                    <input type="password" id="confirm">
+                </div>
+                <div class="mailbox">
+                    <label for="mailbox">邮箱：</label>
+                    <input type="text" id="mailbox">       
+                </div>
+                <div class="brief">
+                    <h3>个人简介:</h3>
+                    <textarea name="" id="brief" cols="30" rows="10"></textarea>
+                </div>
+                <div class="agree">
+                    <input type="checkbox" id="agree">
+                    <label for="agree">同意用户使用协议</label>
+                </div>
+                <div class="register">
+                     <input type="submit" value="注 册" id="register">                         
+                </div>
+            </form>
+        </div>
+    </div>
+</html>
