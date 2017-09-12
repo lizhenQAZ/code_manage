@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work1</title>
+    <style type="text/css">
+        .clearfix:before {
+            content: "";
+            display: table;
+        }
+
+        body {
+            background-color: #b2b2b2;
+            display: inline-block;
+        }
+
+        body .con {
+            width: 500px;
+            height: 285px;
+            border-radius: 5px;
+            background-color: #fff !important;
+            padding: 5px 0px 10px;
+            position: absolute;
+            left: 50%;
+            margin-left: -250px;
+            top: 50%;
+            margin-top: -150px;
+        }
+
+        .header {
+            width: 490px;
+            height: 40px;
+            border-radius: 4px;
+            background-color: #157bef;
+            margin: 0 auto;
+        }
+
+        .header h3 {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            text-indent: 9px;
+            font: normal 18px/40px "Microsoft Yahei";
+            float: left;
+        }
+
+        .header .close {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            font: normal 10px/20px "Microsoft Yahei";
+            background-color: #fff;
+            text-indent: 5px;
+            margin: 10px 10px 10px 0px;
+            float: right;
+        }
+
+        .body {
+            width: 500px;
+            height: 200px;
+            border-bottom: 1px solid #f0f0f0;
+            /*padding: 78px 0px 0px 99px;*/
+        }
+
+        .body span {
+            width: 206px;
+            height: 20px;
+            margin-left: 99px;
+            margin-top: 78px;
+            display: inline-block;
+        }
+
+        .foot {
+            font: normal 16px/35px "Microsoft Yahei";
+        }
+
+        .foot #confirm {
+            width: 100px;
+            height: 35px;
+            margin: 9px 0px 10px 270px;
+            border-radius: 3px;
+            background-color: #167bef;
+            color: #fff;
+            border: 0;
+        }
+
+        .foot #cancel {
+            width: 100px;
+            height: 35px;
+            margin: 9px 0px 10px 10px;
+            border-radius: 3px;
+            background-color: #dddddd;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <div class="header clearfix">
+            <h3>系统提示</h3>
+            <div class="close">X</div>
+        </div>
+        <div class="body">
+            <span>亲！确定要这么做吗？</span>
+        </div>
+        <div class="foot">
+            <input type="button" value="确 定" id="confirm">
+            <input type="button" value="取 消" id="cancel">
+        </div>
+    </div>
+</body>
+
+</html>

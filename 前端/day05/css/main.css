@@ -1,0 +1,341 @@
+h1:hover,h2:hover,h3:hover{
+    color: red;
+}
+
+.header-con{
+    height: 29px;
+    background-color: #f7f7f7;
+    border: 1px solid #dddddd;
+}
+
+.header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-left{
+    width: 108px;
+}
+.header-right{
+    width: 254px;
+}
+
+.header-left h1{
+    font: normal 12px/29px "Microsoft Yahei";
+}
+
+.header-right li{
+    float: left;
+}
+
+.header-right li h1,.header-right li a,.header-right li span{
+    font: normal 12px/29px "Microsoft Yahei";
+    float: left;
+}
+.header-right li span{
+    color: #cecece;
+    margin: 0px 15px;
+}
+
+.header-right li.unlogin{
+    display: none;
+}
+
+.header-right li .user{
+    color: #ff8800;
+}
+
+.logo-con{
+    width: 1200px;
+    height: 115px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo-con .logo{
+    position: absolute;
+    margin: 30px 0px 0px 18px;
+}
+
+.logo-con .search-con{
+    width: 616px;
+    height: 38px;
+    border: 1px solid #37ab40;
+    margin: 34px 0px 0px 291px;
+    display: inline-block;
+}
+
+.search-con .input{
+    width: 516px;
+    border: 0;
+    color: #737272;
+    font: normal 12px/38px "Microsoft Yahei";
+    text-indent: 36px;
+    outline: none;
+    float: left;
+    background: url(../image/icons.png) no-repeat 11px 10px;
+}
+
+.search-con .btnsearch{
+    width: 100px;
+    border: 0;
+    color: #fff;
+    font: normal 14px/38px "Microsoft Yahei";
+    background-color: #37ab40;
+    outline: none;
+    float: left;
+}
+
+.logo-con .cart-con{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 34px;
+    right: 0px;
+}
+
+.cart-con .cart{
+    width: 158px;
+    font: normal 14px/38px "Microsoft Yahei";
+    border: 1px solid #dddddd;
+    text-align: center;
+    display: inline-block;
+    background: url(../image/icons.png) no-repeat 13px -42px;
+}
+
+.cart-con .cart a{
+    color: #37ab40;
+}
+
+.cart-con .note{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font: normal 18px/40px "Microsoft Yahei";
+    text-align: center;
+    background-color: #ff8800;
+    display: inline-block;
+}
+
+.all-goods-con{
+    height: 40px;
+    border-bottom: 2px solid #37ab40;
+}
+
+.all-goods-con .menu{
+    width: 1200px;
+    height: 42px;
+    margin: 0 auto;
+}
+
+.all-goods-con .menu h2{
+    width: 200px;
+    height: 42px;
+    background-color: #37ab40;
+    font: normal 14px/42px "Microsoft Yahei";
+    color: #fff;
+    text-align: center;
+    float: left;
+}
+
+.all-goods-con .menu a,.all-goods-con .menu span{
+    height: 40px;
+    font: normal 14px/40px "Microsoft Yahei";
+    color: #666666;
+    float: left;
+}
+
+.all-goods-con .menu span{
+    margin: 0 26px 0 22px;
+}
+
+.all-goods-con .menu .menu-index{
+    margin: 0 0 0 34px;
+}
+
+.category-con{
+    width: 1200px;
+    height: 270px;
+    margin: 0px auto;
+}
+
+.category-con .menu-detail{
+    width: 200px;
+}
+
+.category-con .menu-detail li{
+    width: 198px;
+    height: 44px;
+    border: 1px solid #eeeeee;
+    border-top: 0;
+    background: url(../image/icons.png) no-repeat 33px -88px;
+}
+
+.category-con .menu-detail .list1{
+    background-position: 33px -138px;
+}
+
+.category-con .menu-detail .list2{
+    background-position: 33px -188px;
+}
+
+.category-con .menu-detail .list3{
+    background-position: 33px -238px;
+}
+
+.category-con .menu-detail .list4{
+    background-position: 33px -288px;
+}
+
+.category-con .menu-detail .list5{
+    background-position: 33px -338px;
+}
+
+.category-con .menu-detail li a{
+    display: inline-block;
+    width: 198px;
+    height: 44px;
+    color: #333333;
+    font: normal 14px/44px "Microsoft Yahei";
+    text-align: center;
+    background: url(../image/icons.png) no-repeat 178px -383px;
+}
+
+.slides-con{
+    width: 760px;
+    height: 270px;
+    position: relative;
+     /*溢出部分隐藏*/
+    overflow: hidden;
+}
+
+.slides{
+    width: 4560px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.slides img{
+    float: left;
+}
+
+.leftarrow{
+    width: 15px;
+    height: 23px;
+    position: absolute;
+    left: 11px;
+    top: 122px;
+    background: url(../image/icons.png) no-repeat 0px -450px;
+}
+
+.rightarrow{
+    width: 15px;
+    height: 23px;
+    position: absolute;
+    right:  11px;
+    top: 122px;
+    background: url(../image/icons.png) no-repeat 0px -500px;
+}
+
+.circles{
+    width: 100%;
+    height: 29px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    line-height: 29px;
+}
+
+.circles li{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #9f9f9f;
+    display: inline-block;
+    margin: 0 11px 0 0;
+}
+
+.circles .first_circle{
+    background-color: #cecece;
+}
+
+.advs-con{
+    width: 240px;
+    height: 270px;
+}
+
+.main-con{
+    width: 1200px;
+    height: 358px;
+    margin: 0 auto;
+}
+
+.main-con .header{
+    margin-top: 21px;
+    height: 34px;
+    border-bottom: 2px solid #42ad46;
+}
+
+.main-con .header h4{
+    font: normal 16px/34px "Microsoft Yahei";
+    color: #37ab40;
+    float: left;
+    margin-left: 2px;
+    margin-right: 22px;
+}
+
+.main-con .header span,.main-con .header a{
+    margin-top: 6px;
+    font: normal 12px/28px "Microsoft Yahei";
+    color: #666666;
+    float: left;
+    margin-right: 14px;
+}
+
+.main-con .body{
+    height: 300px;
+}
+
+.main-con .body .banner{
+    width: 200px;
+}
+
+.main-con .body .banner-goods{
+    width: 249px;
+    height: 299px;
+    border: 1px solid #ededed;
+    border-left: 0;
+    border-top: 0;
+}
+
+.main-con .body .banner-goods .h4-1{
+    margin: 0 96px;
+    color: #666666;
+    font: normal 14px/49px "Microsoft Yahei";
+    display: inline-block;
+}
+
+.main-con .body .banner-goods img{
+    margin: 11px 37px 11px 32px;
+}
+
+.main-con .body .banner-goods .h4-2{
+    margin: 0px 86px;
+    color: #c40000;
+    font: normal 20px/48px "Microsoft Yahei";
+}
+
+.auxilary{
+    height: 30px;
+    border-bottom: 2px solid #4ab14e;
+}
+
+.foot{
+    height: 145px;
+    text-align: center;
+    color: #4e4e4e;
+    font: normal 12px/28px "Microsoft Yahei";
+    margin-top: 30px;
+}

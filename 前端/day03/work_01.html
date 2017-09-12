@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Work1</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <style>
+    <style type="text/css">
         /*最外层布局*/
         .con{
             width: 430px;
@@ -26,44 +26,52 @@
         /*主体布局*/
         .body{
             /*width: 420px;*/
-            width: 430px;
+            width: 420px;
             height: 466px;
             text-align: right;
-            font-size: 14px;
         }
 
 
         /*每个部分布局*/
         .input,.password,.confirm,.mailbox,.brief,.agree,.register{
             width: 404px;
-            height: 40px;
             border: 0px;
-            margin-right: 0px;
+            font: normal 12px/12px "Microsoft Yahei";
         }
         /*用户名部分布局*/
         .input{
+            height: 40px;
             margin-top: 20px;
+            float: right;
         }
         /*密码、重复密码、邮箱部分布局*/
-        .password,.confirm,.mailbox{ 
-            margin-top: 25px;             
+        .password,.confirm,.mailbox{
+            height: 40px; 
+            margin-top: 25px;
+            float: right;             
         }
         /*个人简介部分布局*/
         .brief{
+            height: 73px;
             margin-top: 24px;
+            float: right;
         }
         /*用户授权部分布局*/
         .agree{
+            height: 12px;
             margin-top: 32px;
+            float: left;
         }
         /*注册部分布局*/
         .register{
+            height: 40px;
             margin-top: 29px;
+            float: right;
         }
 
 
         /*每个控件的布局*/
-        /*#name,#password,#confirm,#mailbox,#brief{
+        #name,#password,#confirm,#mailbox,#brief{
             width: 324px;
             margin: 0px;
         }
@@ -71,28 +79,35 @@
             height: 34px;
         }
         .brief h3{
-            margin: 0px;
+            margin: 13px 0px 0px;
             padding: 0px;
             font-size: 14px;
             font-weight: normal;
-            float: left
+            float: left;
         }
         #brief{
             height: 67px;
-            resize: none；
-            float：right；
+            resize: none;
+            float: right;
         }
         #agree{
-            margin-left: 74px；
+            padding: 1px; 
+            margin:0px 0px 0px 90px;
+            float: left;
+        }
+        #agree_label{
+            margin-left: 15px;
+            float: left;
         }
         #register{
             width: 330px;
             height: 38px;
-            font: normal 18px/38px #fff;
+            color: #fff;
             border: 0px;
             padding: 0px;
             background-color: #02c9ff;
-        }*/
+            font: normal 18px/18px "Microsoft Yahei";
+        }
     </style>
 </head>
 <body>
@@ -126,7 +141,7 @@
                 </div>
                 <div class="agree">
                     <input type="checkbox" id="agree">
-                    <label for="agree">同意用户使用协议</label>
+                    <label for="agree" id="agree_label">同意用户使用协议</label>
                 </div>
                 <div class="register">
                      <input type="submit" value="注 册" id="register">                         
