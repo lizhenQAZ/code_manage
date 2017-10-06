@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 100px;
+            height: 100px;
+            padding: 30px;
+            border: 10px solid #000;
+            margin: 50px;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            var $box1 = $(".box1");
+
+            var width = $box1.width();
+            var height = $box1.height();
+            console.log("width = " + width);//100
+            console.log("height = " + height);//100
+
+            // 包括padding的宽和高
+            var innerWidth = $box1.innerWidth();//
+            var innerHeight = $box1.innerHeight();//
+            console.log("innerWidth = " + innerWidth);//160
+            console.log("innerHeight = " + innerHeight);//160   
+
+            //包含padding和border的宽高
+            var outerWidth = $box1.outerWidth(false);
+            var outerHeight = $box1.outerHeight(false);
+            console.log("outerWidth = " + outerWidth);//180
+            console.log("outerHeight = " + outerHeight);//180
+
+            // 包括padding border margin的宽高
+            var outerWidthtrue = $box1.outerWidth(true);
+            var outerHeighttrue = $box1.outerHeight(true);
+            console.log("outerWidthtrue = " + outerWidthtrue);//280
+            console.log("outerHeighttrue = " + outerHeighttrue);//280
+        });
+    </script>
+</head>
+
+<body>
+
+
+    <div class="box1"></div>
+
+
+</body>
+
+</html>

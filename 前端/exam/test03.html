@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var aList = [1, 2, 6, 4, 11, 20, 14, 6, 9, 22, 0, 5];
+        var iLength = aList.length;
+        for (var i = 0; i < iLength - 1; i++) {
+            for (var j = i + 1; j < iLength; j++) {
+                if (aList[j] < aList[i]) {
+                    var temp = aList[i];
+                    aList[i] = aList[j];
+                    aList[j] = temp;
+                }
+
+            }
+        }
+        alert(aList);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

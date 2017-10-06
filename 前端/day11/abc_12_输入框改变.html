@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        // $(function () {
+        //     // 改变并且失去焦点才触发
+        //     $(".input1").change(function () {
+        //         console.log("change");
+        //     });
+
+        //     // oninput    onpropertychange(ie9)
+        //     $(".input1").bind("input propertychange",function () {
+        //         console.log($(".input1").val());
+        //     });
+        // });
+
+        $(function () {
+            // 改变并且失去焦点时才触发
+            $('.input1').change(function () {
+                console.log('input-change');
+            });
+            // 改变时触发
+            $('.input1').bind("input propertychage",function () {
+                console.log('input-propertychange');
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <input type="text" class="input1">
+
+
+</body>
+
+</html>

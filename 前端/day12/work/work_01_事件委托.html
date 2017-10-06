@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+        var user_data = [
+            ['Tom',100,1123,'自由职业者，斜杠青年!'],
+            ['Jack',223,2134,'技术宅，球迷，还喜欢做饭!'],
+            ['Rose',332,2311,'热爱设计，非常好色(色彩)!'],
+            ['hotdog',342,2145,'自学Java，后从事两年Android。'],
+            ['hotwind',123,3421,'苹果重度用户，非苹果产品不买。'],
+            ['Joe',321,2314,'小米发烧友兼锤子发烧友，居然还是果粉，是不是太花心了？'],
+            ['js2017',456,3215,'人工智能的早期研究者，终于等到我发威了！'],
+            ['bigbear',345,2341,'python程序员，一直在默默用python做点东西，现在研究人工智能的python框架。'],
+            ['blur',127,1234,'不爱写下自己的东西，不爱分享，是不是有点反人类？'],
+            ['slogan',367,1459,'人工智能时代，赶紧走起跟上，有点小兴奋呢！'],
+            ['sky',675,2136,'笔耕者，每天写点东西，写作成了我的一种生活必须！']            
+        ]
+        $(function () {
+            var $oImg=$('.user_list_con img')
+            var $oPop=$('.info_pop_con');
+            // 设置浮动事件，移入显示弹框
+            $(".user_list_con").delegate("img","mouseenter",function name() {
+                var oIndex=$(this).parent().parent().index();
+                var $offset=$(this).offset();
+                // 修改头像
+                $oPop.find('img').prop({src:$(this).prop('src')});
+                // 用户名
+                $oPop.find('.username').html(user_data[oIndex][0]);
+                // 收录数
+                $oPop.find('.collect').html(user_data[oIndex][1]);
+                // 关注数
+                $oPop.find('.focus').html(user_data[oIndex][2]);
+                // 个人简介
+                $oPop.find('.resume p').html(user_data[oIndex][3]);
+                // 设置弹框位置
+                $oPop.css({left:$offset.left,top:$offset.top+47});
+                $oPop.show();       
+            });
+            $(".info_pop_con").delegate("img","mouseleave",function () {
+                $oPop.hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="user_list_con">
+        <h3 class="list_title">用户列表</h3>
+        <ul class="user_list">
+            <li><a href="javascript:;"><img src="images/001.jpg" alt="用户图标"></a><span>Tom</span></li>
+            <li><a href="javascript:;"><img src="images/002.jpg" alt="用户图标"></a><span>Jack</span></li>
+            <li><a href="javascript:;"><img src="images/003.jpg" alt="用户图标"></a><span>Rose</span></li>
+            <li><a href="javascript:;"><img src="images/004.jpg" alt="用户图标"></a><span>hotdog</span></li>
+            <li><a href="javascript:;"><img src="images/005.jpg" alt="用户图标"></a><span>hotwind</span></li>
+            <li><a href="javascript:;"><img src="images/006.jpg" alt="用户图标"></a><span>Joe</span></li>
+            <li><a href="javascript:;"><img src="images/007.jpg" alt="用户图标"></a><span>js2017</span></li>
+            <li><a href="javascript:;"><img src="images/008.jpg" alt="用户图标"></a><span>bigbear</span></li>
+            <li><a href="javascript:;"><img src="images/009.jpg" alt="用户图标"></a><span>blur</span></li>
+            <li><a href="javascript:;"><img src="images/010.jpg" alt="用户图标"></a><span>slogan</span></li>
+            <li><a href="javascript:;"><img src="images/011.jpg" alt="用户图标"></a><span>sky</span></li>
+        </ul>
+    </div>
+    <div class="info_pop_con">
+        <dl class="info_detail">
+            <dt><img src="images/001.jpg" alt="用户图标"></dt>
+            <dd class="username">blur</dd>
+            <dd class="collect">收录数：<em>393</em></dd>
+            <dd class="focus">关注数：<em>2710</em></dd>
+        </dl>
+        <div class="resume">
+            <h3>个人简介：</h3>
+            <p>这家伙很懒！什么都没有留下，这家伙很懒！什么都没有留下。</p>
+        </div>
+    </div>
+</body>
+</html>

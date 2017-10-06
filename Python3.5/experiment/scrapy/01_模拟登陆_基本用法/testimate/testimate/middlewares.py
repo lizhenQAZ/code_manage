@@ -6,6 +6,7 @@
 # http://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+import logging
 
 
 class TestimateSpiderMiddleware(object):
@@ -54,3 +55,10 @@ class TestimateSpiderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+    # 使用IP代理
+    # logger = logging.getLogger(__name__)
+    # def process_request(self,request, spider):
+    #     self.logger.debug("Using Proxy")
+    #     request.meta['proxy'] = 'http://127.0.0.1:9743'
+    #     return None

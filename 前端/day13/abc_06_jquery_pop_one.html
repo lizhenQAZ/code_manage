@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .pop {
+            width: 500px;
+            height: 300px;
+            background-color: gold;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin: -150px 0 0 -250px;
+            display: none;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.cookie.js"></script>
+    <script>
+        // $(function () {
+
+        //     var show = $.cookie("show");
+        //     if (show != 1) {
+        //         $(".pop").show();
+        //     }
+
+        //     $(".btn").click(function () {
+        //         // 点击后消失
+        //         $(".pop").hide();
+        //         // 存一个值 代表已经看过
+        //         $.cookie("show", "1");
+        //     });
+        // })
+        
+        $(function () {
+            var iShow = $.cookie("show");
+            if (iShow!=1) {
+                $(".pop").show();
+            }
+
+            // 点击按钮隐藏弹框
+            // 只有关闭弹窗才会再显示
+            $(".btn").click(function () {
+                $.cookie("show",1);
+                $(".pop").hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="pop">
+        阅同意
+        <input type="button" value="同意" class="btn">
+    </div>
+
+
+</body>
+
+</html>

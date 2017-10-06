@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .con {
+            width: 500px;
+            height: 500px;
+            border: 1px solid #000;
+            position: relative;
+        }
+
+
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            position: absolute;
+            left: 0;
+            top: 50px;
+            color: red;
+            font-size: 30px;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            bottom: 50px;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.animate-colors-min.js"></script>
+    <script>
+        $(function () {
+            var $box1 = $(".box1");
+            var $box2 = $(".box2");
+            $(".btn").click(function () {
+                // 动画内部实现也是定时器
+
+                // 动画曲线 swing是默认 开始慢 然后加速 最后减速
+                $box1.animate({ left: 400, backgroundColor: "blue", color: "#fff" }, 2000, 'swing');
+
+                $box2.animate({ left: 400 }, 2000, 'linear');
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="con">
+        <input type="button" value="开始" class="btn">
+
+        <div class="box1">box</div>
+        <div class="box2"></div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

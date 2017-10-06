@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery特殊效果</title>
+    <style>
+        .con1{
+            width: 1000px;
+            height: 300px;
+            background-color: green;
+            padding: 100px;
+        }
+        .con2{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            $('.con2').click (function (){
+                // 淡入
+                // $(this).fadeIn(1000,'swing',function () {
+                //     alert('done!')
+                // });
+                // 淡出
+                // $(this).fadeOut(1000,'swing',function () {
+                //     alert('done!')
+                // });
+                // 隐藏元素
+                // $(this).hide(1000);
+                // 显示元素
+                // $(this).show(1000);
+                // 切换元素可见
+                // $(this).toggle(1000);
+                // $(this).toggle(1000);
+                // 向上卷起
+                // $(this).slideUp(1000);
+                // 向下卷起
+                // $(this).slideDown(1000)
+                // 切换展开卷起元素
+                // $(this).slideToggle(1000);
+                // $(this).slideToggle(1000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="con1">
+        <div class="con2"></div>
+    </div>
+</body>
+</html>

@@ -339,3 +339,17 @@ h1:hover,h2:hover,h3:hover{
     font: normal 12px/28px "Microsoft Yahei";
     margin-top: 30px;
 }
+
+.foot .links{
+    font-size: 0px;
+}
+
+.foot p a{
+    color: #4e4e4e;
+    font: normal 12px/28px "Microsoft Yahei";
+}
+
+.foot p span{
+    font: normal 12px/28px "Microsoft Yahei";
+    margin: 0 5px;
+}

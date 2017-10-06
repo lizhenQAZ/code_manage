@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        body{
+            position: relative;
+            /*background-color: #b5b5b5;*/
+        }
+        #btn{
+            width: 67px;
+            height: 21px;
+            border: 1px solid #5a5a63;
+            font: noraml 14px/21px "Microsoft Yahei";
+            position: absolute;
+        }
+        .pop_main{
+            width: 502px;
+            height: 302px;
+            position: fixed;
+            left: 50%;
+            margin-left: -251px;
+            /*top: 50%;
+            margin-top: -151px;*/
+            background-color: #fff;
+            border-radius: 4px;
+            display: none;
+        }
+        .pop_title{
+            width: 490px;
+            height: 40px;
+            background-color: #1084ef;
+            border-radius: 4px;
+            margin: 6px auto 0px;
+        }
+        .pop_title h3{
+            text-indent: 12px;
+            line-height: 40px;
+            font: normal 18px/40px "Microsoft Yahei";
+            color: #fff;
+            float: left;
+        }
+        .pop_title a{
+            width:20px;
+            height: 20px;
+            border-radius: 3px;
+            background-color: #fff;
+            margin: 10px 10px 0px 10px;
+            font-size: 9px;
+            font-family: "Microsoft Yahei";
+            line-height: 20px;
+            text-indent: 6px;
+            float: right;
+        }
+        .pop_detail{
+            height: 18px; 
+            margin: 100px 0 0 78px;
+        }
+        .pop_detail .pop_text{
+            font-size: 18px;
+            line-height: 18px;
+            font-family: "Microsft Yahei";
+            padding: 0;
+            border: 0;
+        }
+        .pop_footer{
+            height: 55px;
+            border-top: 1px solid #f7f7f7;
+            margin-top: 102px;
+        }
+        .pop_footer input{
+            width: 100px;
+            height: 36px;
+            background-color: #dedede;
+            font-size: 16px;
+            line-height: 36px;
+            font-family: "Microsoft Yahei";
+            float: right;
+            border: 0;
+            margin-right: 21px;
+        }
+        .pop_footer .confirm{
+            background-color: #1084ef;
+            color: #fff;
+            margin-right: 10px;
+        }
+    </style>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+     // 请写出实现的代码：
+        $(function () {
+            // 获取5个对象
+            var $body=$('body');
+            var $btn=$('#btn');
+            var $pop_main=$('.pop_main');
+            var $xbtn=$('.pop_title a')
+            var $cancel=$('.cancel');
+            // 设置点击事件
+            $btn.click(function () {
+                $body.css({backgroundColor:"#b5b5b5"});
+                $pop_main.animate({top:'50%',marginTop:-151},'swing').fadeIn();
+            });
+            // 设置退出事件
+            $xbtn.click(function () {
+                $body.css({backgroundColor:"#fff"});
+                $pop_main.animate({top:0,marginTop:-302},'swing').fadeOut();
+            });
+            $cancel.click(function () {
+                $body.css({backgroundColor:"#fff"});
+                $pop_main.animate({top:0,marginTop:-302},'swing').fadeOut();
+            });
+        });
+    </script>
+</head>
+<body>
+    <input type="button" value="弹出弹框" id="btn">
+    <div class="pop_main">
+        <div class="pop_con">
+            <div class="pop_title">
+                <h3>系统提示</h3>
+                <a href="#">×</a>
+            </div>
+            <div class="pop_detail">
+                <p class="pop_text">亲！确定要这么做吗？</p>
+            </div>
+            <div class="pop_footer">
+                <input type="button" value="取 消" class="cancel">
+                <input type="button" value="确 定" class="confirm">                
+            </div>
+        </div>
+        <div class="mask"></div>
+    </div>
+</body>
+</html>

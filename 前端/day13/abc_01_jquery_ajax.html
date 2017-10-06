@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        // $.ajax({
+        //     url: "data.json",//请求地址
+        //     type: "get",  //请求方式
+        //     dataType: "json", //请求的数据类型
+        //     data: { "name": "xiaoming" },//上传的数据
+        //     success: function (data) {
+        //         // 请求成功后执行
+        //         // console.log(data.name);
+        //         // console.log(data.age);
+        //         // console.log(data.like);
+        //     },
+        //     error: function () {
+        //         // console.log("请求失败");
+        //     }
+        // }).done(function (data) {
+        //     // 请求成功后执行
+        //     console.log(data.name);
+        //     console.log(data.age);
+        //     console.log(data.like);
+        // }).fail(function () {
+        //     console.log("请求失败");
+        // });
+
+        $.ajax({
+            url: "data.json",
+            type: "get",
+            dataType: "json",
+            data: {"name": "lizhen"},
+            // success: function (data) {
+            //     console.log(data);
+            // },
+            // error: function () {
+            //     console.log("no data");
+            // }
+        }).done(function (data) {
+            console.log(data);
+        }).fail(function () {
+            console.log("no data");
+        })
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

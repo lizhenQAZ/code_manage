@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*这是标签选择器*/
+
+        div {
+            font-size: 32px;
+        }
+        /*这是类选择器*/
+
+        .cls-selector {
+            font-size: 24px;
+        }
+        /*这是层级选择器*/
+
+        .cascade-selector p {
+            font-size: 20px;
+        }
+        /*这是id选择器*/
+
+        #id-selector {
+            font-size: 16px;
+        }
+        /*这是组选择器*/
+
+        .combination-selector1,
+        .combination-selector2 {
+            color: red
+        }
+        /*这是伪元素选择器*/
+
+        .fakeelement-selector:before {
+            content: "这是伪元素选择器的首部"
+        }
+
+        .fakeelement-selector:after {
+            content: "这是伪元素选择器的尾部"
+        }
+        /*这是伪类选择器*/
+        /*hover本元素操作*/
+
+        .fakecls-selector-hover:hover {
+            color: pink;
+        }
+        /*子类第n个子元素*/
+
+        .fakecls-selector-childn li:nth-child(1) {
+            font-weight: bold;
+        }
+        /*子类首部子元素*/
+
+        .fakecls-selector-childn li:first-child {
+            font-weight: bold;
+        }
+        /*子类尾部子元素*/
+
+        .fakecls-selector-childn li:last-child {
+            font-style: italic;
+        }
+        /*类型第n个子元素*/
+
+        .fakecls-selector-childnx li:nth-of-type(1) {
+            font-weight: bold;
+        }
+        /*类型首部子元素*/
+
+        .fakecls-selector-childnx li:first-of-type {
+            font-weight: bold;
+        }
+        /*类型尾部子元素*/
+
+        .fakecls-selector-childnx li:last-of-type {
+            font-style: italic;
+        }
+        /*子级第一层所有元素*/
+        .fakecls-selector-other>a{
+            font-size: 60px;
+        }
+        /*子级同级后面第一个元素*/
+        .fakecls-selector-other+a{
+            color: blue;
+        }
+        /*子级同级后面所有元素*/
+        .fakecls-selector-other~a{
+            font-style: italic;
+        }
+        /*这是属性选择器*/
+    </style>
+</head>
+
+<body>
+    <div>
+        这是标签选择器
+    </div>
+
+    <div class="cls-selector">
+        这是类选择器
+    </div>
+
+    <div class="cascade-selector">
+        <p>
+            这是层级选择器
+        </p>
+    </div>
+
+    <div id="id-selector">
+        这是id选择器
+    </div>
+
+    <div>
+        <div class="combination-selector1">
+            这是组选择器1
+        </div>
+        <div class="combination-selector2">
+            这是组选择器2
+        </div>
+    </div>
+    <!--这是伪元素选择器-->
+    <div>
+        <div class="fakeelement-selector">
+            <br>这是伪元素选择器<br>
+        </div>
+    </div>
+
+    <div>
+        <div class="fakeelement-selector">
+            <br>这是伪元素选择器<br>
+        </div>
+    </div>
+    <!--这是伪类选择器-->
+    <div>
+        <div class="fakecls-selector-hover">
+            这是伪类选择器hover元素操作
+        </div>
+    </div>
+    <div>
+        <div class="fakecls-selector-childn">
+            <p>这是这是子类p元素</p>
+            <li>这是子类li第1个元素操作失败</li>
+            <li>这是子类li第2个元素操作</li>
+            <li>这是子类li第3个元素操作</li>
+        </div>
+    </div>
+    <div>
+        <div class="fakecls-selector-childnx">
+            <p>这是类型选择器p元素</p>
+            <li>这是类型li第1个元素操作成功</li>
+            <li>这是类型li第2个元素操作</li>
+            <li>这是类型li第3个元素操作</li>
+        </div>
+    </div>
+    <div>
+        <a href="">这是同级第一个元素</a><br>
+        <div class="fakecls-selector-other">
+            <a href="">这是子级第一个元素</a><br>
+            <a href="">这是子级第二个元素</a><br>
+        </div>
+        <a href="">这是同级第二个元素</a><br>
+        <a href="">这是同级第三个元素</a>
+    </div>
+    <!--这是属性选择器-->
+</body>
+
+</html>

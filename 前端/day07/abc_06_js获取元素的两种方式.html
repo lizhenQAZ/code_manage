@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice6</title>
+    <!--方式二：script标签提前，等待元素加载完毕后再执行-->
+    <script type="text/javascript">
+        window.onload = function() {
+            var oDiv = document.getElementsByTagName("div");
+            oDiv[0].onclick = function() {
+                alert("way 2");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="con">
+        click me!
+    </div>
+    <!--方式一：script标签放在元素后执行-->
+    <script type="text/javascript">
+        var oDiv = document.getElementsByTagName("div");
+        oDiv[0].onclick = function() {
+            alert("way 1");
+        }
+    </script>
+</body>
+</html>

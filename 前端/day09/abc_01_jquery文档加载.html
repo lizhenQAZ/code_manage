@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jquery文档加载</title>
+    <script type="text/javascript" src="./js/jquery-1.12.4.js"></script>
+    <script>
+        // 完整写法
+        $(document).ready(function(){
+            // 获取div对象
+            var oDiv=document.getElementsByClassName("con");
+            oDiv[0].innerText="complete";
+        });
+        // 简单写法
+        $(function(){
+            // 获取div对象
+            var oDiv=document.getElementsByClassName("con");
+            oDiv[0].innerText="brief";
+        });
+    </script>
+</head>
+<body>
+    <div class="con">
+        haha
+    </div>
+</body>
+</html>

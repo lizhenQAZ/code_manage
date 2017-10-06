@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+        // $(function() {
+        //     var $p = $('.con p');//p
+        //     var $span = $('.con span');//span 数字
+
+        //     var oPpos = [];// 记录每个p标签的顶部
+        //     var oSpanpos = [];// 记录每个圆数字标签的顶部位置
+
+        //     $p.each(function() {
+        //     	// 记录每个p标签的顶部位置
+        //         oPpos.push($(this).offset().top);
+        //     });
+
+        //     $span.each(function() {
+        //     	// 记录每个圆数字标签的顶部位置
+        //         oSpanpos.push($(this).offset().top);
+        //     });
+
+        //     console.log(oPpos);
+        //     console.log(oSpanpos);
+
+
+        //     $(window).scroll(function() {
+        //         // 获取滚动距离
+        //         var iNowtop = $(document).scrollTop();
+
+        //         if (iNowtop > oSpanpos[0]) {
+        //             $span.eq(0).css({
+        //                 'position': 'fixed',
+        //                 'top': '0px',
+        //                 'marginTop': '0px'
+        //             });
+        //         } else {
+        //             $span.eq(0).css({
+        //                 'position': 'absolute',
+        //                 'top': '50%',
+        //                 'marginTop': '-25px'
+        //             });
+        //         }
+
+
+        //         if (iNowtop > oSpanpos[1] - 50) {
+        //             $span.eq(1).css({
+        //                 'position': 'fixed',
+        //                 'top': 50,
+        //                 'marginTop': '0px'
+        //             });
+        //         } else {
+        //             $span.eq(1).css({
+        //                 'position': 'absolute',
+        //                 'top': '50%',
+        //                 'marginTop': '-25px'
+        //             });
+        //         }
+
+        //         if (iNowtop > oSpanpos[2] - 100) {
+        //             $span.eq(2).css({
+        //                 'position': 'fixed',
+        //                 'top': 100,
+        //                 'marginTop': '0px'
+        //             });
+        //         } else {
+        //             $span.eq(2).css({
+        //                 'position': 'absolute',
+        //                 'top': '50%',
+        //                 'marginTop': '-25px'
+        //             });
+        //         }
+
+        //         if (iNowtop > oSpanpos[3] - 150) {
+        //             $span.eq(3).css({
+        //                 'position': 'fixed',
+        //                 'top': 150,
+        //                 'marginTop': '0px'
+        //             });
+        //         } else {
+        //             $span.eq(3).css({
+        //                 'position': 'absolute',
+        //                 'top': '50%',
+        //                 'marginTop': '-25px'
+        //             });
+        //         }
+
+        //         if (iNowtop > oSpanpos[4] - 200) {
+        //             $span.eq(4).css({
+        //                 'position': 'fixed',
+        //                 'top': 200,
+        //                 'marginTop': '0px'
+        //             });
+        //         } else {
+        //             $span.eq(4).css({
+        //                 'position': 'absolute',
+        //                 'top': '50%',
+        //                 'marginTop': '-25px'
+        //             });
+        //         }
+        //     })
+
+        //     $span.click(function() {
+
+        //         var iIndex = $(this).parent().index();
+        //         console.log("iIndex="+iIndex);
+
+        //         $('html,body').animate({
+        //             'scrollTop': oPpos[iIndex - 1] - 130
+        //         });
+
+        //     })
+        // })
+
+
+        $(function () {
+            // 获取span对象
+            var $oSpan = $('.con span');
+            // 获取第一个span的位置，当滑块的位置大于顶部位置，就改为固定定位
+            // 记录每个p标签的高度
+            var iPList = [];
+            // 记录每个span的原始高度
+            var iTopList = [];
+            // 记录每个span改变样式的实际高度
+            var iRealTopList = [];
+            // 记录每个span自身的高度
+            var iSpanHeight = $('.con span').eq(0).height();
+            // console.log(iSpanHeight);
+            // 遍历p的高度
+            $('.con p').each(function (index) {
+                iPList.push($(this).offset().top);
+            });
+            // 遍历span的高度
+            $('.con span').each(function (index) {
+                iTopList.push($(this).offset().top);
+                iRealTopList.push($(this).offset().top - index * iSpanHeight);
+            });
+            // console.log(iTopList);
+            // console.log(iRealTopList);
+
+            $(window).scroll(function () {
+                // 获取实际的高度
+                var iScrollTop = $(document).scrollTop();
+                // 获取
+                $.each(iRealTopList, function (index) {
+                    // console.log(index);
+                    // console.log($oSpan.eq(index).html());
+                    if (iScrollTop >= iRealTopList[index]) {
+                        $oSpan.eq(index).css({ position: 'fixed', top: index * iSpanHeight, marginTop: 0 });
+                    }
+                    else {
+                        $oSpan.eq(index).css({ position: 'absolute', top: '50%', marginTop: -iSpanHeight / 2 });
+                    }
+                });
+            });
+            $('.con span').click(function () {
+                console.log(iPList[$(this).parent().index()]);
+                $('html,body').animate({scrollTop:iPList[$(this).parent().index()-1]-130});
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>python语言介绍</h1>
+
+
+    <div class="con">
+        <p>Python[1] （英国发音：/ˈpaɪθən/ 美国发音：/ˈpaɪθɑːn/）, 是一种面向对象的解释型计算机程序设计语言，由荷兰人Guido van Rossum于1989年发明，第一个公开发行版发行于1991年。 Python是纯粹的自由软件，
+            源代码和解释器CPython遵循 GPL(GNU General Public License)协议[2] 。 Python语法简洁清晰，特色之一是强制用空白符(white space)作为语句缩进。 Python具有丰富和强大的库。它常被昵称为胶水语言，能够把用其他语言制作的各种模块（尤其是C/C++）很轻松地联结在一起。常见的一种应用情形是，使用Python快速生成程序的原型（有时甚至是程序的最终界面），然后对其中[3]
+            有特别要求的部分，用更合适的语言改写，比如3D游戏中的图形渲染模块，性能要求特别高，就可以用C/C++重写，而后封装为Python可以调用的扩展类库。需要注意的是在您使用扩展类库时可能需要考虑平台问题，某些可能不提供跨平台的实现。</p>
+        <span>1</span>
+    </div>
+    <div class="con">
+        <p>自从20世纪90年代初Python语言诞生至今，它已被逐渐广泛应用于系统管理任务的处理和Web编程。Python的创始人为Guido van Rossum。1989年圣诞节期间，在阿姆斯特丹，Guido为了打发圣诞节的无趣，决心开发一个新的脚本解释程序，做为ABC
+            语言的一种继承。之所以选中Python（大蟒蛇的意思）作为该编程语言的名字，是因为他是一个叫Monty Python的喜剧团体的爱好者。 ABC是由Guido参加设计的一种教学语言。就Guido本人看来，ABC 这种语言非常优美和强大，是专门为非专业程序员设计的。但是ABC语言并没有成功，究其原因，Guido
+            认为是其非开放造成的。Guido 决心在Python 中避免这一错误。同时，他还想实现在ABC 中闪现过但未曾实现的东西。就这样，Python在Guido手中诞生了。可以说，Python是从ABC发展起来，主要受到了Modula-3（另一种相当优美且强大的语言，为小型团体所设计的）的影响。并且结合了Unix
+            shell和C的习惯。</p>
+        <span>2</span>
+    </div>
+    <div class="con">
+        <p>Python[4] 已经成为最受欢迎的程序设计语言之一。2011年1月，它被TIOBE编程语言排行榜评为2010年度语言。自从2004年以后，python的使用率呈线性增长[5] 。 由于Python语言的简洁性、易读性以及可扩展性，在国外用Python做科学计算的研究机构日益增多，一些知名大学已经采用Python来教授程序设计课程。例如卡耐基梅隆大学的编程基础、麻省理工学院的计算机科学及编程导论就使用Python语言讲授。众多开源的科学计算软件包都提供了Python的调用接口，例如著名的计算机视觉库OpenCV、三维可视化库VTK、医学图像处理库ITK。而Python专用的科学计算扩展库就更多了，例如如下3个十分经典的科学计算扩展库：NumPy、SciPy和matplotlib，它们分别为Python提供了快速数组处理、数值运算以及绘图功能。因此Python语言及其众多的扩展库所构成的开发环境十分适合工程技术、科研人员处理实验数据、制作图表，甚至开发科学计算应用程序。
+        </p>
+        <span>3</span>
+    </div>
+    <div class="con">
+        <p>说起科学计算，首先会被提到的可能是MATLAB。然而除了MATLAB的一些专业性很强的工具箱还无法替代之外，MATLAB的大部分常用功能都可以在Python世界中找到相应的扩展库。和MATLAB相比，用Python做科学计算有如下优点：
+            <br> ● 首先，MATLAB是一款商用软件，并且价格不菲。而Python完全免费，众多开源的科学计算库都提供了Python的调用接口。用户可以在任何计算机上免费安装Python及其绝大多数扩展库。
+            <br> ● 其次，与MATLAB相比，Python是一门更易学、更严谨的程序设计语言。它能让用户编写出更易读、易维护的代码。
+            <br> ● 最后，MATLAB主要专注于工程和科学计算。然而即使在计算领域，也经常会遇到文件管理、界面设计、网络通信等各种需求。而Python有着丰富的扩展库，可以轻易完成各种高级任务，开发者可以用Python实现完整应用程序所需的各种功能。</p>
+        <span>4</span>
+    </div>
+    <div class="con">
+        <p>Python在设计上坚持了清晰划一的风格，这使得Python成为一门易读、易维护，并且被大量用户所欢迎的、用途广泛的语言。 设计者开发时总的指导思想是，对于一个特定的问题，只要有一种最好的方法来解决就好了。这在由Tim Peters写的Python格言（称为The
+            Zen of Python）里面表述为：There should be one-- and preferably only one --obvious way to do it. 这正好和Perl语言（另一种功能类似的高级动态语言）的中心思想TMTOWTDI（There's
+            More Than One Way To Do It）完全相反。 Python的作者有意的设计限制性很强的语法，使得不好的编程习惯（例如if语句的下一行不向右缩进）都不能通过编译。其中很重要的一项就是Python的缩进规则。
+            一个和其他大多数语言（如C）的区别就是，一个模块的界限，完全是由每行的首字符在这一行的位置来决定的（而C语言是用一对花括号{}来明确的定出模块的边界的，与字符的位置毫无关系）。这一点曾经引起过争议。因为自从C这类的语言诞生后，语言的语法含义与字符的排列方式分离开来，曾经被认为是一种程序语言的进步。不过不可否认的是，通过强制程序员们缩进（包括if，for和函数定义等所有需要使用模块的地方），Python确实使得程序更加清晰和美观。
+        </p>
+        <span>5</span>
+    </div>
+    <div class="line"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>

@@ -1,0 +1,412 @@
+a:hover{
+    color: red !important;
+}
+/*-顶部header区域*/
+.header-con{
+    height: 29px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/*顶部header的内容部分*/
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 29px;
+}
+
+/*欢迎文字*/
+.header h1{
+    font-size: 12px;
+    color: #666666;
+    line-height: 29px;
+
+}
+/*用户名字*/
+.username{
+    font-size: 12px;
+    color: #666666;
+}
+/*头部区域右侧的文字*/
+.header a{
+     font-size: 12px;
+    color: #666666;
+    line-height: 29px;
+}
+/*头部区域右侧的竖线*/
+.header span{
+    color: #cecece;
+    font-size: 12px;
+    line-height: 29px;
+    margin: 0 15px;
+}
+.header{
+    font-size: 0;
+}
+/*登录注册*/
+.unlogin{
+    display: none;
+}
+/*用户名字*/
+.username a{
+    color: #ff8800;
+}
+
+/*上面的logo一排区域*/
+.logo-con{
+    width: 1200px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+/*logo*/
+.logo{
+    margin: 29px 0 0 17px;
+}
+/*搜索区域*/
+.search-con{
+    width: 616px;
+    height: 38px;
+    border: 1px solid #37ab40;
+    margin: 34px 0 0 124px;
+}
+/*搜索内容*/
+.content{
+    width: 516px;
+    height: 38px;
+    /*点击后 高亮的边框*/
+    outline: none;
+    text-indent: 36px;
+    background: url("../images/icons.png") no-repeat 11px 11px;
+}
+/*搜索按钮*/
+.btnsearch{
+    width: 100px;
+    height: 38px;
+    background-color: #37ab40;
+    font-size: 14px;
+    color: #fff;
+    /*更改光标样式 手*/
+    cursor: pointer;
+}
+/*购物车区域*/
+.cart-con{
+    width: 200px;
+    height: 40px;
+    margin-top: 34px;
+}
+/*我的购物车链接*/
+.cart-con a{
+    width: 158px;
+    height: 38px;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    color: #37ab40;
+    text-indent: 56px;
+    line-height: 38px;
+    background: url("../images/icons.png") no-repeat 13px -42px;
+}
+/*购物车数量*/
+.cart-con span{
+    width: 40px;
+    height: 40px;
+    background-color: #ff8800;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/*<!--全部商品分类一排的区域-->*/
+.all-goods-type-con{
+    height: 40px;
+    border-bottom: 2px solid #37ab40;
+}
+
+/*全部商品分类的内容区域*/
+.all-goods-type{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+/*全部商品分类标题*/
+.all-goods-type h2{
+    width: 200px;
+    height: 40px;
+    background-color: #37ab40;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+/*全部商品分类右侧菜单*/
+.all-goods-type .menu{
+    margin-left: 23px;
+}
+/*全部商品分类右侧菜单 里单项*/
+.all-goods-type .menu li{
+    line-height: 40px;
+    float: left;
+    margin: 0 11px;
+}
+/* 首页 抽奖....*/
+.all-goods-type .menu a,.all-goods-type .menu span{
+    /*转换后 line-height会让a元素高度增加*/
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;
+}
+/*中间幻灯片的一排区域*/
+.center-con{
+    width: 1200px;
+    height: 270px;
+    background-color: gold;
+    margin: 0 auto;
+}
+/*分类列表*/
+.typelist{
+    width: 200px;
+    height: 270px;
+    background-color: #fff;
+}
+/*分类列表每一条*/
+.typelist li{
+    width: 198px;
+    height: 44px;
+    border: 1px solid #eeeeee;
+    border-top: 0;
+    background: url("../images/icons.png") no-repeat 33px -88px;
+
+}
+
+.typelist .li01{
+    background-position: 30px -138px;
+}
+.typelist .li02{
+    background-position: 31px -188px;
+}
+.typelist .li03{
+    background-position: 34px -238px;
+}
+.typelist .li04{
+    background-position: 32px -288px;
+}
+.typelist .li05{
+    background-position: 33px -338px;
+}
+
+/*分类列表的文字*/
+.typelist li a{
+    display: inline-block;
+    width: 198px;
+    height: 44px;
+    font-size: 14px;
+    color: #3c3c3c;
+    text-align: center;
+    line-height: 44px;
+    background: url("../images/icons.png") no-repeat 178px -383px;
+}
+
+/*幻灯片的整体区域 固定宽高 子级的图片 箭头 和小圆点要相对这个父级定位*/
+.slides-con{
+    width: 760px;
+    height: 270px;
+    position: relative;
+     /*溢出部分隐藏*/
+    overflow: hidden;
+}
+
+/*幻灯片的图片列表*/
+.slides{
+    /*溢出部分隐藏*/
+    width: 4560px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*幻灯片的每张图片*/
+.slides li{
+    /*float: left;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*左箭头-*/
+.leftarrow{
+    width: 15px;
+    height: 23px;
+    position: absolute;
+    left: 11px;
+    top: 122px;
+    background: url("../images/icons.png") no-repeat 0px -450px;
+}
+/*右箭头-*/
+.rightarrow{
+     width: 15px;
+    height: 23px;
+    position: absolute;
+    right:  11px;
+    top: 122px;
+    background: url("../images/icons.png") no-repeat 0px -500px;
+}
+/*小圆点-*/
+.points{
+    /*或者760px*/
+    width: 100%;
+    position: absolute;
+    left:0;
+    bottom: 9px;
+    font-size: 0;
+    /*这里让子集的圆点居中 注意把宽度设置为760px*/
+    text-align: center;
+}
+
+/*每个小圆点*/
+.points li{
+    width: 11px;
+    height: 11px;
+    background-color: #9f9f9f;
+    border-radius: 50%;
+    /*为了圆点居中 不能用浮动*/
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/*高亮的圆点的颜色*/
+.points .active{
+    background-color: #f00;
+}
+
+.advs{
+    width: 240px;
+    height: 270px;
+}
+
+/*两张广告图*/
+.advs a{
+    display: block;
+    width: 240px;
+    height: 135px;
+}
+
+/*所有商品区域(包括标题)*/
+.all-goods-con{
+    width: 1200px;
+    height: 357px;
+    margin: 0 auto;
+}
+/*标题区域*/
+.goods-title-con{
+    height: 33px;
+    margin-top: 22px;
+    border-bottom: 2px solid #42ad46;
+}
+/*商品标题*/
+.goods-title-con h3{
+    font-size: 16px;
+    color: #37ab40;
+    line-height: 33px;
+}
+/*商品标题右侧的竖线*/
+.goods-title-con span{
+    font-size: 12px;
+    color: #666666;
+    margin:10px 0 0 22px;
+}
+/*推荐商品*/
+.recommend li{
+    float: left;
+    margin: 7px 0 0 14px;
+}
+/*推荐商品*/
+.recommend li a{
+    font-size: 12px;
+    color: #666666;
+}
+/*查看更多*/
+.more{
+     font-size: 12px;
+    color: #666666;
+    margin: 11px 3px 0 0;
+}
+/*左侧banner*/
+.banner{
+    width: 200px;
+    height: 300px;
+}
+
+.goodslist li{
+    width: 249px;
+    height: 299px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    float: left;
+}
+/*商品名字*/
+.goodslist li h4{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+/*商品图片*/
+.goodslist li a{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 10px auto 0 ;
+}
+/*商品价格*/
+.goodslist li p{
+    font-size: 20px;
+    color: #c40000;
+    margin-top: 22px;
+    text-align: center;
+}
+
+
+/*底部区域*/
+.footer{
+    border-top: 2px solid #4ab14e;
+    margin-top: 30px;
+}
+
+/*关于我们...链接*/
+.links{
+    text-align: center;
+    font-size: 0;
+    color: #4e4e4e;
+    margin-top: 35px;
+}
+
+ .links a{
+     font-size: 12px;
+     color: #4e4e4e;
+ }
+
+.links span{
+     font-size: 12px;
+     color: #4e4e4e;
+     margin: 5px;
+ }
+
+/*版权*/
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    color: #4e4e4e;
+    margin-top: 10px;
+}
+/*联系方式*/
+.contact{
+    margin:10px 0 40px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #4e4e4e;
+}
+
+
+
+
+

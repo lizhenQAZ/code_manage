@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice15</title>
+    <script>
+        window.onload = function(){
+            // 获取div对象
+            var oDiv = document.getElementById('con');
+            // 存储每条新闻信息
+            var sList=['news1','news2','news3'];
+            // 新闻信息加上html样式
+            var sTr="";
+            for (var index = 0; index < sList.length; index++) {
+                sTr += "<div><a href=''>"+sList[index]+"</a></div>";
+            }
+            // 修改html代码
+            oDiv.innerHTML = sTr;
+        }
+    </script>
+</head>
+<body>
+    <div id="con">
+    </div>
+</body>
+</html>

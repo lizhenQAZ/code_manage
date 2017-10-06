@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .btn {
+            width: 100px;
+            height: 35px;
+            background-color: gold;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 35px;
+            border: 3px solid #823945;
+            margin: 50px 0 0 50px;
+        }
+
+        .cart {
+            width: 150px;
+            height: 50px;
+            background-color: orange;
+            text-align: center;
+            line-height: 50px;
+            border: 3px solid #738416;
+            margin: 100px 0 0 400px;
+        }
+
+        .red {
+            width: 12px;
+            height: 12px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            display: none;
+            left: 0;
+            top: 0;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            // var $btn = $(".btn");//加入购物车的按钮
+            // var $cart = $(".cart");//购物车
+            // var $red = $(".red");//小红点
+
+
+
+            // var cartNum = 0;//购物车的数量
+            // // 按钮的点击事件
+            // $btn.click(function () {
+            //     // 1.让小圆点显示在按钮的中间
+            //     //     1.1获取按钮绝对位置
+            //     var btnOffset = $btn.offset();
+            //     var btnLeft = btnOffset.left;
+            //     var btnTop = btnOffset.top;
+
+
+            //     //     1.2获取按钮的宽高
+            //     var btnOutWidth = $btn.outerWidth();
+            //     var btnOutHeight = $btn.outerHeight();
+
+
+            //     //     1.3得到小圆点要显示的位置的坐标
+            //     // 按钮左侧的距离加按钮宽度一半减去圆点的宽度一半 
+            //     var startLeft = btnLeft + btnOutWidth / 2 - 6;
+            //     var startTop = btnTop + btnOutHeight / 2 - 6;
+
+
+            //     $red.css({ left: startLeft, top: startTop }).show();//显示小圆点
+
+            //     // 2.移动小圆点到购物车的中间
+            //     //  2.1获取购物车绝对位置
+            //     var cartOffset = $cart.offset();
+            //     var cartLeft = cartOffset.left;
+            //     var cartTop = cartOffset.top;
+
+            //     //  2.2获取购物车的宽高
+            //     var cartOuterWidth = $cart.outerWidth();
+            //     var cartOuterHeight = $cart.outerHeight();
+            //     //  2.3得到小圆点移动结束时显示的位置的坐标
+            //     var endLeft = cartLeft + cartOuterWidth / 2 - 6;
+            //     var endTop = cartTop + cartOuterHeight / 2 - 6;
+
+            //     $red.stop().animate({ left: endLeft, top: endTop }, function () {
+            //         // 3.动画结束后消失  购物车数量+1
+            //         $red.hide();
+            //         // 购物车数量+1
+            //         $cart.html("购物车" + ++cartNum);
+            //     });
+
+            // });
+
+            // 获取三个对象
+           var $btn=$('.btn');
+           var $cart=$('.cart');
+           var $red=$('.red')
+            // 记录购物车数量
+            var cartNum=0;
+            // 获取圆点的宽高
+            var redWidth=$red.outerWidth(true);
+            var redHeight=$red.outerHeight(true);   
+            // 获取圆点的起始位置
+            var btnOffset=$btn.offset();
+            var btnLeft=btnOffset.left;
+            var btnTop=btnOffset.top;
+
+            var btnOutWidth=$btn.outerWidth();
+            var btnOutHeight=$btn.outerHeight();
+
+            var startLeft=btnLeft+btnOutWidth/2-redWidth/2;
+            var startTop=btnTop+btnOutHeight/2-redHeight/2;
+            // alert(startLeft);
+            // alert(startTop);
+            // 获取圆点的结束位置
+            var cartOffset=$cart.offset();
+            var cartLeft=cartOffset.left;
+            var cartTop=cartOffset.top;
+
+            var cartOutWidth=$cart.outerWidth();
+            var cartOutHeight=$cart.outerHeight();
+
+            var endLeft=cartLeft+cartOutWidth/2-redWidth/2;
+            var endTop=cartTop+cartOutHeight/2-redHeight/2;
+            // alert(endLeft);
+            // alert(endTop);
+
+            // 设置按钮的触发事件
+            $btn.click(function () {
+                // 显示小圆点
+                $red.css({left:startLeft,top:startTop}).show();
+                // 添加圆点移动的动画
+                $red.stop().animate(
+                    {left:endLeft,top:endTop},function(){
+                        $red.hide();
+                        $cart.html('购物车'+ ++cartNum);
+                    }
+                )
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="btn">加入购物车</div>
+
+    <div class="cart">购物车0</div>
+
+    <!--小圆点-->
+    <div class="red"></div>
+</body>
+
+</html>

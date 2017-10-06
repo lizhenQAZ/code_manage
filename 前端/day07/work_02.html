@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .set_con{
+            width:900px;
+            height:350px;
+            border:1px solid #666;
+            margin:50px auto 0;
+        }
+
+        .left_set{
+            width:299px;
+            float:left;
+            height:330px;
+            border-right:1px solid #666;
+            padding-top:20px;
+        }
+
+        .left_set label{
+            float:left;
+            width:80px;
+            height:40px;
+            line-height:40px;
+            text-align:left;
+            text-indent:20px;
+            margin-top:10px;
+            font-size:12px;
+        }
+
+        .left_set input{
+            padding:0px;
+            width:198px;
+            height:38px;
+            border: 1px solid #999;
+            float:left;
+            margin-top:10px;
+            text-indent:10px;
+            outline:none;
+        }
+
+        .left_set .setbtn{
+            width:99px;
+            height:40px;
+            border:0px;
+            background:#0181cc;
+            color:#fff;
+            text-indent:0px;
+            margin-left:80px;
+            font-size:16px;
+            margin-top:20px
+        }
+
+        .right_show{
+            width:600px;
+            height:350px;
+            float:left;
+            overflow:auto;
+        }
+
+        .box{
+            width:100px;
+            height:100px;
+            border: 5px solid #000;
+            background:gold;
+            margin:50px auto 0;
+        }
+
+    </style>
+    <script type="text/javascript">      
+    // 写出对应功能代码
+        window.onload = function() {
+            // 每个input标签存储着图形的属性
+            oInput = document.getElementsByTagName("input");
+            // 设置按钮控制图形的变换
+             var oBtn = document.getElementsByClassName("setbtn");
+            // div标签包裹着图形对象
+             var oDiv = document.getElementsByClassName("box");
+             alert(oBtn[0]);
+             oBtn[0].onclick = function(){
+                 alert(oDiv[0]);
+                //  oDiv[0].style.width = "50px";
+                //  oDiv[0].style.height = "40px";
+                //  oDiv[0].style.background = "red";
+                //  oDiv[0].style.border = "5px solid #000";
+                //  oDiv[0].style.borderRadius = "10px";
+                //  alert(oInput[0].value);
+                 oDiv[0].style.width = oInput[0].value;
+                //  alert(oInput[1].value);
+                 oDiv[0].style.height = oInput[1].value;
+                //  alert(oInput[2].value);
+                 oDiv[0].style.background = oInput[2].value;
+                //  alert(oInput[3].value);
+                 oDiv[0].style.border = oInput[3].value;
+                //  alert(oInput[4].value);
+                 oDiv[0].style.borderRadius = oInput[4].value;
+             }
+        }
+    </script>
+</head>
+<body>
+    <div class="set_con">
+        <div class="left_set">
+            <label>宽度：</label>
+            <input type="text" value="100px">
+            <label>高度：</label>
+            <input type="text" value="100px">
+            <label>背景色：</label>
+            <input type="text" value="gold">
+            <label>边框：</label>
+            <input type="text" value="5px solid #000">
+            <label>圆角：</label>
+            <input type="text" value="0px">
+            <input type="button" value="设 置" class="setbtn">
+        </div>
+        <div class="right_show">
+            <div class="box"></div>
+        </div>
+    </div>
+</body>
+</html>

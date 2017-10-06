@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // var str01 = "Abc"
+
+        // var reg01 = /abc/i;  //i忽略大小写
+
+        // console.log(reg01.test(str01));
+
+
+        // var str02 = "aznAvdakhavmAnvalkv";
+        // var reg02 = /a/gi; //global  匹配全部
+        // var str03 = str02.replace(reg02, "*");
+        // console.log(str03);
+
+
+        // var str05 = "\n";
+        // var reg05 = /\n/gi; //global  匹配全部
+        // console.log(reg05.test(str05));
+
+        var str1="ABc";
+        // 匹配某个字符
+        var reg1=/a/;
+        console.log(reg1.test(str1));
+        // 匹配忽略大小写
+        var reg2=/a/i;
+        console.log(reg2.test(str1)); 
+        // 替换某个字符串
+        var reg3=/\w/; 
+        var temp=str1;
+        console.log(temp.replace(reg3,'*')); 
+        // 替换全部字符串
+        var reg4=/\w/g;
+        console.log(str1.replace(reg4,'*')); 
+    </script>
+</head>
+
+<body>
+
+    <div>
+
+        fdsafdsa
+        fdsfa
+    </div>
+
+</body>
+
+</html>

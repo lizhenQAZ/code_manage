@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        // $(function () {
+        //     // 如果标签里没有内容 那么</div>可以省略
+        //     var $div = $("<div>");
+        //     console.log($div);
+
+        //     var $divHaha = $("<div>哈哈哈</div>");
+        //     console.log($divHaha);
+
+        //     var $con = $(".con");
+        //     // 在con的子级的最后添加一个元素$divHaha
+        //     $con.append($divHaha);
+
+        //     // 把$divHaha添加到con的子级的最后
+        //     // $divHaha.appendTo($con);
+
+        //     var $divHehe = $("<div>呵呵呵</div>");
+        //     // 在con的子级的最前面添加一个元素$divHaha
+        //     $con.prepend($divHehe);
+        //     // $divHehe.prependTo($con);
+            
+        //     // 界面上已经存在的对象 不会重复添加 只会调整位置
+        //     $con.prepend($divHaha);
+        // });
+
+        $(function () {
+            // 构造节点
+            var $div=$('<div>');
+            console.log($div);
+            var $divhaha=$('<div>haha</div>');
+            console.log($divhaha);
+            var $divhehe=$('<div>hehe</div>');
+            console.log($divhehe);
+            // 在元素首部添加节点
+            var $con=$('.con');
+            $con.prepend($divhaha);
+            // 在元素尾部添加节点
+            $con.append($divhehe);
+            // 已经存在的对象只会改变位置，不会添加
+            $con.append($divhaha);
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="con">
+
+        <div>我是内容1</div>
+        <div>我是内容2</div>
+        <div>我是内容3</div>
+
+    </div>
+
+
+
+</body>
+
+</html>

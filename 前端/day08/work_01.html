@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        div{
+            width:80px;
+            height:40px;
+            border:1px solid #666;            
+            display:inline-block;
+            text-align:center;
+            line-height:40px;
+            margin-left:-1px;
+            margin-top:-1px;
+        }
+
+    </style>
+    <script type="text/javascript">
+       // 请写出实现效果的代码
+       window.onload =function(){
+        // 获取div对象
+        var oDiv = document.getElementById("body01");
+        // 存储每行的样式
+        var sTr = '';
+        // 控制每行
+        for (var i = 1; i < 10; i++) {
+            // 控制每列
+            for (var j = 1; j <= i; j++) {
+                sTr += '<div>'+j+'x'+i+'='+i*j+'</div>';
+            }
+            sTr +='<br>';
+        }
+        // 修改html代码
+        oDiv.innerHTML+=sTr;
+    }
+    </script>
+</head>
+<body id="body01">
+    <!-- 结构示例,请使用javascript实现此完整结构 -->
+    <!--<div>1×1=1</div><br>
+    <div>1×2=2</div><div>2×2=4</div>-->
+</body>
+</html>

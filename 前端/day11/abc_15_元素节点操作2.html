@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+
+            // var $box3 = $(".box3")
+
+            // var $box2 = $("<div class='box2'><a href=''>2222222</a></div>");
+
+            // // 在$box3的前面添加一个$box2
+            // $box3.before($box2);
+            // // 把$box2元素插入到$box3元素的前面
+            // // $box2.insertBefore($box3);
+
+            // var $box4 = $("<div class='box4'><a href=''>44444</a></div>");
+            // // 在$box3的后面添加一个$box2
+            // $box3.after($box4);
+            // // $box4.insertAfter($box3);
+
+            // // 把2移动到4的后面
+            // $box2.insertAfter($box4);
+
+            // // $box2.remove(); //删除自己和子级
+
+
+            var $box3=$('.box3');
+            var $box2=$("<div class='.box2'><a href=''>222222222222</a></div>");
+            var $box4=$("<div class='.box4'><a href=''>444444444444</a></div>");
+
+            // box2插入到box3前面
+            // $box3.before($box2);
+            $box2.insertBefore($box3);
+
+            // // box4插入到box3后面
+            $box3.after($box4);
+            // $box4.insertAfter($box3);
+
+            // // box2插入到box4前面
+            $box4.before($box2);
+
+            // // 移除box2
+            $box2.remove();
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="box3">
+        33333333
+    </div>
+
+
+
+</body>
+
+</html>

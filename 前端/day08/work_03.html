@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript"> 
+        window.onload=function(){
+            // 获取button对象
+            var oBtn = document.getElementById("input03");
+            // 获取input对象
+            var oInput1 = document.getElementById("input01");
+            var oInput2 = document.getElementById("input02");
+            var oInput4 = document.getElementById("input04");
+            // 获取select对象
+            var oSelect = document.getElementById("fuhao");
+            oBtn.onclick=function(){
+                // 输入框判空
+                if(oInput1.value==""||oInput2.value==""){
+                    alert("输入框不能为空");
+                    return;
+                }
+                // 输入框为数字
+                if(isNaN(oInput1.value)||isNaN(oInput2.value)){
+                    alert("输入框必须是数字");
+                    return;
+                }
+                // 被除数不能为0
+                if(oSelect.value==3&&oInput2.value==0){
+                    alert("被除数不能为0");
+                    return;
+                }
+                // 显示计算结果
+                oInput4.value = getResult(oInput1.value,oInput2.value,oSelect.value)
+                // 获取计算结果
+                function getResult(num1,num2,operator){
+                    num1 = parseFloat(num1);
+                    num2 = parseFloat(num2);
+                    switch (operator) {
+                        case '0':
+                            return num1+num2;
+                            break;
+                        case '1':
+                            return num1-num2;
+                            break;
+                        case '2':
+                            return num1*num2;
+                            break;
+                        case '3':
+                            return num1/num2;
+                            break;
+                        default:
+                            return false;
+                            break;
+                    }
+                }
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="input01">
+    <select id="fuhao">
+        <option value="0">+</option>
+        <option value="1">-</option>
+        <option value="2">×</option>
+        <option value="3">÷</option>
+    <select>
+    <input type="text" id="input02">
+    <input type="button" value="等于" id="input03">
+    <input type="text" id="input04">
+</body>
+</html>

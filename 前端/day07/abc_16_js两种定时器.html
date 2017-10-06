@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice16</title>
+    <script>
+        window.onload = function(){
+            // 方式一：延时后执行一次
+            setTimeout(function() {
+                console.log('this is timeout timer!');
+            }, 1000);
+            // 方式二：延時后持续执行
+            setInterval(function() {
+                console.log("this is interval timer!");
+                }, 1000);
+    </script>
+</head>
+<body>
+</body>
+</html>

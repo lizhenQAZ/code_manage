@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .talk_con{
+            width:600px;
+            height:500px;
+            border:1px solid #666;
+            margin:50px auto 0;
+            background:#f9f9f9;
+        }
+        .talk_show{
+            width:580px;
+            height:420px;
+            border:1px solid #666;
+            background:#fff;
+            margin:10px auto 0;
+            overflow:auto;
+        }
+        .talk_input{
+            width:580px;
+            margin:10px auto 0;
+        }
+        .whotalk{
+            width:80px;
+            height:30px;
+            float:left;
+            outline:none;
+        }
+        .talk_word{
+            width:420px;
+            height:26px;
+            padding:0px;
+            float:left;
+            margin-left:10px;
+            outline:none;
+            text-indent:10px;
+        }        
+        .talk_sub{
+            width:56px;
+            height:30px;
+            float:left;
+            margin-left:10px;
+        }
+        .atalk{
+           margin:10px; 
+        }
+        .atalk span{
+            display:inline-block;
+            background:#0181cc;
+            border-radius:10px;
+            color:#fff;
+            padding:5px 10px;
+        }
+        .btalk{
+            margin:10px;
+            text-align:right;
+        }
+        .btalk span{
+            display:inline-block;
+            background:#ef8201;
+            border-radius:10px;
+            color:#fff;
+            padding:5px 10px;
+        }
+    </style>
+    <script type="text/javascript">      
+    // 写出对应功能代码
+    window.onload = function() {
+        // 按钮控制文本的发送
+        var oBtn = document.getElementById("talksub");
+        // alert(oBtn);
+        // 输入框控制文本
+        var oInput = document.getElementById("talkwords");
+        // alert(oInput.value);
+        // 选择框控制说话对象
+        var oSelect = document.getElementById("who");
+        // alert(oSelect.value);
+        // 选择框控制说话内容
+        var oOption = document.getElementsByTagName("option");
+        // alert(oOption.length);
+        // alert(oOption[0].textContent)       
+        // 控制显示的对话内容
+        var oDiv = document.getElementById("words");
+        // alert(oDiv.length);
+        // alert(oDiv.innerHTML);
+        var words;
+        oBtn.onclick = function() {
+            // alert(oInput.value);
+            // if(oInput.value == "") {
+            //     alert("no words!")
+            // }
+            if(oInput.value != "") {
+                // alert(oInput.value)
+                if(oSelect.value == 0) {
+                    words = "<div class='atalk'><span>" + oOption[0].textContent + oInput.value + "</span></div>";
+                }
+                else if(oSelect.value == 1){
+                    words = "<div class='btalk'><span>" + oOption[1].textContent + oInput.value + "</span></div>";
+                }
+                oDiv.innerHTML = oDiv.innerHTML + words;
+            }
+            // alert(words);
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="talk_con">
+        <div class="talk_show" id="words">
+            <div class="atalk"><span>A说：吃饭了吗？</span></div>
+            <div class="btalk"><span>B说：还没呢，你呢？</span></div>
+        </div>
+        <div class="talk_input">
+            <select class="whotalk" id="who">
+                <option value="0">A说：</option>
+                <option value="1">B说：</option>
+            </select>
+            <input type="text" class="talk_word" id="talkwords">
+            <input type="button" value="发送" class="talk_sub" id="talksub">
+        </div>
+    </div>
+</body>
+</html>

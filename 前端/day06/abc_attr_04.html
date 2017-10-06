@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice4</title>
+    <style>
+        .con div[class] {
+            color: red;
+        }
+        .con div[class='haha'] {
+            font-size: 32px;
+        }
+        .con div[class^='haha'] {
+            font-weight: bold;
+        }
+        .con div[class$='haha'] {
+            font-style: italic;
+        }
+        .con div[class*='haha'] {
+            background-color: grey;
+        }
+        .con div[class|='haha'] {
+            border: 4px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="haha">1</div>
+        <div class="haharqoiedsfdsfs">2</div>
+        <div class="jfdkeoiwlhaha">3</div>
+        <div class="jfldsjhahajfdsjkl">4</div>
+        <div class="jflkdslejflks">5</div>
+        <div class="haha-hehe-heihei">6</div>
+        <div>7</div>
+    </div>
+</body>
+</html>

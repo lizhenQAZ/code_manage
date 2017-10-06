@@ -1,0 +1,169 @@
+body,p,ul,h3,dl,dd{
+    margin:0px;
+    padding:0px;
+}
+
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    border:0px;
+}
+
+.con{
+    width:700px;
+    border:1px solid #ddd;
+    margin:30px auto 0;
+    position:relative;
+}
+
+.con p{
+    margin:20px;
+    line-height:30px;
+    font-size:12px;
+    text-indent:24px;
+}
+
+.con span{
+    position:absolute;
+    width:50px;
+    height:50px;
+    left:50%;
+    top:50%;   
+    margin-top:-25px;
+    margin-left:390px;    
+    background:gold;
+    border-radius:50%;
+    line-height:50px;
+    text-align:center;
+    /*cursor:pointer;*/
+    /*cursor:text;*/
+    cursor:crosshair;
+    font-size:20px;
+    z-index:999;
+}
+
+.con span:hover{
+    background:red;
+    color:#fff;
+}
+
+.line{
+    position:fixed;
+    width:10px;
+    height:100%;
+    border-left:1px solid #ddd;
+    left:50%;
+    top:0px;
+    margin-left:415px;
+}
+
+h1{
+    font-size:30px;
+    width:702px;
+    height:50px;
+    line-height:50px;
+    margin:30px auto 0;
+}
+
+.user_list_con{
+    width:600px;
+    height:370px;
+    border:1px solid #999;
+    margin:50px auto 0;
+}
+
+.user_list_con h3{
+    margin:0 20px;
+    line-height:50px;
+    border-bottom:1px solid #999;
+}
+
+.user_list{
+    margin:20px 20px 0;
+    overflow:hidden;
+}
+
+.user_list li{
+    width:140px;
+    height:100px;
+    float:left;
+}
+
+.user_list li a,.user_list li span{
+    display:block;
+    text-align:center;
+    font-size:12px;
+}
+
+.user_list li span{
+    line-height:24px;
+}
+
+
+.info_pop_con{
+    width:266px;
+    height:160px;
+    background:url(../images/info_bg.png) no-repeat;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:999;
+    display:none;
+}
+
+.info_detail{
+    width:250px;
+    height:55px;
+    margin:21px auto 0;
+    border-bottom:1px dashed #999;
+}
+
+.info_detail dt{
+    width:63px;
+    height:55px;
+    float:left;
+}
+
+.info_detail .username{
+    width:187px;
+    float:left;
+    line-height:20px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.info_detail .collect,.info_detail .focus{
+    width:93px;
+    line-height:30px;
+    font-size:12px;
+    float:left;
+    color:#999;
+}
+
+.info_detail .collect em,.info_detail .focus em{
+    font-style:normal;
+    color:#5d5d5d;
+}
+
+.resume{
+    width:250px;
+    margin:10px auto 0;
+}
+
+.resume h3{
+    font-size:12px;
+    color:#5d5d5d;
+    line-height:20px;
+}
+
+.resume p{
+    font-size:12px;
+    color:#999;
+    line-height:20px;
+}
