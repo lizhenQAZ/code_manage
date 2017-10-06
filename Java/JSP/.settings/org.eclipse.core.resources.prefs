@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//WebContent/01/hello1.jsp=UTF-8
+encoding//WebContent/10/response01.jsp=UTF-8
+encoding//WebContent/11/login.jsp=UTF-8
+encoding//WebContent/11/logout.jsp=UTF-8
+encoding//WebContent/11/welcome.jsp=UTF-8
+encoding//WebContent/12/application.jsp=UTF-8
+encoding//WebContent/12/counter.jsp=UTF-8
+encoding//WebContent/13/config.jsp=UTF-8
+encoding//WebContent/14/page.jsp=UTF-8
+encoding//WebContent/15/throw_error.jsp=UTF-8
+encoding//WebContent/18/login.jsp=UTF-8
+encoding//WebContent/20/index.jsp=UTF-8
+encoding//src/dbconfig.properties=UTF-8
