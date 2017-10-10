@@ -25,7 +25,7 @@ def tcp_server_main():
     while True:
         tcp_client_socket, tcp_client_data = tcp_server_socket.accept()
         recv_data = tcp_client_socket.recv(1024)
-        # print(recv_data   .decode('utf-8'))
+        # print(recv_data.decode('utf-8'))
         if not recv_data:
             tcp_client_socket.close()
             continue

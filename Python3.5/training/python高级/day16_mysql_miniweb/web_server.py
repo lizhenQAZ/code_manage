@@ -41,10 +41,12 @@ class WSGISever(object):
             ret = re.match(r'([^/]+)([^ ]+)', html_lines[0])
             if ret:
                 filename = ret.group(2)
+                if filename == '/':
+                    filename = '/index.html'
+
                 if not filename.endswith('.html'):
-                    if filename == '/':
-                        filename = '/index.html'
                     try:
+                        print(self.filename_root + filename)
                         f = open(self.filename_root + filename, 'rb')
 
                     except IOError:
@@ -94,20 +96,26 @@ g_dynamic_root = './dynamic'
 
 
 def tcp_server_main():
-    if len(sys.argv) == 2:
-        web_frame_app_name = sys.argv[1]
+    if len(sys.argv) == 3:
+        port = sys.argv[1]
+        if port.isdigit():
+            port = int(port)
+        print(port)
+        web_frame_app_name = sys.argv[2]
         print(web_frame_app_name)
 
-    frame_app_list = web_frame_app_name.split(':')
-    web_frame = frame_app_list[0]
-    app_name = frame_app_list[1]
+        frame_app_list = web_frame_app_name.split(':')
+        web_frame = frame_app_list[0]
+        app_name = frame_app_list[1]
 
-    # 修改库的搜索路径
-    sys.path.append(g_dynamic_root)
-    module_name = __import__(web_frame)
-    app = getattr(module_name, app_name)
-    httpserver = WSGISever(8116, g_static_root, app)
-    httpserver.run_forever()
+        # 修改库的搜索路径
+        sys.path.append(g_dynamic_root)
+        module_name = __import__(web_frame)
+        app = getattr(module_name, app_name)
+        httpserver = WSGISever(port, g_static_root, app)
+        httpserver.run_forever()
+    else:
+        print("请以下面方式运行程序：python3 web_server.py 8000 my_web:app")
 
 
 if __name__ == '__main__':
