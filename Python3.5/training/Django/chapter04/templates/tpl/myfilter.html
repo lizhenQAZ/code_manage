@@ -1,0 +1,27 @@
+{% load my_filter %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤器</title>
+</head>
+<body>
+    <h1>过滤器</h1>
+    <h2>length过滤器</h2>
+    <div>字符串的长度: {{ char_str | length }}</div>
+    <hr>
+    <h2>default过滤器</h2>
+    <div>字符串的默认值: {{ char_string | default:"undefined" }}</div>
+    <hr>
+    <h2>lower过滤器</h2>
+    <div>字符串全小写: {{ char_string | lower }}</div>
+    <hr>
+    <h2>random过滤器</h2>
+    <div>字符串全小写: {{ char_str | random }}</div>
+    <hr>
+    <h1>自定义过滤器</h1>
+    <h2>自定义mod过滤器</h2>
+    <div>数字对2取余的值: {{ num | mod }}</div>
+    <hr>
+</body>
+</html>

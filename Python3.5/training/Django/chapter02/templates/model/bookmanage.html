@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图书管理</title>
+</head>
+<body>
+    <h1>图书库存</h1>
+    <table>
+        {% for book in books %}
+        <tr><td>book.book_title</td>&nbsp;&nbsp;&nbsp;&nbsp;<td><a href="/model/logicaldelete/{{ book.counter }}/">删除</a></td></tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
