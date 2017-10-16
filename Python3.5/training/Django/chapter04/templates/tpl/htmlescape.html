@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>html转义</title>
 </head>
 <body>
-$END$
+    <h1>html转义</h1>
+    {{ content }}
+    <hr>
+    <h1>取消单行转义</h1>
+    {{ content | safe }}
+    <hr>
+    <h1>取消多行转义</h1>
+    {% autoescape off %}
+    {{ contentarea }}
+    {% endautoescape %}
+    <hr>
+    <h1>default硬编码不会转义</h1>
+    {{ data | default:"<h3>default内容不会转义</h3>" }}
+    <hr>
 </body>
 </html>

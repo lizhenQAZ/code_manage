@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>for控制语句</title>
 </head>
 <body>
-$END$
+    {% for circle in circles %}
+        <div>这是第{{ forloop.counter }}次循环: 数字是{{ circle }}</div>
+    {% endfor %}
+    <hr>
+    {% for circle in errors %}
+        <div>这是第{{ forloop.counter }}次循环: 数字是{{ circle }}</div>
+        {% empty %}
+        <h2>页面什么也没有留下!</h2>
+    {% endfor %}
 </body>
 </html>

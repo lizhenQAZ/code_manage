@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>if控制语句</title>
 </head>
 <body>
-$END$
+    {% for flag in flags %}
+        {% if flag %}
+        <div>这是第{{ forloop.counter }}次循环, 值为真</div>
+        {% else %}
+         <div>这是第{{ forloop.counter }}次循环, 值为假</div>
+        {% endif %}
+    {% endfor %}
 </body>
 </html>

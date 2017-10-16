@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>文件上传</title>
 </head>
 <body>
-$END$
+    <form action="/deploy/fileuploadhandle/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="myfile">
+        <input type="submit" value="确认上传">
+    </form>
 </body>
 </html>

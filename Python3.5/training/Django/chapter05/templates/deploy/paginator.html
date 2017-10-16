@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>分页显示</title>
 </head>
 <body>
-$END$
+<ul>
+{% for page in page_now %}
+    <li>{{page.area_code}}-{{page.area_name}}</li>
+{% endfor %}
+</ul>
+<hr>
+当前页码:{{cur_page}} <br>
+{% for index in page_index %}
+<a href="?page_now={{index}}">{{index}}</a>
+{% endfor %}
 </body>
 </html>

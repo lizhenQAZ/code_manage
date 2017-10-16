@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>模板继承</title>
 </head>
 <body>
-$END$
+    {% extends "tpl/base.html" %}
+    {% block base %}
+        <hr>
+        <h3>这是tplinherit模板头部</h3>
+        <h3>这是tplinherit模板不继承内容</h3>
+        <h3>这是tplinherit模板尾部</h3>
+        <h3>这是other模板内容</h3>
+        {% include "tpl/other.html" %}
+        <hr>
+    {% endblock %}
+    {% block baseinherit %}
+        <h3>这是tplinherit模板头部</h3>
+        {{ block.super }}
+        <h3>这是tplinherit模板继承内容</h3>
+        <h3>这是tplinherit模板尾部</h3>
+        <h3>这是other模板内容</h3>
+        {% include "tpl/other.html" %}
+        <hr>
+    {% endblock %}
 </body>
 </html>
