@@ -15,13 +15,13 @@ admin.site.register(MyFile, MyFileAdmin)
 # 块方式
 # class PersonInline(admin.StackedInline):
 #     model = Person  # 内嵌模型
-# extra = 1  # 新增框个数
+#     extra = 1  # 新增框个数
 
 
 #  表格方式
 class PersonInline(admin.TabularInline):
     model = Person  # 内嵌模型
-extra = 1  # 新增框个数
+    extra = 1  # 新增框个数
 
 
 @admin.register(AreaInfo)
@@ -77,3 +77,13 @@ class PersonAdmin(admin.ModelAdmin):
         ('基本选项', {'fields': ('person_name', 'person_sex')}),
         ('高级选项', {'fields': ('person_age', 'person_area')}),
     )
+
+
+# 注册富文本编辑器类
+@admin.register(News)
+class PersonAdmin(admin.ModelAdmin):
+    # 控制每页显示数据条数
+    list_per_page = 5
+
+    # 显示列
+    list_display = ['news_title', 'news_content', ]

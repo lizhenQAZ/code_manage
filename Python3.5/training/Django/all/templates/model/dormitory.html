@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>非级联删除</title>
+</head>
+<body>
+<h1>寝室信息</h1>
+<h3>寝室名: {{ dorminfo.dormitory_name }}---寝室id: {{ dorminfo.id }}</h3>
+<hr>
+<h1>人员信息</h1>
+{% for member in memberinfo %}
+<h3>宿舍人员:{{ member.member_name }}---人员id:{{ member.id }}---寝室id:{{ member.member_dormitory_id }}</h3>
+{% endfor %}
+<hr>
+</body>
+</html>

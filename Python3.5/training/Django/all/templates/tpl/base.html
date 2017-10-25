@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ param }}</title>
+</head>
+<body>
+    <h1>这是base模板的头部</h1>
+    <hr>
+    {% block base %}
+    <h1>这是base模板的不继承内容</h1>
+    {% endblock %}
+    <hr>
+    {% block baseinherit %}
+    <h1>这是base模板的继承内容</h1>
+    {% endblock %}
+    <hr>
+    <h1>这是base模板的尾部</h1>
+    <hr>
+</body>
+</html>

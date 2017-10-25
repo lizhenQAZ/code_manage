@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if控制语句</title>
+</head>
+<body>
+    <h1>判断变量真假: </h1>
+    {% for flag in flags %}
+        {% if flag %}
+            <h3>这是第{{ forloop.counter }}次循环, 值为真</h3>
+        {% else %}
+            <h3>这是第{{ forloop.counter }}次循环, 值为假</h3>
+        {% endif %}
+    {% endfor %}
+    <hr>
+</body>
+</html>

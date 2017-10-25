@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>富文本编辑器显示</title>
+</head>
+<body>
+{% for news in data %}
+    <h2>{{news.news_title}}</h2><br>
+    {{news.news_content | safe}}
+<hr>
+{% endfor %}
+</body>
+</html>

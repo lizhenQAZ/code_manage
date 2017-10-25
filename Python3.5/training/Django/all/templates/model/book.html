@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>book</title>
+</head>
+<body>
+<h1>书名: {{ bookinfo.book_title }}</h1>
+<hr>
+<h2>英雄名:</h2>
+{% for hero in heros %}
+<h3>{{ hero.hero_name }}</h3>
+{% endfor %}
+<hr>
+</body>
+</html>

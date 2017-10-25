@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from stock.views import *
 
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'', include('stock.urls')),
+    url(r'^$', index, name='index'),  # 网站首页
+    url(r'^stock/', include('stock.urls', namespace='stock')),  # 主体页面
 ]

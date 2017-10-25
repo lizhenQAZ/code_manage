@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分页显示</title>
+</head>
+<body>
+<h1>当前页信息: </h1>
+{% for page in page_now %}
+    <h3>区号: {{page.area_code}} --- 地区名: {{page.area_name}}</h3>
+{% endfor %}
+<hr>
+<h1>当前页码: </h1>
+<h3>{{cur_page}}</h3>
+<hr>
+<h1>页码编号范围: </h1>
+{% for index in page_index %}
+<a href="{% url 'deploy:paginator' %}?page_now={{index}}"><h3>页码{{index}}</h3></a>
+{% endfor %}
+<hr>
+</body>
+</html>

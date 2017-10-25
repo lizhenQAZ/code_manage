@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>这是tpl首页</title>
+</head>
+<body>
+<h1>tpl网站列表</h1>
+<h3><a href="{% url 'index' %}">回到首页</a></h3>
+<h3><a href="{% url 'tpl:forstate' %}">forstate</a></h3>
+<h3><a href="{% url 'tpl:ifstate' %}">ifstate</a></h3>
+<h3><a href="{% url 'tpl:logicaloperator' %}">logicaloperator</a></h3>
+<h3><a href="{% url 'tpl:collectionsoperator' %}">collectionsoperator</a></h3>
+<h3><a href="{% url 'tpl:arithmeticoperator' %}">arithmeticoperator</a></h3>
+<h3><a href="{% url 'tpl:myfilter' %}">myfilter</a></h3>
+<h3><a href="{% url 'tpl:mycomment' %}">mycomment</a></h3>
+<h3><a href="{% url 'tpl:tplinherit' %}">tplinherit</a></h3>
+<h3><a href="{% url 'tpl:htmlescape' %}">htmlescape</a></h3>
+<h3><a href="{% url 'tpl:message' %}">message</a></h3>
+<h3><a href="{% url 'tpl:register' %}">register</a></h3>
+{#<h3><a href="{% url 'tpl:verificationcode' %}">verificationcode</a></h3>#}
+</body>
+</html>

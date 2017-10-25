@@ -45,7 +45,7 @@ def center(request):
             <td>%s</td>
             <td>%s</td>
             <td>
-                <a type="button" class="btn btn-default btn-xs" href="/update/%s.html"> <span class="glyphicon
+                <a type="button" class="btn btn-default btn-xs" href="/stock/update/%s/"> <span class="glyphicon
                 glyphicon-star" aria-hidden="true"></span> 修改 </a>
             </td>
             <td>
@@ -60,7 +60,7 @@ def center(request):
                                  focus.focus_info.turnover, focus.focus_info.price, focus.focus_info.highs,
                                  focus.note_info, focus.focus_info.code, focus.focus_info.code,)
     content = html
-    return render(request, 'center.html', locals())
+    return render(request, 'stock/center.html', locals())
 
 
 def add(request, param):
@@ -90,20 +90,14 @@ def delete(request, param):
 
 def update(request, param):
     code = param
-    note_info = Focus.objects.get(focus_info__code=param).note_info
+    if request.GET.get('message', ''):
+        focus = Focus.objects.get(focus_info__code=code)
+        print(focus)
+        focus.note_info = request.GET.get('message')
+        print(focus.note_info)
+        focus.save()
+        print("修改成功")
+        return HttpResponse("修改成功")
+    note_info = Focus.objects.get(focus_info__code=code).note_info
     print(locals())
-    return render(request, 'update.html', locals())
-
-
-def update_new(request, param1, param2):
-    print(param1)
-    print(param2)
-    code = param1
-    note_info = urlparse(param2)
-    focus = Focus.objects.get(focus_info__code=code)
-    print(focus)
-    focus.note_info = note_info
-    print(focus.note_info)
-    focus.save()
-    print("修改成功")
-    return HttpResponse("修改成功")
+    return render(request, 'stock/update.html', locals())

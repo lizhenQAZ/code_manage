@@ -127,23 +127,23 @@ import random
 
 # 自关联
 # 插入地区数据
-areas = [("北京", None),
-         ("河北", None),
-         ("海淀区", 1),
-         ("昌平区", 1),
-         ("顺义区", 1),
-         ("房山区", 1),
-         ("朝阳区", 1),
-         ("丰台区", 1),
-         ("石家庄", 2),
-         ("唐山", 2),
-         ("保定", 2),
-         ("邢台", 2),
-         ("邯郸", 2),
-         ("秦皇岛", 2)]
-
-for area in areas:
-    area_info = AreaInfo()
-    area_info.area_name = area[0]
-    area_info.area_parent_id = area[1]
-    area_info.save()
+# areas = [("北京", None),
+#          ("河北", None),
+#          ("海淀区", 1),
+#          ("昌平区", 1),
+#          ("顺义区", 1),
+#          ("房山区", 1),
+#          ("朝阳区", 1),
+#          ("丰台区", 1),
+#          ("石家庄", 2),
+#          ("唐山", 2),
+#          ("保定", 2),
+#          ("邢台", 2),
+#          ("邯郸", 2),
+#          ("秦皇岛", 2)]
+#
+# for area in areas:
+#     area_info = AreaInfo()
+#     area_info.area_name = area[0]
+#     area_info.area_parent_id = area[1]
+#     area_info.save()

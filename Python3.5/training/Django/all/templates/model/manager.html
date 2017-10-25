@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理器</title>
+</head>
+<body>
+<h1>原书名: </h1>
+{% for book in bookinfo %}
+<h3>{{ book.book_title }}</h3>
+{% endfor %}
+<hr>
+<h1>新书名:</h1>
+{% for book in bookinfomodified %}
+<h3>{{ book.book_title }}</h3>
+{% endfor %}
+<hr>
+</body>
+</html>

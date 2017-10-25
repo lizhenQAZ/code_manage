@@ -28,3 +28,25 @@ class Person(models.Model):
 
     def __str__(self):
         return self.person_name
+
+
+# 定义城市模型
+class City(models.Model):
+    # 地区编码
+    area_code = models.CharField(max_length=30)
+    # 地区名称
+    area_name = models.CharField(max_length=50)
+    # 父级地区
+    area_parent = models.CharField(max_length=30, null=True, blank=True)
+
+    def __str__(self):
+        return self.area_name
+
+
+from tinymce.models import HTMLField
+
+
+# 定义富文本编辑器模型
+class News(models.Model):
+    news_title = models.CharField(max_length=50)
+    news_content = HTMLField()

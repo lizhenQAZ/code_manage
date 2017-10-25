@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册界面</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>用户名:</td><td><input type="text" value="" name="username"></td>
+        </tr>
+        <tr>
+            <td>密  码:</td><td><input type="text" value="" name="password"></td>
+        </tr>
+        <tr>
+            <td>验证码:</td>
+            <td>
+                <img src="{% url "tpl:verificationcode" 1 %}" onclick="javascript:this.src='/tpl/verificationcode/'
+                + Math.ceil(Math.random()*1000) +'/'" />
+                <input type="text" name="verify" style="width:30px;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="注册"></td>
+        </tr>
+    </table>
+
+</body>
+</html>

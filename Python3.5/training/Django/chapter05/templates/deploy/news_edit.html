@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>富文本编辑器编辑</title>
+<script type="text/javascript"src="{% static 'tiny_mce/tiny_mce.js' %}">
+</script>
+    <script>
+        tinyMCE.init({
+            'mode': 'textareas',
+            'theme': 'advanced',
+            'width': 800,
+            'height': 600,
+            'language': 'zh-cn',
+        });
+    </script>
+</head>
+<body>
+<form action="{% url 'deploy:tinymce_save' %}" method="post">
+    {% csrf_token %}
+    <table>
+        <tr><td>新闻标题:</td><td><input type="text" name="title"></td></tr>
+        <tr><td>新闻内容:</td><td><textarea name="content"></textarea></td></tr>
+        <tr><td></td><td><input type="submit" value="提交新闻"></td></tr>
+    </table>
+</form>
+</body>
+</html>

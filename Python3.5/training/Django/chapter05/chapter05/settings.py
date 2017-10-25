@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ngy12s42lgvnkm@77pos&ez)4j@h1$$)l$(_5&gq7pwp$)m$jx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*', ]
 
@@ -38,6 +38,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'deploy',  # 安装deploy应用
+    'tinymce',  # 安装富文本编辑器
+    'djcelery',  # 安装djcelery
 )
 
 MIDDLEWARE_CLASSES = (
@@ -49,6 +51,12 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    # 安装ip过滤中间件，黑名单
+    # 'deploy.middleware.IpsForbidden',
+    # 中间件处理流程
+    # 'deploy.middleware.MyCustomProcess',
+    # 中间件错误视图
+    # 'deploy.middleware.MyCustomError',
 )
 
 ROOT_URLCONF = 'chapter05.urls'
@@ -114,3 +122,36 @@ STATICFILES_DIRS = [
 
 # 文件传输配置
 MEDIA_ROOT = os.path.join(BASE_DIR, "static/media")
+
+# 富文本编辑器配置
+TINYMCE_DEFAULT_CONFIG = {
+    'theme': 'advanced',
+    # 'theme': 'simple',
+    'width': 600,
+    'height': 400,
+    'language': 'zh-CN',
+    'theme_advanced_buttons1': 'bold, italic, underline, strikethrough, justifyleft, justifycenter, justifyright, '
+                               'justifyfull, styleselect, bullist, numlist, outdent, indent, undo,redo, link, unlink, '
+                               'image, cleanup, help, code, table, row_before, row_after, delete_row, separator, '
+                               'rowseparator',
+    'theme_advanced_buttons2': 'col_before, col_after, delete_col, hr, removeformat, sub, sup, formatselect, '
+                               'fontselect, fontsizeselect, forecolor,charmap,visualaid,spacer,cut,copy,paste'
+}
+
+# 发送邮件配置
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 25
+# 发送邮件的邮箱
+EMAIL_HOST_USER = 'lz15251847740@163.com'
+# 在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = 'qazwsx741852'
+# 收件人看到的发件人
+EMAIL_FROM = 'lumicie<lz15251847740@163.com>'
+
+
+# celery配置
+import djcelery
+djcelery.setup_loader()
+BROKER_URL = 'redis://127.0.0.1:6379/2'
+CELERY_IMPORTS = ('deploy.tasks', )
