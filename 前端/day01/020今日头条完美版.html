@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>今日头条</title>
+    <style>
+        /*整体的区域范围*/
+
+        .con {
+            width: 285px;
+            height: 310px;
+
+            /*#c8dcf2  16进制表示颜色  RGB  ffffff白色   000000黑色  ff0000纯红色 */
+            border-top: 1px solid #c8dcf2;
+            border-bottom: 1px solid #c8dcf2;
+        }
+        /*顶部区域*/
+
+        .header {
+
+            height: 40px;
+        }
+        /*标题*/
+
+        .header h3 {
+            float: left;
+            margin: 0;
+            font-size: 16px;
+            font-family: "Microsoft Yahei";
+            color: #172c45;
+            /*把行高设置和高度一样  就居中*/
+            line-height: 40px;
+        }
+        /*更多*/
+
+        .header a {
+            float: right;
+            font-size: 12px;
+            font-family: "Microsoft Yahei";
+            color: #172c45;
+            /*去掉下划线*/
+            text-decoration: none;
+            line-height: 40px;
+        }
+
+        /*内容*/
+        .content{
+            font-size: 12px;
+            font-family: "Microsoft Yahei";
+            color: #737373;
+            /*行高*/
+            line-height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--div>div*3-->
+
+    <div class="con">
+        <div class="header">
+            <h3>今日头条</h3>
+            <a href="">更多&gt;&gt;</a>
+        </div>
+
+        <div>
+            <img src="./images/banner.jpg" alt="人工智能">
+
+        </div>
+        <p class="content">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人工智能（Artificial Intelligence），英 文缩写为AI。它是研究、开发用于模拟、延伸 和扩展人的智能的理论、方法、技术及应用系 统的一门新的技术科学。 人工智能是计算机科 学的一个分支，它企图了解智能的实质，并生 产出一种新的能以人类智能相似的方式做出反
+            应的智能机器，该领域的研究包括机器人、语 言识别、图像识别、自然语言处理和专家系统 等。
+        </p>
+    </div>
+
+</body>
+
+</html>

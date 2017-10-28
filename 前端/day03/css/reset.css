@@ -1,16 +1,16 @@
-h1,h2,h3,h4,h5,h6,body,ul,ol,dl,p{
+h1,h2,h3,h4,h5,h6,body,ul,ol,dl,dd,p{
     /*去掉默认样式*/
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-li{
-    /*去掉list的小圆点*/
+ul,ol{
+    /*去掉列表左侧的原点或数字*/
     list-style: none;
 }
 
 a{
-    /*去掉超链接的下划线*/
+    /*去掉下划线*/
     text-decoration: none;
 }
 
@@ -20,22 +20,21 @@ em,i{
 }
 
 b,strong{
-    /*去掉加粗*/
+    /*去掉粗体*/
     font-weight: normal;
 }
 
-.clearfix:before, .clearfix:after{
-    /*去除margin-top塌陷*/
+/*清除浮动的影响*/
+.clearfix:before,.clearfix:after {
     content: "";
     display: table;
 }
 
-.clearfix:after{
-    /*去除浮动的影响*/
-    clear: both;
+.clearfix:after {
+    clear: both;    
 }
 
 .clearfix{
     /*兼容ie*/
-    zoom: 1;
+    zoom:1;
 }

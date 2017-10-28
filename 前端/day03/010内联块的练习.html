@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .con {
+            width: 960px;
+            height: 40px;
+            border: 1px solid #d1d1d1;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 0;
+        }
+
+        .con li {
+            display: inline-block;
+            /*增加左右间距*/
+            margin: 0 5px;
+        }
+        .con span{
+            font-size: 12px;
+        }
+
+        .con a {
+            margin-top:7px; 
+            display: inline-block;
+            padding: 7px 9px;
+            background-color: gold;
+            font-size: 12px;
+            /*设置行高和文字大小一直  方便计算a标签的高度*/
+            line-height: 12px;
+            color: #393c35;
+            text-decoration: none;
+        }
+        .con a:hover{
+            color: red;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <ul class="con">
+        <li><a href="">上一页</a></li>
+        <li><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><span>...</span></li>
+        <li><a href="">17</a></li>
+        <li><a href="">18</a></li>
+        <li><a href="">19</a></li>
+        <li><a href="">20</a></li>
+        <li><a href="">下一页</a></li>
+    </ul>
+
+</body>
+
+</html>

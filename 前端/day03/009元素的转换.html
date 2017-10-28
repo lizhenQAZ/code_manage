@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .con {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #000;
+        }
+
+        .con div {
+            width: 100px;
+            background-color: gold;
+            /*内联元素*/
+            display: inline;
+        }
+
+        .con a {
+            background-color: red;
+            /*转为块*/
+            display: block;
+        }
+
+        .p1 {
+            /*隐藏元素*/
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--实际开发中
+        一般会把内联元素 变成内联块 或者变成块
+
+        一般不会把元素主动变成内联元素
+
+        a标签转换为其它元素 增加点击的范围
+    
+    -->
+
+    <div class="con">
+        <div>div1</div>
+        <div>div2</div>
+
+        <a href="">a1</a>
+
+        <p class="p1">哈哈哈哈哈哈哈哈哈1</p>
+        <p>哈哈哈哈哈哈哈哈哈2</p>
+        <p>哈哈哈哈哈哈哈哈哈3</p>
+        <p>哈哈哈哈哈哈哈哈哈4</p>
+
+    </div>
+
+
+</body>
+
+</html>

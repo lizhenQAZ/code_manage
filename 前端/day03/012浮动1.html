@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .con {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #000;
+        }
+
+        .con .div1 {
+            width: 70px;
+            height: 70px;
+            background-color: gold;
+            /*浮动会把元素 转为内联块  没有间隙*/
+
+          
+        }
+
+        .con .div2 {
+            width: 70px;
+            height: 70px;
+            background-color: red;
+            float: left;
+        }
+
+        .con .div3 {
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+              float: left;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="con">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+    </div>
+
+
+
+</body>
+
+</html>

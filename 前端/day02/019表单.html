@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            margin: 10px;
+        }
+
+
+        textarea {
+            /*取消自由拖拽*/
+            resize: none;
+        }
+
+        h3 {
+            margin: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--form定义一个表单的区域
+        action  数据提交的地址
+        method 提交方式
+        get  数据会拼接到url的后面
+        post  数据不会体现 
+    -->
+    <form action="http://www.itcast.cn" method="post">
+        <!--张三123456男吃
+
+        name= 张三
+        psw = 123456
+
+        key value-->
+
+        <div>
+            <!--label的for属性和标签的id关联 点击label input标签就会有焦点-->
+            <label for="name">用户名:</label>
+            <!--文字输入框-->
+
+            <!--name属性 指定提交数据的key值-->
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="psw">密&nbsp;&nbsp;&nbsp;码:</label>
+            <input type="password" id="psw" name="psw">
+        </div>
+
+        <div>
+            <h3>性别</h3>
+            <!--name相同 单选框才能有互斥效果-->
+            <input type="radio" name="sex" value="0">男
+            <input type="radio" name="sex" value="1">女
+        </div>
+
+
+        <div>
+            <h3>爱好</h3>
+            <input type="checkbox" name="interest" value="eat">吃
+            <input type="checkbox" name="interest" value="play">玩
+            <input type="checkbox" name="interest" value="sleep">睡
+            <input type="checkbox" name="interest" value="study">学习
+        </div>
+
+
+        <div>
+            <h3>头像</h3>
+            <input type="file">
+        </div>
+
+        <div>
+            <h3>个人简介</h3>
+            <!--多行文本输入框-->
+            <textarea name="desc" id="" cols="30" rows="10">
+
+
+            </textarea>
+        </div>
+
+
+
+        <div class="div">
+            <h3>籍贯</h3>
+            <select name="loc" id="">
+                <option value="0">北京</option>
+                <option value="1">上海</option>
+                <option value="2">广州</option>
+                <option value="3">深圳</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="submit" value="注册">
+            <input type="reset" value="重置1">
+
+
+            
+            <input type="button" value="我是按钮">
+        </div>
+
+
+    </form>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>

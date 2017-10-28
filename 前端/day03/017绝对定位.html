@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .con {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #000;
+            margin: 100px auto 0;
+            position: relative;
+        }
+
+        /*实际开发中 
+        
+            最常用的
+            子级设置position: absolute; 相对于父级定位
+            父级设置position: relative;
+
+        */
+
+        .div1{
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            /*绝对定位   相对于 设置里定位属性的父级元素  如果父级没有定位属性 继续向上一层父级查找
+                如果一直没有 就相对于浏览器
+            */
+            /*绝对定位 脱离文档流 原始位置不占据*/
+            position: absolute;
+            /*left: 30px;
+            top: 50px;*/
+            right: 50px;
+            bottom: 0;
+        }
+        .div2{
+            width: 120px;
+            height: 120px;
+            background-color: cyan;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="con">
+
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+
+    </div>
+
+
+</body>
+
+</html>

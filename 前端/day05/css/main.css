@@ -1,205 +1,212 @@
-h1:hover,h2:hover,h3:hover{
-    color: red;
+a:hover{
+    color: red !important;
 }
-
+/*-顶部header区域*/
 .header-con{
     height: 29px;
-    background-color: #f7f7f7;
-    border: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
 }
 
+/*顶部header的内容部分*/
 .header{
     width: 1200px;
     margin: 0 auto;
-}
-.header-left{
-    width: 108px;
-}
-.header-right{
-    width: 254px;
+    height: 29px;
 }
 
-.header-left h1{
-    font: normal 12px/29px "Microsoft Yahei";
-}
+/*欢迎文字*/
+.header h1{
+    font-size: 12px;
+    color: #666666;
+    line-height: 29px;
 
-.header-right li{
-    float: left;
 }
-
-.header-right li h1,.header-right li a,.header-right li span{
-    font: normal 12px/29px "Microsoft Yahei";
-    float: left;
+/*用户名字*/
+.username{
+    font-size: 12px;
+    color: #666666;
 }
-.header-right li span{
+/*头部区域右侧的文字*/
+.header a{
+     font-size: 12px;
+    color: #666666;
+    line-height: 29px;
+}
+/*头部区域右侧的竖线*/
+.header span{
     color: #cecece;
-    margin: 0px 15px;
+    font-size: 12px;
+    line-height: 29px;
+    margin: 0 15px;
 }
-
-.header-right li.unlogin{
+.header{
+    font-size: 0;
+}
+/*登录注册*/
+.unlogin{
     display: none;
 }
-
-.header-right li .user{
+/*用户名字*/
+.username a{
     color: #ff8800;
 }
 
+/*上面的logo一排区域*/
 .logo-con{
     width: 1200px;
     height: 115px;
     margin: 0 auto;
-    position: relative;
 }
 
-.logo-con .logo{
-    position: absolute;
-    margin: 30px 0px 0px 18px;
+/*logo*/
+.logo{
+    margin: 29px 0 0 17px;
 }
-
-.logo-con .search-con{
+/*搜索区域*/
+.search-con{
     width: 616px;
     height: 38px;
     border: 1px solid #37ab40;
-    margin: 34px 0px 0px 291px;
-    display: inline-block;
+    margin: 34px 0 0 124px;
 }
-
-.search-con .input{
+/*搜索内容*/
+.content{
     width: 516px;
-    border: 0;
-    color: #737272;
-    font: normal 12px/38px "Microsoft Yahei";
+    height: 38px;
+    /*点击后 高亮的边框*/
+    outline: none;
     text-indent: 36px;
-    outline: none;
-    float: left;
-    background: url(../image/icons.png) no-repeat 11px 10px;
+    background: url("../images/icons.png") no-repeat 11px 11px;
 }
-
-.search-con .btnsearch{
+/*搜索按钮*/
+.btnsearch{
     width: 100px;
-    border: 0;
-    color: #fff;
-    font: normal 14px/38px "Microsoft Yahei";
+    height: 38px;
     background-color: #37ab40;
-    outline: none;
-    float: left;
+    font-size: 14px;
+    color: #fff;
+    /*更改光标样式 手*/
+    cursor: pointer;
 }
-
-.logo-con .cart-con{
+/*购物车区域*/
+.cart-con{
     width: 200px;
     height: 40px;
-    position: absolute;
-    top: 34px;
-    right: 0px;
+    margin-top: 34px;
 }
-
-.cart-con .cart{
+/*我的购物车链接*/
+.cart-con a{
     width: 158px;
-    font: normal 14px/38px "Microsoft Yahei";
+    height: 38px;
     border: 1px solid #dddddd;
-    text-align: center;
-    display: inline-block;
-    background: url(../image/icons.png) no-repeat 13px -42px;
-}
-
-.cart-con .cart a{
+    font-size: 14px;
     color: #37ab40;
+    text-indent: 56px;
+    line-height: 38px;
+    background: url("../images/icons.png") no-repeat 13px -42px;
 }
-
-.cart-con .note{
+/*购物车数量*/
+.cart-con span{
     width: 40px;
     height: 40px;
-    color: #fff;
-    font: normal 18px/40px "Microsoft Yahei";
-    text-align: center;
     background-color: #ff8800;
-    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
 }
 
-.all-goods-con{
+/*<!--全部商品分类一排的区域-->*/
+.all-goods-type-con{
     height: 40px;
     border-bottom: 2px solid #37ab40;
 }
 
-.all-goods-con .menu{
+/*全部商品分类的内容区域*/
+.all-goods-type{
     width: 1200px;
-    height: 42px;
+    height: 40px;
     margin: 0 auto;
 }
-
-.all-goods-con .menu h2{
+/*全部商品分类标题*/
+.all-goods-type h2{
     width: 200px;
-    height: 42px;
+    height: 40px;
     background-color: #37ab40;
-    font: normal 14px/42px "Microsoft Yahei";
+    font-size: 14px;
     color: #fff;
     text-align: center;
-    float: left;
+    line-height: 40px;
 }
-
-.all-goods-con .menu a,.all-goods-con .menu span{
-    height: 40px;
-    font: normal 14px/40px "Microsoft Yahei";
+/*全部商品分类右侧菜单*/
+.all-goods-type .menu{
+    margin-left: 23px;
+}
+/*全部商品分类右侧菜单 里单项*/
+.all-goods-type .menu li{
+    line-height: 40px;
+    float: left;
+    margin: 0 11px;
+}
+/* 首页 抽奖....*/
+.all-goods-type .menu a,.all-goods-type .menu span{
+    /*转换后 line-height会让a元素高度增加*/
+    display: inline-block;
+    font-size: 14px;
     color: #666666;
-    float: left;
 }
-
-.all-goods-con .menu span{
-    margin: 0 26px 0 22px;
-}
-
-.all-goods-con .menu .menu-index{
-    margin: 0 0 0 34px;
-}
-
-.category-con{
+/*中间幻灯片的一排区域*/
+.center-con{
     width: 1200px;
     height: 270px;
-    margin: 0px auto;
+    background-color: gold;
+    margin: 0 auto;
 }
-
-.category-con .menu-detail{
+/*分类列表*/
+.typelist{
     width: 200px;
+    height: 270px;
+    background-color: #fff;
 }
-
-.category-con .menu-detail li{
+/*分类列表每一条*/
+.typelist li{
     width: 198px;
     height: 44px;
     border: 1px solid #eeeeee;
     border-top: 0;
-    background: url(../image/icons.png) no-repeat 33px -88px;
+    background: url("../images/icons.png") no-repeat 33px -88px;
+
 }
 
-.category-con .menu-detail .list1{
-    background-position: 33px -138px;
+.typelist .li01{
+    background-position: 30px -138px;
 }
-
-.category-con .menu-detail .list2{
-    background-position: 33px -188px;
+.typelist .li02{
+    background-position: 31px -188px;
 }
-
-.category-con .menu-detail .list3{
-    background-position: 33px -238px;
+.typelist .li03{
+    background-position: 34px -238px;
 }
-
-.category-con .menu-detail .list4{
-    background-position: 33px -288px;
+.typelist .li04{
+    background-position: 32px -288px;
 }
-
-.category-con .menu-detail .list5{
+.typelist .li05{
     background-position: 33px -338px;
 }
 
-.category-con .menu-detail li a{
+/*分类列表的文字*/
+.typelist li a{
     display: inline-block;
     width: 198px;
     height: 44px;
-    color: #333333;
-    font: normal 14px/44px "Microsoft Yahei";
+    font-size: 14px;
+    color: #3c3c3c;
     text-align: center;
-    background: url(../image/icons.png) no-repeat 178px -383px;
+    line-height: 44px;
+    background: url("../images/icons.png") no-repeat 178px -383px;
 }
 
+/*幻灯片的整体区域 固定宽高 子级的图片 箭头 和小圆点要相对这个父级定位*/
 .slides-con{
     width: 760px;
     height: 270px;
@@ -208,148 +215,152 @@ h1:hover,h2:hover,h3:hover{
     overflow: hidden;
 }
 
+/*幻灯片的图片列表*/
 .slides{
+    /*溢出部分隐藏*/
     width: 4560px;
     height: 270px;
     position: absolute;
     left: 0;
     top: 0;
 }
-
-.slides img{
+/*幻灯片的每张图片*/
+.slides li{
     float: left;
 }
-
+/*左箭头-*/
 .leftarrow{
     width: 15px;
     height: 23px;
     position: absolute;
     left: 11px;
     top: 122px;
-    background: url(../image/icons.png) no-repeat 0px -450px;
+    background: url("../images/icons.png") no-repeat 0px -450px;
 }
-
+/*右箭头-*/
 .rightarrow{
-    width: 15px;
+     width: 15px;
     height: 23px;
     position: absolute;
     right:  11px;
     top: 122px;
-    background: url(../image/icons.png) no-repeat 0px -500px;
+    background: url("../images/icons.png") no-repeat 0px -500px;
 }
-
-.circles{
+/*小圆点-*/
+.points{
+    /*或者760px*/
     width: 100%;
-    height: 29px;
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    left:0;
+    bottom: 9px;
+    font-size: 0;
+    /*这里让子集的圆点居中 注意把宽度设置为760px*/
     text-align: center;
-    line-height: 29px;
 }
 
-.circles li{
+/*每个小圆点*/
+.points li{
     width: 11px;
     height: 11px;
-    border-radius: 50%;
     background-color: #9f9f9f;
+    border-radius: 50%;
+    /*为了圆点居中 不能用浮动*/
     display: inline-block;
-    margin: 0 11px 0 0;
+    margin: 0 5px;
 }
 
-.circles .first_circle{
+/*高亮的圆点的颜色*/
+.points .active{
     background-color: #cecece;
 }
 
-.advs-con{
+.advs{
     width: 240px;
     height: 270px;
 }
 
-.main-con{
+/*两张广告图*/
+.advs a{
+    display: block;
+    width: 240px;
+    height: 135px;
+}
+
+/*所有商品区域(包括标题)*/
+.all-goods-con{
     width: 1200px;
-    height: 358px;
+    height: 357px;
     margin: 0 auto;
 }
-
-.main-con .header{
-    margin-top: 21px;
-    height: 34px;
+/*标题区域*/
+.goods-title-con{
+    height: 33px;
+    margin-top: 22px;
     border-bottom: 2px solid #42ad46;
 }
-
-.main-con .header h4{
-    font: normal 16px/34px "Microsoft Yahei";
+/*商品标题*/
+.goods-title-con h3{
+    font-size: 16px;
     color: #37ab40;
-    float: left;
-    margin-left: 2px;
-    margin-right: 22px;
+    line-height: 33px;
 }
-
-.main-con .header span,.main-con .header a{
-    margin-top: 6px;
-    font: normal 12px/28px "Microsoft Yahei";
+/*商品标题右侧的竖线*/
+.goods-title-con span{
+    font-size: 12px;
     color: #666666;
-    float: left;
-    margin-right: 14px;
+    margin:10px 0 0 22px;
 }
-
-.main-con .body{
+/*推荐商品*/
+.recommend li{
+    float: left;
+    margin: 7px 0 0 14px;
+}
+/*推荐商品*/
+.recommend li a{
+    font-size: 12px;
+    color: #666666;
+}
+/*查看更多*/
+.more{
+     font-size: 12px;
+    color: #666666;
+    margin: 11px 3px 0 0;
+}
+/*左侧banner*/
+.banner{
+    width: 200px;
     height: 300px;
 }
 
-.main-con .body .banner{
-    width: 200px;
-}
-
-.main-con .body .banner-goods{
+.goodslist li{
     width: 249px;
     height: 299px;
-    border: 1px solid #ededed;
-    border-left: 0;
-    border-top: 0;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    float: left;
 }
-
-.main-con .body .banner-goods .h4-1{
-    margin: 0 96px;
-    color: #666666;
-    font: normal 14px/49px "Microsoft Yahei";
-    display: inline-block;
-}
-
-.main-con .body .banner-goods img{
-    margin: 11px 37px 11px 32px;
-}
-
-.main-con .body .banner-goods .h4-2{
-    margin: 0px 86px;
-    color: #c40000;
-    font: normal 20px/48px "Microsoft Yahei";
-}
-
-.auxilary{
-    height: 30px;
-    border-bottom: 2px solid #4ab14e;
-}
-
-.foot{
-    height: 145px;
+/*商品名字*/
+.goodslist li h4{
+    height: 50px;
+    line-height: 50px;
     text-align: center;
-    color: #4e4e4e;
-    font: normal 12px/28px "Microsoft Yahei";
-    margin-top: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+/*商品图片*/
+.goodslist li a{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 10px auto 0 ;
+}
+/*商品价格*/
+.goodslist li p{
+    font-size: 20px;
+    color: #c40000;
+    margin-top: 22px;
+    text-align: center;
 }
 
-.foot .links{
-    font-size: 0px;
-}
 
-.foot p a{
-    color: #4e4e4e;
-    font: normal 12px/28px "Microsoft Yahei";
-}
 
-.foot p span{
-    font: normal 12px/28px "Microsoft Yahei";
-    margin: 0 5px;
-}

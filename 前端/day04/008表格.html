@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .tb {
+            width: 500px;
+            height: 300px;
+            border: 1px solid #000;
+
+            /*边框合并 默认值separate*/
+            border-collapse: collapse;
+        }
+
+        .tb td {
+            border: 1px solid #000;
+            /*水平对齐 left center right */
+            text-align: center;
+
+            /*垂直对齐方式 注意 vertical-align只适用于表格   top middle bottom*/
+            vertical-align: middle;
+        }
+
+         .tb th {
+             border: 1px solid #000;
+         }
+    </style>
+</head>
+
+<body>
+
+
+    <table class="tb">
+
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <!--单元格水平合并 注意把多余的删掉-->
+            <th colspan="2">3</th>
+            <th>5</th>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <!--垂直合并 注意把多余的删掉-->
+            <td rowspan="2">5</td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+
+        </tr>
+
+
+
+    </table>
+
+
+
+</body>
+
+</html>

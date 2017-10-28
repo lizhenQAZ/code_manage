@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+        .con{
+            width: 300px;
+            height: 300px;
+            border: 1px solid #000;
+            /*父级设置文字大小为0  可以解决子级内联元素有间隙的问题*/
+            font-size: 0px;
+        }
+
+        .con a,.con span{
+            /*不支持宽高*/
+            width: 60px;
+            height: 50px;
+            /*margin不支持上下*/
+            margin: 10px;
+            /*padding上下支持的不好  不要用*/
+            padding:10px;
+
+
+            background-color: gold;
+            font-size: 16px;
+        }
+    
+    </style>
+</head>
+<body>
+    
+
+    <div class="con">
+        <a href="">a1</a>
+        <a href="">a2</a>
+        <a href="">a3</a>
+        <a href="">a4</a>
+        <a href="">a5</a>
+        <span>span1</span>
+        <span>span2</span>
+        <span>span3</span>
+        <span>span4</span>
+        <span>span5</span>
+        <span>span6</span>
+
+    </div>
+
+
+
+</body>
+</html>

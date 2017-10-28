@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .con {
+            width: 600px;
+            height: 40px;
+            border: 1px solid #10ad10;
+        }
+        /*输入框*/
+
+        .input1 {
+            width: 500px;
+            height: 40px;
+
+            /*去掉自带的padding和border*/
+            padding: 0;
+            border: 0;
+            float: left;
+            font-size: 12px;
+            /*缩进*/
+            text-indent: 10px;
+            /*去掉有焦点的时候 外边框的高亮*/
+            outline: none;
+        }
+
+        .search {
+            width: 100px;
+            height: 40px;
+              /*去掉自带的padding和border*/
+            padding: 0;
+            border: 0;
+            float: right;
+            background-color: #10ad10;
+            font-size: 16px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="con">
+        <!--内联元素 排成一列 如果代码换行 就会有间隙
+            浮动可以去掉
+        -->
+        <input type="text" class="input1" placeholder="请输入搜索内容">
+        <input type="button" value="搜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;索" class="search">
+
+    </div>
+
+
+</body>
+
+</html>

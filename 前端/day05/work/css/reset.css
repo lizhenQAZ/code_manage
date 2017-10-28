@@ -1,12 +1,9 @@
-h1,h2,h3,h4,h5,h6,p,body,ul,ol,dl,dd,input{
-    margin: 0;
+h1,h2,h3,h4,h5,h6,ul,ol,p,dd,dl,body,input{
     padding: 0;
-}
-input{
-    border: 0;
+    margin: 0;
 }
 
-ul,ol{
+ul,ol,li{
     list-style: none;
 }
 
@@ -14,16 +11,15 @@ a{
     text-decoration: none;
 }
 
-i,em{
+em,i{
     font-style: normal;
 }
 
-b,strong{
+strong,b{
     font-weight: normal;
 }
 
-
-.clearfix:before,.clearfix:after{
+.clearfix:before .clearfix:after{
     content: "";
     display: table;
 }
@@ -32,8 +28,8 @@ b,strong{
     clear: both;
 }
 
-.clearfix{
-    zoom:1;
+.clearfix:after{
+    zoom: 1;
 }
 
 .fl{

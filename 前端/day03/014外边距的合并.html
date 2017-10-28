@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        .con {
+            width: 500px;
+            border: 1px solid #000;
+            /*height: 1000px;*/
+            /*清除浮动对父级的影响*/
+            /*overflow: hidden;*/
+        }
+
+        .con p {
+            margin: 20px;
+            float: left;
+        }
+
+        .last {
+            clear: both;
+        }
+
+     
+
+
+    </style>
+</head>
+
+<body>
+
+    <!--margin上下的合并
+    
+        把元素浮动可以去除这种特性
+    -->
+    这个小案例与实际结果不符
+    <div class="con clearfix">
+
+        <p>外边距合并指的是，当两个不浮动的元素，它们的垂直外边距相遇时，它们将形成一个外边距。合并后的外边距的高度等于两个发生合并的外边距的高度中的较大者。</p>
+        <p>外边距合并指的是，当两个不浮动的元素，它们的垂直外边距相遇时，它们将形成一个外边距。合并后的外边距的高度等于两个发生合并的外边距的高度中的较大者。</p>
+        <p>外边距合并指的是，当两个不浮动的元素，它们的垂直外边距相遇时，它们将形成一个外边距。合并后的外边距的高度等于两个发生合并的外边距的高度中的较大者。</p>
+        <p>外边距合并指的是，当两个不浮动的元素，它们的垂直外边距相遇时，它们将形成一个外边距。合并后的外边距的高度等于两个发生合并的外边距的高度中的较大者。</p>
+
+        <!--<div class="last"></div>-->
+
+    </div>
+
+
+</body>
+
+</html>
