@@ -28,10 +28,10 @@ class Movie(object):
         return data_list
 
     def save_data(self,data_list):
-        with open('08_movie.json','w')as f:
+        with open('08_movie.json','wb')as f:
             for data in data_list:
-                str_data = json.dumps(data, ensure_ascii=False).decode() + ",\n"
-                f.write(str_data)
+                str_data = json.dumps(data, ensure_ascii=False) + ",\n"
+                f.write(str_data.encode())
 
     def run(self):
         # 构建一个url

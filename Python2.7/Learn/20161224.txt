@@ -1,1 +1,0 @@
-python+ 数据结构和算法 + linux + 软件工程 + web开发 +javascript+ git版本控制+沟通技巧等等
