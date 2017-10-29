@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // 当文档加载完毕 然后就执行{}里面的代码
+        window.onload = function () {
+
+            //HTMLCollection可以认为是类似于数组的一个对象
+            var oDiv1 = document.getElementsByTagName("div");
+
+            // document.getElementsByClassName();//不兼容 低版本的各种浏览器
+
+
+            // [object HTMLCollection]
+            alert(oDiv1);
+            alert(oDiv1.length);
+            alert(oDiv1.item(0));
+            alert(oDiv1[1]);
+
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <div class="box">哈哈哈哈哈哈1</div>
+    <div class="box">哈哈哈哈哈哈2</div>
+    <p class="box" name="haha">哈哈哈哈哈哈3</p>
+
+
+
+</body>
+
+</html>

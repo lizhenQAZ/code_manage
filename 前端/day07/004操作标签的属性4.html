@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: gold;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+
+            var oDiv1 = document.getElementById("div1");
+
+
+            // oDiv1.className = "box";
+
+            var sname = "className";
+            // 中括号操作属性  里面支持写变量 或者是字符串  下面两种一样
+            oDiv1[sname] = "box";
+            oDiv1["className"] = "box";
+
+
+            oDiv1.style.color = "red";
+
+            var sStyle = "style";
+
+            oDiv1[sStyle]["color"] = "blue";
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="div1">哈哈哈</div>
+
+
+</body>
+
+</html>

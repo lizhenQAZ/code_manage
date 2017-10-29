@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var inum01 = 10;
+
+        var snum01 = "20";
+
+        alert(inum01 + snum01);//1020
+
+        alert(inum01 - snum01);//-10
+        alert(inum01 * snum01);//200
+        alert(inum01 / snum01);//0.5
+
+
+        alert("5" == 5);
+
+        alert(0.1 + 0.2);//0.30000000000000004
+
+        // 解决小数精度问题  把小数乘以 10的n次方  最后的结果 再除以10的n次方
+        alert((0.1*10 + 0.2*10)/10);//0.3
+
+        // 0.1  2  0.2  0
+
+        // 0.2  2  0.4  0
+        // 0.4  2  0.8  0
+        // 0.8  2  1.6  1
+        // 0.6  2  1.2  1
+
+        // 0.2  2  0.4  0
+        // 0.4  2  0.8  0
+        // 0.8  2  1.6  1
+        // 0.6  2  1.2  1
+
+        // 0 0011 0011 0011 0011....
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

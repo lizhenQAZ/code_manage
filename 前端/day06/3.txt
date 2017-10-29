@@ -1,0 +1,115 @@
+transition 属性 转换(变换)
+
+transition-property 设置过渡效果的 CSS 属性的名称。
+transition-duration	 完成过渡效果需要多少秒或毫秒
+transition-timing-function  速度曲线  linear ease
+transition-delay  过渡效果延时多久开始
+
+
+.con1 {
+    transition: width 2s ease,height 1s ease;
+    transition: all 2s ease;
+}
+
+.con1:hover{
+    width: 600px;
+    height: 300px;
+}
+-------------------------------------------------------------------------------
+transform
+
+translate(x,y) 设置盒子位移
+scale(x,y) 设置盒子缩放
+rotate(deg) 设置盒子旋转
+skew(x-angle,y-angle) 设置盒子斜切
+perspective 设置透视距离
+transform-style flat | preserve-3d 设置盒子是否按3d空间显示
+translateX、translaeY、tratnslateZ 设置三维移动
+rotateX、rotateY、rotateZ 设置三维旋转 deg
+scaleX、scaleY、scaleZ 设置三维缩放
+
+多个属性 空格隔开 比如  transform: skew(0deg,0deg) scale(1,1);
+
+tranform-origin 设置变形的中心点
+
+backface-visibility 设置盒子背面是否可见  hidden visible
+
+---------------------------------------------------------------------------------
+
+animation 动画
+
+animation-name	规定需要绑定到选择器的 keyframe 名称。。
+animation-duration	规定完成动画所花费的时间，以秒或毫秒计。
+animation-timing-function	规定动画的速度曲线。 linear ease
+animation-delay	规定在动画开始之前的延迟。
+animation-iteration-count	规定动画应该播放的次数。n 或者 infinite
+animation-direction	规定是否应该轮流反向播放动画。 normal 或者 alternate
+
+ animation: move 2s ease 2 alternate;
+
+@keyframes move {
+        /*from{
+            width: 30px;
+            top: 0;
+            background-color: gold;
+        }
+
+        to{
+            width: 300px;
+            top: 300px;
+            background-color: #987643
+        }*/
+        0% {
+            background: red;
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            background: yellow;
+            left: 200px;
+            top: 0px;
+        }
+        50% {
+            background: blue;
+            left: 200px;
+            top: 200px;
+        }
+        75% {
+            background: green;
+            left: 0px;
+            top: 200px;
+        }
+        100% {
+            background: red;
+            left: 0px;
+            top: 0px;
+        }
+}
+
+
+--------------------------------------------------------------
+属性选择器
+^
+$
+*
+|
+
+
+------
+nth选择器
+
+nth-child()
+first-child
+last-child
+
+nth-of-type()
+first-of-type
+last-of-type
+-------
+
+> 选第一层子集
+
++ 后面紧跟的元素 
+       
+~ 后面所有的元素
+       

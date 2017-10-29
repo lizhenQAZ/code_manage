@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <script>
+        window.onload = function () {
+            var oBody = document.getElementById("body");
+
+            var inum = 1;
+            // if (inum == 0) {
+
+            // } else if (inum == 1) {
+
+            // } else if (inum == 2) {
+
+            // } else if (inum == 3) {
+
+            // }
+
+            // switch的()里支持所有类型
+            switch (inum) {
+                case 0:
+                    oBody.style.backgroundColor = "red";
+                    break;
+                case 1:
+                    oBody.style.backgroundColor = "blue";
+                    // break; 如果不写 语句继续执行
+                case 2:
+                    oBody.style.backgroundColor = "green";
+                    break;
+                case 3:
+                    oBody.style.backgroundColor = "#859882";
+                    break;
+                case 4:
+                     oBody.style.backgroundColor = "#123456";
+                    break;
+                case 5: 
+                     oBody.style.backgroundColor = "#654321";
+                    break;
+                case 6:
+                     oBody.style.backgroundColor = "#129929";
+                    break;
+                default:
+                     oBody.style.backgroundColor = "#000";
+                    break;
+
+            }
+
+        }
+    </script>
+</head>
+
+<body id="body">
+
+
+
+
+</body>
+
+</html>

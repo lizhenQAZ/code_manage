@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            // 获取新闻列表的标签对象
+            var oNews = document.getElementById("news");
+            var aList = [
+                "林妙可开学报道 打扮朴素似高中生",
+                "潘长江晒女儿异域风写真 还黑了她一把",
+                "女星头被砸伤先自拍 晒血流满面照被网友骂翻",
+                "蒋欣和90后小花同台 体积大了一倍",
+                "梁朝伟深夜和唐嫣街头拍戏 替身曝光",
+                "吴尊“花式抱娃” 开启“大胃王”模式"
+            ];
+
+            var str = "";//存放总的数据
+            var length = aList.length;
+            for (var i = 0; i < length; i++) {
+                // 每次循环 生成一条li
+                str += "<li><a href=''>" + aList[i] + "</a></li>"
+            }
+
+            // 显示在页面
+            oNews.innerHTML = str;
+
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <ul id="news">
+        <!--<li><a href=""><img src="" alt=""></a></li>
+        <li><a href=""><img src="" alt=""></a></li>
+        <li><a href=""><img src="" alt=""></a></li>
+        <li><a href=""><img src="" alt=""></a></li>
+        <li><a href=""><img src="" alt=""></a></li>
+        <li><a href=""><img src="" alt=""></a></li>-->
+    </ul>
+
+
+</body>
+
+</html>

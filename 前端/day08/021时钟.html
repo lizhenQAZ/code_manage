@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            font-size: 30px;
+            color: red;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var oBox = document.getElementById("box");
+
+            // 每秒更新一次
+            setInterval(update, 1000);
+            // 因为定时器第一次执行也是1s后 所有手动调用一次
+            update();
+
+            function update() {
+                // 获取时间对象  就是当前 时间
+                var oDate = new Date();
+
+                var year = oDate.getFullYear();//年
+                var month = oDate.getMonth() + 1;//月   0 - 11
+                var dayOfMonth = oDate.getDate();//日
+                var dayOfWeek = oDate.getDay();//星期几   0 - 6
+                var hours = oDate.getHours();//小时
+                var minutes = oDate.getMinutes();//分
+                var seconds = oDate.getSeconds();//秒
+
+                var str = year + "年" + month + "月" + dayOfMonth + "日," + getWeek(dayOfWeek) + "," + changeTimer(hours) + ":" + changeTimer(minutes) + ":" + changeTimer(seconds);
+                oBox.innerHTML = str;
+            }
+
+
+            function changeTimer(num) {
+                return num < 10 ? "0" + num : num
+            }
+
+            function getWeek(num) {
+                switch (num) {
+                    case 0:
+                        return "星期天"
+                    case 1:
+                        return "星期一"
+                    case 2:
+                        return "星期二"
+                    case 3:
+                        return "星期三"
+                    case 4:
+                        return "星期四"
+                    case 5:
+                        return "星期五"
+                    case 6:
+                        return "星期六"
+                    default:
+                        break;
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="box" id="box"></div>
+
+</body>
+
+</html>

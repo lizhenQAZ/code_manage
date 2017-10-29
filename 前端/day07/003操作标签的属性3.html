@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: gold;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+
+            var oDiv1 = document.getElementById("div1");
+
+            alert( oDiv1.style);
+
+            // 操作样式 全部是内联样式
+            oDiv1.style.color = "red";
+
+            oDiv1.style.fontSize = "30px";
+            oDiv1.style.backgroundColor = "#573246";
+
+            var oStyle = oDiv1.style;
+            oStyle.fontWeight = "bold";
+
+            alert(oDiv1.style.width);
+
+            // js如果获取嵌入的样式或者外链的样式  ie和其它浏览器分别都有一种方法
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="box" id="div1" style="">哈哈哈</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .con div[class] {
+            color: red;
+        }
+        /*class等于haha的*/
+        .con div[class="haha"] {
+            color: blue;
+        }
+        /*haha开头的*/
+        .con div[class ^="haha"] {
+            font-size: 30px;
+        }
+        /*haha结尾*/
+        .con div[class$="haha"]{
+            background-color: gold;
+        }
+        /*有haha*/
+        .con div[class*="haha"]{
+            font-weight: bold;
+        }
+
+        /* 等于haha　或者 以haha- 开头的 */
+        .con div[class|="haha"]{
+            font-style: italic;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!--属性-->
+
+    <!--<a href="" target=""></a>
+    <img src="" alt="">-->
+
+    <div class="con">
+        <div class="haha">1</div>
+        <div class="haharqoiedsfdsfs">2</div>
+        <div class="jfdkeoiwlhaha">3</div>
+        <div class="jfldsjhahajfdsjkl">4</div>
+        <div class="jflkdslejflks">5</div>
+        <div class="haha-hehe-heihei">6</div>
+        <div>7</div>
+    </div>
+
+
+</body>
+
+</html>

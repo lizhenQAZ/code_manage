@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: gold;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var oBox = document.getElementById("box");
+
+            var left = 0;//初始的位置
+            var speed = 2;//每次移动的距离
+
+
+            setInterval(move, 10);
+
+            function move() {
+                // 每次移动 增加speed像素
+                left += speed;
+
+                if(left > 500){
+                    speed = -2;
+                }else if(left<0){
+                    speed = 2;
+                }
+
+
+                oBox.style.left = left + "px";
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="box" id="box">
+        哈哈哈去哈哈
+    </div>
+
+
+</body>
+
+</html>

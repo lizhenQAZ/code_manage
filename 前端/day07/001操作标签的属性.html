@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            // 获取a和img标签的对象
+            var oA1 = document.getElementById("a1");
+            var oPic = document.getElementById("pic1");
+
+            oA1.id = "hehe";
+
+            // 获取href的值 是一个字符串
+            var sHref = oA1.href;
+
+            alert(sHref);
+
+            oA1.href = "http://www.itcast.cn";
+
+            alert(oA1.href);
+
+
+            oPic.src = "./images/001.jpg";
+            oPic.alt = "风景";
+        }
+    </script>
+</head>
+
+<body>
+
+    <!--href=""  如果没有写内容 代表当前页面的地址-->
+    <a href="" id="a1">哈哈</a>
+
+    <img src="" alt="" id="pic1">
+
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    
+        var sDate = "2017-09-16";
+
+        // 通过指定的字符串 拆分成数组
+        var aList01 = sDate.split("-");
+        alert(aList01);
+
+        var str01 = "axbjsabcdsz";
+        // 字符串在数据里第一次出现的下标
+        var index = str01.indexOf("b");//2
+        alert(index);
+
+        var lastIndex = str01.lastIndexOf("b");//6
+        alert(lastIndex);
+
+        var str02 = "xndjrhahancxkd";
+        // 字符串的截取  包含参1 不包含参2
+        var str03 =str02.substring(5,9);
+        alert(str03);
+
+        // 字符串反转
+        var str05 = "abcdefg";
+        // split变成数组 reverse数组反转 join合成字符串
+        var str06 = str05.split("").reverse().join("");
+
+        alert(str06);
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

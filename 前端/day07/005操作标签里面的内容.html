@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            var oDiv1 = document.getElementById("div1");
+
+            // 获取标签里的内容
+            var sHtml = oDiv1.innerHTML;
+            // alert(sHtml);
+
+            // var sText = oDiv1.innerText;//不兼容低版本浏览器
+            // alert(sText);
+
+            // 会把字符串里的标签渲染
+            oDiv1.innerHTML =   "<a href=''>呵呵呵呵</a>";
+
+
+            
+            // oDiv1.innerText =   "<a href=''>呵呵呵呵</a>";
+
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <div id="div1">
+
+        <p>哈哈哈哈哈哈</p>
+
+    </div>
+
+
+</body>
+
+</html>

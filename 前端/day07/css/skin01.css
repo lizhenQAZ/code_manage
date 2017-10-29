@@ -1,0 +1,26 @@
+.btn1{
+    width: 100px;
+    height: 35px;
+    background-color: #193846;
+    border-radius: 10px;
+    color: darkgray;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+
+.btn2{
+    width: 100px;
+    height: 35px;
+    background-color: #a01938;
+    border-radius: 10px;
+    color: darkgreen;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+body{
+    background-color: mediumaquamarine;
+}

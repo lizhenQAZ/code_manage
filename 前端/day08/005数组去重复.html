@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        // index     0  1  2  3  4  5  6  7  8  9 10  11 12  13 14 15 16 17  18
+        var aList = [1, 2, 5, 4, 1, 6, 0, 8, 7, 3, 2, 8, 4, 6, 9, 0, 5, 3, 2]; //  1254608739
+        // indexOf   0  1  2  3  0  5  6  7  8  9  1   7  3   5  14 6  2  9  1
+
+
+        // index和indexOf相等  这个元素是不重复的
+
+        var alistNew = [];//定一个新的空数组 存放结果
+
+        for (var i = 0; i < aList.length; i++) {
+            // 取出当前的值
+            var value = aList[i];
+
+            // 获取indexof的值
+            var indexof = aList.indexOf(value);
+
+
+            if (i == indexof) {
+                // 数据是不重复的
+                alistNew.push(value);
+            }
+
+        }
+
+        alert(alistNew);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

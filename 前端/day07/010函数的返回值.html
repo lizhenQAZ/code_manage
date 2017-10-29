@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            var result = fnAdd(2, 3);
+            alert(result);
+
+
+            function fnAdd(add1, add2) {
+                var result = add1 + add2;
+                //把结果返回
+                return result;
+                alert("hehe");
+            }
+
+
+            var oA1 = document.getElementById("a1");
+
+            // 设置事件的监听
+            oA1.onclick = function () {
+                alert("跳转");
+                // return false 可以阻止标签的默认行为 这里就不会跳转了
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <a href="http://www.qq.com" id="a1">qq</a>
+
+
+</body>
+
+</html>

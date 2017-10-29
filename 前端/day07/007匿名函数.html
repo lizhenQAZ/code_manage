@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            var oDiv1 = document.getElementById("div1");
+
+            // 设置div的点击监听  用户点击后 会执行fnAlert方法  注意是把方法的名字赋值
+            // oDiv1.onclick = fnAlert;
+
+            // function fnAlert() {
+            //     alert("点了一下");
+            // }
+
+            // 匿名函数  设置点击事件的监听 点完后 会执行function里的代码
+            oDiv1.onclick = function () {
+                alert("点了一下");
+
+                //点击后想执行的代买
+
+                fnhehe();
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <div id="div1">点我</div>
+
+
+</body>
+
+</html>

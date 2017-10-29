@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: gold;
+            transition: all 1s ease;
+            transform: perspective(800px) rotateY(0);
+            /*背面隐藏*/
+            /*backface-visibility: hidden;*/
+        }
+
+        .con:hover .box{
+            transform: perspective(800px) rotateY(180deg);
+        }
+
+        .con {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="con">
+        <div class="box">
+
+            习近平同普京向深圳北理莫斯科大学致贺辞习近平同文莱苏丹会谈 接受新驻华大使国书 致贺词 金砖新十年 风起再扬帆 喜迎十九大 李克强听取汇报 张德江 俞正声 刘云山
+        </div>
+    </div>
+</body>
+
+</html>

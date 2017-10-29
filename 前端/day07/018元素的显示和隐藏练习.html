@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            var oBtn = document.getElementById("btn");
+            var oContent = document.getElementById("content");
+
+            oBtn.onclick = function () {
+                // 判断当前是显示还是隐藏
+
+                // 取出display的值  刚开始显示 display的值是空字符串
+                var display = oContent.style.display;
+                // alert(display);
+                if (display == "") {
+                    // 当前是显示的  要去隐藏
+                    oContent.style.display = "none";
+                    oBtn.value = "显示";
+
+                } else if (display == "none") {
+                    // 当前是隐藏的  要去显示
+                    oContent.style.display = "";
+                    oBtn.value = "隐藏";
+                }
+
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+
+    <input type="button" value="隐藏" id="btn">
+
+    <div id="content">我是内容</div>
+
+
+</body>
+
+</html>

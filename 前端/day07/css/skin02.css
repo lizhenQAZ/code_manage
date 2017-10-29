@@ -1,0 +1,26 @@
+.btn1{
+    width: 100px;
+    height: 35px;
+    background-color: #981835;
+    border-radius: 10px;
+    color: #a89959;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+
+.btn2{
+    width: 100px;
+    height: 35px;
+    background-color: #948375;
+    border-radius: 10px;
+    color: #1948ab;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+body{
+    background-color: mediumorchid;
+}

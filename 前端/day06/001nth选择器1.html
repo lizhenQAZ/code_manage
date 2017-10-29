@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*伪类*/
+
+        /* 1符合指定的元素 2符合指定的序号  两个条件必须同时满足  */
+        .list li:nth-child(2){
+            color: red;
+        }
+
+        .list li:first-child{
+           /*相当于 .list li:nth-child(1)*/
+        }
+
+        .list li:last-child{
+            /*最后一个*/
+            color: blue;
+        }
+    
+    
+    </style>
+</head>
+<body>
+    
+
+
+    <ul class="list">
+        <p>p1p1p1p1p1</p>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+
+
+</body>
+</html>

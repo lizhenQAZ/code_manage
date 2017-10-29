@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box {
+            text-align: center;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var oBox = document.getElementById("box");
+
+            var str = "";//用来存放结果的星星
+
+            // 20行的金字塔
+            for (var i = 0; i < 20; i++) {
+                
+                // 每一次i的循环 要生成1排星星
+                for (var j = 0; j <= i; j++) {
+                    str += " * ";
+                }
+                // 每一排星星 添加完后 再加上一个换行标签
+                str += "<br>";
+
+            }
+
+            // 显示在页面上
+            oBox.innerHTML = str;
+
+        }
+    </script>
+</head>
+
+<body>
+
+
+
+    <div id="box">
+
+        <!--*<br>              0  1
+            **<br>             1  2
+            ***<br>
+            ****<br>
+            *****<br>
+            ******<br>
+            *******<br>
+            ********<br>-->
+
+    </div>
+
+
+</body>
+
+</html>
