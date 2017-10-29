@@ -1,0 +1,23 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}
+    Flasky
+{% endblock %}
+{% block navbar %}
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">home</a>
+            <a class="navbar-brand" href="/">register</a>
+            <a class="navbar-brand" href="/">login</a>
+            <a class="navbar-brand" href="/">logout</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        {% block page_content %}{% endblock %}
+    </div>
+</div>
+{% endblock %}
