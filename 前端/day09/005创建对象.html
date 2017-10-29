@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // 创建 一个对象
+        var student1 = new Object();
+        student1.name = "xiaoming";
+        student1.age = 18;
+        student1.say = function () {
+            alert("我是小名,我是好人,呵呵");
+        }
+
+        console.log(student1);
+        console.log(student1.name);
+        console.log(student1.age);
+        student1.say();
+
+
+
+        var student2 = {
+            name: "xiaohong",
+            age: 19,
+            say: function () {
+                alert("我是小红,小名是骗子,我是好人");
+            }
+        };
+        console.log(student2);
+        console.log(student2.name);
+        console.log(student2.age);
+        student2.say();
+    </script>
+</head>
+
+<body>
+
+
+
+</body>
+
+</html>

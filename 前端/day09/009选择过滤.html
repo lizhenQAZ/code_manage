@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+
+            var $divs = $("div");
+            console.log($divs);
+            console.log($divs.length);
+
+            // 如果这个标签没有 那么获取的对象不是null 只是length大小是0
+            var $heheh = $("hehehe");
+            console.log($heheh.length);
+
+
+            // 找到子级(所有的后代)包含P元素的
+            var div01 = $divs.has("p");
+
+            console.log(div01);
+            console.log(div01.length);
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="box1">
+        <div>
+            <p>ppppp1</p>
+        </div>
+    </div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .con {
+            width: 300px;
+            height: 300px;
+            background-color: gold;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            // $(".con").mouseenter(function () {
+            //     console.log("con-enter");
+            // });
+
+            // $(".con").mouseleave(function () {
+            //     console.log("con-leave");
+            // });
+
+            $(".box").mouseenter(function () {
+                console.log("box-enter");
+            });
+
+            $(".box").mouseleave(function () {
+                console.log("box-leave");
+            });
+
+
+            $(".con").hover(
+                function () {
+                    console.log("con-enter");
+                }, 
+                function () {
+                    console.log("con-leave");
+                }
+            );
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="con">
+
+        <div class="box"></div>
+
+
+    </div>
+
+
+</body>
+
+</html>

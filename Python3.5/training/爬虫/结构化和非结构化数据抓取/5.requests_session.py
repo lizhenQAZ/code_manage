@@ -1,5 +1,6 @@
 #coding:utf-8
 import requests
+import re
 # 构建一个url
 url = 'http://www.renren.com/PLogin.do'
 # 构建请求头
@@ -9,8 +10,7 @@ headers = {
 
 # 构建post数据
 post_data = {
-    "email": "17173805860",
-    "password": "1qaz@WSX3edc"
+
 }
 
 # 创建session实例
@@ -22,3 +22,9 @@ response = session.post(url,data=post_data,headers=headers)
 print (response.url)
 response1 = session.get('http://www.renren.com/923768535')
 print (response1.url)
+
+with open('5_renren3.html','wb')as f:
+    f.write(response1.content)
+
+# 验证是否登录成功
+print(re.findall('迷途',response1.content.decode()))

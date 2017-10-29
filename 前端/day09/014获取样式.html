@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 200px;
+            background-color: gold;
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+
+        $(function () {
+            var $box = $(".box");
+
+            var width = $box.css("width");
+            var fontSize = $box.css("fontSize");
+            var bgco = $box.css("backgroundColor");
+            console.log(width);//100px
+            console.log(fontSize);//30px
+            console.log(bgco);//rgb(255, 215, 0)
+
+            $box.css({backgroundColor:"#728475"}); //也可以用16进制和10进制
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <div class="box">哈哈哈</div>
+
+
+</body>
+
+</html>

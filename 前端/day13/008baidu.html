@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        // https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su ? wd=ni  &json=1&p=3&sid=1424_21083_20927&req=2&csor=2&pwd=n&  cb=jQuery110205464083927691816_1506157269897  &_=1506157269899
+
+
+        // jQuery110205464083927691816_1506157269897({"q":"ni","p":false,"bs":"","csor":"2","status":0,"g":[ { "q": "昵图网", "t": "n", "st": { "q": "昵图网", "new": 0 } }, { "q": "nike", "t": "n", "st": { "q": "nike", "new": 0 } }, { "q": "昵图", "t": "n", "st": { "q": "昵图", "new": 0 } }, { "q": "逆战", "t": "n", "st": { "q": "逆战", "new": 0 } }, { "q": "逆水寒", "t": "n", "st": { "q": "逆水寒", "new": 0 } }, { "q": "你的名字", "t": "n", "st": { "q": "你的名字", "new": 0 } }, { "q": "逆袭之星途璀璨", "t": "n", "st": { "q": "逆袭之星途璀璨", "new": 0 } }, { "q": "尼尔机械纪元", "t": "n", "st": { "q": "尼尔机械纪元", "new": 0 } }, { "q": "牛客网", "t": "n", "st": { "q": "牛客网", "new": 0 } }, { "q": "宁波", "t": "n", "st": { "q": "宁波", "new": 0 } } ],"s":["昵图网","nike","昵图","逆战","逆水寒","   你的名字","逆袭之星途璀璨","尼尔机械纪元","牛客网","宁波"]});
+
+
+        // https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?callback=jQuery112407872998589300222_1506157474456&wd=ni&_=1506157474457
+
+        $(function () {
+            // 监听输入
+            $(".input").bind("input propertychange", function () {
+                var text = $(".input").val();
+                $.ajax({
+                    url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
+                    type: "get",
+                    dataType: "jsonp",
+                    data: { "wd": text },
+                    jsonp: "cb",  //指定上传方法名字的key
+                    jsonpCallback: "fnhehe"
+                }).done(function (data) {
+                    console.log(data);
+                    process(data)
+                }).fail(function () {
+                    console.log("fail");
+                });
+            });
+
+            function process(data) {
+                // 清空
+                $(".list").html("");
+
+                var textlist = data.s;
+                for (var i = 0; i < textlist.length; i++) {
+                    var newLi = $("<li>" + textlist[i] + "</li>");
+                    newLi.appendTo($(".list"));
+                }
+            }
+
+        })
+    </script>
+</head>
+
+<body>
+
+    <input type="text" class="input">
+    <ul class="list"></ul>
+
+
+</body>
+
+</html>

@@ -23,9 +23,4 @@ import requests
 
 # 超时设定
 url = 'http://www.youtube.com'
-
 response = requests.get(url,timeout=3)
-
-
-
-

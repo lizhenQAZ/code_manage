@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        
+        function Student(name, age) {
+            this.name = name;
+            this.age = age;
+            this.say = function () {
+                alert("我是" + name + ",我是好人");
+            }
+        }
+
+        var student01 = new Student("zhangsan", 20);
+
+        console.log(student01);
+        student01.say();
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

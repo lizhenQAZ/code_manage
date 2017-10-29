@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var str01 = "Abc"
+
+        var reg01 = /abc/i;  //i忽略大小写
+
+        console.log(reg01.test(str01));
+
+
+        var str02 = "aznAvdakhavmAnvalkv";
+        var reg02 = /a/gi; //global  匹配全部
+        var str03 = str02.replace(reg02, "*");
+        console.log(str03);
+
+
+        var str05 = "\n";
+        var reg05 = /\n/gi; //global  匹配全部
+        console.log(reg05.test(str05));
+    </script>
+</head>
+
+<body>
+
+    <div>
+
+        fdsafdsa
+        fdsfa
+    </div>
+
+</body>
+
+</html>

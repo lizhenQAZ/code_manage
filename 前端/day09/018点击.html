@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+
+            $(".btn").click(function () {
+                console.log("点我");
+            });
+
+            var i = 0;
+
+            // 所有的li设置点击事件
+            $(".list li").click(function () {
+                // console.log(i++);
+                // $(this) 指向点击的那个li
+
+                $(this).css({ "fontSize": "30px" });
+
+                // .index()是获取元素 在父级里的索引下标 
+                console.log($(this).index());
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="btn">点我</div>
+
+    <ul class="list">
+        <p>p1p1p1</p>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+
+</body>
+
+</html>

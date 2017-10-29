@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .li01 {
+            color: red;
+        }
+
+        .li02 {
+            color: blue;
+        }
+
+        .li03 {
+            color: darkcyan;
+        }
+
+        .li04 {
+            color: wheat;
+        }
+
+        .li05 {
+            color: green;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            var $lis = $(".list li");
+
+            // $lis.css({ color: "red", "fontSize": "25px" });//可以统一设置样式
+
+             var color = $lis.css("color");//获取样式获取的是第一个元素的
+             console.log(color);//rgb(255, 0, 0)
+        });
+    </script>
+</head>
+
+<body>
+
+
+    <ul class="list">
+        <li class="li01">1</li>
+        <li class="li02">2</li>
+        <li class="li03">3</li>
+        <li class="li04">4</li>
+        <li class="li05">5</li>
+
+    </ul>
+
+</body>
+
+</html>

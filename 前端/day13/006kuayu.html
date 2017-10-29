@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        // 跨域
+        // http://192.168.79.58:8888      http:不同  ip不同  不同:8888
+
+        // https://sug.so.360.cn/suggest?callback=suggest_so&encodein=utf-8&encodeout=utf-8&format=json&fields=word&word=he
+
+        // suggest_so({"query":"he","ext":"eci=52672c2fd1525ed5&nlpv=suggest_3.2.2","result":[{"word":"河神","resrc":"ori","source":""},{"word":"和讯网","resrc":"ori","source":""},{"word":"合同法","resrc":"ori","source":""},{"word":"海尔官网","resrc":"ori","source":""},{"word":"合肥","resrc":"ori","source":""},{"word":"洪恩幼儿英语","resrc":"ori","source":""},{"word":"哈尔滨天气","resrc":"ori","source":""},{"word":"何所冬暖何所夏凉","resrc":"ori","source":""},{"word":"何以笙箫默","resrc":"ori","source":""},{"word":"河北省人事考试网","resrc":"ori","source":""}],"version":"3.2.2"});
+
+
+
+        // https://sug.so.360.cn/suggest?  callback=jQuery112408709831376078412_1506156767791  &word=he&_=1506156767792
+
+        // fnHaha(
+        //     {q:"he",p:true,s:["河神","和讯网","合同法","海尔官网","合肥","洪恩幼儿英语","哈尔滨天气","何所冬暖何所夏凉","何以笙箫默","河北省人事考试网"]}
+        // );
+
+        // 跨域限制 是ajax内部限制   script标签没有跨域问题
+        $.ajax({
+            url: "https://sug.so.360.cn/suggest",
+            dataType: "jsonp",
+            type: "get",
+            data: { "word": "he" },
+            jsonpCallback: "fnHaha"  //指定方法的名字
+        }).done(function (data) {
+            console.log(data);
+        }).fail(function () {
+            console.log("fail");
+        });
+
+        // 自动创建一个方法 方法的名字是自动生成的 每次都不一样
+        function fnHaha(data) {
+            // console.log("hahahah" + data)
+        }
+    </script>
+</head>
+
+<body>
+
+
+</body>
+
+</html>

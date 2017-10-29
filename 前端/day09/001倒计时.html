@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            font-size: 30px;
+            color: red;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            //获取div标签
+            var oBox = document.getElementById("box");
+
+            // 目标时间
+            var targetTime = new Date(2017, 9, 18, 18, 30, 59);
+
+            // 每一秒钟刷新一次
+            setInterval(update, 1000);
+            update();
+
+            function update() {
+                // 当前时间
+                var nowTime = new Date();
+                // 时间差
+                var offsetTime = parseInt((targetTime - nowTime) / 1000);//减完后得到的是差值 单位是毫秒 转为s
+
+                // 100000s
+                var day = parseInt(offsetTime / 86400);//得到多少天
+
+                var hours = parseInt(offsetTime % 86400 / 3600); //得到多少小时
+
+                var minutes = parseInt(offsetTime % 86400 % 3600 / 60);//得到多少分钟
+
+                var seconds = offsetTime % 60;//得到多少秒
+
+
+                var str = "距离2017年10月18日18点30分59秒还有" + day + "天" + hours + "小时" + minutes + "分" + seconds + "秒";
+
+                oBox.innerHTML = str;
+            }
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="box" id="box">haha </div>
+
+
+</body>
+
+</html>

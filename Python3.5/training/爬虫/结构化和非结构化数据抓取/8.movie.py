@@ -10,7 +10,7 @@ class Movie(object):
         }  
 
     def get_data(self):
-        response = requests.get(self.url,headers=self.headers)
+        response = requests.get(self.url,headers=self.headers, verify=False)
         return response.content.decode()
 
     def parse_data(self, data):
@@ -23,14 +23,14 @@ class Movie(object):
         for movie in movie_list:
             temp = {}
             temp['title'] = movie['title']
-            temp['url ']= movie['url']
+            temp['url']= movie['url']
             data_list.append(temp)
         return data_list
 
     def save_data(self,data_list):
-        with open('movie.json','w')as f:
+        with open('08_movie.json','w')as f:
             for data in data_list:
-                str_data = json.dumps(data,ensure_ascii=False  ) + ",\n"
+                str_data = json.dumps(data, ensure_ascii=False).decode() + ",\n"
                 f.write(str_data)
 
     def run(self):

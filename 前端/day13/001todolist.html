@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>todolist</title>
+	<style type="text/css">
+		.list_con {
+			width: 600px;
+			margin: 50px auto 0;
+		}
+
+		.inputtxt {
+			width: 550px;
+			height: 30px;
+			border: 1px solid #ccc;
+			padding: 0px;
+			text-indent: 10px;
+		}
+
+		.inputbtn {
+			width: 40px;
+			height: 32px;
+			padding: 0px;
+			border: 1px solid #ccc;
+		}
+
+		.list {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			margin-top: 20px;
+		}
+
+		.list li {
+			height: 40px;
+			line-height: 40px;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.list li span {
+			float: left;
+		}
+
+		.list li a {
+			float: right;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+		/*--------------弹框-----------------*/
+
+		.pop_main {
+			display: none;
+		}
+
+		.pop_con {
+			width: 500px;
+			height: 300px;
+			background: #fff;
+			border-radius: 4px;
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			margin-left: -250px;
+			margin-top: -150px;
+			border: 1px solid #f0f0f0;
+			z-index: 9999;
+		}
+
+		.pop_title {
+			width: 490px;
+			height: 40px;
+			background: #157bef;
+			margin: 5px auto 0;
+			border-radius: 6px;
+		}
+
+		.pop_title h3 {
+			float: left;
+			margin: 0px;
+			margin-left: 10px;
+			line-height: 40px;
+			color: #fff;
+			font-size: 18px;
+			font-weight: normal;
+		}
+
+		.pop_title a {
+			float: right;
+			width: 20px;
+			height: 20px;
+			background: #fff;
+			margin: 10px 10px 0 0;
+			text-decoration: none;
+			line-height: 20px;
+			text-align: center;
+			font-size: 20px;
+			border-radius: 4px;
+		}
+
+		.pop_detail {
+			height: 200px;
+			border-bottom: 1px solid #f0f0f0;
+			/* 解决margin-top塌陷 */
+			overflow: hidden;
+		}
+
+		.pop_footer {
+			height: 54px;
+			line-height: 54px;
+			text-align: center;
+			color: #666;
+		}
+
+		.pop_footer span {
+			color: red;
+			padding: 0 5px;
+		}
+
+		.mask {
+			width: 100%;
+			height: 100%;
+			background: #000;
+			position: fixed;
+			left: 0;
+			top: 0;
+			opacity: 0.3;
+			/*兼容低版本ie*/
+			filter: alpha(opacity=30);
+			z-index: 9990;
+		}
+
+		.pop_text {
+			margin: 40px 0 0 36px;
+			font-size: 20px;
+			color: #666;
+		}
+
+		.change {
+			margin: 16px 0 0 36px;
+			width: 420px;
+		}
+
+		.ensure,
+		.cancel {
+			font-size: 16px;
+			font-family: "Microsoft Yahei";
+			border: 0;
+			border-radius: 5px;
+			padding: 0;
+			width: 100px;
+			height: 35px;
+			float: right;
+			margin-top: 9px;
+		}
+
+		.ensure {
+			color: #fff;
+			background-color: #157bef;
+			margin-right: 10px;
+		}
+
+		.cancel {
+			color: #666666;
+			background-color: #dddddd;
+			margin-right: 21px;
+		}
+		/*------------------------------------------------------------------------------------*/
+	</style>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			// 获取增加按钮 设置点击事件
+			$("#btn1").click(function () {
+				// 获取输入的内容
+				var text = $("#txt1").val();
+				if (text == "") {
+					alert("请输入内容");
+					return;
+				}
+				// 创建一个新的li对象
+				var newLi = $('<li><span>' + text + '</span><a href="javascript:;" class="edit"> 编辑 </a><a href="javascript:;" class="up"> ↑ </a><a href="javascript:;" class="down"> ↓ </a><a href="javascript:;" class="del">删除</a></li>');
+
+				// 把新的li添加到 列表的最后
+				newLi.appendTo($("#list"));
+				// 输入框赋值空
+				$("#txt1").val("");
+			});
+
+			var $textaSpan = null;//定义一个变量 指向点击编辑的那个内容的span对象
+
+			// 用父级列表代理子级a标签点击事件 保证新添加的li的a也有点击功能
+			$("#list").delegate("a", "click", function () {
+				var className = $(this).prop("class");
+				// console.log("className=" + className);
+				// 获取点击的a标签所在的li元素
+				var thisLi = $(this).parent();
+				switch (className) {
+					case "up":
+						// 向上
+						// 获取上面的一个元素
+						var prev = thisLi.prev();
+
+						if (prev.length == 0) {
+							alert("已经到最顶部了");
+							return;
+						}
+
+						// 把当前的li移动到上一个元素的上面
+						thisLi.insertBefore(prev);
+
+						break;
+					case "down":
+						// 向下
+						// 获取下一个元素
+						var next = thisLi.next();
+						if (next.length == 0) {
+							alert("已经到最底部了");
+							return;
+						}
+						// 把当前的li移动到下一个元素的下面
+						thisLi.insertAfter(next);
+						break;
+					case "del":
+						// 删除
+						thisLi.remove();
+						break;
+					case "edit":
+						// 编辑
+						$textaSpan = $(this).prev();
+						// 弹出框
+						showPop();
+						break;
+
+					default:
+						break;
+				}
+
+			});
+
+			function showPop() {
+				var spantext = $textaSpan.html();
+				// 把点击的内容赋值给输入框
+				$(".change").val(spantext);
+
+				// 显示弹出框
+				$("#pop").show();
+			}
+			//确定的点击事件
+			$(".ensure").click(function () {
+				// 获取修改的内容
+				var newText = $(".change").val();
+				// 赋值给要改变的span对象
+				$textaSpan.html(newText);
+				// 消失
+				$("#pop").hide();
+			});
+
+			$("#shutoff").click(function () {
+				$("#pop").hide();
+			});
+
+
+		})
+	</script>
+</head>
+
+<body>
+
+	<div class="list_con">
+		<h2>To do list</h2>
+		<input type="text" name="" id="txt1" class="inputtxt">
+		<input type="button" name="" value="增加" id="btn1" class="inputbtn">
+
+		<ul id="list" class="list">
+			<li>
+				<span>学习html</span>
+				<a href="javascript:;" class="edit"> 编辑 </a>
+				<a href="javascript:;" class="up"> ↑ </a>
+				<a href="javascript:;" class="down"> ↓ </a>
+				<a href="javascript:;" class="del">删除</a>
+			</li>
+			<li>
+				<span>学习css</span>
+				<a href="javascript:;" class="edit"> 编辑 </a>
+				<a href="javascript:;" class="up"> ↑ </a>
+				<a href="javascript:;" class="down"> ↓ </a>
+				<a href="javascript:;" class="del">删除</a>
+			</li>
+			<li>
+				<span>学习javascript</span>
+				<a href="javascript:;" class="edit"> 编辑 </a>
+				<a href="javascript:;" class="up"> ↑ </a>
+				<a href="javascript:;" class="down"> ↓ </a>
+				<a href="javascript:;" class="del">删除</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="pop_main" id="pop">
+
+		<div class="pop_con">
+			<div class="pop_title">
+				<h3>修改内容</h3>
+				<a href="#" id="shutoff">×</a>
+			</div>
+			<div class="pop_detail">
+				<p class="pop_text">修改为：</p>
+				<input type="text" class="change">
+			</div>
+			<div class="pop_footer">
+				<input class="cancel" type="button" value="取 消">
+				<input class="ensure" type="button" value="确 定">
+
+			</div>
+		</div>
+
+		<div class="mask"></div>
+
+	</div>
+
+
+
+</body>
+
+</html>

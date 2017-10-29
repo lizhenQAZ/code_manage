@@ -1,0 +1,39 @@
+
+--------------------------------------------------------------------------------------------------------------
+change事件
+<input class="hehe" type="text" />
+
+<select class="hehe" name="like">
+	<option value="0">a</option>
+	<option value="1">b</option>
+	<option value="2">c</option>
+	<option value="3">d</option>
+</select>
+
+$(".hehe").change(function(){
+    $(this).css("background-color","#FFFFCC");
+ });
+
+
+
+ dblclick 事件
+ $("button").dblclick(function(){
+    
+ });
+
+mousemove事件
+ $(document).mousemove(function(e){
+  //e.pageX 
+  //e.pageY
+});
+
+绑定一次事件
+$(".btn").one("click",function(){
+  	
+});
+
+mousedown  
+
+mouseup
+
+oninput & onpropertychange(IE9)

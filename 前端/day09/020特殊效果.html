@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box1,
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: gold;
+            margin: 0 50px;
+            float: left;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            var $box1 = $(".box1");
+            var $box2 = $(".box2");
+
+            $(".btn1").click(function () {
+                // 淡入 渐变显示
+                // $box1.fadeIn(2000, function () {
+                //     console.log("渐变显示");
+                // });
+
+                // $box1.show(2000,function () {
+                //      console.log("显示");
+                // });
+
+                $box1.slideDown(2000);
+
+            });
+
+            $(".btn2").click(function () {
+                // 淡出 渐变消失
+                // $box1.fadeOut(2000, function () {
+                //     console.log("渐变消失");
+                // });
+
+                //  $box1.hide(2000,function () {
+                //      console.log("消失");
+                // });
+
+                $box1.slideUp(2000);
+            });
+
+            $(".btn3").click(function () {
+                // stop() 每次执行先去停止 这样多次快速点击 就 只执行最后一次
+                // $box1.stop().fadeToggle(2000, function () {
+                //     console.log("渐变切换");
+                // });
+
+                // $box1.stop().toggle(2000,function () {
+                //     console.log("显示消失切换");
+                // });
+
+                $box1.slideToggle(2000);
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="con" style="margin-top:50px;overflow:hidden">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+    </div>
+    <input type="button" value="按钮1" class="btn1">
+    <input type="button" value="按钮2" class="btn2">
+    <input type="button" value="按钮3" class="btn3">
+
+
+</body>
+
+</html>

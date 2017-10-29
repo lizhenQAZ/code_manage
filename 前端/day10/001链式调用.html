@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            margin: 10px;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js">
+    </script>
+    <script>
+    
+        $(function () {
+            // 动画本身异步的
+            $(".box1").css({backgroundColor:"red"}).fadeOut(1000).next().css({fontSize:"30px"}).slideUp(1000);
+
+
+        });
+    
+    </script>
+</head>
+
+<body>
+
+
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+// undefined
+// null
+// 0
+// NaN
+// ""
+
+三元运算
+
+
+var  str = prompt("请输入");
+
+
+Math对象
+
+abs(x)绝对值。
+pow(a,b)a的b次方
+round()把数四舍五入为最接近的整数
+random()	返回 0 ~ 1 之间的随机数
+max(x,y) 返回 x 和 y 中的最高值。
+min(x,y)返回 x 和 y 中的最低值。
+sin(x)  弧度    
+tan(x)  弧度  
+cos(x)  弧度
+floor(x)向下取整
+ceil(x)向上取整
+
+
+window.location.href  //获取或者重定url地址
+window.location.search //获取地址参数部分  ?后面的部分
+window.location.hash //获取页面锚点或者叫哈希值  #后面的部分 如果有参数 写在参数的后面
+
+
+
+
+var hero = new Object();
+hero.name = "jingke";
+hero.age = "18";
+hero.skill = function () {
+    alert("隐身消失了");
+}
+console.log(hero);
+
+
+
+function Student(name,age,sex) {
+    this.name = name;
+    this.age = age;
+    this.sex = sex;
+    this.say = function () {
+        console.log('hehehe');
+    }
+}
+
+var student01 = new Student("xiaoming",18,"nan");

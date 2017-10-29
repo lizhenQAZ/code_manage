@@ -23,3 +23,6 @@ proxies ={
 response = requests.get(url,headers=headers,proxies=proxies)
 
 # ？如何判断代理使用正常
+print(response.headers)
+with open('2_request_proxies.html', 'w') as f:
+    f.write(response.content.decode())

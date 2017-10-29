@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js">
+
+    </script>
+
+    <script>
+        $(function () {
+            var $li05 = $(".li05");
+            console.log($li05);
+
+            var $li04 = $li05.prev();//获取上一个元素
+            console.log($li04);
+            var $preall = $li05.prevAll();//前面所有的元素
+            console.log($preall);
+            console.log($preall.length);
+
+            var $li06 = $li05.next();
+            console.log($li06);
+            var $li678 = $li05.nextAll();
+            console.log($li678);
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li class="li05">5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+
+</body>
+
+</html>

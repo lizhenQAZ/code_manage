@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .top {
+            height: 150px;
+            background-color: blue;
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .menu,
+        .remenu {
+            width: 1000px;
+            height: 100px;
+            background-color: gold;
+            margin: 0 auto;
+        }
+
+        .remenu {
+            display: none;
+        }
+
+        .back{
+            width: 60px;
+            height: 60px;
+            background-color: black;
+            color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+            position: fixed;
+            bottom: 50px;
+            right: 30px;
+            font-size: 25px;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+
+            var $menu = $(".menu");
+            var $remenu = $(".remenu");
+
+            // 监听滚动条滑动
+            $(window).scroll(function () {
+                // 获取滑动的距离
+                var scrollTop = $(document).scrollTop();
+                //判断滑动的距离 如果超过蓝色区域高度
+                if (scrollTop > 150) {
+                    // 如果超过蓝色区域高度 把菜单固定定位
+                    $menu.css({ position: "fixed", left: "50%", top: 0, marginLeft: "-500px" });
+                    $remenu.show();
+                } else {
+                    $menu.css({ position: "static", left: "50%", top: 0, marginLeft: "auto" });
+                    $remenu.hide();
+                }
+
+
+                // var bodyScrollTop = $("body").scrollTop();
+                // console.log("bodyScrollTop=" + bodyScrollTop);
+
+            }); 
+
+            // 点击返回顶部
+            $(".back").click(function () {
+                // scrollTop不是样式 是对象里的一个属性
+                // body,html都写是为了兼容浏览器
+                $("body,html").animate({scrollTop:0});
+            });
+
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="top"></div>
+    <div class="menu"></div>
+    <!--remenu值为了 在menu定位的时候占据menu的位置 让下面的内容不会突然上去-->
+    <div class="remenu"></div>
+
+    <div class="back">↑</div>
+
+    <p>我是内容1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>我是内容2</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>我是内容1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>我是内容1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>我是内容1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>我是内容1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>我是内容1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>我是内容1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>我是内容1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>我是内容1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>我是内容1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>
+
+</html>

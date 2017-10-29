@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js">
+
+    </script>
+
+    <script>
+        $(function () {
+
+            var $p1 = $(".p1");
+            // 获取父级元素
+            var $box1 = $p1.parent();
+            console.log($box1);
+
+
+            var child = $box1.children();//获取所有子级元素(第一级子集)
+            console.log(child);
+            var a1 = $box1.children(".a1");
+            console.log(a1);
+
+            var $li03 = $(".li03");
+            console.log($li03);
+
+            var $li03Others = $li03.siblings();//获取其它所有的同级元素
+            console.log($li03Others);
+
+            var $a2 = $box1.find(".a2");//查找子级的元素  这是所有的子级
+            console.log($a2);
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="box1">
+        <p class="p1"></p>
+        <a href="" class="a1"></a>
+        <div>
+            <a href="" class="a2"></a>
+        </div>
+    </div>
+    <div class="box2"></div>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li class="li03">3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+
+</body>
+
+</html>

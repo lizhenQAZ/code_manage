@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            // $(".list li").click(function () {
+            //     console.log($(this).index());
+            // });
+
+
+            $(".li03").click(function () {
+                return false;  //li03的冒泡被阻止 父级无法代理点击事件
+            });
+
+            //父级代理子级的事件  这样新添加的li也会有点击
+            $(".list").delegate("li,p", "click mouseenter", function () {
+                console.log($(this).index());
+                $(this).css({backgroundColor:"gold"});
+            });
+
+            
+            var $li07 = $("<li>7</li>")
+            $(".list").append($li07);
+        });
+    </script>
+</head>
+
+<body>
+
+    <!--
+        委托   a 把房子 委托给了黑中介b
+        代理   黑中介b代理了a的房子
+    -->
+
+    <ul class="list">
+        <li>1</li>
+        <li>2</li>
+        <li class="li03">3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <p>7</p>
+    </ul>
+
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+
+            var $box = $(".box");
+            console.log($box);
+
+            var $div1 = $("#div1");
+            console.log($div1);
+
+            var $p1 = $(".div2 .p1");
+            console.log($p1);
+
+            var input1 = $("input[name = 'psw']")
+            console.log(input1);
+
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="box" id="div1">哈哈哈</div>
+
+
+    <div class="div2">
+
+        <p class="p1">p1p1p1</p>
+        <p class="p2">p2p2p2</p>
+
+
+    </div>
+
+    <input type="text" name="psw">
+
+
+</body>
+
+</html>

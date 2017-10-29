@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--兼容低版本的ie-->
+    <script src="./js/json2.js"></script>
+    <script>
+        var str01 = '{"name":"xiaoming","age":18,"like":["chi","he"]}';
+    
+        console.log(str01);
+        //字符串变成对象
+        var oStr01 = JSON.parse(str01);
+        console.log(oStr01);
+
+
+
+        var person01 = {
+            name: "xiaoming",
+            age: 18
+        };
+        console.log(person01);
+        var strperson01 = JSON.stringify(person01);
+        console.log(strperson01);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

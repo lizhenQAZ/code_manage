@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .tab_con {
+            width: 500px;
+            height: 350px;
+            margin: 50px auto 0;
+        }
+
+        .tab_btns {
+            height: 50px;
+        }
+
+        .tab_btns input {
+            width: 100px;
+            height: 50px;
+            background: #ddd;
+            border: 0px;
+            outline: none;
+        }
+
+        .tab_btns .active {
+            background: gold;
+        }
+
+        .tab_cons {
+            height: 300px;
+            background: gold;
+        }
+        /*默认隐藏*/
+
+        .tab_cons div {
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+            display: none;
+            font-size: 30px;
+        }
+        /*当前显示内容的选择器*/
+
+        .tab_cons .current {
+            display: block;
+        }
+    </style>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            //设置三个按钮的点击事件
+            $(".tab_btns input").click(function () {
+                // 给点击的元素添加类active
+                $(this).addClass("active");
+                // 其余两个按钮 移除active
+                $(this).siblings().removeClass("active");
+
+                // 获取点击的下标
+                var index = $(this).index();
+
+                // 取出三个div
+                var $divs = $(".tab_cons div");
+
+                // 取出点击的这个内容div
+                var div = $divs.eq(index);
+                // 点击的对应内容添加current 其余的两个内容移除current
+                div.addClass("current").siblings().removeClass("current");
+
+            });
+
+
+
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="tab_con">
+
+        <div class="tab_btns">
+            <input type="button" value="按钮一" class="active">
+            <input type="button" value="按钮二">
+            <input type="button" value="按钮三">
+        </div>
+
+        <div class="tab_cons">
+            <div class="current">按钮一对应的内容</div>
+            <div>按钮二对应的内容</div>
+            <div>按钮三对应的内容</div>
+        </div>
+    </div>
+</body>
+
+</html>

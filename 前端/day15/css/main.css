@@ -1,0 +1,161 @@
+/*导航条背景*/
+.navbar-inverse {
+    background-color: #ff722b;
+    border-color: #ff722b;
+}
+
+/*logo*/
+.navbar-brand{
+    padding-top: 5px;
+}
+/*导航有焦点的文字颜色*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #d5510e;
+}
+/*导航文字颜色*/
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+/*三条线按钮*/
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #da5410;
+}
+
+/*三条线按钮*/
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+/*展开后的边框颜色*/
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+/*巨幕*/
+.jumbotron{
+    background: url("../images/banner_bg.jpg");
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+/*标题图片*/
+.titlepic{
+    margin-top: 40px;
+}
+/*巨幕里的标题*/
+.jumbotron h2{
+    font-size: 18px;
+    color: #ffff00;
+}
+/*巨幕里的内容*/
+.jumbotron p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 28px;
+}
+
+@media(max-width:992px){
+    /*标题图片 响应式*/
+    .titlepic{
+        margin-top: 5px;
+    }
+}
+
+.activitydes h2{
+    font-size: 30px;
+    color: #333333;
+    margin: 0 0 20px 0;
+}
+
+.activitydes p{
+    font-size: 14px;
+    color: #333333;
+}
+/*活动图片的边框宽度限制*/
+.activity-con .thumbnail{
+    max-width: 265px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*活动标题*/
+.activity-con p{
+    text-align: center;
+    margin: 12px 0 16px 0;
+}
+
+/*商品标题区域*/
+.goodstitle{
+    height: 40px;
+    background-color: #ff722b;
+}
+
+.goodstitle h2{
+    font-size: 16px;
+    color: #fff;
+    margin: 0 0 0 8px;
+    line-height: 40px;
+}
+
+.goodstitle a{
+    font-size: 12px;
+    color: #fff;
+    margin: 18px 12px 0 0;
+   
+}
+@media(min-width:1200px){
+    .col-lg-2 {
+        width: 20%
+    }
+}
+/*商品区域*/
+.goods-con{
+    margin-top: 20px;
+}
+.goods-con .thumbnail{
+    max-width: 265px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.goods-con h3{
+    font-size: 14px;
+    color: #666666;
+    text-align:center;
+}
+.goods-con p{
+    font-size: 16px;
+    color: #ff0000;
+    text-align:center;
+}
+.goods-con p span{
+    font-size: 22px;
+}
+
+/*底部*/
+.footer{
+    background-color: #ff722b;
+}
+
+.links{
+    text-align: center;
+    margin-top: 29px;
+}
+.links span,.links a{
+    font-size: 12px;
+    color: #fff;
+}
+
+.copyright{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.contact{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 22px;
+}

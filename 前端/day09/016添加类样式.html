@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .big {
+            font-size: 30px;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .bgGold {
+            background-color: gold;
+        }
+    </style>
+    <script>
+
+    </script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            var $box1 = $(".box1");
+            var $box2 = $(".box2");
+            var $box3 = $(".box3");
+
+            $box1.addClass("big red bgGold");//添加类选择器
+
+            $box2.addClass("big red bgGold");
+
+            $box2.removeClass("bgGold big");//移除类选择器
+
+
+            $(".btn").click(function () {
+                console.log("切换");
+                // 切换类样式  如果有就移除 没有就添加
+                $box3.toggleClass("big red");
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="box1">haha</div>
+    <div class="box2">hehe</div>
+    <div class="box3">heihei</div>
+
+
+    <input type="button" value="点我切换" class="btn">
+
+</body>
+
+</html>

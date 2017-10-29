@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            var $lis = $(".list li");
+
+
+            // jquery对象 自带的循环方法
+            $lis.each(function (index) {
+                //  console.log(arguments)
+                // console.log(index);
+                // 当前循环到的li
+                $(this).html(index + 1);
+
+            });
+
+
+            var aList = [10,8,2,4,6,3,2,7];
+            // 参1 要循环的集合 参2循环的方法
+            $.each(aList,function (index) {
+                console.log(aList[index]);
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <ul class="list">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+</body>
+
+</html>
