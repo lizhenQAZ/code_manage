@@ -1,1 +1,0 @@
-{"class": "sh_python2"}
