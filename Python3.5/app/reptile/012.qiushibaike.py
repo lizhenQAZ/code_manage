@@ -1,19 +1,21 @@
-#coding:utf-8
+# coding:utf-8
 import requests
 from lxml import etree
 import json
 
+
 class Qiushi(object):
-    def __init__(self):
+    def __init__(self, page):
         self.base_url = 'https://www.qiushibaike.com/8hr/page/{}/'
+        self.page = page
         self.url_list = None
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
         }
-        self.file = open('qiushi.json', 'w')
+        self.file = open('012_qiushibaike.json', 'wb')
 
     def generate_url(self):
-        self.url_list = [ self.base_url.format(i) for i in range(1,14) ]
+        self.url_list = [self.base_url.format(i) for i in range(1, self.page + 1)]
 
     def get_page(self,url):
         response = requests.get(url, headers=self.headers)
@@ -47,7 +49,7 @@ class Qiushi(object):
     def save_data(self,data_list):
         for data in data_list:
             str_data = json.dumps(data,ensure_ascii=False) + ',\n'
-            self.file.write(str_data)
+            self.file.write(str_data.encode())
 
     def __del__(self):
         self.file.close()
@@ -68,5 +70,6 @@ class Qiushi(object):
 
 
 if __name__ == '__main__':
-    qiushi = Qiushi()
+    page = input("请输入最大页数: ")
+    qiushi = Qiushi(int(page))
     qiushi.run()

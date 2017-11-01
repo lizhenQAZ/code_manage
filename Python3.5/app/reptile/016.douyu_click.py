@@ -7,7 +7,7 @@ class Douyu(object):
     def __init__(self):
         self.url = 'https://www.douyu.com/directory/all'
         self.driver = webdriver.Chrome()
-        self.file = open('douyu.json','w')
+        self.file = open('016_douyu_click.json', 'wb')
 
     def parse_data(self):
         # 获取房间节点列表
@@ -25,10 +25,10 @@ class Douyu(object):
             data_list.append(temp)
         return data_list
 
-    def save_data(self,data_list):
+    def save_data(self, data_list):
         for data in data_list:
-            str_data = json.dumps(data,ensure_ascii=False) + ',\n'
-            self.file.write(str_data)
+            str_data = json.dumps(data, ensure_ascii=False) + ',\n'
+            self.file.write(str_data.encode())
 
     def __del__(self):
         self.driver.close()
