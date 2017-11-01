@@ -18,4 +18,4 @@ class ItcastSpider(scrapy.Spider):
             item['title'] = node.xpath('./h4/text()').extract_first()
             item['desc'] = node.xpath('./p/text()').extract_first()
             print(item)
-            # yield item
+            yield item

@@ -7,14 +7,15 @@
 import json
 
 
-class Myspider001ItcastPipeline(object):
-    def open_spider(self, spider):
-        self.file = open('001_itcast.json', 'wb+')
+class Myspider002TencentPipeline(object):
+    def __init__(self):
+        self.file = open('002_tencent.json', 'wb+')
 
     def process_item(self, item, spider):
-        data_dict = dict(item)
-        str_dict = json.dumps(data_dict, ensure_ascii=False) + ',\n'
-        self.file.write(str_dict.encode())
+        dict_data = dict(item)
+        str_data = json.dumps(dict_data, ensure_ascii=False) + ',\n'
+        self.file.write(str_data.encode())
+
         return item
 
     def close_spider(self, spider):
