@@ -5,14 +5,14 @@ import time
 
 
 # 创建浏览器对象
-# driver = webdriver.PhantomJS()
+driver = webdriver.PhantomJS()
 # 网络问题
 # driver = webdriver.Firefox()
-driver = webdriver.Chrome()
+# driver = webdriver.Chrome()
 # 获取url对应的响应
 driver.get('https://www.baidu.com')
 # 保存快照
-# driver.save_screenshot('014_selenium_input.png')
+driver.save_screenshot('014_selenium_input.png')
 # 定位到输入框
 # el = driver.find_element_by_id('kw')
 # el = driver.find_element_by_xpath('//*[@id="kw"]')

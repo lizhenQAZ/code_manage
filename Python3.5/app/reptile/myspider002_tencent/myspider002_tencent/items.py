@@ -4,7 +4,6 @@
 #
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
 
@@ -23,3 +22,7 @@ class Myspider002TencentItem(scrapy.Item):
     addr = scrapy.Field()
     # 发布时间
     time = scrapy.Field()
+    # 工作职责
+    duty = scrapy.Field()
+    # 工作要求
+    requirement = scrapy.Field()

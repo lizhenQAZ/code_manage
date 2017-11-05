@@ -13,7 +13,7 @@ headers = {
 # 发起请求
 response = requests.get(url, headers=headers)
 # 验证是否登录成功
-if re.findall(r'李震',response.content.decode()):
+if re.findall(r'李震', response.content.decode()):
     # 记录登录成功的页面
     with open('004_renren_cookie.html','wb')as f:
         f.write(response.content)

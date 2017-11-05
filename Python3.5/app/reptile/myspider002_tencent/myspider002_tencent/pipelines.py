@@ -9,7 +9,7 @@ import json
 
 class Myspider002TencentPipeline(object):
     def __init__(self):
-        self.file = open('002_tencent.json', 'wb+')
+        self.file = open('002_tencent.json', 'wb')
 
     def process_item(self, item, spider):
         dict_data = dict(item)

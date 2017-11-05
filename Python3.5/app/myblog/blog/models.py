@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.urls import reverse
 
 
 class Category(models.Model):
@@ -14,6 +15,7 @@ class Tag(models.Model):
 
     def __unicode__(self):
         return self.name
+
 
 class Post(models.Model):
     # 文章标题
@@ -34,3 +36,6 @@ class Post(models.Model):
 
     def __unicode__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return reverse('blog:detail', kwargs={'pk': self.pk})
