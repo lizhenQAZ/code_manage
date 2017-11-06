@@ -92,7 +92,7 @@
                         {% post_by_dates as posts %}
                         {% for date in posts %}
                         <li>
-                            <a href="{% url 'blog:archives' date.year date.month date.day %}">{{ date.year }} 年 {{ date.month }} 月 {{ date.day }} 日</a>
+                            <a href="{% url 'blog:archive' date.year date.month date.day %}">{{ date.year }} 年 {{ date.month }} 月 {{ date.day }} 日</a>
                         </li>
                         {% empty %}
                         暂无归档！
