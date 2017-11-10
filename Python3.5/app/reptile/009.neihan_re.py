@@ -10,7 +10,7 @@ class Neihan(object):
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
         }
-        self.pattern = re.compile('<a target="_blank" class="image share_url" href="(.*?)".*?<p>(.*?)</p>',re.S)
+        self.pattern = re.compile('<a target="_blank" class="image share_url" href="(.*?)".*?<p>(.*?)</p>', re.S)
 
     def get_page(self, url):
         response = requests.get(self.url, headers=self.headers, verify=False)
@@ -21,7 +21,7 @@ class Neihan(object):
         # 构建一个数据列表
         data_list = []
         # 遍历结果列表
-        for url,content in result:
+        for url, content in result:
             temp = {}
             temp['url'] = url
             temp['content'] = content
