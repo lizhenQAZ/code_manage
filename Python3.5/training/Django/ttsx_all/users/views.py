@@ -96,6 +96,7 @@ def login_handle(request):
         # 获取跳转页面
         url = get_redirect_url(request)
         response = redirect(url)
+        # 保存cookie
         reme_username(request, response)
         # 2.保存session
         keep_status_online(request)

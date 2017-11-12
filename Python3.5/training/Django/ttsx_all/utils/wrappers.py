@@ -38,12 +38,12 @@ def set_session(request, key, value):
     request.session[key] = value
 
 
-# get cookie
+# get session
 def get_session(request, key):
     return request.session.get(key, '')
 
 
-# del cookie
+# del session
 def del_session(request):
     request.session.flush()
 
@@ -56,6 +56,7 @@ def password_encryption(password, salt=''):
     return sha.hexdigest()
 
 
+# 定义消息的格式
 # add_message
 def add_message(request, key, value):
     message = key + ':' + value
