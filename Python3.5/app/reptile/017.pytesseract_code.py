@@ -4,6 +4,6 @@ from PIL import Image
 
 
 im = Image.open('017_pytesseract_code_data.jpg')
-print(im)
+# print(im)
 data = pytesseract.image_to_string(im)
 print(data)
