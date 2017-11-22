@@ -152,7 +152,7 @@ def sendmail(request):
                   connection=None, html_message=None):
         """
 
-    content = '<a href="#">请点击激活邮件!</a><em>斜体</em>'
+    content = '<a href="http://www.baidu.com">请点击激活邮件!</a><em>斜体</em>'
 
     send_mail(subject='注册激活邮件',
               message='',
