@@ -35,6 +35,19 @@ class Tree:
         self.preorder(root.lchild)
         self.preorder(root.rchild)
 
+    def preorder_nonrecursive(self, root):
+        if root is None:
+            return
+        self.root = root
+        queue = []
+        while self.root or queue:
+            while self.root:
+                print(self.root.elem, end=' ')
+                queue.append(self.root)
+                self.root = self.root.lchild
+            node = queue.pop()
+            self.root = node.rchild
+
     def inorder(self, root):
         if root is None:
             return
@@ -42,12 +55,42 @@ class Tree:
         print(root.elem, end=' ')
         self.inorder(root.rchild)
 
+    def inorder_nonrecursive(self, root):
+        if root is None:
+            return
+        self.root = root
+        queue = []
+        while self.root or queue:
+            while self.root:
+                queue.append(self.root)
+                self.root = self.root.lchild
+            node = queue.pop()
+            print(node.elem, end=" ")
+            self.root = node.rchild
+
     def postorder(self, root):
         if root is None:
             return
-        self.inorder(root.lchild)
-        self.inorder(root.rchild)
+        self.postorder(root.lchild)
+        self.postorder(root.rchild)
         print(root.elem, end=' ')
+
+    def postorder_nonrecursive(self, root):
+        if root is None:
+            return
+        self.root = root
+        queue1 = []
+        queue2 = []
+        queue1.append(self.root)
+        while queue1:
+            node = queue1.pop()
+            if node.lchild:
+                queue1.append(node.lchild)
+            if node.rchild:
+                queue1.append(node.rchild)
+            queue2.append(node)
+        while queue2:
+            print(queue2.pop().elem, end=" ")
 
 if __name__ == '__main__':
     tree = Tree()
@@ -65,3 +108,10 @@ if __name__ == '__main__':
     tree.inorder(tree.root)  # 77 22 66 11 88 3
     print(' ')
     tree.postorder(tree.root)  # 77 66 22 88 3 11
+    print(' ')
+    # tree.preorder_nonrecursive(tree.root)  # 11 22 77 66 3 88
+    # print(' ')
+    # tree.inorder_nonrecursive(tree.root)  # 77 22 66 11 88 3
+    # print(' ')
+    tree.postorder_nonrecursive(tree.root)  # 77 66 22 88 3 11
+    print(' ')

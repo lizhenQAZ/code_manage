@@ -76,19 +76,47 @@ class SingleLinkList(object):
             cur.next = node
 
     def remove(self, item):
+        # 参考代码
+        # cur = self.__head
+        # # 记录前一个结点的位置
+        # pre = None
+        # while cur is not None:
+        #     # 头结点
+        #     # 中间节点
+        #     # 尾节点
+        #     if cur.item == item:
+        #         # 如果结点是头结点或者中间结点
+        #         if cur.next is not None:
+        #             pre.next = cur.next
+        #             return
+        #         # 如果结点是尾结点
+        #         else:
+        #             self.__head = cur.next
+        #             return
+        #     pre = cur
+        #     cur = cur.next
+
         cur = self.__head
         # 记录前一个结点的位置
         pre = None
         while cur is not None:
             if cur.item == item:
-                # 如果结点是头结点或者中间结点
+                # 有后续节点，判断当前节点是不是头结点
                 if cur.next is not None:
-                    pre.next = cur.next
+                    # 当前节点是头结点，把头结点指向当前节点的下一个节点
+                    if cur == self.__head:
+                        self.__head = cur.next
+                    # 当前节点不是头结点，把当前节点的前一个节点指向当前节点的下一个节点
+                    else:
+                        pre.next = cur.next
                     return
-                # 如果结点是尾结点
+                # 没有后续节点，判断是否只有一个节点
+                # 只有一个节点
+                if self.length() == 1:
+                    self.__head = None
                 else:
-                    self.__head = cur.next
-                    return
+                    pre.next = None
+                return
             pre = cur
             cur = cur.next
 
@@ -96,7 +124,6 @@ class SingleLinkList(object):
 if __name__ == "__main__":
     single = SingleLinkList()
     print(single.is_empty())  # 无元素时，True
-
     single.add(1)
     single.add(2)
     print(single.is_empty())  # 增加两个元素，False

@@ -101,34 +101,63 @@ class CircleSingleLinkList(object):
             cur.next = node
 
     def remove(self, item):
+        # 源码参考
+        # if self.is_empty():
+        #     return
+        # cur = self.__head
+        # # 记录前一个结点的位置
+        # pre = None
+        # while cur.next != self.__head:
+        #     if cur.item == item:
+        #         # 如果结点是头结点
+        #         if cur == self.__head:
+        #             while cur.next != self.__head:
+        #                 cur = cur.next
+        #             # 获取尾结点
+        #             cur.next = self.__head.next
+        #             self.__head = self.__head.next
+        #             return
+        #         # 如果结点是中间结点
+        #         else:
+        #             pre.next = cur.next
+        #             return
+        #     pre = cur
+        #     cur = cur.next
+        # # 获取尾结点
+        # if cur.item == item:
+        #     if self.length() == 1:
+        #         self.__head = None
+        #     else:
+        #         pre.next = self.__head
+        # return
+
         if self.is_empty():
             return
         cur = self.__head
         # 记录前一个结点的位置
         pre = None
+        # 非尾节点
         while cur.next != self.__head:
             if cur.item == item:
-                # 如果结点是头结点
+                # 当前节点是头结点，将头结点指向当前节点的后一个节点
                 if cur == self.__head:
-                    while cur.next != self.__head:
-                        cur = cur.next
-                    # 获取尾结点
-                    cur.next = self.__head.next
-                    self.__head = self.__head.next
-                    return
-                # 如果结点是中间结点
+                    self.__head = cur.next
+                # 不是头结点，将当前节点的前一个节点指向后一个节点
                 else:
                     pre.next = cur.next
-                    return
+                return
             pre = cur
             cur = cur.next
-        # 获取尾结点
+        # 尾节点
+        # 能够找到，删除尾节点
         if cur.item == item:
+            # 如果当前只有一个节点，将头结点置空
             if self.length() == 1:
                 self.__head = None
+            # 多个节点
             else:
                 pre.next = self.__head
-        return
+            return
 
 
 if __name__ == "__main__":

@@ -89,29 +89,53 @@ class DoubleLinkList(object):
             cur.next = node
 
     def remove(self, item):
+        # 参考源码
+        # cur = self.__head
+        # while cur is not None:
+        #     if cur.item == item:
+        #         # 如果是结点是中间结点
+        #         if cur.next is not None:
+        #             cur.pre.next = cur.next
+        #             cur.next.pre = cur.pre
+        #             return
+        #         # 如果结点是头结点
+        #         elif cur == self.__head:
+        #             # 如果只有一个结点
+        #             if self.length() == 1:
+        #                 self.__head = None
+        #                 return
+        #             else:
+        #                 self.__head.next = cur.next
+        #                 cur.next.pre = self.__head
+        #                 return
+        #         # 如果结点是尾结点
+        #         else:
+        #             cur.pre.next = None
+        #             cur.pre = None
+        #             return
+        #     cur = cur.next
+
         cur = self.__head
         while cur is not None:
             if cur.item == item:
-                # 如果是结点是中间结点
+                # 有后续节点，判断当前节点是否是头结点
                 if cur.next is not None:
-                    cur.pre.next = cur.next
-                    cur.next.pre = cur.pre
-                    return
-                # 如果结点是头结点
-                elif cur == self.__head:
-                    # 如果只有一个结点
-                    if self.length() == 1:
-                        self.__head = None
-                        return
+                    # 是头节点，将当前节点的后一个节点指向头结点的
+                    if cur == self.__head:
+                        self.__head = cur.next
+                    # 不是头节点，将当前节点的后一个节点指向头结点的
                     else:
-                        self.__head.next = cur.next
-                        cur.next.pre = self.__head
-                        return
-                # 如果结点是尾结点
+                        cur.next.pre = cur.pre
+                        cur.pre.next = cur.next
+                    return
+                # 没有后续节点，判断是否只有一个节点
+                # 只有一个节点，当前节点置为空
+                if self.length() == 1:
+                    self.__head = None
+                # 不是一个节点，当前节点前一个节点指向为空
                 else:
                     cur.pre.next = None
-                    cur.pre = None
-                    return
+                return
             cur = cur.next
 
 
