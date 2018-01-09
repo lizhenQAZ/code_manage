@@ -79,15 +79,18 @@
             font-style: italic;
         }
         /*子级第一层所有元素*/
-        .fakecls-selector-other>a{
+
+        .fakecls-selector-other>a {
             font-size: 60px;
         }
-        /*子级同级后面第一个元素*/
-        .fakecls-selector-other+a{
+        /*同级后面第一个元素*/
+
+        .fakecls-selector-other+a {
             color: blue;
         }
-        /*子级同级后面所有元素*/
-        .fakecls-selector-other~a{
+        /*同级后面所有元素*/
+
+        .fakecls-selector-other~a {
             font-style: italic;
         }
         /*这是属性选择器*/
@@ -162,6 +165,10 @@
             <a href="">这是子级第二个元素</a><br>
         </div>
         <a href="">这是同级第二个元素</a><br>
+        <div class="">
+            <a href="">这是同级子级第一个元素</a><br>
+            <a href="">这是同级子级第二个元素</a><br>
+        </div>
         <a href="">这是同级第三个元素</a>
     </div>
     <!--这是属性选择器-->

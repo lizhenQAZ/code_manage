@@ -34,7 +34,8 @@ def draw_random_string(pen_for_image, random_string):
     # 加载字体 字体所在目录:/usr/share/fonts/
     my_font = ImageFont.truetype('C:/Users/lizhen/Downloads/TTF/MSYH.TTF', 16)
     # 设置字符颜色
-    my_color = (255, random.randrange(0, 255), random.randrange(0, 255))
+    # my_color = (255, random.randrange(0, 255), random.randrange(0, 255))
+    my_color = (0, 0, 0)
     # 绘制字符
     for number, ch in enumerate(random_string):
         pen_for_image.text((5 + number * 20, 2), ch, my_color, my_font)
@@ -43,7 +44,8 @@ def draw_random_string(pen_for_image, random_string):
 # 绘制基本图片
 def create_base_image():
     # 定义图片背景颜色(RGB)
-    bg_color = (random.randrange(20, 100), random.randrange(20, 100), 255)
+    # bg_color = (random.randrange(20, 100), random.randrange(20, 100), 255)
+    bg_color = (255, 255, 255)
     # 创建图片, 分别设置图片格式, 图片大小, 图片背景颜色
     verify_image = Image.new('RGB', (100, 30), bg_color)
 
@@ -66,6 +68,7 @@ def verification_code():
     # verify_image = verify_image.filter(ImageFilter.BLUR)
     # print(image_data)
     return verify_image
+
 
 if __name__ == '__main__':
     base_dir = '017.verification_code'
