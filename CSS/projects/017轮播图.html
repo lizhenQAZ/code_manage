@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work2</title>
+    <style type="text/css">
+        ul,li{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        .banner{
+            width: 760px;
+            height: 270px;
+            border: 1px solid #dddddd;
+            position: relative;
+        }
+        .banner .left{
+            width: 16px;
+            height: 22px;
+            position: absolute;
+            left: 21px;
+            top: 121px;
+            background-color: #333125;
+            padding: 4px 7px; 
+        }
+        .banner .right{
+            width: 16px;
+            height: 22px;
+            position: absolute;
+            right: 21px;
+            top: 121px;
+            background-color: #333125;
+            padding: 4px 7px; 
+        }
+        .banner .slide_circle{
+            width: 132px;
+            height: 38px;
+            position: absolute;
+            left: 315px;
+            top: 233px;
+        }
+        .banner .slide_circle li{
+            width: 12px;
+            height: 12px;
+            margin: 13px 5px;
+            border-radius: 50%;
+            background-color: #fff !important;
+            float: left;
+        }
+        .banner .slide_circle .circle:hover{
+            background-color: #ff0000 !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <ul>
+            <li class="slide"><img src="../images/015slide.jpg" alt="slide"></li>
+            <li class="left"><img src="../images/013left.png" alt="left"></li>
+            <li class="right"><img src="../images/014right.png" alt="right"></li>
+            <li>
+                <div class='slide_circle'>
+                    <ul>
+                        <li class="circle"></li>
+                        <li class="circle"></li>
+                        <li class="circle"></li>
+                        <li class="circle"></li>
+                        <li class="circle"></li>
+                        <li class="circle"></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

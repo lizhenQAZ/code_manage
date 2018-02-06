@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{# 定义宏，传入参数 #}
+{# 调用宏 #}
+{% import '001macro.html' as m %}
+{{ m.func() }}
+<hr>
+{# wtf表单 #}
+<form method="POST">
+    <p>{{ form.csrf_token() }}</p>
+    <p>user: {{ form.user }}</p>
+    <p>pswd: {{ form.pswd }}</p>
+    <p>pswd2: {{ form.pswd2 }}</p>
+    <p>{{ form.submit }}</p>
+    {% for x in get_flashed_messages() %}
+        {{ x }}
+    {% endfor %}
+</form>
+<hr>
+{# 手写表单 #}
+<form method="post">
+    <p>用户：<input type="text" name="user" placeholder="User"></p>
+    <p>密码：<input type="password" name="pswd" placeholder="Pswd"></p>
+    <p><input type="submit"></p>
+</form>
+</body>
+</html>

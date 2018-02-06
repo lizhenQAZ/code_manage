@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>制作表单</title>
+    <link rel="stylesheet" href="../css/003reset.css">
+    <style>
+        body {
+            background-color: #00ccff;
+        }
+
+        .con {
+            width: 500px;
+            height: 550px;
+            background-color: #f9f9f9;
+        }
+
+        .con .header {
+            width: 430px;
+            height: 48px;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #dddddd;
+            margin: 12px auto 0;
+            color: #ff9966;
+            font: normal 24px/48px "Microsoft Yahei";
+        }
+
+        .con .body {
+            width: 420px;
+            height: 466px;
+            margin: 0px auto 24px;
+        }
+
+        .con .body li {
+            float: right;
+        }
+
+        .con .body .user_li {
+            margin-top: 20px;
+        }
+
+        .con .body .uniform_li {
+            margin-top: 25px;
+        }
+
+        .con .body li label {
+            line-height: 40px;
+            font: normal 14px/40px "Microsoft Yahei";
+        }
+
+        .con .body li input {
+            width: 328px;
+            height: 38px;
+            border: 1px solid #cccccc;
+        }
+
+        .con .body .profile_li label {
+            float: right;
+            margin-top: 26px;
+        }
+
+        .con .body .profile_li #profile {
+            width: 328px;
+            height: 71px;
+            border: 1px solid #cccccc;
+            margin-top: 24px;
+            float: right;
+        }
+
+        .con .body .agree_li #agree {
+            width: 12px;
+            height: 12px;
+            border: 1px solid #cccccc;
+            margin-top: 32px;
+            margin-right: 15px;
+        }
+
+        .con .body .agree_li label {
+            line-height: 14px;
+            font: normal 14px/14px "Microsoft Yahei";
+            margin-top: 32px;
+            margin-right: 186px;
+        }
+
+        .con .body .register_li #register {
+            width: 330px;
+            height: 38px;
+            line-height: 38px;
+            color: #fff;
+            font: normal 18px/38px "Microsoft Yahei";
+            background-color: #00ccff;
+            border: 0;
+            margin-top: 29px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <div class="header">
+            <h3>注册表单</h3>
+        </div>
+        <ul class="body">
+            <li class="user_li">
+                <label for="user">用户名：</label>
+                <input type="text" id="user">
+            </li>
+            <li class="uniform_li">
+                <label for="pwd">密码：</label>
+                <input type="text" id="pwd">
+            </li>
+            <li class="uniform_li">
+                <label for="confirm">确认密码：</label>
+                <input type="text" id="confirm">
+            </li>
+            <li class="uniform_li">
+                <label for="emailbox">邮箱：</label>
+                <input type="text" id="emailbox">
+            </li>
+            <li class="profile_li">
+                <textarea name="" id="profile" cols="30" rows="10"></textarea>
+                <label for="profile">个人简介：</label>
+            </li>
+            <li class="agree_li">
+                <input type="checkbox" id="agree">
+                <label for="agree">同意用户使用协议</label>
+            </li>
+            <li class="register_li">
+                <input type="button" id="register" value="注册">
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

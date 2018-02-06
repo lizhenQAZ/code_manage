@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/001skin01.css" id="link01">
+    <script>
+        window.onload = function () {
+
+            // 获取两个标签对象
+            var oBtn1 = document.getElementById("btn1");
+            var oBtn2 = document.getElementById("btn2");
+            // 获取link标签
+            var oLink = document.getElementById("link01");
+
+            // 设置点击事件监听
+            oBtn1.onclick = function () {
+                oLink.href = "./css/001skin01.css";
+            }
+
+            // 设置点击事件
+            oBtn2.onclick = function () {
+                 oLink.href = "./css/001skin02.css";
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <div class="btn1" id="btn1">皮肤1</div>
+    <br>
+    <br>
+    <br>
+    <div class="btn2" id="btn2">皮肤2</div>
+
+</body>
+
+</html>

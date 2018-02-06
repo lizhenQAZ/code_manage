@@ -1,7 +1,0 @@
-test_fun1 (__main__.TestCase1) ... ok
-test_fun2 (__main__.TestCase1) ... ok
-
-----------------------------------------------------------------------
-Ran 2 tests in 0.000s
-
-OK

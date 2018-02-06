@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>suggest</title>
+</head>
+<script src="jquery-1.12.4.min.js"></script>
+<script >
+    $(function(){
+        // 百度引擎
+        $('div').delegate('input', 'input propertychange', function(){
+//            var url = "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su";
+//            var jsonp = "cb";
+//            $.ajax({
+//                url: url,
+//                dataType: "jsonp",
+//                type: "get",
+//                data: {"wd": $(this).val()},
+//                jsonp: jsonp
+//                }).done(function (data) {
+//                    console.log('done');
+//                    console.log(data.s);
+//                    var $par = $('.suggest');
+//                    for (var i=0; i< data.s.length; i++){
+//                        var $chd = $('<li>'+ data.s[i] +'</li>');
+//                        $chd.appendTo($par);
+//                    }
+//                }).fail(function (data) {
+//                    console.log('fail' + data);
+//                });
+//            });
+//            // 搜狗引擎
+//            var url = "https://www.sogou.com/suggnew/ajajjson";
+////            var jsonp = data_set[0]['jsonp'];
+//            $.ajax({
+//                url: url,
+//                dataType: "jsonp",
+//                type: "get",
+//                data: {"key": $(this).val()},
+////                jsonp: jsonp
+//                }).done(function (data) {
+//                    console.log('done');
+//                    console.log(data);
+//                    console.log(data[0][1]);
+//                    var $par = $('.suggest');
+////                    for (var i=0; i< data.s.length; i++){
+////                        var $chd = $('<li>'+ data.s[i] +'</li>');
+////                        $chd.appendTo($par);
+////                    }
+//                }).fail(function (data) {
+//                    console.log('fail' + data);
+//                });
+//            });
+//    });
+</script>
+<body>
+    <div><input class="input"></div>
+    <ul class="suggest"></ul>
+</body>
+</html>
