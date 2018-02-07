@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>suggest</title>
+</head>
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script >
+    $(function(){
+        $('div').delegate('.input', 'input propertychange', function(){
+            // 百度搜索引擎
+            $.ajax({
+                url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
+                dataType: "jsonp",
+                type: "get",
+                data: {"wd": $(this).val()},
+                jsonp: "cb"
+                }).done(function (data) {
+                    console.log('done');
+                    console.log(data.s);
+                    var $par = $('.suggest');
+                    for (var i=0; i< data.s.length; i++){
+                        var $chd = $('<li>'+ data.s[i] +'</li>');
+                        $chd.appendTo($par);
+                    }
+                }).fail(function (data) {
+                    console.log('fail' + data);
+                });
+        });
+        $('div').delegate('.search', 'click', function(){
+            console.log('1111111');
+            $.ajax({
+                url: "https://www.baidu.com/s?",
+                dataType: "jsonp",
+                type: "get",
+                data: {"wd": "suibian"},
+                jsonp: "jsapicallback", //服务端用于接收callback调用的function名的参数
+                jsonpCallback: "success_jsonpCallback"
+                }).done(function (data) {
+                    console.log('done');
+                    console.log(data);
+                    $('.result').html(data)
+                }).fail(function (data) {
+                    console.log('fail' + JSON.stringify(data));
+                    $('.result').html(data)
+                });
+        });
+    });
+</script>
+<body>
+    <div>
+        <input class="input">
+        <input class="search" type="button" value="搜索">
+    </div>
+    <ul class="suggest"></ul>
+    <div class="result"></div>
+</body>
+</html>

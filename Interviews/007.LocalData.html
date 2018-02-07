@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json</title>
+</head>
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script >
+    $.ajax({
+        url: "007.data.json",
+        dataType: "json",
+        type: "get"
+    }).done(function (data) {
+        console.log('done');
+        console.log(data.name);
+        console.log(data.age);
+    }).fail(function (data) {
+        console.log('fail' + data);
+    });
+</script>
+<body>
+
+</body>
+</html>
