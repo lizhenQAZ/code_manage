@@ -1,3 +1,0 @@
-# 指定索引属性
-{{ object.goods_name }}
-{{ object.goods_desc }}
