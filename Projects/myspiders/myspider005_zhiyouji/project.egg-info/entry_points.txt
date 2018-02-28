@@ -1,3 +1,0 @@
-[scrapy]
-settings = myspider005_zhiyouji.settings
-

@@ -1,0 +1,29 @@
+爬取策略：
+1.1min刷新一次标签
+2.访问次数过快，不能得到数据(给了一份旧数据, 或者强行断开连接)
+3.代码存在ajax里，并且数据为ascii码
+4.系统默认是浅拷贝，引用导致只是存了一个值
+
+数据结构：
+nation = [{
+	'p_name': province,
+	'p_url': province_url,
+	'gv_name': city,
+	'gv_url': city_url,
+	'gv_time': gonglv_time,
+	'gv_download': gonglv_download,
+	'gv_title': gonglv_title,
+	'gv_desc': gonglv_desc,
+	'gv_image': gonglv_image,
+	'yj_url': youji_url,
+	'yj_title': youji_title,
+	'yj_desc': youji_desc,
+	'yj_view': youji_view,
+	'yj_praise': youji_praise,
+	'yj_startday': youji_startday,
+	'yj_day': youji_day,
+	'yj_type': youji_type,
+	'yj_cost': youji_cost,
+	'yj_text': youji_text,
+	'yj_image': youji_image,
+}]
