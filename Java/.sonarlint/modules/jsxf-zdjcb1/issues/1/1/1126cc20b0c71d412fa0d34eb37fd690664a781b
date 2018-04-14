@@ -1,130 +1,128 @@
 
-zsquid:CommentedOutCodeLineù"<This block of commented-out lines of code should be removed.(Û˜‚øHóÌiRMAJORZ
+Åsquid:S00117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçHÙÁnRMINORZ
 CODE_SMELL
-~squid:S00100Ò"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®®Ò§HœÌiRMINORZ
+zsquid:CommentedOutCodeLine˚"<This block of commented-out lines of code should be removed.(Û˜‚øHçËnRMAJORZ
 CODE_SMELL
-çsquid:S00117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇ8√ÊÌï´,H©ÌiRMINORZ
+òsquid:S4144ï"dUpdate this method so that its implementation is not identical to "listFeedbackForPhoto" on line 88.(•ã¨ì˙ˇˇˇˇHÛÁnRMAJORZ
 CODE_SMELL
-qsquid:S1854¡"BRemove this useless assignment to local variable "busFeedService".(ªÜòªH¥ÌiRMAJORZ
+}squid:S1192j"LDefine a constant instead of duplicating this literal "table_parms" 6 times.(Á¸˙HïËnRCRITICALZ
 CODE_SMELL
-Ösquid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇH∫ÌiRMINORZ
+lsquid:S1948!"6Make "alarmFeedbackService" transient or serializable.(èË›ß˙ˇˇˇˇHÅËnRCRITICALZ
 CODE_SMELL
-Åsquid:S00117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçH¿ÌiRMINORZ
+Üsquid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇHˇÁnRMINORZ
 CODE_SMELL
-zsquid:CommentedOutCodeLineó"<This block of commented-out lines of code should be removed.(Û˜‚øH¨ÌiRMAJORZ
+qsquid:S1854Ù"BRemove this useless assignment to local variable "busFeedService".(ªÜòªHãËnRMAJORZ
 CODE_SMELL
-Ösquid:S00117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇHõÌiRMINORZ
+zsquid:CommentedOutCodeLine«"<This block of commented-out lines of code should be removed.(Û˜‚øHÌÁnRMAJORZ
 CODE_SMELL
-Üsquid:S00117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇHºÌiRMINORZ
+Äsquid:S1192)"ODefine a constant instead of duplicating this literal "alarmFeedTable" 9 times.(Õ∫§¨HÍÁnRCRITICALZ
 CODE_SMELL
-bsquid:S1481Û"3Remove this unused "busFeedService" local variable.(ªÜòªH™ÌiRMINORZ
+~squid:S00100ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóÉÿHÔÁnRMINORZ
 CODE_SMELL
-qsquid:S1854ê"BRemove this useless assignment to local variable "busFeedService".(ªÜòªHÆÌiRMAJORZ
+psquid:S1854z"BRemove this useless assignment to local variable "busFeedService".(ªÜòªHıÁnRMAJORZ
 CODE_SMELL
-Ésquid:S00100î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ã¨ì˙ˇˇˇˇH¬ÌiRMINORZ
+ásquid:S00117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôú∑Ã8ó€∞¢´,HÖËnRMINORZ
 CODE_SMELL
-çsquid:S00117√"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇ8ìÖ∆È™,HúÌiRMINORZ
+Üsquid:S00117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHÏÁnRMINORZ
 CODE_SMELL
-Ösquid:S00117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇH≈ÌiRMINORZ
+Üsquid:S00117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHÁÁnRMINORZ
 CODE_SMELL
-qsquid:S1854ñ"BRemove this useless assignment to local variable "busFeedService".(ªÜòªH∑ÌiRMAJORZ
+ysquid:CommentedOutCodeLinea"<This block of commented-out lines of code should be removed.(Û˜‚øHÓÁnRMAJORZ
 CODE_SMELL
-Äsquid:S1192%"JDefine a constant instead of duplicating this literal "alarm_no" 17 times.(¿ç⁄Ç¸ˇˇˇˇHµÌiRCRITICALZ
+asquid:S1481Z"3Remove this unused "busFeedService" local variable.(ªÜòªHüËnRMINORZ
 CODE_SMELL
-Ösquid:S00117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇH»ÌiRMINORZ
+zsquid:CommentedOutCodeLineÅ"<This block of commented-out lines of code should be removed.(Û˜‚øHéËnRMAJORZ
 CODE_SMELL
-Åsquid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçH§ÌiRMINORZ
+asquid:S1481z"3Remove this unused "busFeedService" local variable.(ªÜòªHöËnRMINORZ
 CODE_SMELL
-Ösquid:S001172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇH«ÌiRMINORZ
+ösquid:S4144è"kUpdate this method so that its implementation is not identical to "listFeedbackForPhoto_buWeb" on line 216.(ëüöœHúËnRMAJORZ
 CODE_SMELL
-asquid:S1481y"3Remove this unused "busFeedService" local variable.(ªÜòªH†ÌiRMINORZ
+zsquid:CommentedOutCodeLineû"<This block of commented-out lines of code should be removed.(Û˜‚øHËÁnRMAJORZ
 CODE_SMELL
-qsquid:S1854Ÿ"BRemove this useless assignment to local variable "busFeedService".(ªÜòªH±ÌiRMAJORZ
+Åsquid:S00117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçHôËnRMINORZ
 CODE_SMELL
-Ösquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHøÌiRMINORZ
+zsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(Û˜‚øHäËnRMAJORZ
 CODE_SMELL
-òsquid:S4144î"dUpdate this method so that its implementation is not identical to "listFeedbackForPhoto" on line 87.(•ã¨ì˙ˇˇˇˇH”ÌiRMAJORZ
+ösquid:S4144Ú"kUpdate this method so that its implementation is not identical to "listFeedbackForPhoto_buWeb" on line 216.(®®Ò§HÉËnRMAJORZ
 CODE_SMELL
-Üsquid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHòÌiRMINORZ
+bsquid:S1481⁄"3Remove this unused "busFeedService" local variable.(ªÜòªHÎÁnRMINORZ
 CODE_SMELL
-Üsquid:S00117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇHùÌiRMINORZ
+Äsquid:S00117~"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçHìËnRMINORZ
 CODE_SMELL
-zsquid:CommentedOutCodeLine‡"<This block of commented-out lines of code should be removed.(Û˜‚øH…ÌiRMAJORZ
+qsquid:S1854⁄"BRemove this useless assignment to local variable "busFeedService".(ªÜòªH°ËnRMAJORZ
 CODE_SMELL
-qsquid:S1854Û"BRemove this useless assignment to local variable "busFeedService".(ªÜòªHΩÌiRMAJORZ
+Üsquid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇH•ËnRMINORZ
 CODE_SMELL
-}squid:S1192i"LDefine a constant instead of duplicating this literal "table_parms" 6 times.(Á¸˙H®ÌiRCRITICALZ
+Åsquid:S00117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçH£ËnRMINORZ
 CODE_SMELL
-ösquid:S4144Ò"kUpdate this method so that its implementation is not identical to "listFeedbackForPhoto_buWeb" on line 215.(®®Ò§H√ÌiRMAJORZ
+º%squid:RedundantThrowsDeclarationCheck≥"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ôÍ—·¯ˇˇˇˇH˛ÁnRMINORZ
 CODE_SMELL
-Üsquid:S00117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇH∂ÌiRMINORZ
+qsquid:S1854ë"BRemove this useless assignment to local variable "busFeedService".(ªÜòªHóËnRMAJORZ
 CODE_SMELL
-ösquid:S4144é"kUpdate this method so that its implementation is not identical to "listFeedbackForPhoto_buWeb" on line 215.(ëüöœH¶ÌiRMAJORZ
+Ösquid:S001172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHõËnRMINORZ
 CODE_SMELL
-nsquid:UselessImportCheck"3Remove this unused import 'com.yifeng.dto.FormRow'.(‰´ñ˛H‘ÌiRMINORZ
+bsquid:S1481¬"3Remove this unused "busFeedService" local variable.(ªÜòªH†ËnRMINORZ
 CODE_SMELL
-~squid:S00100é"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëüöœH´ÌiRMINORZ
+Äsquid:S00117^"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçH˝ÁnRMINORZ
 CODE_SMELL
-asquid:S1481Y"3Remove this unused "busFeedService" local variable.(ªÜòªHÕÌiRMINORZ
+Üsquid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇH¢ËnRMINORZ
 CODE_SMELL
-zsquid:CommentedOutCodeLine∆"<This block of commented-out lines of code should be removed.(Û˜‚øHπÌiRMAJORZ
+Üsquid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHåËnRMINORZ
 CODE_SMELL
-Äsquid:S00117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçH≥ÌiRMINORZ
+Ösquid:S00117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHèËnRMINORZ
 CODE_SMELL
-ísquid:S4144w"dUpdate this method so that its implementation is not identical to "listFeedbackForPhoto" on line 87.(ÖÎ‰¢HŒÌiRMAJORZ
+~squid:S00100è"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëüöœH˘ÁnRMINORZ
 CODE_SMELL
-bsquid:S1481¡"3Remove this unused "busFeedService" local variable.(ªÜòªH“ÌiRMINORZ
+nsquid:UselessImportCheck"3Remove this unused import 'com.yifeng.dto.FormRow'.(‰´ñ˛H˚ÁnRMINORZ
 CODE_SMELL
-Üsquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHßÌiRMINORZ
+Ösquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHÚÁnRMINORZ
 CODE_SMELL
-Üsquid:S00117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇH£ÌiRMINORZ
+Üsquid:S00117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇHÊÁnRMINORZ
 CODE_SMELL
-zsquid:CommentedOutCodeLineÄ"<This block of commented-out lines of code should be removed.(Û˜‚øH≠ÌiRMAJORZ
+Äsquid:S1192%"JDefine a constant instead of duplicating this literal "alarm_no" 17 times.(¿ç⁄Ç¸ˇˇˇˇHÒÁnRCRITICALZ
 CODE_SMELL
-bsquid:S1481Ÿ"3Remove this unused "busFeedService" local variable.(ªÜòªH ÌiRMINORZ
+Ésquid:S00100ï"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ã¨ì˙ˇˇˇˇHÜËnRMINORZ
 CODE_SMELL
-zsquid:CommentedOutCodeLine˙"<This block of commented-out lines of code should be removed.(Û˜‚øH’ÌiRMAJORZ
+~squid:S00100Ú"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®®Ò§H§ËnRMINORZ
 CODE_SMELL
-º%squid:RedundantThrowsDeclarationCheck≤"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ôÍ—·¯ˇˇˇˇH∞ÌiRMINORZ
+Üsquid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇH¸ÁnRMINORZ
 CODE_SMELL
-Üsquid:S00117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHªÌiRMINORZ
+åsquid:S00117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇ8√ÊÌï´,H˜ÁnRMINORZ
 CODE_SMELL
-Äsquid:S00117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçH°ÌiRMINORZ
+Üsquid:S00117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇH¯ÁnRMINORZ
 CODE_SMELL
-ásquid:S00117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôú∑Ã8ó€∞¢´,HÃÌiRMINORZ
+bsquid:S1481Ù"3Remove this unused "busFeedService" local variable.(ªÜòªHûËnRMINORZ
 CODE_SMELL
-Üsquid:S00117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇH•ÌiRMINORZ
+bsquid:S1481ë"3Remove this unused "busFeedService" local variable.(ªÜòªHëËnRMINORZ
 CODE_SMELL
-ysquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(Û˜‚øH∆ÌiRMAJORZ
+Ösquid:S00117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇHíËnRMINORZ
 CODE_SMELL
-lsquid:S1948!"6Make "alarmFeedbackService" transient or serializable.(èË›ß˙ˇˇˇˇH¢ÌiRCRITICALZ
+Üsquid:S00117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇHˆÁnRMINORZ
 CODE_SMELL
-psquid:S1854y"BRemove this useless assignment to local variable "busFeedService".(ªÜòªHüÌiRMAJORZ
+wsquid:S1192l"FDefine a constant instead of duplicating this literal "flag_" 6 times.(†Ä€ÆHÇËnRCRITICALZ
 CODE_SMELL
-Åsquid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçH¡ÌiRMINORZ
+ísquid:S4144x"dUpdate this method so that its implementation is not identical to "listFeedbackForPhoto" on line 88.(ÖÎ‰¢H˙ÁnRMAJORZ
 CODE_SMELL
-bsquid:S1481ê"3Remove this unused "busFeedService" local variable.(ªÜòªH—ÌiRMINORZ
+Ésquid:S00100≥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÍ—·¯ˇˇˇˇHÄËnRMINORZ
 CODE_SMELL
-Ösquid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHñÌiRMINORZ
+åsquid:S00117|"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇ8ìÖ∆È™,HàËnRMINORZ
 CODE_SMELL
-Ésquid:S00100≤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÍ—·¯ˇˇˇˇHûÌiRMINORZ
+psquid:S1854Z"BRemove this useless assignment to local variable "busFeedService".(ªÜòªHáËnRMAJORZ
 CODE_SMELL
-Üsquid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øπ¢∫ˇˇˇˇˇHôÌiRMINORZ
+Åsquid:S00117ﬁ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçHêËnRMINORZ
 CODE_SMELL
-Åsquid:S00117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åîµçH≤ÌiRMINORZ
-CODE_SMELL
-wsquid:S1192k"FDefine a constant instead of duplicating this literal "flag_" 6 times.(†Ä€ÆHöÌiRCRITICALZ
+zsquid:CommentedOutCodeLineò"<This block of commented-out lines of code should be removed.(Û˜‚øHÑËnRMAJORZ
 CODE_SMELL
 r
-squid:S106A"9Replace this use of System.out or System.err by a logger.(»Ÿ¶ï˙ˇˇˇˇ8ìÖ∆È™,HæÌiRMAJORZ
+squid:S106@"9Replace this use of System.out or System.err by a logger.(»Ÿ¶ï˙ˇˇˇˇ8ìÖ∆È™,H¢—sRMAJORZ
 CODE_SMELL
-~squid:S00100◊"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóÉÿHÀÌiRMINORZ
+qsquid:S1854ó"BRemove this useless assignment to local variable "busFeedService".(ªÜòªHÁnRMAJORZ
 CODE_SMELL
-Äsquid:S1192)"ODefine a constant instead of duplicating this literal "alarmFeedTable" 9 times.(Õ∫§¨H∏ÌiRCRITICALZ
+bsquid:S1481ó"3Remove this unused "busFeedService" local variable.(ªÜòªHùËnRMINORZ
 CODE_SMELL
-bsquid:S1481ñ"3Remove this unused "busFeedService" local variable.(ªÜòªHƒÌiRMINORZ
+Ösquid:S00117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHÈÁnRMINORZ
 CODE_SMELL
-psquid:S1854Y"BRemove this useless assignment to local variable "busFeedService".(ªÜòªHØÌiRMAJORZ
+qsquid:S1854¬"BRemove this useless assignment to local variable "busFeedService".(ªÜòªHîËnRMAJORZ
 CODE_SMELL
-Äsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(Î„¿∂8êÕ∏ö´,H–ÌiRMAJORZ
+Üsquid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ç⁄Ç¸ˇˇˇˇHâËnRMINORZ
 CODE_SMELL
