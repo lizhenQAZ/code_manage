@@ -1,134 +1,0 @@
-
-†squid:S00117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÂöúÿÿÿÿHËşaRMINORZ
-CODE_SMELL
-…squid:S00117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í´ÄÎûÿÿÿÿHÌşaRMINORZ
-CODE_SMELL
-squid:S00117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÚƒHÍşaRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âİ›ÖÿÿÿÿÿHÎşaRMINORZ
-CODE_SMELL
-†squid:S00117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¥ö˜úÿÿÿÿHÏşaRMINORZ
-CODE_SMELL
-wsquid:UselessImportCheck$"7Remove this unused import 'jiangdu.fire.util.DistUtil'.(¿øı»üÿÿÿÿHĞşaRMINORZ
-CODE_SMELL
-_squid:S1948+".Make "alarmService" transient or serializable.(ó‰¨šHÑşaRCRITICALZ
-CODE_SMELL
-€squid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¿ÚuHÒşaRMINORZ
-CODE_SMELL
-squid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÁâıHÓşaRMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(†Ø­µHÔşaRMAJORZ
-CODE_SMELL
-squid:S00117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËŞÔÙHÕşaRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLineÖ"<This block of commented-out lines of code should be removed.(Ñ¼ŠšüÿÿÿÿHÖşaRMAJORZ
-CODE_SMELL
-…squid:S00117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìâ‘ûøÿÿÿÿH×şaRMINORZ
-CODE_SMELL
-…squid:S00117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿHØşaRMINORZ
-CODE_SMELL
-…squid:S00117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é›†âÿÿÿÿÿHÙşaRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ”ïŠøÿÿÿÿHÚşaRMINORZ
-CODE_SMELL
-‰squid:S3776ì"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(ö§™ĞûÿÿÿÿHÛşaRCRITICALZ
-CODE_SMELL
-…squid:S00117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê’Ä—ÿÿÿÿÿHÜşaRMINORZ
-CODE_SMELL
-Œ
-squid:S135ÿ"YReduce the total number of break and continue statements in this loop to use at most one.(˜Á£àıÿÿÿÿHİşaRMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine×"<This block of commented-out lines of code should be removed.(†Ø­µHŞşaRMAJORZ
-CODE_SMELL
-†squid:S00117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏùÅèûÿÿÿÿHßşaRMINORZ
-CODE_SMELL
-wsquid:S1192Y"GDefine a constant instead of duplicating this literal "org_id" 9 times.(”‡ã}HàşaRCRITICALZ
-CODE_SMELL
-†squid:S00117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹­–øÿÿÿÿHáşaRMINORZ
-CODE_SMELL
-‹
-squid:S135g"YReduce the total number of break and continue statements in this loop to use at most one.(˜Á£àıÿÿÿÿHâşaRMINORZ
-CODE_SMELL
-†squid:S00117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÓ¯¨ıÿÿÿÿHãşaRMINORZ
-CODE_SMELL
-ysquid:CommentedOutCodeLiner"<This block of commented-out lines of code should be removed.(†Ø­µHäşaRMAJORZ
-CODE_SMELL
-squid:S00117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€—ğÉHåşaRMINORZ
-CODE_SMELL
-†squid:S00117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¥ÚîşÿÿÿÿHæşaRMINORZ
-CODE_SMELL
-†squid:S1192|"PDefine a constant instead of duplicating this literal "parent_org_name" 3 times.(„ã…àÿÿÿÿÿHçşaRCRITICALZ
-CODE_SMELL
-†squid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ê·’ùÿÿÿÿHèşaRMINORZ
-CODE_SMELL
-‰squid:S3776µ"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(ßş”ÿúÿÿÿÿHéşaRCRITICALZ
-CODE_SMELL
-squid:S00117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÌÜ˜HêşaRMINORZ
-CODE_SMELL
-hsquid:S1948."2Make "mhjyAlarmService" transient or serializable.(Á¡ØûÿÿÿÿHëşaRCRITICALZ
-CODE_SMELL
-ƒsquid:UselessImportCheck"HRemove this unused import 'jiangdu.fire.service.common.ILinkageService'.(˜­˜ÊHìşaRMINORZ
-CODE_SMELL
-€squid:S00117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËŞÔÙHíşaRMINORZ
-CODE_SMELL
-Œ
-squid:S135Î"YReduce the total number of break and continue statements in this loop to use at most one.(˜Á£àıÿÿÿÿHîşaRMINORZ
-CODE_SMELL
-squid:S00117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú÷üİHïşaRMINORZ
-CODE_SMELL
-€squid:S00117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–àì¡HğşaRMINORZ
-CODE_SMELL
-squid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ‰ÈHñşaRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œúÁ½üÿÿÿÿHòşaRMINORZ
-CODE_SMELL
-squid:S00117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ»äêHóşaRMINORZ
-CODE_SMELL
-†squid:S00117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾°’«ûÿÿÿÿHôşaRMINORZ
-CODE_SMELL
-squid:S00117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù™ÔâHõşaRMINORZ
-CODE_SMELL
-…squid:S00117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHöşaRMINORZ
-CODE_SMELL
-†squid:S00117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ”ïŠøÿÿÿÿH÷şaRMINORZ
-CODE_SMELL
-squid:S00117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°îúHøşaRMINORZ
-CODE_SMELL
-|squid:S1192k"KDefine a constant instead of duplicating this literal "parent_id" 14 times.(†ÍøÉHùşaRCRITICALZ
-CODE_SMELL
-^squid:S19481"-Make "caseService" transient or serializable.(Š—ùİHúşaRCRITICALZ
-CODE_SMELL
-squid:S00117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËŞÔÙHûşaRMINORZ
-CODE_SMELL
-{squid:S1192n"JDefine a constant instead of duplicating this literal "org_name" 16 times.(ËŞÔÙHüşaRCRITICALZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢º²±øÿÿÿÿHışaRMINORZ
-CODE_SMELL
-squid:S00117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éì•HşşaRMINORZ
-CODE_SMELL
-€squid:S00117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³˜÷ÔHÿşaRMINORZ
-CODE_SMELL
-†squid:S00117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒì—ÑùÿÿÿÿH€ÿaRMINORZ
-CODE_SMELL
-†squid:S00117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ”ïŠøÿÿÿÿHÿaRMINORZ
-CODE_SMELL
-†squid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä»ÉùÿÿÿÿH‚ÿaRMINORZ
-CODE_SMELL
-†squid:S00117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áúÈùûÿÿÿÿHƒÿaRMINORZ
-CODE_SMELL
-…squid:S00117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØŸºúÿÿÿÿH„ÿaRMINORZ
-CODE_SMELL
-…squid:S00117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×€ÑÜüÿÿÿÿH…ÿaRMINORZ
-CODE_SMELL
-squid:S00117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´‚½İH†ÿaRMINORZ
-CODE_SMELL
-ƒsquid:S37764"RRefactor this method to reduce its Cognitive Complexity from 44 to the 15 allowed.(÷êœH‡ÿaRCRITICALZ
-CODE_SMELL
-squid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö˜ˆûÿÿÿÿÿ8ÿÜâêª,HˆÿaRMINORZ
-CODE_SMELL
-squid:S00117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê’Ä—ÿÿÿÿÿ8ÿÜâêª,H‰ÿaRMINORZ
-CODE_SMELL
-squid:S00117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê’Ä—ÿÿÿÿÿ8ÿÜâêª,HŠÿaRMINORZ
-CODE_SMELL
-ˆsquid:S00117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷×Öß8ÿÜâêª,H‹ÿaRMINORZ
-CODE_SMELL

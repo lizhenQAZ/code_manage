@@ -1,432 +1,0 @@
-
-squid:S3008ã"^Rename this field "PARAMS_CONSOLE_CLFK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üı ¦H¬è@RMINORZ
-CODE_SMELL
-dsquid:S1444"3Make this "public static UPLOAD_URL_ZY" field final(óÃ÷ËH­è@RMINORZVULNERABILITY
-squid:S00115ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÑúşÿH®è@RCRITICALZ
-CODE_SMELL
-¯"squid:ClassVariableVisibilityCheckñ"aMake PARAMS_CONSOLE_FXJHFK a static final constant or non-public and provide accessors if needed.(é™é²üÿÿÿÿH¯è@RMINORZVULNERABILITY
-ksquid:S1444"5Make this "public static UPLOAD_URL_CARD" field final(ˆºö÷ıÿÿÿÿH°è@RMINORZVULNERABILITY
-rsquid:S1444ı";Make this "public static PARAMS_CONSOLE_ZCYJFK" field final(³õÎÃøÿÿÿÿH±è@RMINORZVULNERABILITY
-zsquid:CommentedOutCodeLine¥"<This block of commented-out lines of code should be removed.(Ó¾¤™H²è@RMAJORZ
-CODE_SMELL
-®"squid:ClassVariableVisibilityCheckc"fMake ALARM_ORDER_STATUS_PRESENT a static final constant or non-public and provide accessors if needed.(âÏÎH³è@RMINORZVULNERABILITY
-“squid:S3008c"eRename this field "ALARM_ORDER_STATUS_PRESENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÏÎH´è@RMINORZ
-CODE_SMELL
-"squid:ClassVariableVisibilityCheck—"TMake ORGID_TZ a static final constant or non-public and provide accessors if needed.(Æüò•Hµè@RMINORZVULNERABILITY
-lsquid:S1444#"6Make this "public static UPLOAD_URL_VOICE" field final(ÌÏªíúÿÿÿÿH¶è@RMINORZVULNERABILITY
-’squid:S00115Ñ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ëıØñşÿÿÿÿH·è@RCRITICALZ
-CODE_SMELL
-psquid:S1444ï"9Make this "public static PARAMS_CONSOLE_JQFK" field final(÷¡Ğ‚ùÿÿÿÿH¸è@RMINORZVULNERABILITY
-’squid:S00115Î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áƒÇÔşÿÿÿÿH¹è@RCRITICALZ
-CODE_SMELL
-¯"squid:ClassVariableVisibilityCheckó"aMake PARAMS_CONSOLE_ZBJZFK a static final constant or non-public and provide accessors if needed.(Ï×ÔíùÿÿÿÿHºè@RMINORZVULNERABILITY
-¨"squid:ClassVariableVisibilityCheck"_Make PARAMS_CONSOLE_EQUS a static final constant or non-public and provide accessors if needed.(Œ¸Ø¡H»è@RMINORZVULNERABILITY
-psquid:S1075‰"ARefactor your code to get this URI from a customizable parameter.(·µÈŸH¼è@RMINORZ
-CODE_SMELL
-’squid:S00115é"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§ş¹üÿÿÿÿH½è@RCRITICALZ
-CODE_SMELL
-‰squid:S3008P"[Rename this field "ALARM_STATUS_END" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï”ú£H¾è@RMINORZ
-CODE_SMELL
-ˆsquid:S3008;"URename this field "VOICEBZHID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÀ®àÿÿÿÿÿH¿è@RMINORZ
-CODE_SMELL
-ksquid:S1444ã"9Make this "public static PARAMS_CONSOLE_CLFK" field final(üı ¦HÀè@RMINORZVULNERABILITY
-esquid:S1444©".Make this "public static ORGID_YZ" field final(™”÷ıÿÿÿÿHÁè@RMINORZVULNERABILITY
-§"squid:ClassVariableVisibilityCheckF"_Make ALARM_STATUS_ASSIGN a static final constant or non-public and provide accessors if needed.(ŞØßHÂè@RMINORZVULNERABILITY
-¦"squid:ClassVariableVisibilityCheckm"YMake SPEED_DEFAULT a static final constant or non-public and provide accessors if needed.(¶¬òùÿÿÿÿHÃè@RMINORZVULNERABILITY
-_squid:S1444¯".Make this "public static ORGID_YC" field final(ò‚ímHÄè@RMINORZVULNERABILITY
-ˆsquid:S3008:"URename this field "VOICEBZHOD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çå¯…úÿÿÿÿHÅè@RMINORZ
-CODE_SMELL
-¯"squid:ClassVariableVisibilityCheck÷"aMake PARAMS_CONSOLE_ZQBHFK a static final constant or non-public and provide accessors if needed.(‘ËÅ—ùÿÿÿÿHÆè@RMINORZVULNERABILITY
-©"squid:ClassVariableVisibilityCheckû"`Make PARAMS_CONSOLE_JJDFK a static final constant or non-public and provide accessors if needed.(‡Ëí€HÇè@RMINORZVULNERABILITY
-œ"squid:ClassVariableVisibilityCheck¯"TMake ORGID_YC a static final constant or non-public and provide accessors if needed.(ò‚ímHÈè@RMINORZVULNERABILITY
-squid:S00115Ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(òà´ÆHÉè@RCRITICALZ
-CODE_SMELL
-Œsquid:S3008"^Rename this field "UPLOAD_URL_FEEDBACK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®²ÄöHÊè@RMINORZ
-CODE_SMELL
-lsquid:S1444ù";Make this "public static PARAMS_CONSOLE_LLBSFK" field final(àşÿ"HËè@RMINORZVULNERABILITY
-’squid:S3008U"dRename this field "ALARM_ORDER_STATUS_ASSIGN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø×ÓËHÌè@RMINORZ
-CODE_SMELL
-csquid:S1313Æ"2Make this IP "221.226.69.21" address configurable.(Ú–Â)HÍè@RMINORZVULNERABILITY
-usquid:S1075Š"ARefactor your code to get this URI from a customizable parameter.(å¯ùùÿÿÿÿHÎè@RMINORZ
-CODE_SMELL
-lsquid:S1444ÿ":Make this "public static PARAMS_CONSOLE_VIDEO" field final(¹‡§€HÏè@RMINORZVULNERABILITY
-`squid:S1444«".Make this "public static ORGID_SQ" field final(ç®®ØHĞè@RMINORZVULNERABILITY
-’squid:S00115Ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶ÛúøÿÿÿÿHÑè@RCRITICALZ
-CODE_SMELL
-squid:S00115İ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Í­ËHÒè@RCRITICALZ
-CODE_SMELL
-¬"squid:ClassVariableVisibilityCheck"_Make UPLOAD_URL_STUDYDOC a static final constant or non-public and provide accessors if needed.(·ôéÉûÿÿÿÿHÓè@RMINORZVULNERABILITY
-isquid:S1313É"2Make this IP "221.226.69.21" address configurable.(€ÙœÜûÿÿÿÿHÔè@RMINORZVULNERABILITY
-©"squid:ClassVariableVisibilityCheckA"\Make ALARM_STATUS_NEW a static final constant or non-public and provide accessors if needed.(öë áùÿÿÿÿHÕè@RMINORZVULNERABILITY
-­"squid:ClassVariableVisibilityCheck"dMake PARAMS_CONSOLE_VIDEO_ORG a static final constant or non-public and provide accessors if needed.(ÄçÙHÖè@RMINORZVULNERABILITY
-lsquid:S1444A"6Make this "public static ALARM_STATUS_NEW" field final(öë áùÿÿÿÿH×è@RMINORZVULNERABILITY
-squid:S00115Ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ıâ’ÉHØè@RCRITICALZ
-CODE_SMELL
-­"squid:ClassVariableVisibilityCheckƒ"_Make PARAMS_CONSOLE_HCWS a static final constant or non-public and provide accessors if needed.(ª®…ÊıÿÿÿÿHÙè@RMINORZVULNERABILITY
-’squid:S00115˜"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—ì—ÅşÿÿÿÿHÚè@RCRITICALZ
-CODE_SMELL
-squid:S3008­"SRename this field "ORGID_NT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÏ—DHÛè@RMINORZ
-CODE_SMELL
-isquid:S1313Å"2Make this IP "221.226.69.21" address configurable.(—°ıÛÿÿÿÿÿHÜè@RMINORZVULNERABILITY
-Œsquid:S3008"YRename this field "UPLOAD_URL_IMG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åŒÏŸşÿÿÿÿHİè@RMINORZ
-CODE_SMELL
-_squid:S1444­".Make this "public static ORGID_NT" field final(éÏ—DHŞè@RMINORZVULNERABILITY
-‘squid:S00115}"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æã¢ÒşÿÿÿÿHßè@RCRITICALZ
-CODE_SMELL
-dsquid:S1313Ä"2Make this IP "221.226.69.21" address configurable.(œ•†ÏHàè@RMINORZVULNERABILITY
-squid:S30089"SRename this field "VOICEBJQ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é—Ç¨Háè@RMINORZ
-CODE_SMELL
-‡squid:S3008§"SRename this field "ORGID_CZ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÀ½ÿÿÿÿÿHâè@RMINORZ
-CODE_SMELL
-"squid:ClassVariableVisibilityCheck"TMake ORGID_XZ a static final constant or non-public and provide accessors if needed.(ûî³ÖHãè@RMINORZVULNERABILITY
- "squid:ClassVariableVisibilityCheckŞ"RMake map_km a static final constant or non-public and provide accessors if needed.(êÜ–øÿÿÿÿHäè@RMINORZVULNERABILITY
-squid:S00115¬"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œìèHåè@RCRITICALZ
-CODE_SMELL
-§"squid:ClassVariableVisibilityCheck"_Make UPLOAD_URL_FEEDBACK a static final constant or non-public and provide accessors if needed.(®²ÄöHæè@RMINORZVULNERABILITY
-‘squid:S3008"^Rename this field "UPLOAD_URL_STUDYDOC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ôéÉûÿÿÿÿHçè@RMINORZ
-CODE_SMELL
-‚squid:S3008«"SRename this field "ORGID_SQ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç®®ØHèè@RMINORZ
-CODE_SMELL
-˜squid:S3008Y"eRename this field "ALARM_ORDER_STATUS_RECEIVE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¿şøÿÿÿÿHéè@RMINORZ
-CODE_SMELL
-esquid:S1444§".Make this "public static ORGID_CZ" field final(ÃÀ½ÿÿÿÿÿHêè@RMINORZVULNERABILITY
-esquid:S1444£".Make this "public static ORGID_WX" field final(ƒ‘Ä„üÿÿÿÿHëè@RMINORZVULNERABILITY
-©"squid:ClassVariableVisibilityCheckK"aMake ALARM_STATUS_RECEIVED a static final constant or non-public and provide accessors if needed.(åæÇ´Hìè@RMINORZVULNERABILITY
-fsquid:S1444:"0Make this "public static VOICEBZHOD" field final(çå¯…úÿÿÿÿHíè@RMINORZVULNERABILITY
-squid:S00115í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ“‚ÍHîè@RCRITICALZ
-CODE_SMELL
-squid:S00115È"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«ƒšƒHïè@RCRITICALZ
-CODE_SMELL
-squid:S3008‡"^Rename this field "PARAMS_CONSOLE_GLSY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áùÁõHğè@RMINORZ
-CODE_SMELL
-‚squid:S3008"SRename this field "ORGID_XZ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûî³ÖHñè@RMINORZ
-CODE_SMELL
-osquid:S1444"9Make this "public static UPLOAD_URL_STUDYDOC" field final(·ôéÉûÿÿÿÿHòè@RMINORZVULNERABILITY
-‡squid:S3008©"SRename this field "ORGID_YZ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™”÷ıÿÿÿÿHóè@RMINORZ
-CODE_SMELL
-¡"squid:ClassVariableVisibilityCheck"YMake UPLOAD_URL_ZY a static final constant or non-public and provide accessors if needed.(óÃ÷ËHôè@RMINORZVULNERABILITY
-squid:S3008A"[Rename this field "ALARM_STATUS_NEW" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öë áùÿÿÿÿHõè@RMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(œßÃŠùÿÿÿÿHöè@RMAJORZ
-CODE_SMELL
-‡squid:S3008£"SRename this field "ORGID_WX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ‘Ä„üÿÿÿÿH÷è@RMINORZ
-CODE_SMELL
-œ"squid:ClassVariableVisibilityCheck9"TMake VOICEBJQ a static final constant or non-public and provide accessors if needed.(é—Ç¨Høè@RMINORZVULNERABILITY
-‡squid:S3008›"SRename this field "ORGID_NJ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è„ÍÇüÿÿÿÿHùè@RMINORZ
-CODE_SMELL
-”squid:S3008÷"`Rename this field "PARAMS_CONSOLE_ZQBHFK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ËÅ—ùÿÿÿÿHúè@RMINORZ
-CODE_SMELL
-squid:S3008K"`Rename this field "ALARM_STATUS_RECEIVED" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åæÇ´Hûè@RMINORZ
-CODE_SMELL
-¤"squid:ClassVariableVisibilityCheckP"\Make ALARM_STATUS_END a static final constant or non-public and provide accessors if needed.(ï”ú£Hüè@RMINORZVULNERABILITY
-Œsquid:S3008½"]Rename this field "PARAMS_REPORT_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò  ÚHıè@RMINORZ
-CODE_SMELL
-¨"squid:ClassVariableVisibilityCheckã"_Make PARAMS_CONSOLE_CLFK a static final constant or non-public and provide accessors if needed.(üı ¦Hşè@RMINORZVULNERABILITY
-_squid:S14449".Make this "public static VOICEBJQ" field final(é—Ç¨Hÿè@RMINORZVULNERABILITY
-‰squid:S3008¿"ZRename this field "GETUI_MESS_AQPG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿß¿äH€é@RMINORZ
-CODE_SMELL
-qsquid:S1444c"@Make this "public static ALARM_ORDER_STATUS_PRESENT" field final(âÏÎHé@RMINORZVULNERABILITY
-squid:S3008•"YRename this field "PARAMS_ZDORGID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ª¥÷ÿÿÿÿÿH‚é@RMINORZ
-CODE_SMELL
-isquid:S1313Ç"2Make this IP "221.226.69.21" address configurable.(×ÚˆÖûÿÿÿÿHƒé@RMINORZVULNERABILITY
-isquid:S1444m"3Make this "public static SPEED_DEFAULT" field final(¶¬òùÿÿÿÿH„é@RMINORZVULNERABILITY
-usquid:S1075‚"ARefactor your code to get this URI from a customizable parameter.(ıéöüÿÿÿÿH…é@RMINORZ
-CODE_SMELL
-psquid:S1075€"ARefactor your code to get this URI from a customizable parameter.(î¦ßH†é@RMINORZ
-CODE_SMELL
-¢"squid:ClassVariableVisibilityCheck›"TMake ORGID_NJ a static final constant or non-public and provide accessors if needed.(è„ÍÇüÿÿÿÿH‡é@RMINORZVULNERABILITY
-lsquid:S1444 "6Make this "public static UPLOAD_URL_MOVIE" field final(£™¤şÿÿÿÿHˆé@RMINORZVULNERABILITY
-­"squid:ClassVariableVisibilityCheckU"eMake ALARM_ORDER_STATUS_ASSIGN a static final constant or non-public and provide accessors if needed.(ø×ÓËH‰é@RMINORZVULNERABILITY
-’squid:S00115×"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÀşÔùÿÿÿÿHŠé@RCRITICALZ
-CODE_SMELL
-”squid:S3008ó"`Rename this field "PARAMS_CONSOLE_ZBJZFK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï×ÔíùÿÿÿÿH‹é@RMINORZ
-CODE_SMELL
-psquid:S1444‹"9Make this "public static PARAMS_CONSOLE_ZLXD" field final(Òï‘ÕúÿÿÿÿHŒé@RMINORZVULNERABILITY
-°"squid:ClassVariableVisibilityCheck^"cMake ALARM_ORDER_STATUS_BACK a static final constant or non-public and provide accessors if needed.(Ö†ÒöúÿÿÿÿHé@RMINORZVULNERABILITY
-”squid:S3008ñ"`Rename this field "PARAMS_CONSOLE_FXJHFK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é™é²üÿÿÿÿHé@RMINORZ
-CODE_SMELL
-³"squid:ClassVariableVisibilityCheck‰"eMake PARAMS_CONSOLE_VIDEO_REFU a static final constant or non-public and provide accessors if needed.(µĞÓÿÿÿÿÿHé@RMINORZVULNERABILITY
-jsquid:S1444F"9Make this "public static ALARM_STATUS_ASSIGN" field final(ŞØßHé@RMINORZVULNERABILITY
-Œsquid:S00115{"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ïü˜H‘é@RCRITICALZ
-CODE_SMELL
-’squid:S00115¨"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡ğñÛøÿÿÿÿH’é@RCRITICALZ
-CODE_SMELL
-squid:S00115Û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óÙ÷üH“é@RCRITICALZ
-CODE_SMELL
-"squid:ClassVariableVisibilityCheck¡"TMake ORGID_SZ a static final constant or non-public and provide accessors if needed.(Ş°Å†H”é@RMINORZVULNERABILITY
-‘squid:S00115y"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡ÁšşÿÿÿÿH•é@RCRITICALZ
-CODE_SMELL
-vsquid:S1444‰"?Make this "public static PARAMS_CONSOLE_VIDEO_REFU" field final(µĞÓÿÿÿÿÿH–é@RMINORZVULNERABILITY
-ksquid:S1444"9Make this "public static PARAMS_CONSOLE_EQUS" field final(Œ¸Ø¡H—é@RMINORZVULNERABILITY
-‰squid:S3008"[Rename this field "UPLOAD_URL_YADOC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÖ‚H˜é@RMINORZ
-CODE_SMELL
-`squid:S1444".Make this "public static ORGID_XZ" field final(ûî³ÖH™é@RMINORZVULNERABILITY
-jsquid:S1444½"8Make this "public static PARAMS_REPORT_TYPE" field final(Ò  ÚHšé@RMINORZVULNERABILITY
-¨"squid:ClassVariableVisibilityCheck‡"_Make PARAMS_CONSOLE_GLSY a static final constant or non-public and provide accessors if needed.(áùÁõH›é@RMINORZVULNERABILITY
-squid:S00115Ó"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…ÆÇ”Hœé@RCRITICALZ
-CODE_SMELL
-¨"squid:ClassVariableVisibilityCheck"[Make UPLOAD_URL_CARD a static final constant or non-public and provide accessors if needed.(ˆºö÷ıÿÿÿÿHé@RMINORZVULNERABILITY
-‡squid:S3008¥"SRename this field "ORGID_HA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¥õşùÿÿÿÿHé@RMINORZ
-CODE_SMELL
-‰squid:S3008Á"ZRename this field "GETUI_MESS_FZJC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Õù÷HŸé@RMINORZ
-CODE_SMELL
-ˆsquid:S3008"ZRename this field "UPLOAD_URL_WORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ğ¯çH é@RMINORZ
-CODE_SMELL
-fsquid:S1444
-"5Make this "public static UPLOAD_URL_USER" field final(ØÙª¯H¡é@RMINORZVULNERABILITY
-¤"squid:ClassVariableVisibilityCheck"\Make UPLOAD_URL_YADOC a static final constant or non-public and provide accessors if needed.(ÔÖ‚H¢é@RMINORZVULNERABILITY
-¨"squid:ClassVariableVisibilityCheck•"ZMake PARAMS_ZDORGID a static final constant or non-public and provide accessors if needed.(¤ª¥÷ÿÿÿÿÿH£é@RMINORZVULNERABILITY
-jsquid:S1444…"9Make this "public static PARAMS_CONSOLE_ZLHF" field final(ö¦±[H¤é@RMINORZVULNERABILITY
-’squid:S00115æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«æºûÿÿÿÿH¥é@RCRITICALZ
-CODE_SMELL
-”squid:S3008õ"`Rename this field "PARAMS_CONSOLE_ZDZTFK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äœ¦’üÿÿÿÿH¦é@RMINORZ
-CODE_SMELL
-squid:S3008ù"`Rename this field "PARAMS_CONSOLE_LLBSFK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àşÿ"H§é@RMINORZ
-CODE_SMELL
-ˆsquid:S3008
-"ZRename this field "UPLOAD_URL_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÙª¯H¨é@RMINORZ
-CODE_SMELL
-¢"squid:ClassVariableVisibilityCheck¥"TMake ORGID_HA a static final constant or non-public and provide accessors if needed.(«¥õşùÿÿÿÿH©é@RMINORZVULNERABILITY
-‡squid:S3008“"YRename this field "PARAMS_NoConts" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…æåHªé@RMINORZ
-CODE_SMELL
-squid:S00115ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‰¾ÛëH«é@RCRITICALZ
-CODE_SMELL
-psquid:S1444":Make this "public static UPLOAD_URL_FIRE_TYPE" field final(‹ÜôßÿÿÿÿÿH¬é@RMINORZVULNERABILITY
-isquid:S1313Ã"2Make this IP "221.226.69.21" address configurable.(¶ÛúøÿÿÿÿH­é@RMINORZVULNERABILITY
-’squid:S00115›"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹ŒˆßıÿÿÿÿH®é@RCRITICALZ
-CODE_SMELL
-¯"squid:ClassVariableVisibilityCheckı"aMake PARAMS_CONSOLE_ZCYJFK a static final constant or non-public and provide accessors if needed.(³õÎÃøÿÿÿÿH¯é@RMINORZVULNERABILITY
-”squid:S3008ı"`Rename this field "PARAMS_CONSOLE_ZCYJFK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³õÎÃøÿÿÿÿH°é@RMINORZ
-CODE_SMELL
-£"squid:ClassVariableVisibilityCheck
-"[Make UPLOAD_URL_USER a static final constant or non-public and provide accessors if needed.(ØÙª¯H±é@RMINORZVULNERABILITY
-usquid:S1075ƒ"ARefactor your code to get this URI from a customizable parameter.(®óˆ‘üÿÿÿÿH²é@RMINORZ
-CODE_SMELL
-usquid:S1075„"ARefactor your code to get this URI from a customizable parameter.(¶ÿòıÿÿÿÿH³é@RMINORZ
-CODE_SMELL
-•squid:S3008^"bRename this field "ALARM_ORDER_STATUS_BACK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö†ÒöúÿÿÿÿH´é@RMINORZ
-CODE_SMELL
-’squid:S00115¹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ª¥¸ĞúÿÿÿÿHµé@RCRITICALZ
-CODE_SMELL
-’squid:S00115®"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(àÖÌ¡ıÿÿÿÿH¶é@RCRITICALZ
-CODE_SMELL
-©"squid:ClassVariableVisibilityCheckÿ"`Make PARAMS_CONSOLE_VIDEO a static final constant or non-public and provide accessors if needed.(¹‡§€H·é@RMINORZVULNERABILITY
-¦"squid:ClassVariableVisibilityCheck)"YMake UPLOAD_URL_WX a static final constant or non-public and provide accessors if needed.(ÈŒˆïıÿÿÿÿH¸é@RMINORZVULNERABILITY
-’squid:S00115Ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×ÚˆÖûÿÿÿÿH¹é@RCRITICALZ
-CODE_SMELL
-squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ú¥€Hºé@RCRITICALZ
-CODE_SMELL
-esquid:S1444›".Make this "public static ORGID_NJ" field final(è„ÍÇüÿÿÿÿH»é@RMINORZVULNERABILITY
-`squid:S1444¡".Make this "public static ORGID_SZ" field final(Ş°Å†H¼é@RMINORZVULNERABILITY
-squid:S00115³"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½‚ï¤H½é@RCRITICALZ
-CODE_SMELL
-‹squid:S3008)"XRename this field "UPLOAD_URL_WX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈŒˆïıÿÿÿÿH¾é@RMINORZ
-CODE_SMELL
-‚squid:S001000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Êî‚úÿÿÿÿH¿é@RMINORZ
-CODE_SMELL
-squid:S00115»"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±øÖHÀé@RCRITICALZ
-CODE_SMELL
-hsquid:S1444¿"1Make this "public static PARAMS_ZDZB" field final(³ÂÿàüÿÿÿÿHÁé@RMINORZVULNERABILITY
-hsquid:S1118":Add a private constructor to hide the implicit public one.(‡ğ¥×HÂé@RMAJORZ
-CODE_SMELL
-’squid:S3008ƒ"^Rename this field "PARAMS_CONSOLE_HCWS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª®…ÊıÿÿÿÿHÃé@RMINORZ
-CODE_SMELL
-’squid:S00115‰"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•ª–øøÿÿÿÿHÄé@RCRITICALZ
-CODE_SMELL
-’squid:S00115É"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€ÙœÜûÿÿÿÿHÅé@RCRITICALZ
-CODE_SMELL
-†squid:S3008"XRename this field "UPLOAD_URL_ZY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÃ÷ËHÆé@RMINORZ
-CODE_SMELL
-¦"squid:ClassVariableVisibilityCheck"^Make UPLOAD_URL_DRAWING a static final constant or non-public and provide accessors if needed.(ûß›¸HÇé@RMINORZVULNERABILITY
-±"squid:ClassVariableVisibilityCheckh"dMake ALARM_ORDER_STATUS_WATER a static final constant or non-public and provide accessors if needed.(æäº£ıÿÿÿÿHÈé@RMINORZVULNERABILITY
-squid:S00115Ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùøğáHÉé@RCRITICALZ
-CODE_SMELL
-squid:S00115¦"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æê¿§HÊé@RCRITICALZ
-CODE_SMELL
-osquid:S1075ˆ"ARefactor your code to get this URI from a customizable parameter.(½ÛÃPHËé@RMINORZ
-CODE_SMELL
-’squid:S00115à"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆ®™…ıÿÿÿÿHÌé@RCRITICALZ
-CODE_SMELL
-`squid:S1444—".Make this "public static ORGID_TZ" field final(Æüò•HÍé@RMINORZVULNERABILITY
-©"squid:ClassVariableVisibilityCheckù"aMake PARAMS_CONSOLE_LLBSFK a static final constant or non-public and provide accessors if needed.(àşÿ"HÎé@RMINORZVULNERABILITY
-’squid:S00115±"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(û¹¢ôøÿÿÿÿHÏé@RCRITICALZ
-CODE_SMELL
-³"squid:ClassVariableVisibilityCheckY"fMake ALARM_ORDER_STATUS_RECEIVE a static final constant or non-public and provide accessors if needed.(»¿şøÿÿÿÿHĞé@RMINORZVULNERABILITY
-¯"squid:ClassVariableVisibilityCheckõ"aMake PARAMS_CONSOLE_ZDZTFK a static final constant or non-public and provide accessors if needed.(Äœ¦’üÿÿÿÿHÑé@RMINORZVULNERABILITY
-isquid:S1313Â"2Make this IP "221.226.69.21" address configurable.(å®±ÿÿÿÿÿHÒé@RMINORZVULNERABILITY
-§"squid:ClassVariableVisibilityCheck…"_Make PARAMS_CONSOLE_ZLHF a static final constant or non-public and provide accessors if needed.(ö¦±[HÓé@RMINORZVULNERABILITY
-£"squid:ClassVariableVisibilityCheck;"VMake VOICEBZHID a static final constant or non-public and provide accessors if needed.(šÀ®àÿÿÿÿÿHÔé@RMINORZVULNERABILITY
-gsquid:S1444Á"5Make this "public static GETUI_MESS_FZJC" field final(©Õù÷HÕé@RMINORZVULNERABILITY
-squid:S00115Í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æĞ’¶HÖé@RCRITICALZ
-CODE_SMELL
-¢"squid:ClassVariableVisibilityCheck“"ZMake PARAMS_NoConts a static final constant or non-public and provide accessors if needed.(…æåH×é@RMINORZVULNERABILITY
-jsquid:S1444"4Make this "public static UPLOAD_URL_IMG" field final(åŒÏŸşÿÿÿÿHØé@RMINORZVULNERABILITY
-ksquid:S1444‡"9Make this "public static PARAMS_CONSOLE_GLSY" field final(áùÁõHÙé@RMINORZVULNERABILITY
-csquid:S1444Ş",Make this "public static map_km" field final(êÜ–øÿÿÿÿHÚé@RMINORZVULNERABILITY
-"squid:ClassVariableVisibilityCheck«"TMake ORGID_SQ a static final constant or non-public and provide accessors if needed.(ç®®ØHÛé@RMINORZVULNERABILITY
-dsquid:S1313Ê"2Make this IP "221.226.69.21" address configurable.(´®¢÷HÜé@RMINORZVULNERABILITY
-‹squid:S3008"]Rename this field "UPLOAD_URL_DRAWING" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûß›¸Hİé@RMINORZ
-CODE_SMELL
-squid:S00115¢"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘ŞåHŞé@RCRITICALZ
-CODE_SMELL
-£"squid:ClassVariableVisibilityCheckß"UMake map_zd_km a static final constant or non-public and provide accessors if needed.(šÄÇ±úÿÿÿÿHßé@RMINORZVULNERABILITY
-usquid:S1075‹"ARefactor your code to get this URI from a customizable parameter.(ºË¿ÓøÿÿÿÿHàé@RMINORZ
-CODE_SMELL
-‹squid:S3008m"XRename this field "SPEED_DEFAULT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¬òùÿÿÿÿHáé@RMINORZ
-CODE_SMELL
-lsquid:S1444K";Make this "public static ALARM_STATUS_RECEIVED" field final(åæÇ´Hâé@RMINORZVULNERABILITY
-gsquid:S1444¿"5Make this "public static GETUI_MESS_AQPG" field final(ÿß¿äHãé@RMINORZVULNERABILITY
-­"squid:ClassVariableVisibilityCheck"`Make UPLOAD_URL_FIRE_TYPE a static final constant or non-public and provide accessors if needed.(‹ÜôßÿÿÿÿÿHäé@RMINORZVULNERABILITY
-squid:S3008û"_Rename this field "PARAMS_CONSOLE_JJDFK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ëí€Håé@RMINORZ
-CODE_SMELL
-squid:S3008"^Rename this field "PARAMS_CONSOLE_EQUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¸Ø¡Hæé@RMINORZ
-CODE_SMELL
-squid:S00115Ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÜÓæHçé@RCRITICALZ
-CODE_SMELL
-©"squid:ClassVariableVisibilityCheck&"aMake UPLOAD_URL_AUDIOORDER a static final constant or non-public and provide accessors if needed.(œÎëöHèé@RMINORZVULNERABILITY
-squid:S3008¯"SRename this field "ORGID_YC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‚ímHéé@RMINORZ
-CODE_SMELL
-squid:S3008"ZRename this field "UPLOAD_URL_CARD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆºö÷ıÿÿÿÿHêé@RMINORZ
-CODE_SMELL
-squid:S3008&"`Rename this field "UPLOAD_URL_AUDIOORDER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÎëöHëé@RMINORZ
-CODE_SMELL
-Œsquid:S00115Æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ú–Â)Hìé@RCRITICALZ
-CODE_SMELL
-Zsquid:S1148º"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHíé@RMINORZVULNERABILITY
-’squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µÿ‹ÈÿÿÿÿÿHîé@RCRITICALZ
-CODE_SMELL
-esquid:S1444“"4Make this "public static PARAMS_NoConts" field final(…æåHïé@RMINORZVULNERABILITY
-squid:S00115ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Òú–•Hğé@RCRITICALZ
-CODE_SMELL
-psquid:S1444ƒ"9Make this "public static PARAMS_CONSOLE_HCWS" field final(ª®…ÊıÿÿÿÿHñé@RMINORZVULNERABILITY
-psquid:S1444U"?Make this "public static ALARM_ORDER_STATUS_ASSIGN" field final(ø×ÓËHòé@RMINORZVULNERABILITY
-©"squid:ClassVariableVisibilityCheck "\Make UPLOAD_URL_MOVIE a static final constant or non-public and provide accessors if needed.(£™¤şÿÿÿÿHóé@RMINORZVULNERABILITY
-squid:S00115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Åü¯Hôé@RCRITICALZ
-CODE_SMELL
-isquid:S1444)"3Make this "public static UPLOAD_URL_WX" field final(ÈŒˆïıÿÿÿÿHõé@RMINORZVULNERABILITY
-¢"squid:ClassVariableVisibilityCheck£"TMake ORGID_WX a static final constant or non-public and provide accessors if needed.(ƒ‘Ä„üÿÿÿÿHöé@RMINORZVULNERABILITY
-dsquid:S1313È"2Make this IP "221.226.69.21" address configurable.(«ƒšƒH÷é@RMINORZVULNERABILITY
-¢"squid:ClassVariableVisibilityCheck©"TMake ORGID_YZ a static final constant or non-public and provide accessors if needed.(™”÷ıÿÿÿÿHøé@RMINORZVULNERABILITY
-’squid:S00115•"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘ĞœõüÿÿÿÿHùé@RCRITICALZ
-CODE_SMELL
-Œsquid:S3008F"^Rename this field "ALARM_STATUS_ASSIGN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞØßHúé@RMINORZ
-CODE_SMELL
-£"squid:ClassVariableVisibilityCheck"[Make UPLOAD_URL_WORD a static final constant or non-public and provide accessors if needed.(•ğ¯çHûé@RMINORZVULNERABILITY
-©"squid:ClassVariableVisibilityCheck#"\Make UPLOAD_URL_VOICE a static final constant or non-public and provide accessors if needed.(ÌÏªíúÿÿÿÿHüé@RMINORZVULNERABILITY
-vsquid:S1444Y"@Make this "public static ALARM_ORDER_STATUS_RECEIVE" field final(»¿şøÿÿÿÿHıé@RMINORZVULNERABILITY
-­"squid:ClassVariableVisibilityCheck‹"_Make PARAMS_CONSOLE_ZLXD a static final constant or non-public and provide accessors if needed.(Òï‘ÕúÿÿÿÿHşé@RMINORZVULNERABILITY
-¢"squid:ClassVariableVisibilityCheck§"TMake ORGID_CZ a static final constant or non-public and provide accessors if needed.(ÃÀ½ÿÿÿÿÿHÿé@RMINORZVULNERABILITY
-lsquid:S1444»"5Make this "public static PARAMS_PIC_TYPE" field final(ÿÓá‹ûÿÿÿÿH€ê@RMINORZVULNERABILITY
-ssquid:S1444^"=Make this "public static ALARM_ORDER_STATUS_BACK" field final(Ö†ÒöúÿÿÿÿHê@RMINORZVULNERABILITY
-ksquid:S1444•"4Make this "public static PARAMS_ZDORGID" field final(¤ª¥÷ÿÿÿÿÿH‚ê@RMINORZVULNERABILITY
-’squid:S3008ï"^Rename this field "PARAMS_CONSOLE_JQFK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¡Ğ‚ùÿÿÿÿHƒê@RMINORZ
-CODE_SMELL
-squid:S14884"[Immediately return this expression instead of assigning it to the temporary variable "str".(İŠÇ©ÿÿÿÿÿH„ê@RMINORZ
-CODE_SMELL
-`squid:S1444™".Make this "public static ORGID_ZJ" field final(ƒºş½H…ê@RMINORZVULNERABILITY
-squid:S3008 "[Rename this field "UPLOAD_URL_MOVIE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£™¤şÿÿÿÿH†ê@RMINORZ
-CODE_SMELL
-˜squid:S3008‰"dRename this field "PARAMS_CONSOLE_VIDEO_REFU" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µĞÓÿÿÿÿÿH‡ê@RMINORZ
-CODE_SMELL
-squid:S00115á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯²ÊHˆê@RCRITICALZ
-CODE_SMELL
-‚squid:S3008¡"SRename this field "ORGID_SZ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş°Å†H‰ê@RMINORZ
-CODE_SMELL
-Šsquid:S1488·"[Immediately return this expression instead of assigning it to the temporary variable "pwd".(–ˆÚHŠê@RMINORZ
-CODE_SMELL
-’squid:S3008"cRename this field "PARAMS_CONSOLE_VIDEO_ORG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄçÙH‹ê@RMINORZ
-CODE_SMELL
-‚squid:S3008™"SRename this field "ORGID_ZJ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒºş½HŒê@RMINORZ
-CODE_SMELL
-esquid:S1444¥".Make this "public static ORGID_HA" field final(«¥õşùÿÿÿÿHê@RMINORZVULNERABILITY
-©"squid:ClassVariableVisibilityCheck»"[Make PARAMS_PIC_TYPE a static final constant or non-public and provide accessors if needed.(ÿÓá‹ûÿÿÿÿHê@RMINORZVULNERABILITY
-lsquid:S1444&";Make this "public static UPLOAD_URL_AUDIOORDER" field final(œÎëöHê@RMINORZVULNERABILITY
-squid:S00115ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‹ü£ØHê@RCRITICALZ
-CODE_SMELL
-usquid:S1075…"ARefactor your code to get this URI from a customizable parameter.(İæˆ³ıÿÿÿÿH‘ê@RMINORZ
-CODE_SMELL
-squid:S00115Ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´®¢÷H’ê@RCRITICALZ
-CODE_SMELL
-fsquid:S1444;"0Make this "public static VOICEBZHID" field final(šÀ®àÿÿÿÿÿH“ê@RMINORZVULNERABILITY
-squid:CommentedOutCodeLine´"<This block of commented-out lines of code should be removed.(¸®’ÿÿÿÿÿH”ê@RMAJORZ
-CODE_SMELL
-rsquid:S1444ó";Make this "public static PARAMS_CONSOLE_ZBJZFK" field final(Ï×ÔíùÿÿÿÿH•ê@RMINORZVULNERABILITY
-lsquid:S1444û":Make this "public static PARAMS_CONSOLE_JJDFK" field final(‡Ëí€H–ê@RMINORZVULNERABILITY
-"squid:ClassVariableVisibilityCheck™"TMake ORGID_ZJ a static final constant or non-public and provide accessors if needed.(ƒºş½H—ê@RMINORZVULNERABILITY
-squid:S00115ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜¢ËèH˜ê@RCRITICALZ
-CODE_SMELL
-squid:S00115‡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™£¹«H™ê@RCRITICALZ
-CODE_SMELL
-Šsquid:S3008¿"VRename this field "PARAMS_ZDZB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ÂÿàüÿÿÿÿHšê@RMINORZ
-CODE_SMELL
-squid:S00115½"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¤Í¤šH›ê@RCRITICALZ
-CODE_SMELL
-fsquid:S1444"5Make this "public static UPLOAD_URL_WORD" field final(•ğ¯çHœê@RMINORZVULNERABILITY
-–squid:S3008h"cRename this field "ALARM_ORDER_STATUS_WATER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æäº£ıÿÿÿÿHê@RMINORZ
-CODE_SMELL
-usquid:S1075ÿ"ARefactor your code to get this URI from a customizable parameter.(ü ˆ½úÿÿÿÿHê@RMINORZ
-CODE_SMELL
-squid:S3008#"[Rename this field "UPLOAD_URL_VOICE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÏªíúÿÿÿÿHŸê@RMINORZ
-CODE_SMELL
-§"squid:ClassVariableVisibilityCheck"ZMake UPLOAD_URL_IMG a static final constant or non-public and provide accessors if needed.(åŒÏŸşÿÿÿÿH ê@RMINORZVULNERABILITY
-ˆsquid:S3008Ÿ"TRename this field "ORGID_LYG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¿‡œûÿÿÿÿH¡ê@RMINORZ
-CODE_SMELL
-…squid:S3008Ş"QRename this field "map_km" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÜ–øÿÿÿÿH¢ê@RMINORZ
-CODE_SMELL
-’squid:S00115Å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—°ıÛÿÿÿÿÿH£ê@RCRITICALZ
-CODE_SMELL
-’squid:S00115ª"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°É·ÈùÿÿÿÿH¤ê@RCRITICALZ
-CODE_SMELL
-­"squid:ClassVariableVisibilityCheckï"_Make PARAMS_CONSOLE_JQFK a static final constant or non-public and provide accessors if needed.(÷¡Ğ‚ùÿÿÿÿH¥ê@RMINORZVULNERABILITY
-¤"squid:ClassVariableVisibilityCheck¿"[Make GETUI_MESS_AQPG a static final constant or non-public and provide accessors if needed.(ÿß¿äH¦ê@RMINORZVULNERABILITY
-osquid:S1075†"ARefactor your code to get this URI from a customizable parameter.(¯“…jH§ê@RMINORZ
-CODE_SMELL
-’squid:S00115¸"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—¢Š÷ÿÿÿÿÿH¨ê@RCRITICALZ
-CODE_SMELL
-isquid:S1444"8Make this "public static UPLOAD_URL_DRAWING" field final(ûß›¸H©ê@RMINORZVULNERABILITY
-squid:S3008ÿ"_Rename this field "PARAMS_CONSOLE_VIDEO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‡§€Hªê@RMINORZ
-CODE_SMELL
-£"squid:ClassVariableVisibilityCheckŸ"UMake ORGID_LYG a static final constant or non-public and provide accessors if needed.(¤¿‡œûÿÿÿÿH«ê@RMINORZVULNERABILITY
-’squid:S00115Á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¥­ˆşÿÿÿÿH¬ê@RCRITICALZ
-CODE_SMELL
-rsquid:S1444õ";Make this "public static PARAMS_CONSOLE_ZDZTFK" field final(Äœ¦’üÿÿÿÿH­ê@RMINORZVULNERABILITY
-’squid:S00115ê"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°³‰òûÿÿÿÿH®ê@RCRITICALZ
-CODE_SMELL
-fsquid:S1444Ÿ"/Make this "public static ORGID_LYG" field final(¤¿‡œûÿÿÿÿH¯ê@RMINORZVULNERABILITY
-§"squid:ClassVariableVisibilityCheck½"^Make PARAMS_REPORT_TYPE a static final constant or non-public and provide accessors if needed.(Ò  ÚH°ê@RMINORZVULNERABILITY
-ˆsquid:S3008ß"TRename this field "map_zd_km" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÄÇ±úÿÿÿÿH±ê@RMINORZ
-CODE_SMELL
-squid:S3008»"ZRename this field "PARAMS_PIC_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÓá‹ûÿÿÿÿH²ê@RMINORZ
-CODE_SMELL
-rsquid:S1444÷";Make this "public static PARAMS_CONSOLE_ZQBHFK" field final(‘ËÅ—ùÿÿÿÿH³ê@RMINORZVULNERABILITY
-rsquid:S1444ñ";Make this "public static PARAMS_CONSOLE_FXJHFK" field final(é™é²üÿÿÿÿH´ê@RMINORZVULNERABILITY
-Œsquid:S3008…"^Rename this field "PARAMS_CONSOLE_ZLHF" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¦±[Hµê@RMINORZ
-CODE_SMELL
-’squid:S3008"_Rename this field "UPLOAD_URL_FIRE_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÜôßÿÿÿÿÿH¶ê@RMINORZ
-CODE_SMELL
-psquid:S1444">Make this "public static PARAMS_CONSOLE_VIDEO_ORG" field final(ÄçÙH·ê@RMINORZVULNERABILITY
-£"squid:ClassVariableVisibilityCheck:"VMake VOICEBZHOD a static final constant or non-public and provide accessors if needed.(çå¯…úÿÿÿÿH¸ê@RMINORZVULNERABILITY
-squid:S00115Ä"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ•†ÏH¹ê@RCRITICALZ
-CODE_SMELL
-’squid:S00115Â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(å®±ÿÿÿÿÿHºê@RCRITICALZ
-CODE_SMELL
-gsquid:S1444"6Make this "public static UPLOAD_URL_YADOC" field final(ÔÖ‚H»ê@RMINORZVULNERABILITY
-¤"squid:ClassVariableVisibilityCheckÁ"[Make GETUI_MESS_FZJC a static final constant or non-public and provide accessors if needed.(©Õù÷H¼ê@RMINORZVULNERABILITY
-¥"squid:ClassVariableVisibilityCheck¿"WMake PARAMS_ZDZB a static final constant or non-public and provide accessors if needed.(³ÂÿàüÿÿÿÿH½ê@RMINORZVULNERABILITY
-gsquid:S1444P"6Make this "public static ALARM_STATUS_END" field final(ï”ú£H¾ê@RMINORZVULNERABILITY
-tsquid:S1444h">Make this "public static ALARM_ORDER_STATUS_WATER" field final(æäº£ıÿÿÿÿH¿ê@RMINORZVULNERABILITY
-’squid:S00115ì"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‹ôåŠüÿÿÿÿHÀê@RCRITICALZ
-CODE_SMELL
-œ"squid:ClassVariableVisibilityCheck­"TMake ORGID_NT a static final constant or non-public and provide accessors if needed.(éÏ—DHÁê@RMINORZVULNERABILITY
-‚squid:S3008—"SRename this field "ORGID_TZ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æüò•HÂê@RMINORZ
-CODE_SMELL
-squid:S00115¿"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–ßõªHÃê@RCRITICALZ
-CODE_SMELL
-fsquid:S1444ß"/Make this "public static map_zd_km" field final(šÄÇ±úÿÿÿÿHÄê@RMINORZVULNERABILITY
-jsquid:S1444"9Make this "public static UPLOAD_URL_FEEDBACK" field final(®²ÄöHÅê@RMINORZVULNERABILITY
-’squid:S3008‹"^Rename this field "PARAMS_CONSOLE_ZLXD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òï‘ÕúÿÿÿÿHÆê@RMINORZ
-CODE_SMELL
-’squid:S00115©"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚ã·ÌÿÿÿÿÿHÇê@RCRITICALZ
-CODE_SMELL
-’squid:S00115Ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÊÀñşÿÿÿÿHÈê@RCRITICALZ
-CODE_SMELL

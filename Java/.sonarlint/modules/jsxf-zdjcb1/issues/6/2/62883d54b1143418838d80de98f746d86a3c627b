@@ -1,138 +1,0 @@
-
-{squid:S00112€"FDefine and throw a dedicated exception instead of using a generic one.(¹û»ÈùÿÿÿÿHˆÄ`RMAJORZ
-CODE_SMELL
-{squid:S1192["JDefine a constant instead of duplicating this literal "dimension" 6 times.(üš‰HşÃ`RCRITICALZ
-CODE_SMELL
-ˆsquid:S00116B"TRename this field "ImpOrgSer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¯²ºúÿÿÿÿHğÃ`RMINORZ
-CODE_SMELL
-squid:S1192X"KDefine a constant instead of duplicating this literal "waterInfos" 4 times.(Á¥«úÿÿÿÿHÜÃ`RCRITICALZ
-CODE_SMELL
-msquid:UselessImportCheck!"2Remove this unused import 'com.yifeng.dto.DtoRow'.(†¶‚¾H–Ä`RMINORZ
-CODE_SMELL
-rsquid:S1155±">Use isEmpty() to check whether the collection is empty or not.(ßÄº¥øÿÿÿÿHœÄ`RMINORZ
-CODE_SMELL
-wsquid:S1192P"GDefine a constant instead of duplicating this literal "XHS_ID" 5 times.(»¬tH’Ä`RCRITICALZ
-CODE_SMELL
-Ysquid:S00108ü")Either remove or fill this block of code.(”ı¾H÷Ã`RMAJORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHáÃ`RMINORZ
-CODE_SMELL
-squid:UselessImportCheck"HRemove this unused import 'jiangdu.fire.service.common.impl.OrgService'.(¨¡ğÄüÿÿÿÿ8¹ÌÕ«ª,HõÃ`RMINORZ
-CODE_SMELL
-{squid:S1192Z"JDefine a constant instead of duplicating this literal "longitude" 6 times.(—ı·¼HÄ`RCRITICALZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheck³"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Âİ€§üÿÿÿÿH‘Ä`RMINORZ
-CODE_SMELL
-Zsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH†Ä`RMINORZVULNERABILITY
-€squid:S1192è"GDefine a constant instead of duplicating this literal "status" 3 times.(¢¿˜‘8¹ÌÕ«ª,HÄ`RCRITICALZ
-CODE_SMELL
-]squid:S1948@",Make "orgService" transient or serializable.(èàÙ«HìÃ`RCRITICALZ
-CODE_SMELL
-squid:S00117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¬tH‚Ä`RMINORZ
-CODE_SMELL
-€squid:S1192—"NDefine a constant instead of duplicating this literal "ORG_LONGITUDE" 6 times.(ü­‰–HÄ`RCRITICALZ
-CODE_SMELL
-€squid:S00117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¬tH—Ä`RMINORZ
-CODE_SMELL
-ksquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHïÃ`RMINORZ
-CODE_SMELL
-qsquid:S1155h">Use isEmpty() to check whether the collection is empty or not.(ßÄº¥øÿÿÿÿHîÃ`RMINORZ
-CODE_SMELL
-€squid:S00117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¬tH‹Ä`RMINORZ
-CODE_SMELL
-squid:S00117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡‘ĞÇúÿÿÿÿ8×…éª,H£Ä`RMINORZ
-CODE_SMELL
-ˆsquid:S00117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â£îÜ8¹ÌÕ«ª,H Ä`RMINORZ
-CODE_SMELL
-msquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜ÉüÿÿÿÿHçÃ`RMINORZ
-CODE_SMELL
-fsquid:S1948F"0Make "compnayService" transient or serializable.(ú¸ØĞûÿÿÿÿHÄ`RCRITICALZ
-CODE_SMELL
-†squid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡‘ĞÇúÿÿÿÿHúÃ`RMINORZ
-CODE_SMELL
-‰squid:S3776‘"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(³¹ğ­ûÿÿÿÿHßÃ`RCRITICALZ
-CODE_SMELL
-qsquid:S1155R">Use isEmpty() to check whether the collection is empty or not.(ßÄº¥øÿÿÿÿHæÃ`RMINORZ
-CODE_SMELL
-xsquid:S1192“"GDefine a constant instead of duplicating this literal "org_id" 7 times.(”‡ã}H‰Ä`RCRITICALZ
-CODE_SMELL
-‡squid:S1192û"NDefine a constant instead of duplicating this literal "org_dimension" 4 times.(Ü¾à™8¹ÌÕ«ª,HŞÃ`RCRITICALZ
-CODE_SMELL
-Zsquid:S1148Î"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHöÃ`RMINORZVULNERABILITY
-squid:S00117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¬tHÄ`RMINORZ
-CODE_SMELL
-~squid:S1192S"HDefine a constant instead of duplicating this literal "hasPic" 10 times.(®Ş•¿úÿÿÿÿHİÃ`RCRITICALZ
-CODE_SMELL
-squid:S00117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×˜Ğ›HôÃ`RMINORZ
-CODE_SMELL
-squid:S00117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¬tHàÃ`RMINORZ
-CODE_SMELL
-squid:S00117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×˜Ğ›HŸÄ`RMINORZ
-CODE_SMELL
-Zsquid:S1148ı"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHèÃ`RMINORZVULNERABILITY
-xsquid:S1192é"FDefine a constant instead of duplicating this literal "title" 5 times.(·Å²€HéÃ`RCRITICALZ
-CODE_SMELL
-squid:S00117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿ8¹ÌÕ«ª,HüÃ`RMINORZ
-CODE_SMELL
-ˆsquid:S00117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â£îÜ8¹ÌÕ«ª,HñÃ`RMINORZ
-CODE_SMELL
-squid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡‘ĞÇúÿÿÿÿ8¹ÌÕ«ª,HùÃ`RMINORZ
-CODE_SMELL
-rsquid:UselessImportCheck"2Remove this unused import 'net.sf.json.JSONArray'.(å¶ÿÿÿÿÿHíÃ`RMINORZ
-CODE_SMELL
-squid:S1192˜"HDefine a constant instead of duplicating this literal "org_loc" 6 times.(ÄæŠòúÿÿÿÿHšÄ`RCRITICALZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine¦"<This block of commented-out lines of code should be removed.(Ï¼ı—HëÃ`RMAJORZ
-CODE_SMELL
-†squid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿHøÃ`RMINORZ
-CODE_SMELL
-squid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×˜Ğ›HÄ`RMINORZ
-CODE_SMELL
-ˆsquid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ÉóŸ8¹ÌÕ«ª,HãÃ`RMINORZ
-CODE_SMELL
-Zsquid:S1148¼"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHäÃ`RMINORZVULNERABILITY
-qsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ßÄº¥øÿÿÿÿHƒÄ`RMINORZ
-CODE_SMELL
-|squid:UselessImportCheck("<Remove this unused import 'com.yifeng.security.users.Users'.(Ï¢”¢úÿÿÿÿHóÃ`RMINORZ
-CODE_SMELL
-€squid:S1192—"NDefine a constant instead of duplicating this literal "ORG_DIMENSION" 6 times.(ü­‰–HıÃ`RCRITICALZ
-CODE_SMELL
-squid:S00117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿ8¹ÌÕ«ª,HâÃ`RMINORZ
-CODE_SMELL
-Zsquid:S1148­"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÿÃ`RMINORZVULNERABILITY
-Zsquid:S1148ä"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÄ`RMINORZVULNERABILITY
-€squid:CommentedOutCodeLineÁ"<This block of commented-out lines of code should be removed.(ªÏ´8×…éª,H¡Ä`RMAJORZ
-CODE_SMELL
-asquid:S1948B"+Make "ImpOrgSer" transient or serializable.(¿¯²ºúÿÿÿÿHûÃ`RCRITICALZ
-CODE_SMELL
-rsquid:S1155¥">Use isEmpty() to check whether the collection is empty or not.(ßÄº¥øÿÿÿÿHòÃ`RMINORZ
-CODE_SMELL
-ƒsquid:S00100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹û»ÈùÿÿÿÿHêÃ`RMINORZ
-CODE_SMELL
-ysquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(ÏÿH…Ä`RMAJORZ
-CODE_SMELL
-squid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åËÕ¬H•Ä`RMINORZ
-CODE_SMELL
-fsquid:S1948>"5Make "waterManagerService" transient or serializable.(¥À—HŒÄ`RCRITICALZ
-CODE_SMELL
-‹squid:S1488Š"\Immediately return this expression instead of assigning it to the temporary variable "flag".(Ö¦ÀH˜Ä`RMINORZ
-CODE_SMELL
-‡squid:S1192ú"NDefine a constant instead of duplicating this literal "org_longitude" 4 times.(¥ñôŸ8¹ÌÕ«ª,H™Ä`RCRITICALZ
-CODE_SMELL
-fsquid:S1948D"5Make "systemManageService" transient or serializable.(Ô‚ïHåÃ`RCRITICALZ
-CODE_SMELL
-º%squid:RedundantThrowsDeclarationCheck€"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¹û»ÈùÿÿÿÿH‡Ä`RMINORZ
-CODE_SMELL
-†squid:S00117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿH€Ä`RMINORZ
-CODE_SMELL
-ˆsquid:UselessImportCheck"MRemove this unused import 'jiangdu.fire.service.common.IWaterManagerService'.(ìıÂåHŠÄ`RMINORZ
-CODE_SMELL
-†squid:S1192’"HDefine a constant instead of duplicating this literal "role_id" 3 times.(²©¶Şÿÿÿÿÿ8¹ÌÕ«ª,H“Ä`RCRITICALZ
-CODE_SMELL
-{squid:UselessImportCheck*"@Remove this unused import 'com.yifeng.struts2.ResultParameters'.(Ÿ„Ò¿H›Ä`RMINORZ
-CODE_SMELL
-†squid:S00117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿH„Ä`RMINORZ
-CODE_SMELL
-Zsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH”Ä`RMINORZVULNERABILITY
-ˆsquid:S00117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ÉóŸ8×…éª,H¢Ä`RMINORZ
-CODE_SMELL

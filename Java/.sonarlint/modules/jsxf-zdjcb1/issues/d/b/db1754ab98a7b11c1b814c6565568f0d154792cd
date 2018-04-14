@@ -1,259 +1,0 @@
-
-Œsquid:S2077¼"RUse a variable binding mechanism to construct this query instead of concatenation.(Ö…’âşÿÿÿÿH›ûaRCRITICALZVULNERABILITY
-Œsquid:S2077Ï"RUse a variable binding mechanism to construct this query instead of concatenation.(ÀŸ†–ûÿÿÿÿHœûaRCRITICALZVULNERABILITY
-†squid:S2077ø"RUse a variable binding mechanism to construct this query instead of concatenation.(š’¹QHûaRCRITICALZVULNERABILITY
-Œsquid:S2077¾"RUse a variable binding mechanism to construct this query instead of concatenation.(Ö…’âşÿÿÿÿHûaRCRITICALZVULNERABILITY
-Œsquid:S2077Ñ"RUse a variable binding mechanism to construct this query instead of concatenation.(ÀŸ†–ûÿÿÿÿHŸûaRCRITICALZVULNERABILITY
-Œsquid:S2077"RUse a variable binding mechanism to construct this query instead of concatenation.(Ö…’âşÿÿÿÿH ûaRCRITICALZVULNERABILITY
-Œsquid:S2077”"RUse a variable binding mechanism to construct this query instead of concatenation.(ÀŸ†–ûÿÿÿÿH¡ûaRCRITICALZVULNERABILITY
-Šsquid:S1192·"XDefine a constant instead of duplicating this literal " order by distance asc " 4 times.(Ú„Ò„H¢ûaRCRITICALZ
-CODE_SMELL
-squid:S1192-"ZDefine a constant instead of duplicating this literal " From JSXF_ORG_JCJ  a   " 11 times.(İš·üúÿÿÿÿH£ûaRCRITICALZ
-CODE_SMELL
-¿squid:S1192©"‡Define a constant instead of duplicating this literal "  and  a.jgtree like  (select  substr( jgtree,0,24) from JSXF_ORG_JCJ " 3 times.(Ã¡³úÿÿÿÿH¤ûaRCRITICALZ
-CODE_SMELL
-wsquid:S1192*"FDefine a constant instead of duplicating this literal "admin" 5 times.(Ò‡ãŞH¥ûaRCRITICALZ
-CODE_SMELL
-Æsquid:S1192Â"”Define a constant instead of duplicating this literal "select count(id) mannum from jsxf_org_commander where org_id = ? and j_statu = '1' " 4 times.(ùˆš|H¦ûaRCRITICALZ
-CODE_SMELL
-…squid:S1192³"SDefine a constant instead of duplicating this literal " where distance < " 4 times.(ÈÑõH§ûaRCRITICALZ
-CODE_SMELL
-€squid:S1192ã"IDefine a constant instead of duplicating this literal "alarm_no" 4 times.(«‰È¸ùÿÿÿÿH¨ûaRCRITICALZ
-CODE_SMELL
-“squid:S1192Ï"\Define a constant instead of duplicating this literal "SELECT COUNT(1) AS N FROM( " 3 times.(ÀŸ†–ûÿÿÿÿH©ûaRCRITICALZ
-CODE_SMELL
-Šsquid:S1192•"YDefine a constant instead of duplicating this literal " ROUND(FUN_GET_DISTANCE(" 4 times.(şâ¯HªûaRCRITICALZ
-CODE_SMELL
-›squid:S11929"eDefine a constant instead of duplicating this literal " ,org_longitude , org_dimension)) < " 4 times.(Ğş—üÿÿÿÿH«ûaRCRITICALZ
-CODE_SMELL
-Îsquid:S1192¡"–Define a constant instead of duplicating this literal " and a.org_type=1 and   a.ORG_LONGITUDE IS NOT NULL AND a.ORG_DIMENSION IS NOT NULL  " 3 times.(®ÔüùüÿÿÿÿH¬ûaRCRITICALZ
-CODE_SMELL
-squid:S11925"]Define a constant instead of duplicating this literal " and ROUND(FUN_GET_DISTANCE(" 4 times.(×®Ÿ£H­ûaRCRITICALZ
-CODE_SMELL
-ysquid:S1192Ì"GDefine a constant instead of duplicating this literal "busnum" 8 times.(¹Æ‹œH®ûaRCRITICALZ
-CODE_SMELL
-‚squid:S1192E"LDefine a constant instead of duplicating this literal "'  ) ||'%' " 5 times.(û¾È¥ùÿÿÿÿH¯ûaRCRITICALZ
-CODE_SMELL
-§squid:S1192,"vDefine a constant instead of duplicating this literal " SELECT ORG_ID,ORG_NAME,ORG_LONGITUDE,ORG_DIMENSION  " 4 times.(ùêç©H°ûaRCRITICALZ
-CODE_SMELL
-—squid:S1192/"aDefine a constant instead of duplicating this literal "or ORG_NAME like '%æ¶ˆé˜²ç«™%') " 4 times.(À®®ÃúÿÿÿÿH±ûaRCRITICALZ
-CODE_SMELL
-squid:S1192°"]Define a constant instead of duplicating this literal "SELECT B.*,ROWNUM RN2 FROM (" 4 times.(ªó‹BH²ûaRCRITICALZ
-CODE_SMELL
-´squid:S1192"Define a constant instead of duplicating this literal " ROWNUM RN1,a.ORG_ID,a.ORG_NAME,a.ORG_LONGITUDE,a.ORG_DIMENSION " 7 times.(ò‘—·H³ûaRCRITICALZ
-CODE_SMELL
-‹squid:S1192¥"TDefine a constant instead of duplicating this literal " where a.org_isv=1 " 4 times.(Ò‰ÛùÿÿÿÿH´ûaRCRITICALZ
-CODE_SMELL
-€squid:S1192Ç"IDefine a constant instead of duplicating this literal "org_name" 8 times.(¾›æÚøÿÿÿÿHµûaRCRITICALZ
-CODE_SMELL
-squid:S1192¹"fDefine a constant instead of duplicating this literal ") A WHERE ROWNUM <= ?) WHERE RN >= ? " 3 times.(²Éİ­ıÿÿÿÿH¶ûaRCRITICALZ
-CODE_SMELL
-squid:S1192É"JDefine a constant instead of duplicating this literal "parentorg" 5 times.(Ëİ†•şÿÿÿÿH·ûaRCRITICALZ
-CODE_SMELL
-æsquid:S1192¡"®Define a constant instead of duplicating this literal "select t_id,t_name,t_url,parent_id,icon_path,pagename,downurl,cls from T_ALARM_BASE_MENU_ZH where parent_id='" 3 times.( ³ğÒşÿÿÿÿH¸ûaRCRITICALZ
-CODE_SMELL
-squid:S1192“"HDefine a constant instead of duplicating this literal "SELECT " 4 times.(˜ÀáøÿÿÿÿH¹ûaRCRITICALZ
-CODE_SMELL
-}squid:S1192*"LDefine a constant instead of duplicating this literal "manageCorps" 6 times.(Ò‡ãŞHºûaRCRITICALZ
-CODE_SMELL
-ysquid:S1192Í"GDefine a constant instead of duplicating this literal "mannum" 8 times.(€›ğÎH»ûaRCRITICALZ
-CODE_SMELL
-Èsquid:S1192¨"•Define a constant instead of duplicating this literal " and a.org_type=1 and   a.ORG_LONGITUDE IS NOT NULL AND a.ORG_DIMENSION IS NOT NULL " 4 times.(£ÉÖ«H¼ûaRCRITICALZ
-CODE_SMELL
-†squid:S1192Ä"ÎDefine a constant instead of duplicating this literal "SELECT ORG_ID,org_name FROM JSXF_ORG_JCJ  a where ORG_TYPE=1 and ORG_ISV=1  Start With a.org_id = ? Connect By  a.org_id=  Prior a.parent_id " 4 times.(å´‹úÿÿÿÿH½ûaRCRITICALZ
-CODE_SMELL
-†squid:S1192ø"TDefine a constant instead of duplicating this literal "' and t_id not in (" 4 times.(ÑÍªÉH¾ûaRCRITICALZ
-CODE_SMELL
-Şsquid:S1192Û"«Define a constant instead of duplicating this literal "select t_id,t_name,t_url,parent_id,icon_path,pagename,downurl,cls from T_ALARM_BASE_MENU where parent_id='" 3 times.(§»ÃH¿ûaRCRITICALZ
-CODE_SMELL
-£squid:S1192¹"lDefine a constant instead of duplicating this literal "SELECT * FROM (SELECT A.*, ROWNUM RN FROM (" 3 times.(²Éİ­ıÿÿÿÿHÀûaRCRITICALZ
-CODE_SMELL
-•squid:S1192/"_Define a constant instead of duplicating this literal "or ORG_NAME like '%ä¸“èŒé˜Ÿ%'" 4 times.(À®®ÃúÿÿÿÿHÁûaRCRITICALZ
-CODE_SMELL
-ˆsquid:S1192D"RDefine a constant instead of duplicating this literal "  where  org_id='" 5 times.(±Ó£¿üÿÿÿÿHÂûaRCRITICALZ
-CODE_SMELL
-©squid:S1192™"rDefine a constant instead of duplicating this literal " ,a.ORG_LONGITUDE , a.ORG_DIMENSION )) distance, " 4 times.(Ñ¢ÊãüÿÿÿÿHÃûaRCRITICALZ
-CODE_SMELL
-Šsquid:S1192"SDefine a constant instead of duplicating this literal " where a.org_isv=1" 3 times.(Ò‰ÛùÿÿÿÿHÄûaRCRITICALZ
-CODE_SMELL
-~squid:S1192¾"GDefine a constant instead of duplicating this literal "ORG_ID" 3 times.(ÕŸã‹şÿÿÿÿHÅûaRCRITICALZ
-CODE_SMELL
-Ãsquid:S1192À"Define a constant instead of duplicating this literal "select count(b_id) busnum from T_BUS_INFOS where org_id = ? and IS_VALID = '1' " 4 times.(•‘µHÆûaRCRITICALZ
-CODE_SMELL
-csquid:S1066²"/Merge this if statement with the enclosing one.(íò¹ªıÿÿÿÿHÇûaRMAJORZ
-CODE_SMELL
-csquid:S1066î"/Merge this if statement with the enclosing one.(íò¹ªıÿÿÿÿHÈûaRMAJORZ
-CODE_SMELL
-csquid:S1066´"/Merge this if statement with the enclosing one.(íò¹ªıÿÿÿÿHÉûaRMAJORZ
-CODE_SMELL
-csquid:S1066÷"/Merge this if statement with the enclosing one.(íò¹ªıÿÿÿÿHÊûaRMAJORZ
-CODE_SMELL
-lsquid:S3878¨"8Remove this array creation and simply pass the elements.(‰Ã¼ùÿÿÿÿHËûaRMINORZ
-CODE_SMELL
-gsquid:S3878»"8Remove this array creation and simply pass the elements.(æĞ•íHÌûaRMINORZ
-CODE_SMELL
-lsquid:S3878Ë"8Remove this array creation and simply pass the elements.(‰Ã¼ùÿÿÿÿHÍûaRMINORZ
-CODE_SMELL
-Jsquid:S3878Õ"Remove this array creation.(œÄˆÆHÎûaRMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLineª"<This block of commented-out lines of code should be removed.(÷ó‹ÏHÏûaRMAJORZ
-CODE_SMELL
-‹squid:S1488Š"]Immediately return this expression instead of assigning it to the temporary variable "table".(Ö¡BHĞûaRMINORZ
-CODE_SMELL
-esquid:S1135§"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÑûaRINFOZ
-CODE_SMELL
-„squid:S3776Ô"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¤ÍÀÎHÒûaRCRITICALZ
-CODE_SMELL
-‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(®¿£»üÿÿÿÿHÓûaRCRITICALZ
-CODE_SMELL
-ƒsquid:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Àë&HÔûaRCRITICALZ
-CODE_SMELL
-„squid:S3776”"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(îØõHÕûaRCRITICALZ
-CODE_SMELL
-„squid:S3776×"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¹î¥ĞHÖûaRCRITICALZ
-CODE_SMELL
-‰squid:S3776š"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(ÊºÈûÿÿÿÿH×ûaRCRITICALZ
-CODE_SMELL
-osquid:CallToDeprecatedMethod="2Remove this use of "SqlAdapter"; it is deprecated.(²®wHØûaRMINORZ
-CODE_SMELL
-osquid:CallToDeprecatedMethodQ"2Remove this use of "SqlAdapter"; it is deprecated.(²®wHÙûaRMINORZ
-CODE_SMELL
-osquid:CallToDeprecatedMethodj"2Remove this use of "SqlAdapter"; it is deprecated.(²®wHÚûaRMINORZ
-CODE_SMELL
-osquid:CallToDeprecatedMethod~"2Remove this use of "SqlAdapter"; it is deprecated.(²®wHÛûaRMINORZ
-CODE_SMELL
-rsquid:CallToDeprecatedMethod†"2Remove this use of "SqlAdapter"; it is deprecated.(ê©ƒHÜûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethod"2Remove this use of "SqlAdapter"; it is deprecated.(˜±ºÒşÿÿÿÿHİûaRMINORZ
-CODE_SMELL
-rsquid:CallToDeprecatedMethod”"2Remove this use of "SqlAdapter"; it is deprecated.(ÔéİHŞûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodš"2Remove this use of "SqlAdapter"; it is deprecated.(õ™ÅÊúÿÿÿÿHßûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethod¢"2Remove this use of "SqlAdapter"; it is deprecated.(–‡ÃúÿÿÿÿHàûaRMINORZ
-CODE_SMELL
-rsquid:CallToDeprecatedMethod°"2Remove this use of "SqlAdapter"; it is deprecated.(€î”ïHáûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodÂ"2Remove this use of "SqlAdapter"; it is deprecated.(Ğ´ë–úÿÿÿÿHâûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodÇ"2Remove this use of "SqlAdapter"; it is deprecated.(Ö·ºıÿÿÿÿÿHãûaRMINORZ
-CODE_SMELL
-rsquid:CallToDeprecatedMethodĞ"2Remove this use of "SqlAdapter"; it is deprecated.(¤ƒÕõHäûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodå"2Remove this use of "SqlAdapter"; it is deprecated.(«ŸîÂşÿÿÿÿHåûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodî"2Remove this use of "SqlAdapter"; it is deprecated.( ¿ÉğüÿÿÿÿHæûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethod€"2Remove this use of "SqlAdapter"; it is deprecated.(«ŸîÂşÿÿÿÿHçûaRMINORZ
-CODE_SMELL
-qsquid:CallToDeprecatedMethodŠ"2Remove this use of "SqlAdapter"; it is deprecated.(Ö¡BHèûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethod¿"2Remove this use of "SqlAdapter"; it is deprecated.(îæ•æıÿÿÿÿHéûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodÁ"2Remove this use of "SqlAdapter"; it is deprecated.(†ÜßñùÿÿÿÿHêûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodş"2Remove this use of "SqlAdapter"; it is deprecated.(îæ•æıÿÿÿÿHëûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethod€"2Remove this use of "SqlAdapter"; it is deprecated.(†ÜßñùÿÿÿÿHìûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodÁ"2Remove this use of "SqlAdapter"; it is deprecated.(îæ•æıÿÿÿÿHíûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodÃ"2Remove this use of "SqlAdapter"; it is deprecated.(†ÜßñùÿÿÿÿHîûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethod„"2Remove this use of "SqlAdapter"; it is deprecated.(îæ•æıÿÿÿÿHïûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethod†"2Remove this use of "SqlAdapter"; it is deprecated.(†ÜßñùÿÿÿÿHğûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethod¨"2Remove this use of "SqlAdapter"; it is deprecated.(‰Ã¼ùÿÿÿÿHñûaRMINORZ
-CODE_SMELL
-rsquid:CallToDeprecatedMethod»"2Remove this use of "SqlAdapter"; it is deprecated.(æĞ•íHòûaRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodË"2Remove this use of "SqlAdapter"; it is deprecated.(‰Ã¼ùÿÿÿÿHóûaRMINORZ
-CODE_SMELL
-rsquid:CallToDeprecatedMethodÕ"2Remove this use of "SqlAdapter"; it is deprecated.(œÄˆÆHôûaRMINORZ
-CODE_SMELL
-Ysquid:S00108ø")Either remove or fill this block of code.(”ı¾HõûaRMAJORZ
-CODE_SMELL
-Ysquid:S00108ƒ")Either remove or fill this block of code.(”ı¾HöûaRMAJORZ
-CODE_SMELL
-€squid:S00117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùêç©H÷ûaRMINORZ
-CODE_SMELL
-…squid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¬´ıÿÿÿÿHøûaRMINORZ
-CODE_SMELL
-€squid:S00117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùêç©HùûaRMINORZ
-CODE_SMELL
-…squid:S00117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¬´ıÿÿÿÿHúûaRMINORZ
-CODE_SMELL
-€squid:S00117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùêç©HûûaRMINORZ
-CODE_SMELL
-…squid:S00117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¬´ıÿÿÿÿHüûaRMINORZ
-CODE_SMELL
-€squid:S00117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùêç©HıûaRMINORZ
-CODE_SMELL
-…squid:S00117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¬´ıÿÿÿÿHşûaRMINORZ
-CODE_SMELL
-†squid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÚççûÿÿÿÿHÿûaRMINORZ
-CODE_SMELL
-squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şƒÌ”H€üaRMINORZ
-CODE_SMELL
-squid:S00117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ĞÚŞHüaRMINORZ
-CODE_SMELL
-†squid:S00117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œô÷€ùÿÿÿÿH‚üaRMINORZ
-CODE_SMELL
-†squid:S00117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œô÷€ùÿÿÿÿHƒüaRMINORZ
-CODE_SMELL
-†squid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿH„üaRMINORZ
-CODE_SMELL
-squid:S00117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦€§H…üaRMINORZ
-CODE_SMELL
-squid:S00117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒøÁH†üaRMINORZ
-CODE_SMELL
-squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ñH‡üaRMINORZ
-CODE_SMELL
-†squid:S00117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHˆüaRMINORZ
-CODE_SMELL
-squid:S00117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó‰Ë–H‰üaRMINORZ
-CODE_SMELL
-€squid:S00117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öšˆ+HŠüaRMINORZ
-CODE_SMELL
-†squid:S00117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH‹üaRMINORZ
-CODE_SMELL
-squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ú«ÂHŒüaRMINORZ
-CODE_SMELL
-€squid:S00117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÉ¹HüaRMINORZ
-CODE_SMELL
-€squid:S00117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÉ¹HüaRMINORZ
-CODE_SMELL
-€squid:S00117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÉ¹HüaRMINORZ
-CODE_SMELL
-€squid:S00117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÉ¹HüaRMINORZ
-CODE_SMELL
-squid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ñH‘üaRMINORZ
-CODE_SMELL
-†squid:S00117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH’üaRMINORZ
-CODE_SMELL
-€squid:S00117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öšˆ+H“üaRMINORZ
-CODE_SMELL
-†squid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH”üaRMINORZ
-CODE_SMELL
-squid:S00117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ú«ÂH•üaRMINORZ
-CODE_SMELL
-squid:S00117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãó±H–üaRMINORZ
-CODE_SMELL
-squid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áòéåH—üaRMINORZ
-CODE_SMELL
-†squid:S00117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À±“€şÿÿÿÿH˜üaRMINORZ
-CODE_SMELL
-nsquid:UselessImportCheck
-".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿH™üaRMINORZ
-CODE_SMELL
-ksquid:UselessImportCheck	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHšüaRMINORZ
-CODE_SMELL
-squid:S1149‘"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÆÍÎâH›üaRMAJORZ
-CODE_SMELL
-squid:S1149Ø"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÆÍÎâHœüaRMAJORZ
-CODE_SMELL
-squid:S1149—"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÆÍÎâHüaRMAJORZ
-CODE_SMELL
-squid:S1149Ú"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÆÍÎâHüaRMAJORZ
-CODE_SMELL

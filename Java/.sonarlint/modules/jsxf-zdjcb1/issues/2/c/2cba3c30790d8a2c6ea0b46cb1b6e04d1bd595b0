@@ -1,143 +1,0 @@
-
-İsquid:S1192r"«Define a constant instead of duplicating this literal "http://flvc533a047.live.126.net/live/d538f02bf0b34205a45ebf609de107fc.flv?netease=flvc533a047.live.126.net" 4 times.(¨»€ÎH¤“iRCRITICALZ
-CODE_SMELL
-squid:S1192G"NDefine a constant instead of duplicating this literal "manageBrigade" 3 times.(ÙÙ¬“H¥“iRCRITICALZ
-CODE_SMELL
-€squid:S1192¯"IDefine a constant instead of duplicating this literal "sel_type" 6 times.(ç€— üÿÿÿÿH¦“iRCRITICALZ
-CODE_SMELL
-~squid:S1192®"GDefine a constant instead of duplicating this literal "b_card" 6 times.(øêàÁıÿÿÿÿH§“iRCRITICALZ
-CODE_SMELL
-÷squid:S1192l"ÀDefine a constant instead of duplicating this literal "rtmp://pc533a047.live.126.net/live/c2827af7c66743e8bbc1680a93f48842?wsSecret=0db5ed121907dd2c1f0231226f6a4a4f&wsTime=1519636358" 4 times.(¶¹«ÒøÿÿÿÿH¨“iRCRITICALZ
-CODE_SMELL
-÷squid:S1192s"ÀDefine a constant instead of duplicating this literal "rtmp://pc533a047.live.126.net/live/d538f02bf0b34205a45ebf609de107fc?wsSecret=6d4040858bb5519055da98ce0c83b1bb&wsTime=1504081507" 4 times.(¤©ÈİûÿÿÿÿH©“iRCRITICALZ
-CODE_SMELL
-squid:S1192È"HDefine a constant instead of duplicating this literal "alarmNo" 4 times.(­Ùö¶øÿÿÿÿHª“iRCRITICALZ
-CODE_SMELL
-squid:S1192f"WDefine a constant instead of duplicating this literal "æ‰¬å·æ¶ˆé˜²æ”¯é˜Ÿæ‚Ÿ1" 4 times.(ÔÕşÿÿÿÿH«“iRCRITICALZ
-CODE_SMELL
-wsquid:S1192i"FDefine a constant instead of duplicating this literal "10002" 4 times.(­´“©H¬“iRCRITICALZ
-CODE_SMELL
-wsquid:S1192p"FDefine a constant instead of duplicating this literal "10000" 4 times.(¡òÄ¿H­“iRCRITICALZ
-CODE_SMELL
-}squid:S1192‹"FDefine a constant instead of duplicating this literal "false" 3 times.(šÑíÿıÿÿÿÿH®“iRCRITICALZ
-CODE_SMELL
-ñsquid:S1192e"ÀDefine a constant instead of duplicating this literal "rtmp://pc533a047.live.126.net/live/3b0cc38ba7ea4383ad2a8a963400c41d?wsSecret=33abf81644959b89aaa61bcf2250d5a1&wsTime=1519637734" 4 times.(Ù¶Û0H¯“iRCRITICALZ
-CODE_SMELL
-|squid:S11927"KDefine a constant instead of duplicating this literal "PARENT_ID" 23 times.(ÿß±íH°“iRCRITICALZ
-CODE_SMELL
-ysquid:S1192/"HDefine a constant instead of duplicating this literal "org_id" 30 times.(î–ïëH±“iRCRITICALZ
-CODE_SMELL
-İsquid:S1192d"«Define a constant instead of duplicating this literal "http://flvc533a047.live.126.net/live/c2827af7c66743e8bbc1680a93f48842.flv?netease=flvc533a047.live.126.net" 4 times.(ÑËé×H²“iRCRITICALZ
-CODE_SMELL
-zsquid:S1192."IDefine a constant instead of duplicating this literal "role_id" 22 times.(¾ĞÛ¡H³“iRCRITICALZ
-CODE_SMELL
-{squid:S1192<"JDefine a constant instead of duplicating this literal "ORG_NAME" 18 times.(õ¥â¡H´“iRCRITICALZ
-CODE_SMELL
-ysquid:S11929"HDefine a constant instead of duplicating this literal "ORG_ID" 24 times.(Ôš¸ĞHµ“iRCRITICALZ
-CODE_SMELL
-{squid:S1192±"IDefine a constant instead of duplicating this literal "parentid" 4 times.(ÀÕÔ¸H¶“iRCRITICALZ
-CODE_SMELL
-|squid:S1192b"FDefine a constant instead of duplicating this literal "10001" 4 times.(ØØÜÊÿÿÿÿÿH·“iRCRITICALZ
-CODE_SMELL
-—squid:S1192c"aDefine a constant instead of duplicating this literal "b20f6fd6480d4dd49d929d9206a67842" 8 times.(Î™˜ÈûÿÿÿÿH¸“iRCRITICALZ
-CODE_SMELL
-İsquid:S1192k"«Define a constant instead of duplicating this literal "http://flvc533a047.live.126.net/live/3b0cc38ba7ea4383ad2a8a963400c41d.flv?netease=flvc533a047.live.126.net" 4 times.(ı¿èH¹“iRCRITICALZ
-CODE_SMELL
-ˆsquid:S1192m"WDefine a constant instead of duplicating this literal "æ‰¬å·æ¶ˆé˜²æ”¯é˜Ÿæ‚Ÿ2" 4 times.(âÑç¨Hº“iRCRITICALZ
-CODE_SMELL
-Œsquid:S4144¡"]Update this method so that its implementation is not identical to "selectSysOrg" on line 530.(ğïôËH»“iRMAJORZ
-CODE_SMELL
-Œsquid:S4144«"]Update this method so that its implementation is not identical to "selectSysOrg" on line 530.(¯É§óH¼“iRMAJORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLineÓ"<This block of commented-out lines of code should be removed.(®Ê‡ÜH½“iRMAJORZ
-CODE_SMELL
-»squid:S2681Ê"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(—½…ÑıÿÿÿÿH¾“iRMAJORZ
-CODE_SMELL
-»squid:S2681ä"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(—½…ÑıÿÿÿÿH¿“iRMAJORZ
-CODE_SMELL
-‰squid:S3776-"SRefactor this method to reduce its Cognitive Complexity from 249 to the 15 allowed.(¼‡îøÿÿÿÿHÀ“iRCRITICALZ
-CODE_SMELL
-„squid:S3776ó"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¯Ø¯ÄHÁ“iRCRITICALZ
-CODE_SMELL
-‰squid:S3776¯"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ˆö˜•ıÿÿÿÿHÂ“iRCRITICALZ
-CODE_SMELL
-„squid:S3776•"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ğó£ÄHÃ“iRCRITICALZ
-CODE_SMELL
-‰squid:S3776Í"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(éõş‡ÿÿÿÿÿHÄ“iRCRITICALZ
-CODE_SMELL
-ƒsquid:S00100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù® øÿÿÿÿHÅ“iRMINORZ
-CODE_SMELL
-~squid:S00100è"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ò¹İHÆ“iRMINORZ
-CODE_SMELL
-~squid:S00100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Š£HÇ“iRMINORZ
-CODE_SMELL
-Ysquid:S00108›")Either remove or fill this block of code.(”ı¾HÈ“iRMAJORZ
-CODE_SMELL
-isquid:S1854Ÿ":Remove this useless assignment to local variable "parent".(îˆ HÉ“iRMAJORZ
-CODE_SMELL
-isquid:S1854×":Remove this useless assignment to local variable "parent".(îˆ HÊ“iRMAJORZ
-CODE_SMELL
-€squid:S00116("QRename this field "Implms" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËÕŞHË“iRMINORZ
-CODE_SMELL
-€squid:S001179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôš¸ĞHÌ“iRMINORZ
-CODE_SMELL
-€squid:S00117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Ê£¬HÍ“iRMINORZ
-CODE_SMELL
-squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôš¸ĞHÎ“iRMINORZ
-CODE_SMELL
-†squid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­à—™şÿÿÿÿHÏ“iRMINORZ
-CODE_SMELL
-†squid:S00117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—­èŸûÿÿÿÿHĞ“iRMINORZ
-CODE_SMELL
-†squid:S00117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÒıÿÿÿÿHÑ“iRMINORZ
-CODE_SMELL
-†squid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ÷±êøÿÿÿÿHÒ“iRMINORZ
-CODE_SMELL
-squid:S00117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äî“úHÓ“iRMINORZ
-CODE_SMELL
-squid:S00117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜°¢òHÔ“iRMINORZ
-CODE_SMELL
-†squid:S00117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÔåÿÿÿÿÿHÕ“iRMINORZ
-CODE_SMELL
-squid:S00117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÕÔ¸HÖ“iRMINORZ
-CODE_SMELL
-†squid:S00117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ÷±êøÿÿÿÿH×“iRMINORZ
-CODE_SMELL
-†squid:S00117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ı·ßÿÿÿÿÿHØ“iRMINORZ
-CODE_SMELL
-squid:S00117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜°¢òHÙ“iRMINORZ
-CODE_SMELL
-†squid:S00117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÔåÿÿÿÿÿHÚ“iRMINORZ
-CODE_SMELL
-squid:S00117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÕÔ¸HÛ“iRMINORZ
-CODE_SMELL
-†squid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ÷±êøÿÿÿÿHÜ“iRMINORZ
-CODE_SMELL
-†squid:S00117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñˆµ–şÿÿÿÿHİ“iRMINORZ
-CODE_SMELL
-squid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úş´ÿHŞ“iRMINORZ
-CODE_SMELL
-xsquid:S1858—"D"readString" returns a string, there's no need to call "toString()".(ˆ÷±êøÿÿÿÿHß“iRMINORZ
-CODE_SMELL
-xsquid:S1858Ï"D"readString" returns a string, there's no need to call "toString()".(ˆ÷±êøÿÿÿÿHà“iRMINORZ
-CODE_SMELL
-xsquid:S1858‚"D"readString" returns a string, there's no need to call "toString()".(ˆ÷±êøÿÿÿÿHá“iRMINORZ
-CODE_SMELL
-ksquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHâ“iRMINORZ
-CODE_SMELL
-_squid:S1948$".Make "alarmService" transient or serializable.(ó‰¨šHã“iRCRITICALZ
-CODE_SMELL
-^squid:S1948&"-Make "xnjqService" transient or serializable.(¹¬…Hä“iRCRITICALZ
-CODE_SMELL
-Ysquid:S1948("(Make "Implms" transient or serializable.(ƒËÕŞHå“iRCRITICALZ
-CODE_SMELL
-ksquid:S1948*"5Make "systemManageService" transient or serializable.(øüíıÿÿÿÿHæ“iRCRITICALZ
-CODE_SMELL
-qsquid:S1155H">Use isEmpty() to check whether the collection is empty or not.(İ”§®şÿÿÿÿHç“iRMINORZ
-CODE_SMELL
-msquid:S1155£">Use isEmpty() to check whether the collection is empty or not.(æ³Ù‚Hè“iRMINORZ
-CODE_SMELL
-msquid:S1155†">Use isEmpty() to check whether the collection is empty or not.(ÖÙ¬ÍHé“iRMINORZ
-CODE_SMELL
-msquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Å„‡•Hê“iRMINORZ
-CODE_SMELL

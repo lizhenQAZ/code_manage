@@ -1,98 +1,0 @@
-
-…squid:S00117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¤¡¤ÿÿÿÿÿHüç@RMINORZ
-CODE_SMELL
-†squid:S00117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔšŞœüÿÿÿÿHıç@RMINORZ
-CODE_SMELL
-squid:S1192+"hDefine a constant instead of duplicating this literal "'  connect by prior org_id = parent_id)" 3 times.(ïœ±¢úÿÿÿÿHşç@RCRITICALZ
-CODE_SMELL
-Šsquid:S1192="YDefine a constant instead of duplicating this literal " and (corp_name is null " 3 times.(Èÿ¿‰Hÿç@RCRITICALZ
-CODE_SMELL
-¶%squid:RedundantThrowsDeclarationCheckI"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(®æÚ€H€è@RMINORZ
-CODE_SMELL
-›squid:S1192¦"iDefine a constant instead of duplicating this literal "' Connect By Prior a.org_id=a.parent_id " 3 times.(ÈÄ¢ÒHè@RCRITICALZ
-CODE_SMELL
-™squid:S1192>"cDefine a constant instead of duplicating this literal "or (corp_name not like '%æµ‹è¯•%' " 3 times.(¯Ë•ıÿÿÿÿH‚è@RCRITICALZ
-CODE_SMELL
-†squid:S00117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êŞŠşûÿÿÿÿHƒè@RMINORZ
-CODE_SMELL
-Isquid:S3878£"Remove this array creation.(Ã™Ş1H„è@RMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethod"2Remove this use of "SqlAdapter"; it is deprecated.(±”ò¨şÿÿÿÿH…è@RMINORZ
-CODE_SMELL
-›squid:S1192@"eDefine a constant instead of duplicating this literal "and corp_name not like '%æ¼”ç»ƒ%')) " 3 times.(éêÙüÿÿÿÿH†è@RCRITICALZ
-CODE_SMELL
-^squid:S1905‡"*Remove this unnecessary cast to "IDtoRow".(¯Ë¦şÿÿÿÿH‡è@RMINORZ
-CODE_SMELL
-fsquid:S1854"7Remove this useless assignment to local variable "row".(Ì®Ô©Hˆè@RMAJORZ
-CODE_SMELL
-†squid:S00117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ÎÇüÿÿÿÿH‰è@RMINORZ
-CODE_SMELL
-†squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÙøóùÿÿÿÿHŠè@RMINORZ
-CODE_SMELL
-›squid:S1192<"eDefine a constant instead of duplicating this literal "and corp_addr not like '%æ¼”ç»ƒ%')) " 3 times.(ªıÀÌûÿÿÿÿH‹è@RCRITICALZ
-CODE_SMELL
-squid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¤¶ºHŒè@RMINORZ
-CODE_SMELL
-“squid:S1192;"cDefine a constant instead of duplicating this literal "and corp_addr not like '%æ¼”ä¹ %' " 3 times.(®Ç‰Hè@RCRITICALZ
-CODE_SMELL
-]squid:S1481Ü".Remove this unused "corp_addr" local variable.(ç„¹Hè@RMINORZ
-CODE_SMELL
-squid:S00117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç„¹Hè@RMINORZ
-CODE_SMELL
-“squid:S1192:"cDefine a constant instead of duplicating this literal "or (corp_addr not like '%æµ‹è¯•%' " 3 times.(™¤XHè@RCRITICALZ
-CODE_SMELL
-’squid:S1149$"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(³¤¡¤ÿÿÿÿÿH‘è@RMAJORZ
-CODE_SMELL
-¶%squid:RedundantThrowsDeclarationCheck""nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(®æÚ€H’è@RMINORZ
-CODE_SMELL
-]squid:S1905B"*Remove this unnecessary cast to "IDtoRow".(¯Ë¦şÿÿÿÿH“è@RMINORZ
-CODE_SMELL
-rsquid:CallToDeprecatedMethodË"2Remove this use of "SqlAdapter"; it is deprecated.(Ÿò··H”è@RMINORZ
-CODE_SMELL
-…squid:S00117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¤¡¤ÿÿÿÿÿH•è@RMINORZ
-CODE_SMELL
-…squid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—›¯×şÿÿÿÿH–è@RMINORZ
-CODE_SMELL
-lsquid:S1854Ü"=Remove this useless assignment to local variable "corp_addr".(ç„¹H—è@RMAJORZ
-CODE_SMELL
-”squid:S1192?"cDefine a constant instead of duplicating this literal "and corp_name not like '%æ¼”ä¹ %' " 3 times.(®îº¯H˜è@RCRITICALZ
-CODE_SMELL
-squid:S1488B"[Immediately return this expression instead of assigning it to the temporary variable "row".(¯Ë¦şÿÿÿÿH™è@RMINORZ
-CODE_SMELL
-…squid:S00117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“È¯ùÿÿÿÿHšè@RMINORZ
-CODE_SMELL
-rsquid:UselessImportCheck"7Remove this unused import 'jiangdu.fire.util.Contants'.(àó—ŸH›è@RMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(°½ö…Hœè@RMAJORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine­"<This block of commented-out lines of code should be removed.(—ÅùHè@RMAJORZ
-CODE_SMELL
-ˆsquid:S3776H"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(“È¯ùÿÿÿÿHè@RCRITICALZ
-CODE_SMELL
-lsquid:S3878Ÿ"8Remove this array creation and simply pass the elements.(³˜û¯ûÿÿÿÿHŸè@RMINORZ
-CODE_SMELL
-squid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã“öÃH è@RMINORZ
-CODE_SMELL
-’squid:S1149K"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(³¤¡¤ÿÿÿÿÿH¡è@RMAJORZ
-CODE_SMELL
-l
-squid:S106œ"9Replace this use of System.out or System.err by a logger.(åö¡½úÿÿÿÿH¢è@RMAJORZ
-CODE_SMELL
-squid:S00117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÿñİH£è@RMINORZ
-CODE_SMELL
-fsquid:S1854×"7Remove this useless assignment to local variable "row".(Ì®Ô©H¤è@RMAJORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodÈ"2Remove this use of "SqlAdapter"; it is deprecated.(±”ò¨şÿÿÿÿH¥è@RMINORZ
-CODE_SMELL
-squid:S00117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¤¶ºH¦è@RMINORZ
-CODE_SMELL
-rsquid:CallToDeprecatedMethod¢"2Remove this use of "SqlAdapter"; it is deprecated.(‘Àó…H§è@RMINORZ
-CODE_SMELL
-†squid:S00117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ÎÇüÿÿÿÿH¨è@RMINORZ
-CODE_SMELL
-‰squid:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÑÙøóùÿÿÿÿH©è@RCRITICALZ
-CODE_SMELL
-squid:S11929"YDefine a constant instead of duplicating this literal " and (corp_addr is null " 3 times.(«À±ìøÿÿÿÿHªè@RCRITICALZ
-CODE_SMELL
-squid:S1488‡"[Immediately return this expression instead of assigning it to the temporary variable "row".(¯Ë¦şÿÿÿÿH«è@RMINORZ
-CODE_SMELL

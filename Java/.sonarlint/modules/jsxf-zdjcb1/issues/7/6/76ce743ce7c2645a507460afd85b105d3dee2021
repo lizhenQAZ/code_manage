@@ -1,140 +1,0 @@
-
-¶%squid:RedundantThrowsDeclarationCheck}"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(®æÚ€Hó‘iRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheck„"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(®æÚ€Hô‘iRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheck‘"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(®æÚ€Hõ‘iRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckœ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(®æÚ€Hö‘iRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheck·"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(®æÚ€H÷‘iRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheck¿"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(‡âÁ‹úÿÿÿÿHø‘iRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckÊ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ù¸›öûÿÿÿÿHù‘iRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckÕ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ê”ñãHú‘iRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckâ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ï®ÙôHû‘iRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckñ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¤¨´éÿÿÿÿÿHü‘iRMINORZ
-CODE_SMELL
-{squid:S1192ˆ"IDefine a constant instead of duplicating this literal "typelist" 4 times.(ÆÙ…âHı‘iRCRITICALZ
-CODE_SMELL
-€squid:S1192‰"IDefine a constant instead of duplicating this literal "userlist" 3 times.(ÄÉõëùÿÿÿÿHş‘iRCRITICALZ
-CODE_SMELL
-}squid:S1192A"GDefine a constant instead of duplicating this literal "alarm" 14 times.(‚§µîıÿÿÿÿHÿ‘iRCRITICALZ
-CODE_SMELL
-€squid:S1192?"JDefine a constant instead of duplicating this literal "alarm_no" 30 times.(«‰È¸ùÿÿÿÿH€’iRCRITICALZ
-CODE_SMELL
-zsquid:S1192¼"HDefine a constant instead of duplicating this literal "c_name" 12 times.(°½À©H’iRCRITICALZ
-CODE_SMELL
-‹squid:S1192Ñ"YDefine a constant instead of duplicating this literal "fireFloorPlanAndroid.jsp" 5 times.(›ø´¯H‚’iRCRITICALZ
-CODE_SMELL
-„squid:S1192¿"RDefine a constant instead of duplicating this literal "fireFloorPlan.jsp" 5 times.(Œù¦òHƒ’iRCRITICALZ
-CODE_SMELL
-squid:S4144I"ZUpdate this method so that its implementation is not identical to "fireReport" on line 62.(«î¢€ıÿÿÿÿH„’iRMAJORZ
-CODE_SMELL
-…squid:S00117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH…’iRMINORZ
-CODE_SMELL
-…squid:S00117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH†’iRMINORZ
-CODE_SMELL
-…squid:S00117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH‡’iRMINORZ
-CODE_SMELL
-€squid:S00117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ±€ÆHˆ’iRMINORZ
-CODE_SMELL
-…squid:S00117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÔÓÕşÿÿÿÿH‰’iRMINORZ
-CODE_SMELL
-…squid:S00117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÔåÿÿÿÿÿHŠ’iRMINORZ
-CODE_SMELL
-†squid:S00117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH‹’iRMINORZ
-CODE_SMELL
-†squid:S00117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‡ÈäşÿÿÿÿHŒ’iRMINORZ
-CODE_SMELL
-squid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š½˜ŒH’iRMINORZ
-CODE_SMELL
-†squid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH’iRMINORZ
-CODE_SMELL
-†squid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‡ÈäşÿÿÿÿH’iRMINORZ
-CODE_SMELL
-squid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š½˜ŒH’iRMINORZ
-CODE_SMELL
-†squid:S00117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH‘’iRMINORZ
-CODE_SMELL
-†squid:S00117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òèúÿÿÿÿH’’iRMINORZ
-CODE_SMELL
-squid:S00117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ë®¨H“’iRMINORZ
-CODE_SMELL
-†squid:S00117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH”’iRMINORZ
-CODE_SMELL
-†squid:S00117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‡ÈäşÿÿÿÿH•’iRMINORZ
-CODE_SMELL
-squid:S00117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ë®¨H–’iRMINORZ
-CODE_SMELL
-†squid:S00117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH—’iRMINORZ
-CODE_SMELL
-squid:S00117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èêÈH˜’iRMINORZ
-CODE_SMELL
-†squid:S00117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ‡˜ûÿÿÿÿH™’iRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHš’iRMINORZ
-CODE_SMELL
-squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èêÈH›’iRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ‡˜ûÿÿÿÿHœ’iRMINORZ
-CODE_SMELL
-†squid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH’iRMINORZ
-CODE_SMELL
-squid:S00117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÙÉH’iRMINORZ
-CODE_SMELL
-€squid:S00117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡’çTHŸ’iRMINORZ
-CODE_SMELL
-†squid:S00117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH ’iRMINORZ
-CODE_SMELL
-squid:S00117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÙÉH¡’iRMINORZ
-CODE_SMELL
-€squid:S00117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡’çTH¢’iRMINORZ
-CODE_SMELL
-†squid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH£’iRMINORZ
-CODE_SMELL
-squid:S00117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÓçñH¤’iRMINORZ
-CODE_SMELL
-squid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¯ÃñH¥’iRMINORZ
-CODE_SMELL
-†squid:S00117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¦’iRMINORZ
-CODE_SMELL
-squid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÓçñH§’iRMINORZ
-CODE_SMELL
-squid:S00117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¯ÃñH¨’iRMINORZ
-CODE_SMELL
-†squid:S00117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH©’iRMINORZ
-CODE_SMELL
-†squid:S00117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½µòøÿÿÿÿHª’iRMINORZ
-CODE_SMELL
-†squid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½µòøÿÿÿÿH«’iRMINORZ
-CODE_SMELL
-†squid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½µòøÿÿÿÿH¬’iRMINORZ
-CODE_SMELL
-†squid:S00117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH­’iRMINORZ
-CODE_SMELL
-squid:S00117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡©Â¾H®’iRMINORZ
-CODE_SMELL
-†squid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë– ¬ÿÿÿÿÿH¯’iRMINORZ
-CODE_SMELL
-squid:S00117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡©Â¾H°’iRMINORZ
-CODE_SMELL
-†squid:S00117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½µòøÿÿÿÿH±’iRMINORZ
-CODE_SMELL
-squid:S00117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H²’iRMINORZ
-CODE_SMELL
-squid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬³Û•H³’iRMINORZ
-CODE_SMELL
-squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H´’iRMINORZ
-CODE_SMELL
-†squid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHµ’iRMINORZ
-CODE_SMELL
-Zsquid:S1148á"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¶’iRMINORZVULNERABILITY
-_squid:S19489".Make "alarmService" transient or serializable.(ó‰¨šH·’iRCRITICALZ
-CODE_SMELL
-dsquid:S1948;"3Make "fireReportService" transient or serializable.(ôú÷H¸’iRCRITICALZ
-CODE_SMELL

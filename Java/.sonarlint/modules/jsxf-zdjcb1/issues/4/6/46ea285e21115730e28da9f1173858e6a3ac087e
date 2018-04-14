@@ -1,46 +1,0 @@
-
-|javascript:S2814Û"CRename "i" as this name is already used in declaration at line 847.(±©ÂÒøÿÿÿÿHïçARMAJORZ
-CODE_SMELL
-\javascript:S1442ë" Remove this usage of alert(...).(»¯ö¿úÿÿÿÿHåçARMINORZVULNERABILITY
-\javascript:S1442î" Remove this usage of alert(...).(»»Þ¨úÿÿÿÿHæçARMINORZVULNERABILITY
-\javascript:S1442“" Remove this usage of alert(...).(‘œ°¿þÿÿÿÿHëçARMINORZVULNERABILITY
-javascript:S3973ð"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØHñçARCRITICALZ
-CODE_SMELL
-zjavascript:UnusedVariableœ"8Remove the declaration of the unused 'VHeight' variable.(åÌ›ÞûÿÿÿÿHõçARMINORZ
-CODE_SMELL
-sjavascript:S1854œ":Remove this useless assignment to local variable "VHeight"(åÌ›ÞûÿÿÿÿH÷çARMAJORZ
-CODE_SMELL
-Ÿjavascript:S2703–"dAdd the "let", "const" or "var" keyword to this declaration of "list_videosite" to make it explicit.(íÂžøÿÿÿÿHûçARBLOCKERZ
-CODE_SMELL
-šjavascript:S2703•"dAdd the "let", "const" or "var" keyword to this declaration of "list_videouser" to make it explicit.(ØØÝ¸HúçARBLOCKERZ
-CODE_SMELL
-\javascript:S1442ñ" Remove this usage of alert(...).(×’«®øÿÿÿÿHççARMINORZVULNERABILITY
-mjavascript:S1854q":Remove this useless assignment to local variable "Request"(üÇHöçARMAJORZ
-CODE_SMELL
-javascript:S2814š"FRename "name" as this name is already used in declaration at line 399.(’¬Ý­ûÿÿÿÿHðçARMAJORZ
-CODE_SMELL
-\javascript:S1442ú" Remove this usage of alert(...).(¥í‘œýÿÿÿÿHêçARMINORZVULNERABILITY
-|javascript:S2814°"CRename "i" as this name is already used in declaration at line 793.(•Ø©ÿÿÿÿÿHîçARMAJORZ
-CODE_SMELL
-|javascript:S2814¾"CRename "i" as this name is already used in declaration at line 793.(Ÿ‡Ö¢ûÿÿÿÿHíçARMAJORZ
-CODE_SMELL
-‘javascript:S2703­"[Add the "let", "const" or "var" keyword to this declaration of "c_end" to make it explicit.(ß‡ýHùçARBLOCKERZ
-CODE_SMELL
-javascript:S2703Ó"bAdd the "let", "const" or "var" keyword to this declaration of "responseText" to make it explicit.(¦Ëˆ©ûÿÿÿÿHþçARBLOCKERZ
-CODE_SMELL
-–javascript:S2703É"`Add the "let", "const" or "var" keyword to this declaration of "xmlHttpReq" to make it explicit.(žœ›þHøçARBLOCKERZ
-CODE_SMELL
-|javascript:S2814›"CRename "j" as this name is already used in declaration at line 400.(ð½ÛÊûÿÿÿÿHìçARMAJORZ
-CODE_SMELL
-”javascript:S2703j"ZAdd the "let", "const" or "var" keyword to this declaration of "strs" to make it explicit.(Áœî«ùÿÿÿÿHüçARBLOCKERZ
-CODE_SMELL
-zjavascript:UnusedVariable|">Remove the declaration of the unused 'signTimestamp' variable.(ÖþÎõHôçARMINORZ
-CODE_SMELL
-yjavascript:UnusedVariable}"8Remove the declaration of the unused 'signStr' variable.(ÆïºÓûÿÿÿÿHóçARMINORZ
-CODE_SMELL
-Wjavascript:S1442ô" Remove this usage of alert(...).(©Ü¥ÍHèçARMINORZVULNERABILITY
-\javascript:S1442÷" Remove this usage of alert(...).(¶äÿ¨þÿÿÿÿHéçARMINORZVULNERABILITY
-bjavascript:EmptyBlock¬")Either remove or fill this block of code.(å¥ž‡HòçARMAJORZ
-CODE_SMELL
-“javascript:S2703ª"]Add the "let", "const" or "var" keyword to this declaration of "c_start" to make it explicit.(–ñ‰ªHýçARBLOCKERZ
-CODE_SMELL

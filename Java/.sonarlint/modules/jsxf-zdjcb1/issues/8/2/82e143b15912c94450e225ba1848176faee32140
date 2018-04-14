@@ -1,2331 +1,0 @@
-
-squid:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Ü¨¸æúÿÿÿÿHæıkRMAJORZ
-CODE_SMELL
-„squid:S3776ë!"RRefactor this method to reduce its Cognitive Complexity from 66 to the 15 allowed.(êÎ¬¸HçıkRCRITICALZ
-CODE_SMELL
-’squid:S4144Ü*"^Update this method so that its implementation is not identical to "takePicture1" on line 5452.(“ ŸÿøÿÿÿÿHèıkRMAJORZ
-CODE_SMELL
-†squid:S00117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHéıkRMINORZ
-CODE_SMELL
-squid:S00117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÆÃ±HêıkRMINORZ
-CODE_SMELL
-squid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¨ÚØHëıkRMINORZ
-CODE_SMELL
-Zsquid:S1148¢"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿHìıkRMINORZVULNERABILITY
-†squid:S00117Ü)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHíıkRMINORZ
-CODE_SMELL
-†squid:S00117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É‰œùÿÿÿÿHîıkRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHïıkRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckû1"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ş¼¤¡ùÿÿÿÿHğıkRMINORZ
-CODE_SMELL
-]squid:S1481•")Remove this unused "list" local variable.(‰è¾ÿÿÿÿÿHñıkRMINORZ
-CODE_SMELL
-asquid:S1948"0Make "jsAlarmService" transient or serializable.(¸î^HòıkRCRITICALZ
-CODE_SMELL
-squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(½êÎãHóıkRMAJORZ
-CODE_SMELL
-†squid:S00117Ú,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ”ïŠøÿÿÿÿHôıkRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodÈ&"2Remove this use of "SqlAdapter"; it is deprecated.(‰Ã¼ùÿÿÿÿHõıkRMINORZ
-CODE_SMELL
-Zsquid:S1148Ş"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHöıkRMINORZVULNERABILITY
-msquid:S1854Ì1"9Remove this useless assignment to local variable "lists".(·Û¨§øÿÿÿÿH÷ıkRMAJORZ
-CODE_SMELL
-†squid:S00117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¼ÉúÿÿÿÿHøıkRMINORZ
-CODE_SMELL
-squid:S00117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü”¨ØHùıkRMINORZ
-CODE_SMELL
-csquid:S1481í"/Remove this unused "temp_index" local variable.(Ò€Ò×øÿÿÿÿHúıkRMINORZ
-CODE_SMELL
-l
-squid:S106‰!"9Replace this use of System.out or System.err by a logger.(Êúï‘ûÿÿÿÿHûıkRMAJORZ
-CODE_SMELL
-„squid:S1192İ"MDefine a constant instead of duplicating this literal "soldier_num" 18 times.(Ñİ›ƒşÿÿÿÿHüıkRCRITICALZ
-CODE_SMELL
-zsquid:CommentedOutCodeLineí"<This block of commented-out lines of code should be removed.(¶Êè…HııkRMAJORZ
-CODE_SMELL
-zsquid:S3027ğ("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(†ÅÀ„üÿÿÿÿHşıkRMAJORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckÕ "nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Â³›¼úÿÿÿÿHÿıkRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLineô"<This block of commented-out lines of code should be removed.(÷ËÅ…üÿÿÿÿH€şkRMAJORZ
-CODE_SMELL
-{squid:S00112Î"FDefine and throw a dedicated exception instead of using a generic one.(±šâšıÿÿÿÿHşkRMAJORZ
-CODE_SMELL
-†squid:S00117«""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßœşÌıÿÿÿÿH‚şkRMINORZ
-CODE_SMELL
-squid:S00117ù+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ØİºHƒşkRMINORZ
-CODE_SMELL
-usquid:S3457Ó/"AFormat specifiers should be used instead of string concatenation.(Ü¨¸æúÿÿÿÿH„şkRMAJORZ
-CODE_SMELL
-†squid:S00117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¼ÉúÿÿÿÿH…şkRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“üû£úÿÿÿÿH†şkRMINORZ
-CODE_SMELL
-†squid:S00117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±…ÙàüÿÿÿÿH‡şkRMINORZ
-CODE_SMELL
-ƒsquid:S3776Ê"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÛÊ‚HˆşkRCRITICALZ
-CODE_SMELL
-vsquid:S00112»%"FDefine and throw a dedicated exception instead of using a generic one.(öÁô“H‰şkRMAJORZ
-CODE_SMELL
-†squid:S00117¨("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¸±çÿÿÿÿÿHŠşkRMINORZ
-CODE_SMELL
-•squid:S4144«"aUpdate this method so that its implementation is not identical to "doAlarmForHand4" on line 1971.(¹ÚÔûÿÿÿÿH‹şkRMAJORZ
-CODE_SMELL
-†squid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬·—ùÿÿÿÿHŒşkRMINORZ
-CODE_SMELL
-€squid:S00117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜óÎ^HşkRMINORZ
-CODE_SMELL
-~squid:S1192ì"GDefine a constant instead of duplicating this literal "reList" 5 times.(İÌ£­ûÿÿÿÿHşkRCRITICALZ
-CODE_SMELL
-squid:S1192•"HDefine a constant instead of duplicating this literal "zhyname" 8 times.(¸¼ş¡şÿÿÿÿHşkRCRITICALZ
-CODE_SMELL
-g
-squid:S106ù#"9Replace this use of System.out or System.err by a logger.(æÃÅ¢HşkRMAJORZ
-CODE_SMELL
-†squid:S00117Ÿ
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH‘şkRMINORZ
-CODE_SMELL
-†squid:S00117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH’şkRMINORZ
-CODE_SMELL
-†squid:S00117À#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßœşÌıÿÿÿÿH“şkRMINORZ
-CODE_SMELL
-squid:S00117î)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¹¨ŒH”şkRMINORZ
-CODE_SMELL
-squid:S00117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H•şkRMINORZ
-CODE_SMELL
-†squid:S00117­("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªóÓÿÿÿÿÿH–şkRMINORZ
-CODE_SMELL
-gsquid:S1854ã"8Remove this useless assignment to local variable "flag".(İŞèüH—şkRMAJORZ
-CODE_SMELL
-squid:S00117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËòºH˜şkRMINORZ
-CODE_SMELL
-†squid:S00117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH™şkRMINORZ
-CODE_SMELL
-†squid:S00117½%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHšşkRMINORZ
-CODE_SMELL
-†squid:S00117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH›şkRMINORZ
-CODE_SMELL
-†squid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì€ƒøÿÿÿÿHœşkRMINORZ
-CODE_SMELL
-€squid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜óÎ^HşkRMINORZ
-CODE_SMELL
-†squid:S00117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½µòøÿÿÿÿHşkRMINORZ
-CODE_SMELL
-†squid:S00117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßœşÌıÿÿÿÿHŸşkRMINORZ
-CODE_SMELL
-squid:S1301á$"KReplace this "switch" statement by "if" statements to increase readability.(ïÄ×úøÿÿÿÿH şkRMINORZ
-CODE_SMELL
-‰squid:S3776¢"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(’ãôúÿÿÿÿH¡şkRCRITICALZ
-CODE_SMELL
-†squid:S00117À/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¢şkRMINORZ
-CODE_SMELL
-squid:S4144À"`Update this method so that its implementation is not identical to "alarm_content3" on line 3237.(Ğõ”øH£şkRMAJORZ
-CODE_SMELL
-squid:S4144¥'"_Update this method so that its implementation is not identical to "alarmLldjMhjy" on line 4991.(™¯ƒ§H¤şkRMAJORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodØ'"2Remove this use of "SqlAdapter"; it is deprecated.(µÁ‹ôüÿÿÿÿH¥şkRMINORZ
-CODE_SMELL
-squid:S00117Á/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´“€ÍH¦şkRMINORZ
-CODE_SMELL
-†squid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH§şkRMINORZ
-CODE_SMELL
-p"squid:SwitchLastCaseIsDefaultCheckì""Add a default case to this switch.(ïÄ×úøÿÿÿÿH¨şkRCRITICALZ
-CODE_SMELL
-†squid:S00117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠŒ£úÿÿÿÿH©şkRMINORZ
-CODE_SMELL
-†squid:S00117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHªşkRMINORZ
-CODE_SMELL
-†squid:S00117„1"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH«şkRMINORZ
-CODE_SMELL
-squid:S1192Ê&"JDefine a constant instead of duplicating this literal "CORP_NAME" 3 times.(€óèùÿÿÿÿH¬şkRCRITICALZ
-CODE_SMELL
-~squid:S1192æ"GDefine a constant instead of duplicating this literal "total" 14 times.(ì“Š›ûÿÿÿÿH­şkRCRITICALZ
-CODE_SMELL
-zsquid:S1192 "HDefine a constant instead of duplicating this literal "ZGJGBH" 11 times.(¶şÄàH®şkRCRITICALZ
-CODE_SMELL
-vsquid:S00112ë!"FDefine and throw a dedicated exception instead of using a generic one.(êÎ¬¸H¯şkRMAJORZ
-CODE_SMELL
-Zsquid:S1148ë"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH°şkRMINORZVULNERABILITY
-squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóºÜH±şkRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckò,"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(è”„ÁüÿÿÿÿH²şkRMINORZ
-CODE_SMELL
-squid:S1149•"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(½êÎãH³şkRMAJORZ
-CODE_SMELL
-{squid:S1192â"IDefine a constant instead of duplicating this literal "org_num" 14 times.(»«ÍH´şkRCRITICALZ
-CODE_SMELL
-†squid:S00117í)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³“‹ÕıÿÿÿÿHµşkRMINORZ
-CODE_SMELL
-squid:S00117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øï«äH¶şkRMINORZ
-CODE_SMELL
-†squid:S00117Ÿ-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éá”úÿÿÿÿH·şkRMINORZ
-CODE_SMELL
-†squid:S00117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¹¢ºÿÿÿÿÿH¸şkRMINORZ
-CODE_SMELL
-Zsquid:S1075…2"&Remove this hard-coded path-delimiter.(Î²ÇøÿÿÿÿH¹şkRMINORZ
-CODE_SMELL
-]squid:S1066ä"/Merge this if statement with the enclosing one.(¸ŠÀ	HºşkRMAJORZ
-CODE_SMELL
-Zsquid:S1148½"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH»şkRMINORZVULNERABILITY
-usquid:S3457"AFormat specifiers should be used instead of string concatenation.(Ü¨¸æúÿÿÿÿH¼şkRMAJORZ
-CODE_SMELL
-Ysquid:S00108¿0")Either remove or fill this block of code.(”ı¾H½şkRMAJORZ
-CODE_SMELL
-ƒsquid:S00100¥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÁ§°ùÿÿÿÿH¾şkRMINORZ
-CODE_SMELL
-squid:S00117™	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æùš´H¿şkRMINORZ
-CODE_SMELL
-Zsquid:S1148Ê"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿHÀşkRMINORZVULNERABILITY
-†squid:S00117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÁşkRMINORZ
-CODE_SMELL
-esquid:S1481Ó%"1Remove this unused "status_index" local variable.(’Ò”ÒûÿÿÿÿHÂşkRMINORZ
-CODE_SMELL
-„squid:S1192˜"MDefine a constant instead of duplicating this literal "linkagelist" 10 times.(±‹¦ÿÿÿÿÿHÃşkRCRITICALZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckÚ-"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Š¿ÔúÿÿÿÿHÄşkRMINORZ
-CODE_SMELL
-†squid:S00117Ò""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆçöüÿÿÿÿHÅşkRMINORZ
-CODE_SMELL
-squid:S1149¶"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(öİÈÆHÆşkRMAJORZ
-CODE_SMELL
-vsquid:S00112À"FDefine and throw a dedicated exception instead of using a generic one.(Ğõ”øHÇşkRMAJORZ
-CODE_SMELL
-†squid:S00117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHÈşkRMINORZ
-CODE_SMELL
-squid:S00117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬òÿHÉşkRMINORZ
-CODE_SMELL
-†squid:S00117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™™”ÌşÿÿÿÿHÊşkRMINORZ
-CODE_SMELL
-ƒsquid:S00100«"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ÚÔûÿÿÿÿHËşkRMINORZ
-CODE_SMELL
-†squid:S00117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿHÌşkRMINORZ
-CODE_SMELL
-{squid:S00112Ê'"FDefine and throw a dedicated exception instead of using a generic one.(¤†„”şÿÿÿÿHÍşkRMAJORZ
-CODE_SMELL
-squid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóºÜHÎşkRMINORZ
-CODE_SMELL
-}squid:S1192-"FDefine a constant instead of duplicating this literal "js_tp" 4 times.(ôäìÀúÿÿÿÿHÏşkRCRITICALZ
-CODE_SMELL
-{squid:S1192Ğ"IDefine a constant instead of duplicating this literal "username" 4 times.(º¹ÈÈHĞşkRCRITICALZ
-CODE_SMELL
-~squid:S00100Ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ş¸ÖHÑşkRMINORZ
-CODE_SMELL
-squid:S00117’&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HÒşkRMINORZ
-CODE_SMELL
-squid:S00117«'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HÓşkRMINORZ
-CODE_SMELL
-squid:S00117‰("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÄÓ·HÔşkRMINORZ
-CODE_SMELL
-„squid:S3776²"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(§øıëHÕşkRCRITICALZ
-CODE_SMELL
-”squid:S4144ï"eUpdate this method so that its implementation is not identical to "alarm_content0_1web" on line 2338.(İÎ HÖşkRMAJORZ
-CODE_SMELL
-²squid:S1862•"„This branch can not be reached because the condition duplicates a previous condition in the same sequence of "if/else if" statements(Œˆõ‰üÿÿÿÿH×şkRMAJORZBUG
-squid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(ÃŞ€ŠÿÿÿÿÿHØşkRMAJORZ
-CODE_SMELL
-~squid:S1192§0"GDefine a constant instead of duplicating this literal "types2" 7 times.(âÈ£øÿÿÿÿHÙşkRCRITICALZ
-CODE_SMELL
-†squid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¤ü¡úÿÿÿÿHÚşkRMINORZ
-CODE_SMELL
-squid:S1192®"JDefine a constant instead of duplicating this literal "org_role" 23 times.(‰œ´ìıÿÿÿÿHÛşkRCRITICALZ
-CODE_SMELL
-~squid:S1192Ò"MDefine a constant instead of duplicating this literal "alarm_record" 6 times.(‹îÚkHÜşkRCRITICALZ
-CODE_SMELL
-‘squid:S4144Ş&"bUpdate this method so that its implementation is not identical to "doAlarmForHandZF" on line 4925.(ÄİÜHİşkRMAJORZ
-CODE_SMELL
-squid:S00117ù!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü”¨ØHŞşkRMINORZ
-CODE_SMELL
-squid:S00117Ä'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÎµHßşkRMINORZ
-CODE_SMELL
-†squid:S00117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿHàşkRMINORZ
-CODE_SMELL
-‚squid:S1192®"KDefine a constant instead of duplicating this literal "photoList" 10 times.(ä³âóúÿÿÿÿHáşkRCRITICALZ
-CODE_SMELL
-„squid:S3776º."RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(óŸÉ HâşkRCRITICALZ
-CODE_SMELL
-ƒsquid:S00100°0"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤÷‡ÿÿÿÿÿHãşkRMINORZ
-CODE_SMELL
-squid:S00117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü”¨ØHäşkRMINORZ
-CODE_SMELL
-squid:S00117·1"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HåşkRMINORZ
-CODE_SMELL
-€squid:S1192ü"IDefine a constant instead of duplicating this literal "duty_day" 3 times.(‘Ö¬ÂûÿÿÿÿHæşkRCRITICALZ
-CODE_SMELL
-„squid:S3776é"RRefactor this method to reduce its Cognitive Complexity from 66 to the 15 allowed.(ÊşğìHçşkRCRITICALZ
-CODE_SMELL
-squid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶şÄàHèşkRMINORZ
-CODE_SMELL
-]squid:S1481ÿ1")Remove this unused "user" local variable.(œ˜êøÿÿÿÿHéşkRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckÈ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÿ¨åõøÿÿÿÿHêşkRMINORZ
-CODE_SMELL
-~squid:S00100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙøÀ“HëşkRMINORZ
-CODE_SMELL
-†squid:S00117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHìşkRMINORZ
-CODE_SMELL
-ƒsquid:S00100Î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±šâšıÿÿÿÿHíşkRMINORZ
-CODE_SMELL
-Zsquid:S1148ê"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHîşkRMINORZVULNERABILITY
-Zsquid:S1148ß"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHïşkRMINORZVULNERABILITY
-†squid:S00117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHğşkRMINORZ
-CODE_SMELL
-~squid:S00100ë!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÎ¬¸HñşkRMINORZ
-CODE_SMELL
-†squid:S00117€	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHòşkRMINORZ
-CODE_SMELL
-‹squid:S1192ú"TDefine a constant instead of duplicating this literal "å¯ç‡ƒæ°”ä½“/çˆ†ç‚¸" 7 times.(“üû£úÿÿÿÿHóşkRCRITICALZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckÀ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.( ûüŸùÿÿÿÿHôşkRMINORZ
-CODE_SMELL
-zsquid:S1192œ"HDefine a constant instead of duplicating this literal "addlist" 9 times.(å¥±ÚHõşkRCRITICALZ
-CODE_SMELL
-¶%squid:RedundantThrowsDeclarationCheckÊ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÛÊ‚HöşkRMINORZ
-CODE_SMELL
-{squid:S1192ä"IDefine a constant instead of duplicating this literal "USERNAME" 5 times.(œ±…¾H÷şkRCRITICALZ
-CODE_SMELL
-squid:S4144."[Update this method so that its implementation is not identical to "showVideo" on line 5890.(àÇÍ¥ıÿÿÿÿHøşkRMAJORZ
-CODE_SMELL
-€squid:S1192Â"IDefine a constant instead of duplicating this literal "result_" 18 times.(æ˜Î¿øÿÿÿÿHùşkRCRITICALZ
-CODE_SMELL
-~squid:S00100ô+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÆ›şHúşkRMINORZ
-CODE_SMELL
-msquid:S1854ñ/"9Remove this useless assignment to local variable "lists".(·Û¨§øÿÿÿÿHûşkRMAJORZ
-CODE_SMELL
-€squid:S00117±-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—°û'HüşkRMINORZ
-CODE_SMELL
-]squid:S1066Ê"/Merge this if statement with the enclosing one.(¸ŠÀ	HışkRMAJORZ
-CODE_SMELL
-‰squid:S3776ø"RRefactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.(™»‚ÓúÿÿÿÿHşşkRCRITICALZ
-CODE_SMELL
-squid:CommentedOutCodeLineè"<This block of commented-out lines of code should be removed.(Ğéï×şÿÿÿÿHÿşkRMAJORZ
-CODE_SMELL
-ysquid:CommentedOutCodeLineÈ"<This block of commented-out lines of code should be removed.(ÑÀÎ<H€ÿkRMAJORZ
-CODE_SMELL
-†squid:S00117Í-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÿkRMINORZ
-CODE_SMELL
-gsquid:S1948"0Make "fireMapService" transient or serializable.(à¦áÔüÿÿÿÿH‚ÿkRCRITICALZ
-CODE_SMELL
-†squid:S00117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆçöüÿÿÿÿHƒÿkRMINORZ
-CODE_SMELL
-´%squid:RedundantThrowsDeclarationCheckÖ"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(å±è`H„ÿkRMINORZ
-CODE_SMELL
-{squid:S00112Ü*"FDefine and throw a dedicated exception instead of using a generic one.(“ ŸÿøÿÿÿÿH…ÿkRMAJORZ
-CODE_SMELL
-squid:S2629µ/"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Ü¨¸æúÿÿÿÿH†ÿkRMAJORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLineô"<This block of commented-out lines of code should be removed.(¸ÚÕ¥H‡ÿkRMAJORZ
-CODE_SMELL
-†squid:S00117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHˆÿkRMINORZ
-CODE_SMELL
-~squid:S1192û"GDefine a constant instead of duplicating this literal "zyList" 4 times.(ÊòŒ‡üÿÿÿÿH‰ÿkRCRITICALZ
-CODE_SMELL
-†squid:S00117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò€Ò×øÿÿÿÿHŠÿkRMINORZ
-CODE_SMELL
-g
-squid:S106ò"9Replace this use of System.out or System.err by a logger.(æÃÅ¢H‹ÿkRMAJORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheck©1"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(†¢Œ–şÿÿÿÿHŒÿkRMINORZ
-CODE_SMELL
-{squid:S00112¾/"FDefine and throw a dedicated exception instead of using a generic one.(›òÜİùÿÿÿÿHÿkRMAJORZ
-CODE_SMELL
-…squid:S3776ß"SRefactor this method to reduce its Cognitive Complexity from 123 to the 15 allowed.(·ğ‚¿HÿkRCRITICALZ
-CODE_SMELL
-†squid:S00117 -"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôäìÀúÿÿÿÿHÿkRMINORZ
-CODE_SMELL
-Psquid:S1643Û("Use a StringBuilder instead.(©ó²ÖşÿÿÿÿHÿkRMINORZ
-CODE_SMELL
-f
-squid:S106ü*"9Replace this use of System.out or System.err by a logger.(ÆâÔH‘ÿkRMAJORZ
-CODE_SMELL
-~squid:S00100ï"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÎ H’ÿkRMINORZ
-CODE_SMELL
-ˆsquid:S1192ğ "VDefine a constant instead of duplicating this literal "æš‚æ— æ–‡ä»¶ä¿¡æ¯ï¼" 3 times.(”¡¦ŒH“ÿkRCRITICALZ
-CODE_SMELL
-}squid:S1858¢"I"bk_rel" is already a string, there's no need to call "toString()" on it.(øÉşÿÿÿÿH”ÿkRMINORZ
-CODE_SMELL
-Xsquid:S1481ã")Remove this unused "flag" local variable.(İŞèüH•ÿkRMINORZ
-CODE_SMELL
-squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬òÿH–ÿkRMINORZ
-CODE_SMELL
-€squid:S00117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã•kH—ÿkRMINORZ
-CODE_SMELL
-|squid:S1192ù"JDefine a constant instead of duplicating this literal "50-100å¹³" 7 times.(Ïç¡ŠH˜ÿkRCRITICALZ
-CODE_SMELL
-zsquid:CommentedOutCodeLineş "<This block of commented-out lines of code should be removed.(Ë®ï¼H™ÿkRMAJORZ
-CODE_SMELL
-ysquid:S1192"GDefine a constant instead of duplicating this literal "rs_rel" 7 times.(ŒœÅ€HšÿkRCRITICALZ
-CODE_SMELL
-squid:S1192ü"JDefine a constant instead of duplicating this literal "trapp_num" 7 times.(æ‘Ü§üÿÿÿÿH›ÿkRCRITICALZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheck-"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ä‹‹ÆøÿÿÿÿHœÿkRMINORZ
-CODE_SMELL
-zsquid:S1192´	"HDefine a constant instead of duplicating this literal "user_id" 4 times.(È°¬´HÿkRCRITICALZ
-CODE_SMELL
-ysquid:CommentedOutCodeLine­"<This block of commented-out lines of code should be removed.(ÑÀÎ<HÿkRMAJORZ
-CODE_SMELL
-squid:S00117Œ("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Œ½ÂHŸÿkRMINORZ
-CODE_SMELL
-vsquid:S00112Ô*"FDefine and throw a dedicated exception instead of using a generic one.(”‡Î°H ÿkRMAJORZ
-CODE_SMELL
-†squid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¡ÿkRMINORZ
-CODE_SMELL
-|squid:S1192ı"JDefine a constant instead of duplicating this literal "status_cc" 7 times.(äÜÚH¢ÿkRCRITICALZ
-CODE_SMELL
-†squid:S00117»	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ªøøÿÿÿÿH£ÿkRMINORZ
-CODE_SMELL
-squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‹ÌİH¤ÿkRMINORZ
-CODE_SMELL
-Zsquid:S1148ß"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿH¥ÿkRMINORZVULNERABILITY
-Zsquid:S1148¶*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¦ÿkRMINORZVULNERABILITY
-„squid:S1192Š"RDefine a constant instead of duplicating this literal "BURNING_FLOOR_NUM" 7 times.(í²ÃËH§ÿkRCRITICALZ
-CODE_SMELL
-”squid:S4144¨ "`Update this method so that its implementation is not identical to "alarm_content2" on line 1950.(óş×ÕúÿÿÿÿH¨ÿkRMAJORZ
-CODE_SMELL
-ƒsquid:S00100÷"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÀº‘ıÿÿÿÿH©ÿkRMINORZ
-CODE_SMELL
-†squid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿHªÿkRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheck-"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(—‡×ªøÿÿÿÿH«ÿkRMINORZ
-CODE_SMELL
-†squid:S00117î#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì€ƒøÿÿÿÿH¬ÿkRMINORZ
-CODE_SMELL
-†squid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ò”ÒûÿÿÿÿH­ÿkRMINORZ
-CODE_SMELL
-†squid:S00117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿH®ÿkRMINORZ
-CODE_SMELL
-squid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÂ¤„H¯ÿkRMINORZ
-CODE_SMELL
-squid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥‡Ä•H°ÿkRMINORZ
-CODE_SMELL
-†squid:S00117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH±ÿkRMINORZ
-CODE_SMELL
-lsquid:S1854”"8Remove this useless assignment to local variable "flag".(†ÚÆ–úÿÿÿÿH²ÿkRMAJORZ
-CODE_SMELL
-†squid:S00117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH³ÿkRMINORZ
-CODE_SMELL
-†squid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÚ‚üÿÿÿÿH´ÿkRMINORZ
-CODE_SMELL
-†squid:S00117†)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿHµÿkRMINORZ
-CODE_SMELL
-vsquid:S00112ï"FDefine and throw a dedicated exception instead of using a generic one.(İÎ H¶ÿkRMAJORZ
-CODE_SMELL
-†squid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì€ƒøÿÿÿÿH·ÿkRMINORZ
-CODE_SMELL
-†squid:S00117œ!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¸ÿkRMINORZ
-CODE_SMELL
-Zsquid:S1148©"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¹ÿkRMINORZVULNERABILITY
-squid:S00117˜)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HºÿkRMINORZ
-CODE_SMELL
-†squid:S00117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH»ÿkRMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine‡"<This block of commented-out lines of code should be removed.(†Æ·òH¼ÿkRMAJORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckŞ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(İ§¾ÌøÿÿÿÿH½ÿkRMINORZ
-CODE_SMELL
-squid:S00117„!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•à¿ÑH¾ÿkRMINORZ
-CODE_SMELL
-squid:S00117å	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı‚™¶H¿ÿkRMINORZ
-CODE_SMELL
-vsquid:S00112ß"FDefine and throw a dedicated exception instead of using a generic one.(·ğ‚¿HÀÿkRMAJORZ
-CODE_SMELL
-squid:S4144Ø"aUpdate this method so that its implementation is not identical to "doAlarmForHand4" on line 1971.(Ÿ’ÆHÁÿkRMAJORZ
-CODE_SMELL
-squid:S00117Í*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HÂÿkRMINORZ
-CODE_SMELL
-p"squid:SwitchLastCaseIsDefaultCheckË""Add a default case to this switch.(ïÄ×úøÿÿÿÿHÃÿkRCRITICALZ
-CODE_SMELL
-~squid:S1192ù"LDefine a constant instead of duplicating this literal "500-1000å¹³" 7 times.(Ïç¡ŠHÄÿkRCRITICALZ
-CODE_SMELL
-†squid:S00117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHÅÿkRMINORZ
-CODE_SMELL
-†squid:S00117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿHÆÿkRMINORZ
-CODE_SMELL
-squid:S00117Ã "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­‹¯HÇÿkRMINORZ
-CODE_SMELL
-esquid:S1948Š"3Make "fireReportService" transient or serializable.(ôú÷HÈÿkRCRITICALZ
-CODE_SMELL
-†squid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıåë¸ûÿÿÿÿHÉÿkRMINORZ
-CODE_SMELL
-†squid:S00117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÅÙÀıÿÿÿÿHÊÿkRMINORZ
-CODE_SMELL
-”squid:S1488ß"eImmediately return this expression instead of assigning it to the temporary variable "docTitlesJson".(îÂë’HËÿkRMINORZ
-CODE_SMELL
-squid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í…HÌÿkRMINORZ
-CODE_SMELL
-†squid:S00117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬·—ùÿÿÿÿHÍÿkRMINORZ
-CODE_SMELL
-†squid:S001171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHÎÿkRMINORZ
-CODE_SMELL
-†squid:S00117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄæğöûÿÿÿÿHÏÿkRMINORZ
-CODE_SMELL
-†squid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“üû£úÿÿÿÿHĞÿkRMINORZ
-CODE_SMELL
-†squid:S00117ç#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆçöüÿÿÿÿHÑÿkRMINORZ
-CODE_SMELL
-†squid:S00117”#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHÒÿkRMINORZ
-CODE_SMELL
-†squid:S00117´&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Í±ƒÿÿÿÿÿHÓÿkRMINORZ
-CODE_SMELL
-†squid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş€­ûúÿÿÿÿHÔÿkRMINORZ
-CODE_SMELL
-Zsquid:S1148‰"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿHÕÿkRMINORZVULNERABILITY
-{squid:S00112ø"FDefine and throw a dedicated exception instead of using a generic one.(™»‚ÓúÿÿÿÿHÖÿkRMAJORZ
-CODE_SMELL
-squid:S1192È"MDefine a constant instead of duplicating this literal "============" 7 times.(æÃÅ¢H×ÿkRCRITICALZ
-CODE_SMELL
-„squid:S3776Ò
-"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(£ùÛHØÿkRCRITICALZ
-CODE_SMELL
-†squid:S00117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì€ƒøÿÿÿÿHÙÿkRMINORZ
-CODE_SMELL
-€squid:S00117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã•kHÚÿkRMINORZ
-CODE_SMELL
-†squid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁûÙ‘øÿÿÿÿHÛÿkRMINORZ
-CODE_SMELL
-squid:S00117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§®Ó–HÜÿkRMINORZ
-CODE_SMELL
-bsquid:S1948„"+Make "impSysOrg" transient or serializable.(¼Æ¬²øÿÿÿÿHİÿkRCRITICALZ
-CODE_SMELL
-†squid:S00117Ø
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHŞÿkRMINORZ
-CODE_SMELL
-†squid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿHßÿkRMINORZ
-CODE_SMELL
-†squid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁûÙ‘øÿÿÿÿHàÿkRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLineÌ"<This block of commented-out lines of code should be removed.(÷ËÅ…üÿÿÿÿHáÿkRMAJORZ
-CODE_SMELL
-†squid:S00117¼	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHâÿkRMINORZ
-CODE_SMELL
-squid:S00117ß&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HãÿkRMINORZ
-CODE_SMELL
-‚squid:S1192"KDefine a constant instead of duplicating this literal " alarm_no:" 4 times.(Ü¨¸æúÿÿÿÿHäÿkRCRITICALZ
-CODE_SMELL
-`squid:S1135Â,"2Complete the task associated to this TODO comment.(‡ñÅ¼HåÿkRINFOZ
-CODE_SMELL
-†squid:S00117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¢œãÿÿÿÿÿHæÿkRMINORZ
-CODE_SMELL
-bsquid:S1948Œ"0Make "wxAlarmService" transient or serializable.(›¤òäHçÿkRCRITICALZ
-CODE_SMELL
-†squid:S00117ş""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHèÿkRMINORZ
-CODE_SMELL
-nsquid:S2259á!"FA "NullPointerException" could be thrown; "alarm_no" is nullable here.(¨¨‡HéÿkRMAJORZBUG
-esquid:S1135Å"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHêÿkRINFOZ
-CODE_SMELL
-²squid:S1862×"„This branch can not be reached because the condition duplicates a previous condition in the same sequence of "if/else if" statements(Œˆõ‰üÿÿÿÿHëÿkRMAJORZBUG
-‡squid:S1192ú"PDefine a constant instead of duplicating this literal "æœ‰å¯èƒ½å¡Œé™·" 7 times.(“üû£úÿÿÿÿHìÿkRCRITICALZ
-CODE_SMELL
-p"squid:SwitchLastCaseIsDefaultCheckş""Add a default case to this switch.(ïÄ×úøÿÿÿÿHíÿkRCRITICALZ
-CODE_SMELL
-vsquid:S00112è/"FDefine and throw a dedicated exception instead of using a generic one.(õ”¯İHîÿkRMAJORZ
-CODE_SMELL
-†squid:S00117Ù""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì€ƒøÿÿÿÿHïÿkRMINORZ
-CODE_SMELL
-†squid:S00117ƒ-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÍ ãÿÿÿÿÿHğÿkRMINORZ
-CODE_SMELL
-~squid:S00100Ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ’ÆHñÿkRMINORZ
-CODE_SMELL
-†squid:S00117°-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¸÷ÿÿÿÿÿHòÿkRMINORZ
-CODE_SMELL
-psquid:UselessImportCheck1"5Remove this unused import 'org.junit.runner.Request'.(®âı£HóÿkRMINORZ
-CODE_SMELL
-squid:S4144¶1"^Update this method so that its implementation is not identical to "takePicture2" on line 5460.(òñîHôÿkRMAJORZ
-CODE_SMELL
-}squid:S1858Ù"I"bk_rel" is already a string, there's no need to call "toString()" on it.(øÉşÿÿÿÿHõÿkRMINORZ
-CODE_SMELL
-squid:S1301ì"KReplace this "switch" statement by "if" statements to increase readability.(ïÄ×úøÿÿÿÿHöÿkRMINORZ
-CODE_SMELL
-squid:S00117â'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïç¡ŠH÷ÿkRMINORZ
-CODE_SMELL
-†squid:S00117ê&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú–”¾şÿÿÿÿHøÿkRMINORZ
-CODE_SMELL
-†squid:S00117Û-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‚ØïüÿÿÿÿHùÿkRMINORZ
-CODE_SMELL
-†squid:S00117Ù
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éïôöşÿÿÿÿHúÿkRMINORZ
-CODE_SMELL
-†squid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHûÿkRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckè-"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(›¾ğÙşÿÿÿÿHüÿkRMINORZ
-CODE_SMELL
-squid:S00117¢
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖØêHıÿkRMINORZ
-CODE_SMELL
-~squid:S1192Ë"GDefine a constant instead of duplicating this literal "ORG_ID" 6 times.(Õ¶…¥şÿÿÿÿHşÿkRCRITICALZ
-CODE_SMELL
-„squid:S3776Ğ"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(ùå”£HÿÿkRCRITICALZ
-CODE_SMELL
-g
-squid:S106†!"9Replace this use of System.out or System.err by a logger.(ÍºÎ°H€€lRMAJORZ
-CODE_SMELL
-†squid:S00117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼è ışÿÿÿÿH€lRMINORZ
-CODE_SMELL
-†squid:S00117ó,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH‚€lRMINORZ
-CODE_SMELL
-†squid:S00117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò€Ò×øÿÿÿÿHƒ€lRMINORZ
-CODE_SMELL
-Ksquid:S1643÷"Use a StringBuilder instead.(äÉ’·H„€lRMINORZ
-CODE_SMELL
-squid:S00117 )"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Œ½ÂH…€lRMINORZ
-CODE_SMELL
-squid:S00117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í²ÃËH†€lRMINORZ
-CODE_SMELL
-†squid:S00117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«é¸³şÿÿÿÿH‡€lRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheck‚,"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÈºÑÙüÿÿÿÿHˆ€lRMINORZ
-CODE_SMELL
-‡squid:S1192†"PDefine a constant instead of duplicating this literal "SMOKE_CONDITION" 7 times.(ÓÅÙÀıÿÿÿÿH‰€lRCRITICALZ
-CODE_SMELL
-†squid:S00117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHŠ€lRMINORZ
-CODE_SMELL
-Xsquid:S1481ù$")Remove this unused "flag" local variable.(İŞèüH‹€lRMINORZ
-CODE_SMELL
-†squid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ‘Ü§üÿÿÿÿHŒ€lRMINORZ
-CODE_SMELL
-€squid:S00117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã•kH€lRMINORZ
-CODE_SMELL
-squid:S00117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äûßàH€lRMINORZ
-CODE_SMELL
-º%squid:RedundantThrowsDeclarationCheckŞ"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(çÉµ˜øÿÿÿÿH€lRMINORZ
-CODE_SMELL
-squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‹ÌİH€lRMINORZ
-CODE_SMELL
-„squid:S3776Ë"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ÒˆêÛH‘€lRCRITICALZ
-CODE_SMELL
-†squid:S00117š$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠŒ£úÿÿÿÿH’€lRMINORZ
-CODE_SMELL
-squid:S00117á'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬òÿH“€lRMINORZ
-CODE_SMELL
-Zsquid:S1148¿"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿH”€lRMINORZVULNERABILITY
-squid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïç¡ŠH•€lRMINORZ
-CODE_SMELL
-bsquid:S1948˜"0Make "linkageService" transient or serializable.(Š‹¡¼H–€lRCRITICALZ
-CODE_SMELL
-†squid:S00117Ş*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿH—€lRMINORZ
-CODE_SMELL
-{squid:S00112¢"FDefine and throw a dedicated exception instead of using a generic one.(’ãôúÿÿÿÿH˜€lRMAJORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheck†"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(È™ÚH™€lRMINORZ
-CODE_SMELL
-†squid:S00117Ã#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¼ÉúÿÿÿÿHš€lRMINORZ
-CODE_SMELL
-squid:S00117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÎµH›€lRMINORZ
-CODE_SMELL
-csquid:S1066˜"/Merge this if statement with the enclosing one.(Ÿ¤ùŸıÿÿÿÿHœ€lRMAJORZ
-CODE_SMELL
-†squid:S00117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿH€lRMINORZ
-CODE_SMELL
-squid:S1192û"HDefine a constant instead of duplicating this literal "notices" 4 times.(ÊòŒ‡üÿÿÿÿH€lRCRITICALZ
-CODE_SMELL
-}squid:S1192"FDefine a constant instead of duplicating this literal "orgId" 6 times.(Çá¿°şÿÿÿÿHŸ€lRCRITICALZ
-CODE_SMELL
-Usquid:S1075Ô+"&Remove this hard-coded path-delimiter.(¢øH €lRMINORZ
-CODE_SMELL
-ysquid:S1192'"GDefine a constant instead of duplicating this literal "bcount" 4 times.(šƒÄH¡€lRCRITICALZ
-CODE_SMELL
-vsquid:S00112š!"FDefine and throw a dedicated exception instead of using a generic one.(ë÷÷ÅH¢€lRMAJORZ
-CODE_SMELL
-†squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH£€lRMINORZ
-CODE_SMELL
-†squid:S00117Ä1"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´’ŸóÿÿÿÿÿH¤€lRMINORZ
-CODE_SMELL
-gsquid:S1197Ú
-"8Move the array designator from the variable to the type.(Å‰±ÁH¥€lRMINORZ
-CODE_SMELL
-squid:S1192¥"HDefine a constant instead of duplicating this literal "txyname" 8 times.(áûÇíÿÿÿÿÿH¦€lRCRITICALZ
-CODE_SMELL
-†squid:S00117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿH§€lRMINORZ
-CODE_SMELL
-†squid:S00117ï!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¨€lRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿH©€lRMINORZ
-CODE_SMELL
-¶%squid:RedundantThrowsDeclarationCheckÜ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ãÍÓEHª€lRMINORZ
-CODE_SMELL
-csquid:S1481Ã"/Remove this unused "temp_index" local variable.(Ò€Ò×øÿÿÿÿH«€lRMINORZ
-CODE_SMELL
-„squid:S3776‰*"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¶H¬€lRCRITICALZ
-CODE_SMELL
-†squid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßœşÌıÿÿÿÿH­€lRMINORZ
-CODE_SMELL
-psquid:S2259«"CA "NullPointerException" could be thrown; "table" is nullable here.(¦Æ€ÂÿÿÿÿÿH®€lRMAJORZBUG
-zsquid:CommentedOutCodeLineÌ"<This block of commented-out lines of code should be removed.(á‡˜åH¯€lRMAJORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodé&"2Remove this use of "SqlAdapter"; it is deprecated.(‰Ã¼ùÿÿÿÿH°€lRMINORZ
-CODE_SMELL
-hsquid:S1854¶-"9Remove this useless assignment to local variable "list1".(Ò“µ¥H±€lRMAJORZ
-CODE_SMELL
-†squid:S00117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH²€lRMINORZ
-CODE_SMELL
-„squid:S3776»%"RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(öÁô“H³€lRCRITICALZ
-CODE_SMELL
-†squid:S00117Œ	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH´€lRMINORZ
-CODE_SMELL
-ƒsquid:S1192ù	"LDefine a constant instead of duplicating this literal "from_userid" 3 times.(ˆâøûÿÿÿÿHµ€lRCRITICALZ
-CODE_SMELL
-squid:S00117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ€¦H¶€lRMINORZ
-CODE_SMELL
-†squid:S00117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿH·€lRMINORZ
-CODE_SMELL
-squid:S1192£"HDefine a constant instead of duplicating this literal "jsyname" 8 times.(ı”ŸÕúÿÿÿÿH¸€lRCRITICALZ
-CODE_SMELL
-~squid:S1192—"GDefine a constant instead of duplicating this literal "bzname" 8 times.(ÌôìëûÿÿÿÿH¹€lRCRITICALZ
-CODE_SMELL
-†squid:S00117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHº€lRMINORZ
-CODE_SMELL
-squid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¡ÒH»€lRMINORZ
-CODE_SMELL
-†squid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¼€lRMINORZ
-CODE_SMELL
-squid:S00117…'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H½€lRMINORZ
-CODE_SMELL
-csquid:S1481à""/Remove this unused "temp_index" local variable.(Ò€Ò×øÿÿÿÿH¾€lRMINORZ
-CODE_SMELL
-Zsquid:S1148Ï"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¿€lRMINORZVULNERABILITY
-†squid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿHÀ€lRMINORZ
-CODE_SMELL
-{squid:S1192Ê"IDefine a constant instead of duplicating this literal "bus_num" 21 times.(¸‡¯HÁ€lRCRITICALZ
-CODE_SMELL
-†squid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôäìÀúÿÿÿÿHÂ€lRMINORZ
-CODE_SMELL
-‚squid:S1192ã"KDefine a constant instead of duplicating this literal "type_name" 24 times.(²Ò“ÍøÿÿÿÿHÃ€lRCRITICALZ
-CODE_SMELL
-rsquid:S1155Ÿ">Use isEmpty() to check whether the collection is empty or not.(éÑûÉûÿÿÿÿHÄ€lRMINORZ
-CODE_SMELL
-squid:S1192¡"HDefine a constant instead of duplicating this literal "whyname" 8 times.(ş ¤şşÿÿÿÿHÅ€lRCRITICALZ
-CODE_SMELL
-squid:CommentedOutCodeLineõ+"<This block of commented-out lines of code should be removed.(Á·äøÿÿÿÿHÆ€lRMAJORZ
-CODE_SMELL
-squid:S00117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóºÜHÇ€lRMINORZ
-CODE_SMELL
-}squid:S1858ú"I"bk_rel" is already a string, there's no need to call "toString()" on it.(øÉşÿÿÿÿHÈ€lRMINORZ
-CODE_SMELL
-Ysquid:S00108‹2")Either remove or fill this block of code.(”ı¾HÉ€lRMAJORZ
-CODE_SMELL
-esquid:S1135Ù"2Complete the task associated to this TODO comment.(Â€ÆÿùÿÿÿÿHÊ€lRINFOZ
-CODE_SMELL
-squid:S1192ˆ"MDefine a constant instead of duplicating this literal "is_sensitive" 7 times.(Ë¨ÚØHË€lRCRITICALZ
-CODE_SMELL
-~squid:S00100À"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğõ”øHÌ€lRMINORZ
-CODE_SMELL
-†squid:S00117¹	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì’µïÿÿÿÿÿHÍ€lRMINORZ
-CODE_SMELL
-Šsquid:S1192Œ"SDefine a constant instead of duplicating this literal "ä¸­é˜ŸçŠ¶æ€å˜åŒ–" 4 times.(»éŞ—ùÿÿÿÿHÎ€lRCRITICALZ
-CODE_SMELL
-squid:S00117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóºÜHÏ€lRMINORZ
-CODE_SMELL
-~squid:S1192Œ"GDefine a constant instead of duplicating this literal "yw_rel" 7 times.(›õˆ¥ûÿÿÿÿHĞ€lRCRITICALZ
-CODE_SMELL
-†squid:S00117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÑ€lRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¼ÉúÿÿÿÿHÒ€lRMINORZ
-CODE_SMELL
-†squid:S00117İ-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÓ€lRMINORZ
-CODE_SMELL
-squid:S00117Õ!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶şÄàHÔ€lRMINORZ
-CODE_SMELL
-vsquid:S00112²"FDefine and throw a dedicated exception instead of using a generic one.(§øıëHÕ€lRMAJORZ
-CODE_SMELL
-zsquid:S3027ñ("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(÷åÏúşÿÿÿÿHÖ€lRMAJORZ
-CODE_SMELL
-†squid:S00117 
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹çé§üÿÿÿÿH×€lRMINORZ
-CODE_SMELL
-squid:S00117´	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È°¬´HØ€lRMINORZ
-CODE_SMELL
-~squid:S1192›0"GDefine a constant instead of duplicating this literal "type2" 13 times.(Õ›üºùÿÿÿÿHÙ€lRCRITICALZ
-CODE_SMELL
-Asquid:S24380""g" is a "Thread".(•Â§şHÚ€lRMAJORZ
-CODE_SMELL
-esquid:S1135÷"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÛ€lRINFOZ
-CODE_SMELL
-squid:S00117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËòºHÜ€lRMINORZ
-CODE_SMELL
-µ%squid:RedundantThrowsDeclarationCheck¶1"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(òñîHİ€lRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLineÇ,"<This block of commented-out lines of code should be removed.(¸ÿôÕÿÿÿÿÿHŞ€lRMAJORZ
-CODE_SMELL
-msquid:S1854Ÿ"9Remove this useless assignment to local variable "isTip".(ºîØ¨şÿÿÿÿHß€lRMAJORZ
-CODE_SMELL
-†squid:S00117© "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHà€lRMINORZ
-CODE_SMELL
-†squid:S00117ù""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHá€lRMINORZ
-CODE_SMELL
-†squid:S00117˜&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Í±ƒÿÿÿÿÿHâ€lRMINORZ
-CODE_SMELL
-}squid:S1192õ,"FDefine a constant instead of duplicating this literal "wx_no" 6 times.(ÓÍ ãÿÿÿÿÿHã€lRCRITICALZ
-CODE_SMELL
-•squid:S4144¤"aUpdate this method so that its implementation is not identical to "doAlarmForHand4" on line 1971.(°°¨şÿÿÿÿHä€lRMAJORZ
-CODE_SMELL
-†squid:S00117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHå€lRMINORZ
-CODE_SMELL
-squid:S00117±("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸„ïâHæ€lRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckë+"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(©•¢ôHç€lRMINORZ
-CODE_SMELL
-zsquid:S1192ú"HDefine a constant instead of duplicating this literal "status" 34 times.(˜•›Hè€lRCRITICALZ
-CODE_SMELL
-squid:S00117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «Hé€lRMINORZ
-CODE_SMELL
-†squid:S00117â "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó‰âÒûÿÿÿÿHê€lRMINORZ
-CODE_SMELL
-squid:S00117¤%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‹ÌİHë€lRMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(—Íá¿Hì€lRMAJORZ
-CODE_SMELL
-^squid:S00108‚")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿHí€lRMAJORZ
-CODE_SMELL
-vsquid:S00112·"FDefine and throw a dedicated exception instead of using a generic one.(ğ›àHî€lRMAJORZ
-CODE_SMELL
-Asquid:S2438Û""g" is a "Thread".(•Â§şHï€lRMAJORZ
-CODE_SMELL
-†squid:S00117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHğ€lRMINORZ
-CODE_SMELL
-Šsquid:S3776÷""SRefactor this method to reduce its Cognitive Complexity from 127 to the 15 allowed.(’Ğ³ÀşÿÿÿÿHñ€lRCRITICALZ
-CODE_SMELL
-€squid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜óÎ^Hò€lRMINORZ
-CODE_SMELL
-Zsquid:S1148°"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHó€lRMINORZVULNERABILITY
-†squid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éá”úÿÿÿÿHô€lRMINORZ
-CODE_SMELL
-squid:S00117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ˆÆÅHõ€lRMINORZ
-CODE_SMELL
-†squid:S00117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó‰âÒûÿÿÿÿHö€lRMINORZ
-CODE_SMELL
-†squid:S00117é$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÅÙÀıÿÿÿÿH÷€lRMINORZ
-CODE_SMELL
-†squid:S00117Œ'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿHø€lRMINORZ
-CODE_SMELL
-squid:S00117€+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿğÊHù€lRMINORZ
-CODE_SMELL
-†squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…è”±şÿÿÿÿHú€lRMINORZ
-CODE_SMELL
-fsquid:S1948|"0Make "compnayService" transient or serializable.(ú¸ØĞûÿÿÿÿHû€lRCRITICALZ
-CODE_SMELL
-isquid:S1948§"2Make "tempAlarmService" transient or serializable.(ÁÌèêûÿÿÿÿHü€lRCRITICALZ
-CODE_SMELL
-‚squid:S1192ƒ."KDefine a constant instead of duplicating this literal "video_path" 4 times.(§Ä„ÇùÿÿÿÿHı€lRCRITICALZ
-CODE_SMELL
-squid:S00117Õ*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «Hş€lRMINORZ
-CODE_SMELL
-Zsquid:S1148©)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÿ€lRMINORZVULNERABILITY
-wsquid:UselessImportCheckg"7Remove this unused import 'jiangdu.fire.util.DistUtil'.(¿øı»üÿÿÿÿH€lRMINORZ
-CODE_SMELL
-isquid:S1948¯"7Make "companyAndroidService" transient or serializable.(ø£×—HlRCRITICALZ
-CODE_SMELL
-†squid:S00117ø	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH‚lRMINORZ
-CODE_SMELL
-—squid:S4144‘"cUpdate this method so that its implementation is not identical to "doAlarmForHandPad" on line 1927.(Ê¥¾ºüÿÿÿÿHƒlRMAJORZ
-CODE_SMELL
-{squid:S00112Ú/"FDefine and throw a dedicated exception instead of using a generic one.(É·ÿşÿÿÿÿH„lRMAJORZ
-CODE_SMELL
-†squid:S00117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH…lRMINORZ
-CODE_SMELL
-msquid:S1948â"6Make "alarmFeedbackService" transient or serializable.(èİ§úÿÿÿÿH†lRCRITICALZ
-CODE_SMELL
-zsquid:S1192Ñ&"HDefine a constant instead of duplicating this literal "plan_id" 4 times.(Ê’ÙßH‡lRCRITICALZ
-CODE_SMELL
-ksquid:S2589÷."7Remove this expression which always evaluates to "true"(ÉÊÖøÿÿÿÿHˆlRMAJORZ
-CODE_SMELL
-„squid:S3776Œ,"RRefactor this method to reduce its Cognitive Complexity from 70 to the 15 allowed.(º³˜ØH‰lRCRITICALZ
-CODE_SMELL
-€squid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã•kHŠlRMINORZ
-CODE_SMELL
-‡squid:S1192Ğ"UDefine a constant instead of duplicating this literal "companyYaDeatil.jsp" 10 times.(à€ŞÌH‹lRCRITICALZ
-CODE_SMELL
-squid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´“€ÍHŒlRMINORZ
-CODE_SMELL
-xsquid:S1192à"FDefine a constant instead of duplicating this literal "flag_" 8 times.(ºŸƒ¶HlRCRITICALZ
-CODE_SMELL
-†squid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿHlRMINORZ
-CODE_SMELL
-l
-squid:S106œ+"9Replace this use of System.out or System.err by a logger.(ÂÖşøÿÿÿÿHlRMAJORZ
-CODE_SMELL
-“squid:UselessImportCheck5"SRemove this unused import 'org.springframework.expression.spel.ast.BooleanLiteral'.(óˆÜŸüÿÿÿÿHlRMINORZ
-CODE_SMELL
-lsquid:S1854ÿ1"8Remove this useless assignment to local variable "user".(œ˜êøÿÿÿÿH‘lRMAJORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine°"<This block of commented-out lines of code should be removed.(—Íá¿H’lRMAJORZ
-CODE_SMELL
-Tsquid:S1481Æ1"&Remove this unused "a" local variable.(ıÑô-H“lRMINORZ
-CODE_SMELL
-Zsquid:S1148¨"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH”lRMINORZVULNERABILITY
-csquid:S1481İ"/Remove this unused "temp_index" local variable.(Ò€Ò×øÿÿÿÿH•lRMINORZ
-CODE_SMELL
-†squid:S00117©("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÌ…÷ıÿÿÿÿH–lRMINORZ
-CODE_SMELL
-squid:S00117±)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã²ÁµH—lRMINORZ
-CODE_SMELL
-g
-squid:S106å""9Replace this use of System.out or System.err by a logger.(æÃÅ¢H˜lRMAJORZ
-CODE_SMELL
-†squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬·—ùÿÿÿÿH™lRMINORZ
-CODE_SMELL
-zsquid:S1192›"HDefine a constant instead of duplicating this literal "ehyname" 8 times.(°Ğ§³HšlRCRITICALZ
-CODE_SMELL
-squid:S00117Û)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóºÜH›lRMINORZ
-CODE_SMELL
-„squid:S1192§"RDefine a constant instead of duplicating this literal "bus_soldiersCount" 8 times.(±öõÌHœlRCRITICALZ
-CODE_SMELL
-…squid:S4144Ì-"VUpdate this method so that its implementation is not identical to "wxbj" on line 5746.(¨öŞ–HlRMAJORZ
-CODE_SMELL
-usquid:S3027ï("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(Éˆ¦¼HlRMAJORZ
-CODE_SMELL
-ƒsquid:S00100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ãôúÿÿÿÿHŸlRMINORZ
-CODE_SMELL
-squid:S00117ı""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÄÓ·H lRMINORZ
-CODE_SMELL
-†squid:S00117ï'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´à‹ËøÿÿÿÿH¡lRMINORZ
-CODE_SMELL
-†squid:S00117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘òíÒøÿÿÿÿH¢lRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH£lRMINORZ
-CODE_SMELL
-squid:S00117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ´ç©H¤lRMINORZ
-CODE_SMELL
-†squid:S00117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ò”ÒûÿÿÿÿH¥lRMINORZ
-CODE_SMELL
-squid:S1192Ä"HDefine a constant instead of duplicating this literal "pic_row" 6 times.(ÙïŠüÿÿÿÿH¦lRCRITICALZ
-CODE_SMELL
-†squid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µŸ÷åşÿÿÿÿH§lRMINORZ
-CODE_SMELL
-squid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÚ’¹H¨lRMINORZ
-CODE_SMELL
-†squid:S00117®""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¼ÉúÿÿÿÿH©lRMINORZ
-CODE_SMELL
-†squid:S00117ø&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Í±ƒÿÿÿÿÿHªlRMINORZ
-CODE_SMELL
-†squid:S00117Ó'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú–”¾şÿÿÿÿH«lRMINORZ
-CODE_SMELL
-Ksquid:S1643Ó("Use a StringBuilder instead.(¹–°H¬lRMINORZ
-CODE_SMELL
-ƒsquid:S1192…!"LDefine a constant instead of duplicating this literal "assign_time" 7 times.(Î¤Ê‘üÿÿÿÿH­lRCRITICALZ
-CODE_SMELL
-Ysquid:S00108õ1")Either remove or fill this block of code.(”ı¾H®lRMAJORZ
-CODE_SMELL
-†squid:S00117Ê%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¯lRMINORZ
-CODE_SMELL
-†squid:S00117î'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÆƒÿûÿÿÿÿH°lRMINORZ
-CODE_SMELL
-†squid:S00117ƒ."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ä„ÇùÿÿÿÿH±lRMINORZ
-CODE_SMELL
-vsquid:S00112€"FDefine and throw a dedicated exception instead of using a generic one.(ÙøÀ“H²lRMAJORZ
-CODE_SMELL
-Zsquid:S1148È"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿH³lRMINORZVULNERABILITY
-csquid:S1948‚"1Make "iLinkageService" transient or serializable.(Æüê¬H´lRCRITICALZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine½"<This block of commented-out lines of code should be removed.(Æäš¥HµlRMAJORZ
-CODE_SMELL
-Ysquid:S00108™0")Either remove or fill this block of code.(”ı¾H¶lRMAJORZ
-CODE_SMELL
-csquid:S1481Ï"/Remove this unused "temp_index" local variable.(Ò€Ò×øÿÿÿÿH·lRMINORZ
-CODE_SMELL
-wsquid:CallToDeprecatedMethodÑ'"2Remove this use of "SqlAdapter"; it is deprecated.(‰Ã¼ùÿÿÿÿH¸lRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¹lRMINORZ
-CODE_SMELL
-†squid:S00117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁûÙ‘øÿÿÿÿHºlRMINORZ
-CODE_SMELL
-gsquid:S3878ï&"8Remove this array creation and simply pass the elements.(æĞ•íH»lRMINORZ
-CODE_SMELL
-†squid:S00117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½­ô­ıÿÿÿÿH¼lRMINORZ
-CODE_SMELL
-†squid:S1192Ç"ODefine a constant instead of duplicating this literal "3Gå•å…µè®¾å¤‡" 6 times.(ßòğáøÿÿÿÿH½lRCRITICALZ
-CODE_SMELL
-ƒsquid:S00100¨ "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óş×ÕúÿÿÿÿH¾lRMINORZ
-CODE_SMELL
-†squid:S00117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¿lRMINORZ
-CODE_SMELL
-†squid:S00117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHÀlRMINORZ
-CODE_SMELL
-squid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ˆÆÅHÁlRMINORZ
-CODE_SMELL
-_squid:S1948†"-Make "dutyService" transient or serializable.(ÌÚıÁHÂlRCRITICALZ
-CODE_SMELL
-†squid:S00117à""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò€Ò×øÿÿÿÿHÃlRMINORZ
-CODE_SMELL
-†squid:S00117ö
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÄlRMINORZ
-CODE_SMELL
-‡squid:S1192ƒ"PDefine a constant instead of duplicating this literal "ä¿å­˜æˆåŠŸï¼" 7 times.(ë¢‘şûÿÿÿÿHÅlRCRITICALZ
-CODE_SMELL
-esquid:S1135Û!"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÆlRINFOZ
-CODE_SMELL
-†squid:S00117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÇlRMINORZ
-CODE_SMELL
-squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í²ÃËHÈlRMINORZ
-CODE_SMELL
-Asquid:S2438œ""g" is a "Thread".(•Â§şHÉlRMAJORZ
-CODE_SMELL
-squid:S1192ä"ODefine a constant instead of duplicating this literal "soldier_total" 12 times.(É±ÃHÊlRCRITICALZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHËlRMINORZ
-CODE_SMELL
-fsquid:S1481Ë!"2Remove this unused "squadronTable" local variable.(ŞÙçáúÿÿÿÿHÌlRMINORZ
-CODE_SMELL
-†squid:S00117ğ)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì€ƒøÿÿÿÿHÍlRMINORZ
-CODE_SMELL
-hsquid:S1854·-"9Remove this useless assignment to local variable "list2".(”Âğ¾HÎlRMAJORZ
-CODE_SMELL
-squid:S00117±*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HÏlRMINORZ
-CODE_SMELL
-Usquid:S1075·+"&Remove this hard-coded path-delimiter.(óœã»HĞlRMINORZ
-CODE_SMELL
-squid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ”µHÑlRMINORZ
-CODE_SMELL
-squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¨ÚØHÒlRMINORZ
-CODE_SMELL
-†squid:S00117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¤ü¡úÿÿÿÿHÓlRMINORZ
-CODE_SMELL
-esquid:S1135»"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÔlRINFOZ
-CODE_SMELL
-lsquid:S3878È&"8Remove this array creation and simply pass the elements.(‰Ã¼ùÿÿÿÿHÕlRMINORZ
-CODE_SMELL
-Æ%squid:RedundantThrowsDeclarationCheck®-"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(¸§ë°HÖlRMINORZ
-CODE_SMELL
-†squid:S00117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿH×lRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckÀ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÍÅ‚ÂHØlRMINORZ
-CODE_SMELL
-†squid:S00117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çá¿°şÿÿÿÿHÙlRMINORZ
-CODE_SMELL
-squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÇßèHÚlRMINORZ
-CODE_SMELL
-squid:S00117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èæéHÛlRMINORZ
-CODE_SMELL
-†squid:S00117ÿ""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿHÜlRMINORZ
-CODE_SMELL
-rsquid:CallToDeprecatedMethodÎ&"2Remove this use of "SqlAdapter"; it is deprecated.(æĞ•íHİlRMINORZ
-CODE_SMELL
-†squid:S00117É&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú–”¾şÿÿÿÿHŞlRMINORZ
-CODE_SMELL
-}squid:S1192ù"KDefine a constant instead of duplicating this literal "200-500å¹³" 7 times.(Ïç¡ŠHßlRCRITICALZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheck“"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¹ùÕùÿÿÿÿHàlRMINORZ
-CODE_SMELL
-gsquid:S3878Î&"8Remove this array creation and simply pass the elements.(æĞ•íHálRMINORZ
-CODE_SMELL
-squid:S00117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬òÿHâlRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckÅ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(‚ğğÅHãlRMINORZ
-CODE_SMELL
-†squid:S00117¼#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¿€ŸüÿÿÿÿHälRMINORZ
-CODE_SMELL
-†squid:S00117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHålRMINORZ
-CODE_SMELL
-|squid:S1192’"JDefine a constant instead of duplicating this literal "org_name" 16 times.(´“€ÍHælRCRITICALZ
-CODE_SMELL
-{squid:S00112¥"FDefine and throw a dedicated exception instead of using a generic one.(ÓÁ§°ùÿÿÿÿHçlRMAJORZ
-CODE_SMELL
-†squid:S00117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™™”ÌşÿÿÿÿHèlRMINORZ
-CODE_SMELL
-ƒsquid:S00100ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™»‚ÓúÿÿÿÿHélRMINORZ
-CODE_SMELL
-squid:S00117‹	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æùš´HêlRMINORZ
-CODE_SMELL
-gsquid:S1854–"8Remove this useless assignment to local variable "flag".(İŞèüHëlRMAJORZ
-CODE_SMELL
-†squid:S00117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿHìlRMINORZ
-CODE_SMELL
-squid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•à¿ÑHílRMINORZ
-CODE_SMELL
-ksquid:S1948~"5Make "systemManageService" transient or serializable.(øüíıÿÿÿÿHîlRCRITICALZ
-CODE_SMELL
-xsquid:S1192İ,"FDefine a constant instead of duplicating this literal "busid" 3 times.(ø‘‡—HïlRCRITICALZ
-CODE_SMELL
-xsquid:S1764¢."KCorrect one of the identical sub-expressions on both sides of operator "||"(©õ‚ˆüÿÿÿÿHğlRMAJORZBUG
-squid:S1192"HDefine a constant instead of duplicating this literal "shyname" 8 times.(ë¶š€úÿÿÿÿHñlRCRITICALZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(èø¬áHòlRMAJORZ
-CODE_SMELL
-~squid:S00100®-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸§ë°HólRMINORZ
-CODE_SMELL
-†squid:S00117î/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªòúÀøÿÿÿÿHôlRMINORZ
-CODE_SMELL
-squid:S00117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î»ËûHõlRMINORZ
-CODE_SMELL
-squid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§®Ó–HölRMINORZ
-CODE_SMELL
-wsquid:UselessImportCheckG"<Remove this unused import 'jiangdu.fire.action.AlarmAction'.(ÖõH÷lRMINORZ
-CODE_SMELL
-†squid:S00117ª("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÂÈúÿÿÿÿHølRMINORZ
-CODE_SMELL
-†squid:S00117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™™”ÌşÿÿÿÿHùlRMINORZ
-CODE_SMELL
-†squid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó‰âÒûÿÿÿÿHúlRMINORZ
-CODE_SMELL
-Asquid:S2438ß	""g" is a "Thread".(•Â§şHûlRMAJORZ
-CODE_SMELL
-†squid:S00117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠŒ£úÿÿÿÿHülRMINORZ
-CODE_SMELL
-squid:S001171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆŒÍHılRMINORZ
-CODE_SMELL
-squid:S4144«"ZUpdate this method so that its implementation is not identical to "timeline" on line 1783.(˜ş¶§ÿÿÿÿÿHşlRMAJORZ
-CODE_SMELL
-†squid:S00117¤
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÎ“ßüÿÿÿÿHÿlRMINORZ
-CODE_SMELL
-µ%squid:RedundantThrowsDeclarationCheck·"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ğ›àH€‚lRMINORZ
-CODE_SMELL
-\squid:S1125ã."(Remove the literal "true" boolean value.(ÉÊÖøÿÿÿÿH‚lRMINORZ
-CODE_SMELL
-squid:S00117¾	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ±¾ƒH‚‚lRMINORZ
-CODE_SMELL
-]squid:S1481”")Remove this unused "flag" local variable.(†ÚÆ–úÿÿÿÿHƒ‚lRMINORZ
-CODE_SMELL
-nsquid:S2259ı"FA "NullPointerException" could be thrown; "alarm_no" is nullable here.(¨¨‡H„‚lRMAJORZBUG
-psquid:S1854î"<Remove this useless assignment to local variable "alarm_no".(«‰È¸ùÿÿÿÿH…‚lRMAJORZ
-CODE_SMELL
-†squid:S00117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¿¯µıÿÿÿÿH†‚lRMINORZ
-CODE_SMELL
-†squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH‡‚lRMINORZ
-CODE_SMELL
-squid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «Hˆ‚lRMINORZ
-CODE_SMELL
-†squid:S00117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±…ÙàüÿÿÿÿH‰‚lRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckš1"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ö€šóHŠ‚lRMINORZ
-CODE_SMELL
-esquid:S1135É"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH‹‚lRINFOZ
-CODE_SMELL
-†squid:S00117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì€ƒøÿÿÿÿHŒ‚lRMINORZ
-CODE_SMELL
-squid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•à¿ÑH‚lRMINORZ
-CODE_SMELL
-€squid:S00117ø!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã•kH‚lRMINORZ
-CODE_SMELL
-squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïç¡ŠH‚lRMINORZ
-CODE_SMELL
-Usquid:S1075‰2"&Remove this hard-coded path-delimiter.(óœã»H‚lRMINORZ
-CODE_SMELL
-zsquid:S3027ñ("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(÷åÏúşÿÿÿÿH‘‚lRMAJORZ
-CODE_SMELL
-}squid:S1192-"FDefine a constant instead of duplicating this literal "js_no" 4 times.(Éá”úÿÿÿÿH’‚lRCRITICALZ
-CODE_SMELL
-zsquid:S1192”"HDefine a constant instead of duplicating this literal "userid" 19 times.(’ÈìšH“‚lRCRITICALZ
-CODE_SMELL
-Ysquid:S00108è0")Either remove or fill this block of code.(”ı¾H”‚lRMAJORZ
-CODE_SMELL
-†squid:S00117ª""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁûÙ‘øÿÿÿÿH•‚lRMINORZ
-CODE_SMELL
-†squid:S00117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH–‚lRMINORZ
-CODE_SMELL
-squid:S00117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªï¹„H—‚lRMINORZ
-CODE_SMELL
-†squid:S00117¿'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì€ƒøÿÿÿÿH˜‚lRMINORZ
-CODE_SMELL
-squid:S00117İ*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H™‚lRMINORZ
-CODE_SMELL
-squid:S1301”"KReplace this "switch" statement by "if" statements to increase readability.(ïÄ×úøÿÿÿÿHš‚lRMINORZ
-CODE_SMELL
-†squid:S00117²'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿH›‚lRMINORZ
-CODE_SMELL
-ƒsquid:S00100Ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÉµ˜øÿÿÿÿHœ‚lRMINORZ
-CODE_SMELL
-†squid:S00117÷+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH‚lRMINORZ
-CODE_SMELL
-squid:S00117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‹ÌİH‚lRMINORZ
-CODE_SMELL
-Zsquid:S1148¦"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHŸ‚lRMINORZVULNERABILITY
-squid:S2629Ó/"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Ü¨¸æúÿÿÿÿH ‚lRMAJORZ
-CODE_SMELL
-Usquid:S2129¡"!Remove this "Integer" constructor(‘ãÙùÿÿÿÿH¡‚lRMAJORZ
-CODE_SMELL
-squid:S00117Ë'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H¢‚lRMINORZ
-CODE_SMELL
-~squid:S00100‚1"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÿƒ´H£‚lRMINORZ
-CODE_SMELL
-†squid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼è ışÿÿÿÿH¤‚lRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(õü˜ÿÿÿÿÿÿH¥‚lRMAJORZ
-CODE_SMELL
-csquid:S1481İ"/Remove this unused "temp_index" local variable.(Ò€Ò×øÿÿÿÿH¦‚lRMINORZ
-CODE_SMELL
-ksquid:S1948ˆ"4Make "studyOnlineService" transient or serializable.(îò¯ûÿÿÿÿH§‚lRCRITICALZ
-CODE_SMELL
-†squid:S00117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¨‚lRMINORZ
-CODE_SMELL
-msquid:UselessImportCheck"3Remove this unused import 'java.io.BufferedWriter'.(¬õº/H©‚lRMINORZ
-CODE_SMELL
-{squid:S00112÷"FDefine and throw a dedicated exception instead of using a generic one.(ãÀº‘ıÿÿÿÿHª‚lRMAJORZ
-CODE_SMELL
-†squid:S00117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH«‚lRMINORZ
-CODE_SMELL
-xsquid:S1858ò'"I"bk_rel" is already a string, there's no need to call "toString()" on it.(ıÃÜåH¬‚lRMINORZ
-CODE_SMELL
-†squid:S00117à$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¤ü¡úÿÿÿÿH­‚lRMINORZ
-CODE_SMELL
-Zsquid:S1148¨"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH®‚lRMINORZVULNERABILITY
-`squid:S1948¡".Make "alarmService" transient or serializable.(ó‰¨šH¯‚lRCRITICALZ
-CODE_SMELL
-Zsquid:S1948z")Make "ImplPRS" transient or serializable.(¡ĞˆH°‚lRCRITICALZ
-CODE_SMELL
-†squid:S00117ç%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¿€ŸüÿÿÿÿH±‚lRMINORZ
-CODE_SMELL
-¿%squid:RedundantThrowsDeclarationCheck÷"qRemove the declaration of thrown exception 'java.rmi.RemoteException', as it cannot be thrown from method's body.(ø–¢´şÿÿÿÿH²‚lRMINORZ
-CODE_SMELL
-†squid:S1192œ&"ODefine a constant instead of duplicating this literal "uploadRootEmun" 4 times.(¹Œ’§øÿÿÿÿH³‚lRCRITICALZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheck³"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(–ôÎ¹úÿÿÿÿH´‚lRMINORZ
-CODE_SMELL
-†squid:S00117Î*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿHµ‚lRMINORZ
-CODE_SMELL
-Šsquid:S1192è	"SDefine a constant instead of duplicating this literal "è§†é¢‘é€šè¯æé†’" 4 times.(†¯£øÿÿÿÿH¶‚lRCRITICALZ
-CODE_SMELL
-{squid:S00112«"FDefine and throw a dedicated exception instead of using a generic one.(˜ş¶§ÿÿÿÿÿH·‚lRMAJORZ
-CODE_SMELL
-†squid:S00117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èã¤ÏûÿÿÿÿH¸‚lRMINORZ
-CODE_SMELL
-}squid:S1192—-"FDefine a constant instead of duplicating this literal "list2" 5 times.(ÌÅ£ÿÿÿÿÿH¹‚lRCRITICALZ
-CODE_SMELL
-{squid:S1192ù"IDefine a constant instead of duplicating this literal "10-50å¹³" 7 times.(Ïç¡ŠHº‚lRCRITICALZ
-CODE_SMELL
-†squid:S00117¡$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH»‚lRMINORZ
-CODE_SMELL
-fsquid:S2589Ó"7Remove this expression which always evaluates to "true"(ŞÈ§H¼‚lRMAJORZ
-CODE_SMELL
-Zsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH½‚lRMINORZVULNERABILITY
-µ%squid:RedundantThrowsDeclarationCheck¯"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ß¸è…H¾‚lRMINORZ
-CODE_SMELL
-hsquid:S2259²"@A "NullPointerException" could be thrown; "dt" is nullable here.(¸˜¡‡H¿‚lRMAJORZBUG
-Zsquid:S1075×+"&Remove this hard-coded path-delimiter.(¥‡ŞˆıÿÿÿÿHÀ‚lRMINORZ
-CODE_SMELL
-ksquid:S1854¸"7Remove this useless assignment to local variable "org".(‹ú”ŠùÿÿÿÿHÁ‚lRMAJORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine®
-"<This block of commented-out lines of code should be removed.(ä¾ç»HÂ‚lRMAJORZ
-CODE_SMELL
-†squid:S00117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿHÃ‚lRMINORZ
-CODE_SMELL
-psquid:S2259µ "CA "NullPointerException" could be thrown; "table" is nullable here.(¦Æ€ÂÿÿÿÿÿHÄ‚lRMAJORZBUG
-csquid:S1854Æ1"5Remove this useless assignment to local variable "a".(ıÑô-HÅ‚lRMAJORZ
-CODE_SMELL
-†squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÆ‚lRMINORZ
-CODE_SMELL
-†squid:S00117ë%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßœşÌıÿÿÿÿHÇ‚lRMINORZ
-CODE_SMELL
-†squid:S00117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±…ÙàüÿÿÿÿHÈ‚lRMINORZ
-CODE_SMELL
-†squid:S00117æ'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×°ÓìúÿÿÿÿHÉ‚lRMINORZ
-CODE_SMELL
-squid:S00117¥("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã²ÁµHÊ‚lRMINORZ
-CODE_SMELL
-†squid:S00117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHË‚lRMINORZ
-CODE_SMELL
-†squid:S00117é/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´’ŸóÿÿÿÿÿHÌ‚lRMINORZ
-CODE_SMELL
-€squid:S1192À"IDefine a constant instead of duplicating this literal "alarm_id" 9 times.(ßœşÌıÿÿÿÿHÍ‚lRCRITICALZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckŠ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ãÉ«HÎ‚lRMINORZ
-CODE_SMELL
-}squid:S1192"KDefine a constant instead of duplicating this literal "map_status" 6 times.(²Ï­HÏ‚lRCRITICALZ
-CODE_SMELL
-Zsquid:S1148° "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHĞ‚lRMINORZVULNERABILITY
-ƒsquid:S00100Ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®îäÂûÿÿÿÿHÑ‚lRMINORZ
-CODE_SMELL
-~squid:S00100š1"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö€šóHÒ‚lRMINORZ
-CODE_SMELL
-{squid:S00112¨ "FDefine and throw a dedicated exception instead of using a generic one.(óş×ÕúÿÿÿÿHÓ‚lRMAJORZ
-CODE_SMELL
-zsquid:S3027ñ("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(÷åÏúşÿÿÿÿHÔ‚lRMAJORZ
-CODE_SMELL
-ysquid:S1192½"GDefine a constant instead of duplicating this literal "alarm" 19 times.(†ŸÎHÕ‚lRCRITICALZ
-CODE_SMELL
-squid:S4144¼1"^Update this method so that its implementation is not identical to "takePicture2" on line 5460.(Èï‹…HÖ‚lRMAJORZ
-CODE_SMELL
-„squid:S3776•)"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(ÆÚå­H×‚lRCRITICALZ
-CODE_SMELL
-squid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§„™ÈHØ‚lRMINORZ
-CODE_SMELL
-g
-squid:S106â"9Replace this use of System.out or System.err by a logger.(æÃÅ¢HÙ‚lRMAJORZ
-CODE_SMELL
-€squid:S00117ı	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÊÀkHÚ‚lRMINORZ
-CODE_SMELL
-†squid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ îşÿÿÿÿHÛ‚lRMINORZ
-CODE_SMELL
-†squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÜ‚lRMINORZ
-CODE_SMELL
-†squid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHİ‚lRMINORZ
-CODE_SMELL
-†squid:S00117Í'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑêæşÿÿÿÿHŞ‚lRMINORZ
-CODE_SMELL
-Zsquid:S1148ß"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿHß‚lRMINORZVULNERABILITY
-†squid:S00117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò€Ò×øÿÿÿÿHà‚lRMINORZ
-CODE_SMELL
-squid:S1149Ä."_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(½êÎãHá‚lRMAJORZ
-CODE_SMELL
-l
-squid:S106•-"9Replace this use of System.out or System.err by a logger.(İ˜½…ùÿÿÿÿHâ‚lRMAJORZ
-CODE_SMELL
-†squid:S00117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ö¬ÂûÿÿÿÿHã‚lRMINORZ
-CODE_SMELL
-†squid:S00117ô#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò€Ò×øÿÿÿÿHä‚lRMINORZ
-CODE_SMELL
-£squid:S1192Ï"lDefine a constant instead of duplicating this literal "é¢„æ¡ˆä¸å­˜åœ¨ï¼Œè¯·æ ¸å®æ˜¯å¦å­˜åœ¨ï¼" 14 times.(–÷¤üşÿÿÿÿHå‚lRCRITICALZ
-CODE_SMELL
-squid:S1301Ê"KReplace this "switch" statement by "if" statements to increase readability.(ïÄ×úøÿÿÿÿHæ‚lRMINORZ
-CODE_SMELL
-squid:S00117Ï,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «Hç‚lRMINORZ
-CODE_SMELL
-Xsquid:S1481â")Remove this unused "flag" local variable.(İŞèüHè‚lRMINORZ
-CODE_SMELL
-†squid:S00117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHé‚lRMINORZ
-CODE_SMELL
-usquid:S00112Ö"FDefine and throw a dedicated exception instead of using a generic one.(å±è`Hê‚lRMAJORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çá¿°şÿÿÿÿHë‚lRMINORZ
-CODE_SMELL
-†squid:S00117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¤ü¡úÿÿÿÿHì‚lRMINORZ
-CODE_SMELL
-†squid:S00117¿/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHí‚lRMINORZ
-CODE_SMELL
-esquid:S1135ä"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHî‚lRINFOZ
-CODE_SMELL
-vsquid:S00112Ã1"FDefine and throw a dedicated exception instead of using a generic one.(ŠÈ¬·Hï‚lRMAJORZ
-CODE_SMELL
-gsquid:S1948Ÿ"0Make "fireInsService" transient or serializable.(¾Ï©ËûÿÿÿÿHğ‚lRCRITICALZ
-CODE_SMELL
-´%squid:RedundantThrowsDeclarationCheck¿*"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(š—Ç<Hñ‚lRMINORZ
-CODE_SMELL
-„squid:S3776ï"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(İÎ Hò‚lRCRITICALZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckç1"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ø˜ùŒHó‚lRMINORZ
-CODE_SMELL
-†squid:S00117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHô‚lRMINORZ
-CODE_SMELL
-†squid:S00117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHõ‚lRMINORZ
-CODE_SMELL
-vsquid:S00112¯"FDefine and throw a dedicated exception instead of using a generic one.(ß¸è…Hö‚lRMAJORZ
-CODE_SMELL
-†squid:S00117Š("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿH÷‚lRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠŒ£úÿÿÿÿHø‚lRMINORZ
-CODE_SMELL
-†squid:S00117õ,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÍ ãÿÿÿÿÿHù‚lRMINORZ
-CODE_SMELL
-†squid:S00117‘""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ò”ÒûÿÿÿÿHú‚lRMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine‰"<This block of commented-out lines of code should be removed.(µĞÚñHû‚lRMAJORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁûÙ‘øÿÿÿÿHü‚lRMINORZ
-CODE_SMELL
-xsquid:S1192«,"FDefine a constant instead of duplicating this literal "speed" 3 times.(ÉúàİHı‚lRCRITICALZ
-CODE_SMELL
-zsquid:CommentedOutCodeLineŠ"<This block of commented-out lines of code should be removed.(‹Ñ•Hş‚lRMAJORZ
-CODE_SMELL
-squid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(×ÁñÖıÿÿÿÿHÿ‚lRMAJORZ
-CODE_SMELL
-squid:CommentedOutCodeLine–"<This block of commented-out lines of code should be removed.(ÓÙØÃüÿÿÿÿH€ƒlRMAJORZ
-CODE_SMELL
-€squid:S1192Å"NDefine a constant instead of duplicating this literal "solider_count" 8 times.(£´ä¯HƒlRCRITICALZ
-CODE_SMELL
-p"squid:SwitchLastCaseIsDefaultCheck”""Add a default case to this switch.(ïÄ×úøÿÿÿÿH‚ƒlRCRITICALZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheck¡"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¡û©šHƒƒlRMINORZ
-CODE_SMELL
-†squid:S00117²-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³çÜ÷şÿÿÿÿH„ƒlRMINORZ
-CODE_SMELL
-†squid:S00117ì/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH…ƒlRMINORZ
-CODE_SMELL
-†squid:S00117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó§–ëÿÿÿÿÿH†ƒlRMINORZ
-CODE_SMELL
-º%squid:RedundantThrowsDeclarationCheckƒ!"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÌĞ×âøÿÿÿÿH‡ƒlRMINORZ
-CODE_SMELL
-Zsquid:S1148œ("#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHˆƒlRMINORZVULNERABILITY
-†squid:S00117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠŒ£úÿÿÿÿH‰ƒlRMINORZ
-CODE_SMELL
-†squid:S00117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHŠƒlRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ò”ÒûÿÿÿÿH‹ƒlRMINORZ
-CODE_SMELL
-squid:S00117™$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥‡Ä•HŒƒlRMINORZ
-CODE_SMELL
-squid:S00117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÄÓ·HƒlRMINORZ
-CODE_SMELL
-Zsquid:S1148õ$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHƒlRMINORZVULNERABILITY
-·%squid:RedundantThrowsDeclarationCheckÔ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(€Óâ÷HƒlRMINORZ
-CODE_SMELL
-†squid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHƒlRMINORZ
-CODE_SMELL
-‰squid:S4144€"ZUpdate this method so that its implementation is not identical to "timeline" on line 1783.(ÙøÀ“H‘ƒlRMAJORZ
-CODE_SMELL
-Usquid:S1075ñ1"&Remove this hard-coded path-delimiter.(¢øH’ƒlRMINORZ
-CODE_SMELL
-†squid:S00117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH“ƒlRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckÌ-"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¨öŞ–H”ƒlRMINORZ
-CODE_SMELL
-†squid:S00117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH•ƒlRMINORZ
-CODE_SMELL
-†squid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH–ƒlRMINORZ
-CODE_SMELL
-squid:S00117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û™ÜŠH—ƒlRMINORZ
-CODE_SMELL
-squid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóºÜH˜ƒlRMINORZ
-CODE_SMELL
-†squid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH™ƒlRMINORZ
-CODE_SMELL
-Ysquid:S00108å,")Either remove or fill this block of code.(”ı¾HšƒlRMAJORZ
-CODE_SMELL
-†squid:S00117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH›ƒlRMINORZ
-CODE_SMELL
-usquid:S3027ï("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(Éˆ¦¼HœƒlRMAJORZ
-CODE_SMELL
-†squid:S00117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¿€ŸüÿÿÿÿHƒlRMINORZ
-CODE_SMELL
-squid:S00116z"RRename this field "ImplPRS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ĞˆHƒlRMINORZ
-CODE_SMELL
-|squid:S1192Ë"JDefine a constant instead of duplicating this literal "RMK_STATU" 8 times.(ËÃ­¼HŸƒlRCRITICALZ
-CODE_SMELL
-squid:S00117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸˜¡‡H ƒlRMINORZ
-CODE_SMELL
-p"squid:SwitchLastCaseIsDefaultChecká$""Add a default case to this switch.(ïÄ×úøÿÿÿÿH¡ƒlRCRITICALZ
-CODE_SMELL
-†squid:S00117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH¢ƒlRMINORZ
-CODE_SMELL
-ysquid:S1192é"HDefine a constant instead of duplicating this literal "busInfo" 5 times.(ƒë›H£ƒlRCRITICALZ
-CODE_SMELL
-squid:S00117Ğ%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóºÜH¤ƒlRMINORZ
-CODE_SMELL
-Zsquid:S1148ª*"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿH¥ƒlRMINORZVULNERABILITY
-‰squid:S3776‘"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ì¨âñøÿÿÿÿH¦ƒlRCRITICALZ
-CODE_SMELL
-†squid:S00117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆçöüÿÿÿÿH§ƒlRMINORZ
-CODE_SMELL
-squid:S1192ß"JDefine a constant instead of duplicating this literal "list_push" 6 times.(ì•°şÿÿÿÿH¨ƒlRCRITICALZ
-CODE_SMELL
-_squid:S1948­"-Make "consService" transient or serializable.(Ü¹ÜÄH©ƒlRCRITICALZ
-CODE_SMELL
-l
-squid:S106¥-"9Replace this use of System.out or System.err by a logger.(İ˜½…ùÿÿÿÿHªƒlRMAJORZ
-CODE_SMELL
-†squid:S00117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßœşÌıÿÿÿÿH«ƒlRMINORZ
-CODE_SMELL
-€squid:S00117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã•kH¬ƒlRMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLineó"<This block of commented-out lines of code should be removed.(Ë®ï¼H­ƒlRMAJORZ
-CODE_SMELL
-squid:S00117®&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H®ƒlRMINORZ
-CODE_SMELL
-squid:S1192–"XDefine a constant instead of duplicating this literal " ä¸­é˜ŸçŠ¶æ€å˜æ›´ä¸º " 4 times.(Íê¸íÿÿÿÿÿH¯ƒlRCRITICALZ
-CODE_SMELL
-†squid:S00117…!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î¤Ê‘üÿÿÿÿH°ƒlRMINORZ
-CODE_SMELL
-Psquid:S1643¯("Use a StringBuilder instead.(è›±‰ûÿÿÿÿH±ƒlRMINORZ
-CODE_SMELL
-†squid:S00117û	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹çé§üÿÿÿÿH²ƒlRMINORZ
-CODE_SMELL
-squid:S00117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÇßèH³ƒlRMINORZ
-CODE_SMELL
-†squid:S00117‹("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿH´ƒlRMINORZ
-CODE_SMELL
-squid:S1192å"WDefine a constant instead of duplicating this literal "æš‚æ— é¢„æ¡ˆä¿¡æ¯ï¼" 21 times.(†©ïıÿÿÿÿHµƒlRCRITICALZ
-CODE_SMELL
-†squid:S00117¼."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¶ƒlRMINORZ
-CODE_SMELL
-€squid:S1192"IDefine a constant instead of duplicating this literal "org_id" 158 times.(ÜáĞ·ûÿÿÿÿH·ƒlRCRITICALZ
-CODE_SMELL
-csquid:EmptyStatementUsageCheckõ"Remove this empty statement.(Åñ­õşÿÿÿÿH¸ƒlRMINORZ
-CODE_SMELL
-zsquid:S1192«"IDefine a constant instead of duplicating this literal "o_photo" 20 times.( ú¶<H¹ƒlRCRITICALZ
-CODE_SMELL
-†squid:S00117¿#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁûÙ‘øÿÿÿÿHºƒlRMINORZ
-CODE_SMELL
-†squid:S00117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH»ƒlRMINORZ
-CODE_SMELL
-²squid:S1862•"„This branch can not be reached because the condition duplicates a previous condition in the same sequence of "if/else if" statements(Œˆõ‰üÿÿÿÿH¼ƒlRMAJORZBUG
-{squid:S1192Ÿ"IDefine a constant instead of duplicating this literal "sihyname" 8 times.(„Ø àH½ƒlRCRITICALZ
-CODE_SMELL
-lsquid:S3878é&"8Remove this array creation and simply pass the elements.(‰Ã¼ùÿÿÿÿH¾ƒlRMINORZ
-CODE_SMELL
-vsquid:S00112¼1"FDefine and throw a dedicated exception instead of using a generic one.(Èï‹…H¿ƒlRMAJORZ
-CODE_SMELL
-†squid:S00117Ÿ#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼è ışÿÿÿÿHÀƒlRMINORZ
-CODE_SMELL
-Zsquid:S1148›"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÁƒlRMINORZVULNERABILITY
-squid:S1192š"HDefine a constant instead of duplicating this literal "buslist" 9 times.(Å”¹ƒûÿÿÿÿHÂƒlRCRITICALZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheck¡&"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(‹ŸôÚHÃƒlRMINORZ
-CODE_SMELL
-squid:S00117§("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ó´†HÄƒlRMINORZ
-CODE_SMELL
-squid:S1192ç"JDefine a constant instead of duplicating this literal "orgforce" 10 times.(Úô³£ûÿÿÿÿHÅƒlRCRITICALZ
-CODE_SMELL
-squid:S00117§
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™±öãHÆƒlRMINORZ
-CODE_SMELL
-ƒsquid:S1192¹	"LDefine a constant instead of duplicating this literal "from_org_id" 4 times.(Ì’µïÿÿÿÿÿHÇƒlRCRITICALZ
-CODE_SMELL
-rsquid:S1155ã.">Use isEmpty() to check whether the collection is empty or not.(ÉÊÖøÿÿÿÿHÈƒlRMINORZ
-CODE_SMELL
-†squid:S00117«("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê½“÷ùÿÿÿÿHÉƒlRMINORZ
-CODE_SMELL
-†squid:S00117¬!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½àÿÿÿÿÿHÊƒlRMINORZ
-CODE_SMELL
-squid:S00117ª
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ü«HËƒlRMINORZ
-CODE_SMELL
-|squid:S1192¿"JDefine a constant instead of duplicating this literal "alarmRow" 17 times.(Â…ÎíHÌƒlRCRITICALZ
-CODE_SMELL
-squid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËòºHÍƒlRMINORZ
-CODE_SMELL
-Zsquid:S1148¼"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿHÎƒlRMINORZVULNERABILITY
-†squid:S00117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHÏƒlRMINORZ
-CODE_SMELL
-†squid:S00117ğ'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö›÷§şÿÿÿÿHĞƒlRMINORZ
-CODE_SMELL
-†squid:S00117ü	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÑƒlRMINORZ
-CODE_SMELL
-~squid:S1192ù"LDefine a constant instead of duplicating this literal "10å¹³ä»¥ä¸‹" 7 times.(Ïç¡ŠHÒƒlRCRITICALZ
-CODE_SMELL
-†squid:S00117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¿€ŸüÿÿÿÿHÓƒlRMINORZ
-CODE_SMELL
-squid:S00117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HÔƒlRMINORZ
-CODE_SMELL
-]squid:S1066ç""/Merge this if statement with the enclosing one.(¸ŠÀ	HÕƒlRMAJORZ
-CODE_SMELL
-squid:S00117€#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹¿´ÖHÖƒlRMINORZ
-CODE_SMELL
-†squid:S00117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH×ƒlRMINORZ
-CODE_SMELL
-squid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ´ç©HØƒlRMINORZ
-CODE_SMELL
-squid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇñHÙƒlRMINORZ
-CODE_SMELL
-\squid:S1481¸"(Remove this unused "org" local variable.(‹ú”ŠùÿÿÿÿHÚƒlRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckô+"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(óÆ›şHÛƒlRMINORZ
-CODE_SMELL
-†squid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHÜƒlRMINORZ
-CODE_SMELL
-msquid:UselessImportCheck'"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿHİƒlRMINORZ
-CODE_SMELL
-Zsquid:S1148Æ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHŞƒlRMINORZVULNERABILITY
-†squid:S00117Ö!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠŒ£úÿÿÿÿHßƒlRMINORZ
-CODE_SMELL
-usquid:S00112¿*"FDefine and throw a dedicated exception instead of using a generic one.(š—Ç<HàƒlRMAJORZ
-CODE_SMELL
-†squid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“üû£úÿÿÿÿHáƒlRMINORZ
-CODE_SMELL
-g
-squid:S106È"9Replace this use of System.out or System.err by a logger.(æÃÅ¢HâƒlRMAJORZ
-CODE_SMELL
-†squid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“üû£úÿÿÿÿHãƒlRMINORZ
-CODE_SMELL
-squid:S4144é"`Update this method so that its implementation is not identical to "alarm_content1" on line 3291.(ÊşğìHäƒlRMAJORZ
-CODE_SMELL
-ysquid:S1192á"GDefine a constant instead of duplicating this literal "STATUS" 7 times.(Õ’Ä’HåƒlRCRITICALZ
-CODE_SMELL
-{squid:S00112÷""FDefine and throw a dedicated exception instead of using a generic one.(’Ğ³ÀşÿÿÿÿHæƒlRMAJORZ
-CODE_SMELL
-]squid:S1066û#"/Merge this if statement with the enclosing one.(¸ŠÀ	HçƒlRMAJORZ
-CODE_SMELL
-†squid:S00117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´†¬üÿÿÿÿHèƒlRMINORZ
-CODE_SMELL
-fsquid:S1481²'"2Remove this unused "soldier_total" local variable.(¢Ë¤‹ûÿÿÿÿHéƒlRMINORZ
-CODE_SMELL
-†squid:S00117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¼ÉúÿÿÿÿHêƒlRMINORZ
-CODE_SMELL
-„squid:S3776Û"RRefactor this method to reduce its Cognitive Complexity from 66 to the 15 allowed.(‘ì HëƒlRCRITICALZ
-CODE_SMELL
-squid:S00117¢&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HìƒlRMINORZ
-CODE_SMELL
-†squid:S00117É1"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªòúÀøÿÿÿÿHíƒlRMINORZ
-CODE_SMELL
-squid:S00117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶şÄàHîƒlRMINORZ
-CODE_SMELL
-†squid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş€­ûúÿÿÿÿHïƒlRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheck
-"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ßêñHğƒlRMINORZ
-CODE_SMELL
-squid:S1192¡"JDefine a constant instead of duplicating this literal "ORG_NAME" 13 times.(çŠŒ£úÿÿÿÿHñƒlRCRITICALZ
-CODE_SMELL
-lsquid:S1854¼"8Remove this useless assignment to local variable "flag".(†ÚÆ–úÿÿÿÿHòƒlRMAJORZ
-CODE_SMELL
-µ%squid:RedundantThrowsDeclarationCheck¼1"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Èï‹…HóƒlRMINORZ
-CODE_SMELL
-squid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬òÿHôƒlRMINORZ
-CODE_SMELL
-†squid:S00117Ò%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿHõƒlRMINORZ
-CODE_SMELL
-squid:S00117å'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÇêHöƒlRMINORZ
-CODE_SMELL
-†squid:S00117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÍèíøÿÿÿÿH÷ƒlRMINORZ
-CODE_SMELL
-†squid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHøƒlRMINORZ
-CODE_SMELL
-†squid:S00117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHùƒlRMINORZ
-CODE_SMELL
-†squid:S00117Ü+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æİó øÿÿÿÿHúƒlRMINORZ
-CODE_SMELL
-‰squid:S3776Ö)"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¼§åÔşÿÿÿÿHûƒlRCRITICALZ
-CODE_SMELL
-squid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¡ÒHüƒlRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHıƒlRMINORZ
-CODE_SMELL
-†squid:S00117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHşƒlRMINORZ
-CODE_SMELL
-gsquid:S1854ù$"8Remove this useless assignment to local variable "flag".(İŞèüHÿƒlRMAJORZ
-CODE_SMELL
-†squid:S00117Ç)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿH€„lRMINORZ
-CODE_SMELL
-†squid:S00117ï)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬·—ùÿÿÿÿH„lRMINORZ
-CODE_SMELL
-squid:S00117½1"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H‚„lRMINORZ
-CODE_SMELL
-}squid:S1858Ú"I"bk_rel" is already a string, there's no need to call "toString()" on it.(øÉşÿÿÿÿHƒ„lRMINORZ
-CODE_SMELL
-}squid:S1858ğ$"I"bk_rel" is already a string, there's no need to call "toString()" on it.(øÉşÿÿÿÿH„„lRMINORZ
-CODE_SMELL
-†squid:S00117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“üû£úÿÿÿÿH…„lRMINORZ
-CODE_SMELL
-†squid:S00117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH†„lRMINORZ
-CODE_SMELL
-~squid:S00100Û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ì H‡„lRMINORZ
-CODE_SMELL
-Ysquid:S1481·-"*Remove this unused "list2" local variable.(”Âğ¾Hˆ„lRMINORZ
-CODE_SMELL
-}squid:S00100Ö"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å±è`H‰„lRMINORZ
-CODE_SMELL
-†squid:S00117™'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì€ƒøÿÿÿÿHŠ„lRMINORZ
-CODE_SMELL
-†squid:S00117Ÿ)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿH‹„lRMINORZ
-CODE_SMELL
-Zsquid:S1148”"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿHŒ„lRMINORZVULNERABILITY
-†squid:S00117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH„lRMINORZ
-CODE_SMELL
-Zsquid:S1148’"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH„lRMINORZVULNERABILITY
-zsquid:CommentedOutCodeLineÿ"<This block of commented-out lines of code should be removed.(©»À’H„lRMAJORZ
-CODE_SMELL
-ƒsquid:S00100Œ1"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒô»ßùÿÿÿÿH„lRMINORZ
-CODE_SMELL
-vsquid:S00112÷"FDefine and throw a dedicated exception instead of using a generic one.(ßÀı½H‘„lRMAJORZ
-CODE_SMELL
-†squid:S00117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH’„lRMINORZ
-CODE_SMELL
-†squid:S00117±'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿH“„lRMINORZ
-CODE_SMELL
-†squid:S00117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿH”„lRMINORZ
-CODE_SMELL
-†squid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH•„lRMINORZ
-CODE_SMELL
-†squid:S00117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH–„lRMINORZ
-CODE_SMELL
-†squid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿH—„lRMINORZ
-CODE_SMELL
-{squid:S00112ƒ!"FDefine and throw a dedicated exception instead of using a generic one.(ÌĞ×âøÿÿÿÿH˜„lRMAJORZ
-CODE_SMELL
-†squid:S1192‚("TDefine a constant instead of duplicating this literal "yyyy-MM-dd HH:mm:ss" 6 times.(êß±ïH™„lRCRITICALZ
-CODE_SMELL
-†squid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHš„lRMINORZ
-CODE_SMELL
-squid:S00117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æùš´H›„lRMINORZ
-CODE_SMELL
-‹squid:S1192’"YDefine a constant instead of duplicating this literal "æ›´æ–°è­¦æƒ…çŠ¶æ€æˆåŠŸ" 3 times.(Ö“‰©Hœ„lRCRITICALZ
-CODE_SMELL
-f
-squid:S106ò*"9Replace this use of System.out or System.err by a logger.(ƒåÔ+H„lRMAJORZ
-CODE_SMELL
-†squid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·®¾©şÿÿÿÿH„lRMINORZ
-CODE_SMELL
-squid:S1192µ	"HDefine a constant instead of duplicating this literal "role_id" 3 times.(ˆè±éÿÿÿÿÿHŸ„lRCRITICALZ
-CODE_SMELL
-bsquid:S1948ª"+Make "rpService" transient or serializable.(•‘ÀÿÿÿÿÿH „lRCRITICALZ
-CODE_SMELL
-†squid:S00117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿH¡„lRMINORZ
-CODE_SMELL
-†squid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠŒ£úÿÿÿÿH¢„lRMINORZ
-CODE_SMELL
-Ysquid:S1481¶-"*Remove this unused "list1" local variable.(Ò“µ¥H£„lRMINORZ
-CODE_SMELL
-esquid:S1948€"3Make "igiveOrderService" transient or serializable.(üÑ„îH¤„lRCRITICALZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿH¥„lRMINORZ
-CODE_SMELL
-†squid:S00117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¦„lRMINORZ
-CODE_SMELL
-†squid:S00117í#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬·—ùÿÿÿÿH§„lRMINORZ
-CODE_SMELL
-†squid:S00117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH¨„lRMINORZ
-CODE_SMELL
-†squid:S00117×&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Í±ƒÿÿÿÿÿH©„lRMINORZ
-CODE_SMELL
-†squid:S001171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHª„lRMINORZ
-CODE_SMELL
-Zsquid:S1148•"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿH«„lRMINORZVULNERABILITY
-†squid:S00117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆçöüÿÿÿÿH¬„lRMINORZ
-CODE_SMELL
-squid:S00117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù´óôH­„lRMINORZ
-CODE_SMELL
-squid:S00117¦("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈáÆÒH®„lRMINORZ
-CODE_SMELL
-†squid:S00117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¯„lRMINORZ
-CODE_SMELL
-†squid:S00117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH°„lRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLineÈ"<This block of commented-out lines of code should be removed.(†ˆëÇşÿÿÿÿH±„lRMAJORZ
-CODE_SMELL
-p"squid:SwitchLastCaseIsDefaultCheckÊ""Add a default case to this switch.(ïÄ×úøÿÿÿÿH²„lRCRITICALZ
-CODE_SMELL
-†squid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÚ‚üÿÿÿÿH³„lRMINORZ
-CODE_SMELL
-€squid:S00117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã•kH´„lRMINORZ
-CODE_SMELL
-squid:S00117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬òÿHµ„lRMINORZ
-CODE_SMELL
-Zsquid:S1075ó1"&Remove this hard-coded path-delimiter.(¥‡ŞˆıÿÿÿÿH¶„lRMINORZ
-CODE_SMELL
-†squid:S00117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÅÙÀıÿÿÿÿH·„lRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckğ-"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(€Ğ¬H¸„lRMINORZ
-CODE_SMELL
-†squid:S00117Ç1"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¹„lRMINORZ
-CODE_SMELL
-†squid:S00117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì€ƒøÿÿÿÿHº„lRMINORZ
-CODE_SMELL
-Ysquid:S00108¢!")Either remove or fill this block of code.(”ı¾H»„lRMAJORZ
-CODE_SMELL
-†squid:S00117ß$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ‘Ü§üÿÿÿÿH¼„lRMINORZ
-CODE_SMELL
-squid:S00117À*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H½„lRMINORZ
-CODE_SMELL
-€squid:S00117Õ'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öšˆ+H¾„lRMINORZ
-CODE_SMELL
-†squid:S00117ù	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆâøûÿÿÿÿH¿„lRMINORZ
-CODE_SMELL
-†squid:S00117½."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHÀ„lRMINORZ
-CODE_SMELL
-†squid:S00117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿHÁ„lRMINORZ
-CODE_SMELL
-Zsquid:S1148²%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÂ„lRMINORZVULNERABILITY
-†squid:S00117İ)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿHÃ„lRMINORZ
-CODE_SMELL
-squid:S00117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”íÂŒHÄ„lRMINORZ
-CODE_SMELL
-€squid:S00117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ€HÅ„lRMINORZ
-CODE_SMELL
-€squid:S1192Ì"IDefine a constant instead of duplicating this literal "busList" 15 times.(²ñ’¨ùÿÿÿÿHÆ„lRCRITICALZ
-CODE_SMELL
-~squid:S001000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™½‡ HÇ„lRMINORZ
-CODE_SMELL
-]squid:S1066ä"/Merge this if statement with the enclosing one.(¸ŠÀ	HÈ„lRMAJORZ
-CODE_SMELL
-vsquid:S00112Û"FDefine and throw a dedicated exception instead of using a generic one.(‘ì HÉ„lRMAJORZ
-CODE_SMELL
-†squid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÊ„lRMINORZ
-CODE_SMELL
-{squid:S00112Ş"FDefine and throw a dedicated exception instead of using a generic one.(çÉµ˜øÿÿÿÿHË„lRMAJORZ
-CODE_SMELL
-squid:S00117×)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HÌ„lRMINORZ
-CODE_SMELL
-Šsquid:S3776("SRefactor this method to reduce its Cognitive Complexity from 121 to the 15 allowed.(¿œŠÄÿÿÿÿÿHÍ„lRCRITICALZ
-CODE_SMELL
-†squid:S00117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHÎ„lRMINORZ
-CODE_SMELL
-vsquid:S00112Ÿ"FDefine and throw a dedicated exception instead of using a generic one.(™Ş¸ÖHÏ„lRMAJORZ
-CODE_SMELL
-Zsquid:S1148Ü!"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿHĞ„lRMINORZVULNERABILITY
-†squid:S00117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬·—ùÿÿÿÿHÑ„lRMINORZ
-CODE_SMELL
-†squid:S00117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÅÙÀıÿÿÿÿHÒ„lRMINORZ
-CODE_SMELL
-Zsquid:S1148ƒ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÓ„lRMINORZVULNERABILITY
-{squid:S00112°*"FDefine and throw a dedicated exception instead of using a generic one.(Ë³ÃúÿÿÿÿHÔ„lRMAJORZ
-CODE_SMELL
-]squid:S1066ô"/Merge this if statement with the enclosing one.(¸ŠÀ	HÕ„lRMAJORZ
-CODE_SMELL
-csquid:EmptyStatementUsageCheck#"Remove this empty statement.(Åñ­õşÿÿÿÿHÖ„lRMINORZ
-CODE_SMELL
-†squid:S00117™*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠŒ£úÿÿÿÿH×„lRMINORZ
-CODE_SMELL
-rsquid:S1155÷.">Use isEmpty() to check whether the collection is empty or not.(ÉÊÖøÿÿÿÿHØ„lRMINORZ
-CODE_SMELL
-†squid:S00117İ$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“üû£úÿÿÿÿHÙ„lRMINORZ
-CODE_SMELL
-›squid:S4144ø"gUpdate this method so that its implementation is not identical to "alarm_content0_1web_3" on line 1998.(™»‚ÓúÿÿÿÿHÚ„lRMAJORZ
-CODE_SMELL
-gsquid:S1948–"5Make "alarmDrawingService" transient or serializable.(•š½ªHÛ„lRCRITICALZ
-CODE_SMELL
-†squid:S00117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îˆ­ùûÿÿÿÿHÜ„lRMINORZ
-CODE_SMELL
-†squid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHİ„lRMINORZ
-CODE_SMELL
-†squid:S00117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±…ÙàüÿÿÿÿHŞ„lRMINORZ
-CODE_SMELL
-‚squid:S1192ß"KDefine a constant instead of duplicating this literal "bus_total" 25 times.(®Ú¥šÿÿÿÿÿHß„lRCRITICALZ
-CODE_SMELL
-squid:S00117ÿ
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ñâíHà„lRMINORZ
-CODE_SMELL
-lsquid:S3878Ø'"8Remove this array creation and simply pass the elements.(µÁ‹ôüÿÿÿÿHá„lRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLineÃ"<This block of commented-out lines of code should be removed.(×ÀÔ£ıÿÿÿÿHâ„lRMAJORZ
-CODE_SMELL
-squid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´“€ÍHã„lRMINORZ
-CODE_SMELL
-†squid:S00117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¼ÉúÿÿÿÿHä„lRMINORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ò”ÒûÿÿÿÿHå„lRMINORZ
-CODE_SMELL
-†squid:S00117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHæ„lRMINORZ
-CODE_SMELL
-†squid:S00117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±…ÙàüÿÿÿÿHç„lRMINORZ
-CODE_SMELL
-usquid:S3457ª"AFormat specifiers should be used instead of string concatenation.(Ü¨¸æúÿÿÿÿHè„lRMAJORZ
-CODE_SMELL
-†squid:S00117Î'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ÆïÎùÿÿÿÿHé„lRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLineÍ"<This block of commented-out lines of code should be removed.(Ğéï×şÿÿÿÿHê„lRMAJORZ
-CODE_SMELL
-€squid:S00117Ì&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öšˆ+Hë„lRMINORZ
-CODE_SMELL
-†squid:S00117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À“×ÃøÿÿÿÿHì„lRMINORZ
-CODE_SMELL
-†squid:S00117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆçöüÿÿÿÿHí„lRMINORZ
-CODE_SMELL
-Asquid:S2438ƒ""g" is a "Thread".(•Â§şHî„lRMAJORZ
-CODE_SMELL
-†squid:S00117Ø""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬·—ùÿÿÿÿHï„lRMINORZ
-CODE_SMELL
-}squid:S1858"I"bk_rel" is already a string, there's no need to call "toString()" on it.(øÉşÿÿÿÿHğ„lRMINORZ
-CODE_SMELL
-^squid:S1066ì&"/Merge this if statement with the enclosing one.(‰·‹€Hñ„lRMAJORZ
-CODE_SMELL
-squid:S00117í$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í²ÃËHò„lRMINORZ
-CODE_SMELL
-†squid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠŒ£úÿÿÿÿHó„lRMINORZ
-CODE_SMELL
-squid:S00117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïç¡ŠHô„lRMINORZ
-CODE_SMELL
-•squid:S4144É"aUpdate this method so that its implementation is not identical to "doAlarmForHand4" on line 1971.(Èè«ôùÿÿÿÿHõ„lRMAJORZ
-CODE_SMELL
-{squid:S1192ü"IDefine a constant instead of duplicating this literal "messType" 8 times.(¤š›Hö„lRCRITICALZ
-CODE_SMELL
-squid:S00117˜*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥‡Ä•H÷„lRMINORZ
-CODE_SMELL
-ƒsquid:S00100«"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ş¶§ÿÿÿÿÿHø„lRMINORZ
-CODE_SMELL
-squid:S00117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÇŸ„Hù„lRMINORZ
-CODE_SMELL
-squid:S00117Û$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬òÿHú„lRMINORZ
-CODE_SMELL
-fsquid:S1481Œ'"2Remove this unused "soldier_total" local variable.(¢Ë¤‹ûÿÿÿÿHû„lRMINORZ
-CODE_SMELL
-Xsquid:S1481–")Remove this unused "flag" local variable.(İŞèüHü„lRMINORZ
-CODE_SMELL
-ƒsquid:S00100É"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èè«ôùÿÿÿÿHı„lRMINORZ
-CODE_SMELL
-nsquid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²ÅHş„lRMINORZ
-CODE_SMELL
-psquid:S1854È1"<Remove this useless assignment to local variable "username".(ŒøËôøÿÿÿÿHÿ„lRMAJORZ
-CODE_SMELL
-}squid:S1192&"KDefine a constant instead of duplicating this literal "uploadEmun" 8 times.(·Áî»H€…lRCRITICALZ
-CODE_SMELL
-squid:S00117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ˆÆÅH…lRMINORZ
-CODE_SMELL
-†squid:S00117í!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH‚…lRMINORZ
-CODE_SMELL
-†squid:S00117µ	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆè±éÿÿÿÿÿHƒ…lRMINORZ
-CODE_SMELL
-†squid:S00117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH„…lRMINORZ
-CODE_SMELL
-†squid:S00117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ä„ÇùÿÿÿÿH……lRMINORZ
-CODE_SMELL
-fsquid:S2589¶"7Remove this expression which always evaluates to "true"(€Œ€H†…lRMAJORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckæ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÕñİùÿÿÿÿH‡…lRMINORZ
-CODE_SMELL
-†squid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î¤Ê‘üÿÿÿÿHˆ…lRMINORZ
-CODE_SMELL
-`squid:S1135©!"2Complete the task associated to this TODO comment.(‡ñÅ¼H‰…lRINFOZ
-CODE_SMELL
-€squid:S00117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÃáHŠ…lRMINORZ
-CODE_SMELL
-squid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥‡Ä•H‹…lRMINORZ
-CODE_SMELL
-squid:S1149Ç/"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(½êÎãHŒ…lRMAJORZ
-CODE_SMELL
-squid:S00117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èã†‹H…lRMINORZ
-CODE_SMELL
-†squid:S00117 *"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH…lRMINORZ
-CODE_SMELL
-†squid:S00117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çŠŒ£úÿÿÿÿH…lRMINORZ
-CODE_SMELL
-~squid:S1192¢0"GDefine a constant instead of duplicating this literal "aqpgID" 3 times.(›ôºàøÿÿÿÿH…lRCRITICALZ
-CODE_SMELL
-Zsquid:S1148ˆ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‘…lRMINORZVULNERABILITY
-†squid:S00117ã'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“üû£úÿÿÿÿH’…lRMINORZ
-CODE_SMELL
-‰squid:S3776¤"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Ú»ö øÿÿÿÿH“…lRCRITICALZ
-CODE_SMELL
-|squid:S1192ÿ"JDefine a constant instead of duplicating this literal "fire_type" 4 times.(ãšÒ½H”…lRCRITICALZ
-CODE_SMELL
-†squid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş€­ûúÿÿÿÿH•…lRMINORZ
-CODE_SMELL
-†squid:S00117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßœşÌıÿÿÿÿH–…lRMINORZ
-CODE_SMELL
-lsquid:S1854î."8Remove this useless assignment to local variable "flag".(ÚÄ¦òøÿÿÿÿH—…lRMAJORZ
-CODE_SMELL
-squid:S1192™"HDefine a constant instead of duplicating this literal "yhyname" 8 times.(Š»¤•üÿÿÿÿH˜…lRCRITICALZ
-CODE_SMELL
-squid:S1301ş"KReplace this "switch" statement by "if" statements to increase readability.(ïÄ×úøÿÿÿÿH™…lRMINORZ
-CODE_SMELL
-ƒsquid:S00100©1"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¢Œ–şÿÿÿÿHš…lRMINORZ
-CODE_SMELL
-Šsquid:S4144-"VUpdate this method so that its implementation is not identical to "yyjs" on line 5774.(—‡×ªøÿÿÿÿH›…lRMAJORZ
-CODE_SMELL
-†squid:S00117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHœ…lRMINORZ
-CODE_SMELL
-{squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(‹·È‹ıÿÿÿÿH…lRMAJORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßœşÌıÿÿÿÿH…lRMINORZ
-CODE_SMELL
-~squid:S00100é"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊşğìHŸ…lRMINORZ
-CODE_SMELL
-†squid:S00117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH …lRMINORZ
-CODE_SMELL
-†squid:S00117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼è ışÿÿÿÿH¡…lRMINORZ
-CODE_SMELL
-squid:S00117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïç¡ŠH¢…lRMINORZ
-CODE_SMELL
-†squid:S00117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH£…lRMINORZ
-CODE_SMELL
-†squid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ‘Ü§üÿÿÿÿH¤…lRMINORZ
-CODE_SMELL
-Zsquid:S1148°"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¥…lRMINORZVULNERABILITY
-|squid:S1192û"KDefine a constant instead of duplicating this literal "yyyy-MM-dd" 3 times.(¬ü¯-H¦…lRCRITICALZ
-CODE_SMELL
-]squid:S1066Ö"/Merge this if statement with the enclosing one.(¸ŠÀ	H§…lRMAJORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ò”ÒûÿÿÿÿH¨…lRMINORZ
-CODE_SMELL
-Zsquid:S1075›+"&Remove this hard-coded path-delimiter.(¥‡ŞˆıÿÿÿÿH©…lRMINORZ
-CODE_SMELL
-]squid:S1481¼")Remove this unused "flag" local variable.(†ÚÆ–úÿÿÿÿHª…lRMINORZ
-CODE_SMELL
-squid:S00117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ€¦H«…lRMINORZ
-CODE_SMELL
-}squid:S1192³+"FDefine a constant instead of duplicating this literal ".webm" 4 times.(Î²ÇøÿÿÿÿH¬…lRCRITICALZ
-CODE_SMELL
-†squid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò€Ò×øÿÿÿÿH­…lRMINORZ
-CODE_SMELL
-xsquid:S2095†2"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Ü²ºÍH®…lRBLOCKERZBUG
-Asquid:S2438—
-""g" is a "Thread".(•Â§şH¯…lRMAJORZ
-CODE_SMELL
-†squid:S00117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH°…lRMINORZ
-CODE_SMELL
-squid:S1301Ë"KReplace this "switch" statement by "if" statements to increase readability.(ïÄ×úøÿÿÿÿH±…lRMINORZ
-CODE_SMELL
-squid:S00117ë$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¨ÚØH²…lRMINORZ
-CODE_SMELL
-csquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿH³…lRMINORZ
-CODE_SMELL
-vsquid:S00112Ì*"FDefine and throw a dedicated exception instead of using a generic one.(ÙÏó—H´…lRMAJORZ
-CODE_SMELL
-{squid:S00112²"FDefine and throw a dedicated exception instead of using a generic one.(ü÷›úÿÿÿÿHµ…lRMAJORZ
-CODE_SMELL
-‰squid:S3776÷"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(ãÀº‘ıÿÿÿÿH¶…lRCRITICALZ
-CODE_SMELL
-†squid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH·…lRMINORZ
-CODE_SMELL
-Zsquid:S1148œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¸…lRMINORZVULNERABILITY
-†squid:S00117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¹…lRMINORZ
-CODE_SMELL
-†squid:S00117¯-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à•¦ÃşÿÿÿÿHº…lRMINORZ
-CODE_SMELL
-†squid:S00117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¿€ŸüÿÿÿÿH»…lRMINORZ
-CODE_SMELL
-^squid:S1066Ë&"/Merge this if statement with the enclosing one.(‰·‹€H¼…lRMAJORZ
-CODE_SMELL
-‚squid:S1192Æ"KDefine a constant instead of duplicating this literal "rmk_statu" 16 times.(±Œ¾üÿÿÿÿH½…lRCRITICALZ
-CODE_SMELL
-†squid:S00117§""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¿€ŸüÿÿÿÿH¾…lRMINORZ
-CODE_SMELL
-Zsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¿…lRMINORZVULNERABILITY
-squid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£É÷´HÀ…lRMINORZ
-CODE_SMELL
-†squid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÎÛĞıÿÿÿÿHÁ…lRMINORZ
-CODE_SMELL
-~squid:S00100ß"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ğ‚¿HÂ…lRMINORZ
-CODE_SMELL
-g
-squid:S106Ô"9Replace this use of System.out or System.err by a logger.(æÃÅ¢HÃ…lRMAJORZ
-CODE_SMELL
-†squid:S00117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¿€ŸüÿÿÿÿHÄ…lRMINORZ
-CODE_SMELL
-†squid:S00117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÅ…lRMINORZ
-CODE_SMELL
-squid:S00117¸+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áó™ßHÆ…lRMINORZ
-CODE_SMELL
-†squid:S00117ê%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁûÙ‘øÿÿÿÿHÇ…lRMINORZ
-CODE_SMELL
-Asquid:S2438É
-""g" is a "Thread".(•Â§şHÈ…lRMAJORZ
-CODE_SMELL
-asquid:S1481È1"-Remove this unused "username" local variable.(ŒøËôøÿÿÿÿHÉ…lRMINORZ
-CODE_SMELL
-†squid:S00117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éïôöşÿÿÿÿHÊ…lRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheckå"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(˜õÙıüÿÿÿÿHË…lRMINORZ
-CODE_SMELL
-Asquid:S2438Ú1""g" is a "Thread".(•Â§şHÌ…lRMAJORZ
-CODE_SMELL
-†squid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHÍ…lRMINORZ
-CODE_SMELL
-squid:S00117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïç¡ŠHÎ…lRMINORZ
-CODE_SMELL
-†squid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ıˆúşÿÿÿÿHÏ…lRMINORZ
-CODE_SMELL
-{squid:S00112Ğ"FDefine and throw a dedicated exception instead of using a generic one.(®îäÂûÿÿÿÿHĞ…lRMAJORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ğé™úÿÿÿÿHÑ…lRMINORZ
-CODE_SMELL
-squid:S00117Ò'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¨ãHÒ…lRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLineµ"<This block of commented-out lines of code should be removed.(ó­¦ÜıÿÿÿÿHÓ…lRMAJORZ
-CODE_SMELL
-lsquid:S1854•"8Remove this useless assignment to local variable "list".(‰è¾ÿÿÿÿÿHÔ…lRMAJORZ
-CODE_SMELL
-}squid:S1192ù"KDefine a constant instead of duplicating this literal "100-200å¹³" 7 times.(Ïç¡ŠHÕ…lRCRITICALZ
-CODE_SMELL
-g
-squid:S106â"9Replace this use of System.out or System.err by a logger.(æÃÅ¢HÖ…lRMAJORZ
-CODE_SMELL
-squid:S00117„("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H×…lRMINORZ
-CODE_SMELL
-vsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(§ˆ…—HØ…lRMAJORZ
-CODE_SMELL
-†squid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’–ªôıÿÿÿÿHÙ…lRMINORZ
-CODE_SMELL
-squid:S2629ª"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Ü¨¸æúÿÿÿÿHÚ…lRMAJORZ
-CODE_SMELL
-‚squid:S1192Õ"KDefine a constant instead of duplicating this literal "html_path" 16 times.(³¦ú¦ÿÿÿÿÿHÛ…lRCRITICALZ
-CODE_SMELL
-~squid:S1192"GDefine a constant instead of duplicating this literal "tz_rel" 7 times.(ßëã›ıÿÿÿÿHÜ…lRCRITICALZ
-CODE_SMELL
-ƒsquid:S00100÷""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ğ³ÀşÿÿÿÿHİ…lRMINORZ
-CODE_SMELL
-rsquid:CallToDeprecatedMethodï&"2Remove this use of "SqlAdapter"; it is deprecated.(æĞ•íHŞ…lRMINORZ
-CODE_SMELL
-†squid:S00117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬·—ùÿÿÿÿHß…lRMINORZ
-CODE_SMELL
-g
-squid:S106ë*"9Replace this use of System.out or System.err by a logger.(ËòğHà…lRMAJORZ
-CODE_SMELL
-~squid:S00100»%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÁô“Há…lRMINORZ
-CODE_SMELL
-†squid:S00117ˆ!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½àÿÿÿÿÿHâ…lRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckù"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¹é¤ÂHã…lRMINORZ
-CODE_SMELL
-†squid:S00117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄæğöûÿÿÿÿHä…lRMINORZ
-CODE_SMELL
-†squid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßœşÌıÿÿÿÿHå…lRMINORZ
-CODE_SMELL
-†squid:S00117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHæ…lRMINORZ
-CODE_SMELL
-†squid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¼ÉúÿÿÿÿHç…lRMINORZ
-CODE_SMELL
-squid:S1192Ò"HDefine a constant instead of duplicating this literal "orglist" 7 times.(Ôàı±şÿÿÿÿHè…lRCRITICALZ
-CODE_SMELL
-esquid:S1135¼"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHé…lRINFOZ
-CODE_SMELL
-†squid:S00117Ñ%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHê…lRMINORZ
-CODE_SMELL
-­squid:S1862õ"„This branch can not be reached because the condition duplicates a previous condition in the same sequence of "if/else if" statements(É¨úHë…lRMAJORZBUG
-csquid:S1481ô#"/Remove this unused "temp_index" local variable.(Ò€Ò×øÿÿÿÿHì…lRMINORZ
-CODE_SMELL
-squid:S00117Š*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «Hí…lRMINORZ
-CODE_SMELL
-^squid:S1948£",Make "orgService" transient or serializable.(èàÙ«Hî…lRCRITICALZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿHï…lRMINORZ
-CODE_SMELL
-usquid:S3027ï("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(Éˆ¦¼Hğ…lRMAJORZ
-CODE_SMELL
-|squid:S1192ÿ("JDefine a constant instead of duplicating this literal "commander" 8 times.(‘¨ñöHñ…lRCRITICALZ
-CODE_SMELL
-†squid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°‹³™şÿÿÿÿHò…lRMINORZ
-CODE_SMELL
-†squid:S00117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ‘Ü§üÿÿÿÿHó…lRMINORZ
-CODE_SMELL
-¼%squid:RedundantThrowsDeclarationCheck€-"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ˆÌš‹øÿÿÿÿHô…lRMINORZ
-CODE_SMELL
-Šsquid:S4144€-"VUpdate this method so that its implementation is not identical to "wxbj" on line 5746.(ˆÌš‹øÿÿÿÿHõ…lRMAJORZ
-CODE_SMELL
-†squid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚­ÅëıÿÿÿÿHö…lRMINORZ
-CODE_SMELL
-†squid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·£‹µıÿÿÿÿH÷…lRMINORZ
-CODE_SMELL
-†squid:S00117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿHø…lRMINORZ
-CODE_SMELL
-vsquid:S00112º."FDefine and throw a dedicated exception instead of using a generic one.(óŸÉ Hù…lRMAJORZ
-CODE_SMELL
-†squid:S00117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHú…lRMINORZ
-CODE_SMELL
-squid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Ç‘¥Hû…lRMINORZ
-CODE_SMELL
-squid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóºÜHü…lRMINORZ
-CODE_SMELL
-squid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥‡Ä•Hı…lRMINORZ
-CODE_SMELL
-†squid:S00117ø+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHş…lRMINORZ
-CODE_SMELL
-squid:S1149¼"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¯›ğõHÿ…lRMAJORZ
-CODE_SMELL
-zsquid:S3027ñ("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(÷åÏúşÿÿÿÿH€†lRMAJORZ
-CODE_SMELL
-Zsquid:S1948¥"(Make "assess" transient or serializable.(è´H†lRCRITICALZ
-CODE_SMELL
-†squid:S00117„ "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÍèíøÿÿÿÿH‚†lRMINORZ
-CODE_SMELL
-†squid:S00117î%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¼ÉúÿÿÿÿHƒ†lRMINORZ
-CODE_SMELL
-squid:S1192»"HDefine a constant instead of duplicating this literal "isnull" 42 times.(àØ±©ıÿÿÿÿH„†lRCRITICALZ
-CODE_SMELL
-~squid:S1192"GDefine a constant instead of duplicating this literal "bk_rel" 7 times.(øÉşÿÿÿÿH…†lRCRITICALZ
-CODE_SMELL
-squid:S00117¬
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¸°¬H††lRMINORZ
-CODE_SMELL
-Zsquid:S1148«$"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿH‡†lRMINORZVULNERABILITY
-†squid:S00117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHˆ†lRMINORZ
-CODE_SMELL
-†squid:S00117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH‰†lRMINORZ
-CODE_SMELL
-€squid:S1192É&"IDefine a constant instead of duplicating this literal "VIP_CORP" 6 times.(Ú–”¾şÿÿÿÿHŠ†lRCRITICALZ
-CODE_SMELL
-†squid:S00117‹'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š«èùÿÿÿÿH‹†lRMINORZ
-CODE_SMELL
-†squid:S00117º	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÉÑ‚úÿÿÿÿHŒ†lRMINORZ
-CODE_SMELL
-esquid:S1135¡"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH†lRINFOZ
-CODE_SMELL
-†squid:S00117Ó%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ò”ÒûÿÿÿÿH†lRMINORZ
-CODE_SMELL
-squid:S00117Ü$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïç¡ŠH†lRMINORZ
-CODE_SMELL
-‚squid:S1192"KDefine a constant instead of duplicating this literal "alarm_no" 145 times.(«‰È¸ùÿÿÿÿH†lRCRITICALZ
-CODE_SMELL
-†squid:S00117¸	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÔÃ‰ùÿÿÿÿH‘†lRMINORZ
-CODE_SMELL
-†squid:S00117Â "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH’†lRMINORZ
-CODE_SMELL
-Usquid:S1075˜+"&Remove this hard-coded path-delimiter.(¢øH“†lRMINORZ
-CODE_SMELL
-squid:S1192ş("JDefine a constant instead of duplicating this literal "distance" 11 times.(Œà¦öûÿÿÿÿH”†lRCRITICALZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckĞ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ùå”£H•†lRMINORZ
-CODE_SMELL
-squid:S1192È"JDefine a constant instead of duplicating this literal "account3g" 6 times.( µ‰ÿÿÿÿÿH–†lRCRITICALZ
-CODE_SMELL
-ksquid:S2589ã."7Remove this expression which always evaluates to "true"(ÉÊÖøÿÿÿÿH—†lRMAJORZ
-CODE_SMELL
-‰squid:S3776Õ "RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Â³›¼úÿÿÿÿH˜†lRCRITICALZ
-CODE_SMELL
-squid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í²ÃËH™†lRMINORZ
-CODE_SMELL
-squid:S00117¾&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «Hš†lRMINORZ
-CODE_SMELL
-†squid:S00117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¤ü¡úÿÿÿÿH›†lRMINORZ
-CODE_SMELL
-†squid:S00117Ï-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÍ ãÿÿÿÿÿHœ†lRMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine§"<This block of commented-out lines of code should be removed.(©»À’H†lRMAJORZ
-CODE_SMELL
-Zsquid:S1148ø"#Use a logger to log this exception.(ÂşÿâûÿÿÿÿH†lRMINORZVULNERABILITY
-usquid:S3457µ/"AFormat specifiers should be used instead of string concatenation.(Ü¨¸æúÿÿÿÿHŸ†lRMAJORZ
-CODE_SMELL
-rsquid:S1155ª">Use isEmpty() to check whether the collection is empty or not.(ƒŠêûÿÿÿÿH †lRMINORZ
-CODE_SMELL
-€squid:S00117î$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜óÎ^H¡†lRMINORZ
-CODE_SMELL
-„squid:S1192™&"MDefine a constant instead of duplicating this literal "type_table_p" 4 times.(„¼õÎüÿÿÿÿH¢†lRCRITICALZ
-CODE_SMELL
-squid:CommentedOutCodeLineÈ"<This block of commented-out lines of code should be removed.(õü˜ÿÿÿÿÿÿH£†lRMAJORZ
-CODE_SMELL
-Zsquid:S1148ß'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¤†lRMINORZVULNERABILITY
-†squid:S00117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±…ÙàüÿÿÿÿH¥†lRMINORZ
-CODE_SMELL
-esquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¦†lRINFOZ
-CODE_SMELL
-hsquid:S1191s"5Use classes from the Java API instead of Sun classes.(Ó¨ÔÿÿÿÿÿH§†lRMAJORZ
-CODE_SMELL
-ƒsquid:S00100Ù0"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßæ˜¡úÿÿÿÿH¨†lRMINORZ
-CODE_SMELL
-zsquid:S3027ğ("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(†ÅÀ„üÿÿÿÿH©†lRMAJORZ
-CODE_SMELL
-†squid:S00117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHª†lRMINORZ
-CODE_SMELL
-Zsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH«†lRMINORZVULNERABILITY
-†squid:S00117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó‰âÒûÿÿÿÿH¬†lRMINORZ
-CODE_SMELL
-Ysquid:S00108è")Either remove or fill this block of code.(å¥‡H­†lRMAJORZ
-CODE_SMELL
-†squid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁûÙ‘øÿÿÿÿH®†lRMINORZ
-CODE_SMELL
-†squid:S00117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¯†lRMINORZ
-CODE_SMELL
-Àsquid:S1192Ç&"Define a constant instead of duplicating this literal "select CORP_NAME,VIP_CORP,C_ID from T_ALARM t  where alarm_no=? and rownum=1" 3 times.(é¦¼H°†lRCRITICALZ
-CODE_SMELL
-†squid:S00117ª	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH±†lRMINORZ
-CODE_SMELL
-µ%squid:RedundantThrowsDeclarationCheckÌ*"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙÏó—H²†lRMINORZ
-CODE_SMELL
-zsquid:S3027ğ("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(†ÅÀ„üÿÿÿÿH³†lRMAJORZ
-CODE_SMELL
-xsquid:S2095´+"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Ü²ºÍH´†lRBLOCKERZBUG
-asquid:S1481î"-Remove this unused "alarm_no" local variable.(«‰È¸ùÿÿÿÿHµ†lRMINORZ
-CODE_SMELL
-„squid:S1192¢"MDefine a constant instead of duplicating this literal "org_name_xq" 11 times.(»—‚ĞşÿÿÿÿH¶†lRCRITICALZ
-CODE_SMELL
-squid:S00117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊóºÜH·†lRMINORZ
-CODE_SMELL
-gsquid:S1854â"8Remove this useless assignment to local variable "flag".(İŞèüH¸†lRMAJORZ
-CODE_SMELL
-vsquid:S00112é"FDefine and throw a dedicated exception instead of using a generic one.(ÊşğìH¹†lRMAJORZ
-CODE_SMELL
-xsquid:S1192ÿ"FDefine a constant instead of duplicating this literal "rp_id" 3 times.(æùš´Hº†lRCRITICALZ
-CODE_SMELL
-†squid:S00117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç…ÕüÿÿÿÿÿH»†lRMINORZ
-CODE_SMELL
-†squid:S00117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¼†lRMINORZ
-CODE_SMELL
-†squid:S00117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆçöüÿÿÿÿH½†lRMINORZ
-CODE_SMELL
-usquid:S3027ï("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(Éˆ¦¼H¾†lRMAJORZ
-CODE_SMELL
-Zsquid:S1148¿$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¿†lRMINORZVULNERABILITY
-„squid:S3776Ÿ"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(™Ş¸ÖHÀ†lRCRITICALZ
-CODE_SMELL
-†squid:S00117œ."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÁ†lRMINORZ
-CODE_SMELL
-squid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ”µHÂ†lRMINORZ
-CODE_SMELL
-†squid:S00117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò€Ò×øÿÿÿÿHÃ†lRMINORZ
-CODE_SMELL
-}squid:S1192¨0"FDefine a constant instead of duplicating this literal "type1" 6 times.(ÙéÊûÿÿÿÿHÄ†lRCRITICALZ
-CODE_SMELL
-Zsquid:S1148å"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÅ†lRMINORZVULNERABILITY
-‰squid:S3776Î"RRefactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.(±šâšıÿÿÿÿHÆ†lRCRITICALZ
-CODE_SMELL
-wsquid:S1192ª0"FDefine a constant instead of duplicating this literal "list1" 5 times.(½Ø›SHÇ†lRCRITICALZ
-CODE_SMELL
-\squid:S1125÷."(Remove the literal "true" boolean value.(ÉÊÖøÿÿÿÿHÈ†lRMINORZ
-CODE_SMELL
-squid:S00117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Ç‘¥HÉ†lRMINORZ
-CODE_SMELL
-_squid:S1948“"-Make "typeService" transient or serializable.(˜÷ãÙHÊ†lRCRITICALZ
-CODE_SMELL
-~squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ˆ…—HË†lRMINORZ
-CODE_SMELL
-€squid:S1192Ï"IDefine a constant instead of duplicating this literal "content" 51 times.(–÷¤üşÿÿÿÿHÌ†lRCRITICALZ
-CODE_SMELL
-squid:CommentedOutCodeLineÿ*"<This block of commented-out lines of code should be removed.(è‘ÔúüÿÿÿÿHÍ†lRMAJORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÎ†lRMINORZ
-CODE_SMELL
-†squid:S00117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¸ÌüÿÿÿÿHÏ†lRMINORZ
-CODE_SMELL
-€squid:S00117í&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öšˆ+HĞ†lRMINORZ
-CODE_SMELL
-Ysquid:S00108À")Either remove or fill this block of code.(å¥‡HÑ†lRMAJORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÒ†lRMINORZ
-CODE_SMELL
-^squid:S1481Ÿ"*Remove this unused "isTip" local variable.(ºîØ¨şÿÿÿÿHÓ†lRMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine‡/"<This block of commented-out lines of code should be removed.(Åû¥ºHÔ†lRMAJORZ
-CODE_SMELL
-vsquid:S00112¶1"FDefine and throw a dedicated exception instead of using a generic one.(òñîHÕ†lRMAJORZ
-CODE_SMELL
-†squid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´†¬üÿÿÿÿHÖ†lRMINORZ
-CODE_SMELL
-Jsquid:S1643ã("Use a StringBuilder instead.(Œæ—vH×†lRMINORZ
-CODE_SMELL
-esquid:S1135‚"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHØ†lRINFOZ
-CODE_SMELL
-ƒsquid:S00100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°°¨şÿÿÿÿHÙ†lRMINORZ
-CODE_SMELL
-{squid:S00112˜"FDefine and throw a dedicated exception instead of using a generic one.(…¤ïÂùÿÿÿÿHÚ†lRMAJORZ
-CODE_SMELL
-†squid:S00117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºîŠ—øÿÿÿÿHÛ†lRMINORZ
-CODE_SMELL
-†squid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ë¤‹ûÿÿÿÿHÜ†lRMINORZ
-CODE_SMELL
-squid:S00117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¨ÚØHİ†lRMINORZ
-CODE_SMELL
-†squid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄæğöûÿÿÿÿHŞ†lRMINORZ
-CODE_SMELL
-squid:S00117ƒ,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è»ëÆHß†lRMINORZ
-CODE_SMELL
-tsquid:UselessImportCheck":Remove this unused import 'java.io.ByteArrayOutputStream'.(Î‡ÈHà†lRMINORZ
-CODE_SMELL
-ƒsquid:S00100²"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü÷›úÿÿÿÿHá†lRMINORZ
-CODE_SMELL
-†squid:S00117Õ$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™™”ÌşÿÿÿÿHâ†lRMINORZ
-CODE_SMELL
-†squid:S00117÷!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±…ÙàüÿÿÿÿHã†lRMINORZ
-CODE_SMELL
-†squid:S00117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄæğöûÿÿÿÿHä†lRMINORZ
-CODE_SMELL
-†squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¿€ŸüÿÿÿÿHå†lRMINORZ
-CODE_SMELL
-—squid:S4144è"cUpdate this method so that its implementation is not identical to "doAlarmForHandPad" on line 1927.(‡»ßÒøÿÿÿÿHæ†lRMAJORZ
-CODE_SMELL
-†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHç†lRMINORZ
-CODE_SMELL
-Zsquid:S1148³"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHè†lRMINORZVULNERABILITY
-µ%squid:RedundantThrowsDeclarationCheckÔ*"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(”‡Î°Hé†lRMINORZ
-CODE_SMELL
-Æ%squid:RedundantThrowsDeclarationCheckô+"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(óÆ›şHê†lRMINORZ
-CODE_SMELL
-ysquid:S1192¦0"GDefine a constant instead of duplicating this literal "types1" 5 times.(éïşÂHë†lRCRITICALZ
-CODE_SMELL
-lsquid:S3878Ñ'"8Remove this array creation and simply pass the elements.(‰Ã¼ùÿÿÿÿHì†lRMINORZ
-CODE_SMELL
-†squid:S00117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¹¢ºÿÿÿÿÿHí†lRMINORZ
-CODE_SMELL
-squid:S00117¾."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´“€ÍHî†lRMINORZ
-CODE_SMELL
-†squid:S00117È!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çá¿°şÿÿÿÿHï†lRMINORZ
-CODE_SMELL
-†squid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÖÎıÿÿÿÿHğ†lRMINORZ
-CODE_SMELL
-†squid:S00117É!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHñ†lRMINORZ
-CODE_SMELL
-msquid:S1155ú
-">Use isEmpty() to check whether the collection is empty or not.(Ç×‹íHò†lRMINORZ
-CODE_SMELL
-zsquid:CommentedOutCodeLine—"<This block of commented-out lines of code should be removed.(¾ŸÃ»Hó†lRMAJORZ
-CODE_SMELL
-‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(‹·È‹ıÿÿÿÿHô†lRCRITICALZ
-CODE_SMELL
-}squid:S1192ù"KDefine a constant instead of duplicating this literal "1000ä»¥ä¸Š" 7 times.(Ïç¡ŠHõ†lRCRITICALZ
-CODE_SMELL
-zsquid:S3027ğ("FPut single-quotes around '.' to use the faster "indexOf(char)" method.(†ÅÀ„üÿÿÿÿHö†lRMAJORZ
-CODE_SMELL
-†squid:S00117é-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH÷†lRMINORZ
-CODE_SMELL
-Zsquid:S1148Ü"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHø†lRMINORZVULNERABILITY
-Zsquid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHù†lRMINORZVULNERABILITY
-‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(”Ûà×ûÿÿÿÿHú†lRCRITICALZ
-CODE_SMELL
-Zsquid:S1075³+"&Remove this hard-coded path-delimiter.(Î²ÇøÿÿÿÿHû†lRMINORZ
-CODE_SMELL
-†squid:S00117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¤ü¡úÿÿÿÿHü†lRMINORZ
-CODE_SMELL
-squid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶şÄàHı†lRMINORZ
-CODE_SMELL
-squid:S00117ì+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò“ÀøHş†lRMINORZ
-CODE_SMELL
-º%squid:RedundantThrowsDeclarationCheckÜ*"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(“ ŸÿøÿÿÿÿHÿ†lRMINORZ
-CODE_SMELL

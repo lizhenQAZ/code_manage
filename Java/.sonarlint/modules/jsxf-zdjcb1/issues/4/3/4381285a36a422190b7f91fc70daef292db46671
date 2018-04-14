@@ -1,94 +1,0 @@
-
-†squid:S00117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àèŞùÿÿÿÿH¥ÂoRMINORZ
-CODE_SMELL
-…squid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢×÷èùÿÿÿÿH§ÂoRMINORZ
-CODE_SMELL
-hsquid:S1191/"5Use classes from the Java API instead of Sun classes.(Ó¨ÔÿÿÿÿÿH™ÂoRMAJORZ
-CODE_SMELL
-…squid:S00117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Í±ƒÿÿÿÿÿH•ÂoRMINORZ
-CODE_SMELL
-{squid:UselessImportCheck!";Remove this unused import 'jiangdu.fire.model.TruckStatus'.(ÏèÄÁşÿÿÿÿH¨ÂoRMINORZ
-CODE_SMELL
-µ%squid:RedundantThrowsDeclarationCheckî"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‘…ˆçHµÂoRMINORZ
-CODE_SMELL
-wsquid:S1192]"FDefine a constant instead of duplicating this literal "table" 3 times.(®°üÓHºÂoRCRITICALZ
-CODE_SMELL
-^squid:S1948@"-Make "typeService" transient or serializable.(˜÷ãÙH¸ÂoRCRITICALZ
-CODE_SMELL
-…squid:S00117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢×÷èùÿÿÿÿH»ÂoRMINORZ
-CODE_SMELL
-€squid:S00117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H¿ÂoRMINORZ
-CODE_SMELL
-msquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜ÉüÿÿÿÿH¡ÂoRMINORZ
-CODE_SMELL
-Zsquid:S1075Ó"&Remove this hard-coded path-delimiter.(¥‡ŞˆıÿÿÿÿH©ÂoRMINORZ
-CODE_SMELL
-Usquid:S1075Ğ"&Remove this hard-coded path-delimiter.(¢øH¬ÂoRMINORZ
-CODE_SMELL
-squid:S00117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H«ÂoRMINORZ
-CODE_SMELL
-·%squid:RedundantThrowsDeclarationCheckî"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(‘…ˆçHÀÂoRMINORZ
-CODE_SMELL
-squid:CommentedOutCodeLineª"<This block of commented-out lines of code should be removed.(è‘ÔúüÿÿÿÿH²ÂoRMAJORZ
-CODE_SMELL
-…squid:S00117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼üĞÑùÿÿÿÿHªÂoRMINORZ
-CODE_SMELL
-_squid:S1948C".Make "alarmService" transient or serializable.(ó‰¨šH°ÂoRCRITICALZ
-CODE_SMELL
-…squid:S00117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ÌÏùÿÿÿÿH¾ÂoRMINORZ
-CODE_SMELL
-fsquid:S1948E"5Make "systemManageService" transient or serializable.(Ô‚ïH¶ÂoRCRITICALZ
-CODE_SMELL
-squid:S00117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H´ÂoRMINORZ
-CODE_SMELL
-€squid:S00117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «HÁÂoRMINORZ
-CODE_SMELL
-…squid:S00117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Í±ƒÿÿÿÿÿH³ÂoRMINORZ
-CODE_SMELL
-†squid:S00117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ıˆúşÿÿÿÿHšÂoRMINORZ
-CODE_SMELL
-squid:S00117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿğÊH®ÂoRMINORZ
-CODE_SMELL
-´%squid:RedundantThrowsDeclarationCheckg"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ç¤şíH±ÂoRMINORZ
-CODE_SMELL
-usquid:UselessImportCheck "5Remove this unused import 'jiangdu.fire.model.Truck'.(™ì¼óøÿÿÿÿHÂoRMINORZ
-CODE_SMELL
-g
-squid:S106–"9Replace this use of System.out or System.err by a logger.(ËòğH­ÂoRMAJORZ
-CODE_SMELL
-´%squid:RedundantThrowsDeclarationCheck…"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(š—Ç<H–ÂoRMINORZ
-CODE_SMELL
-f
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒåÔ+H˜ÂoRMAJORZ
-CODE_SMELL
-†squid:S00117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Š‹æùÿÿÿÿH ÂoRMINORZ
-CODE_SMELL
-usquid:S00112…"FDefine and throw a dedicated exception instead of using a generic one.(š—Ç<H¤ÂoRMAJORZ
-CODE_SMELL
-dsquid:S1948:"3Make "fireReportService" transient or serializable.(ôú÷HœÂoRCRITICALZ
-CODE_SMELL
-squid:S00117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ó»íHŸÂoRMINORZ
-CODE_SMELL
-…squid:S00117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼üĞÑùÿÿÿÿH›ÂoRMINORZ
-CODE_SMELL
-squid:S00117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H½ÂoRMINORZ
-CODE_SMELL
-f
-squid:S106§"9Replace this use of System.out or System.err by a logger.(ÆâÔH£ÂoRMAJORZ
-CODE_SMELL
-ksquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒH¦ÂoRMINORZ
-CODE_SMELL
-fsquid:S1948="5Make "alarmDrawingService" transient or serializable.(†¿÷ÎH¯ÂoRCRITICALZ
-CODE_SMELL
-º%squid:RedundantThrowsDeclarationCheckß"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ø¢ŸùÿÿÿÿHÂoRMINORZ
-CODE_SMELL
-|squid:S1192["KDefine a constant instead of duplicating this literal "type_table" 3 times.(×½ÁÀH·ÂoRCRITICALZ
-CODE_SMELL
-squid:S00117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­ «H¹ÂoRMINORZ
-CODE_SMELL
-¹%squid:RedundantThrowsDeclarationCheckI"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‹°üùÿÿÿÿH¼ÂoRMINORZ
-CODE_SMELL
-}squid:S1192a"LDefine a constant instead of duplicating this literal "paginations" 4 times.(öƒµœH¢ÂoRCRITICALZ
-CODE_SMELL
-{squid:S1192N"JDefine a constant instead of duplicating this literal "alarm_no" 12 times.(å­ «H—ÂoRCRITICALZ
-CODE_SMELL

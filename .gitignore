@@ -261,13 +261,3 @@ __pycache__/
 *.pyc
 /.metadata/
 /.recommenders/
-
-# Java
-/Java/.metadata/
-
-/Java/.recommenders/
-
-/Java/.sonarlint/
-/Java/JUnitTest/
-/Java/RemoteSystemsTempFiles/
-/Java/Servers/

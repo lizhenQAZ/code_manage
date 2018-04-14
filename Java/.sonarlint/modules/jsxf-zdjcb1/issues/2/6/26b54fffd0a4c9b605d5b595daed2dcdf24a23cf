@@ -1,21 +1,0 @@
-
-Tjavascript:S1116,"Remove this empty statement.(ôŸìúÿÿÿÿH‘iRMINORZ
-CODE_SMELL
-‘javascript:S2703]"\Add the "let", "const" or "var" keyword to this declaration of "marker" to make it explicit.(î€œ H–iRBLOCKERZ
-CODE_SMELL
-Ujavascript:S1116É"Remove this empty statement.(ôŸìúÿÿÿÿH’iRMINORZ
-CODE_SMELL
-™javascript:S2703’"^Add the "let", "const" or "var" keyword to this declaration of "polyline" to make it explicit.(äâÍóùÿÿÿÿH˜iRBLOCKERZ
-CODE_SMELL
-bjavascript:EmptyBlock¦")Either remove or fill this block of code.(Ú¡‚ŠH•iRMAJORZ
-CODE_SMELL
-w'javascript:FunctionDefinitionInsideLoop‡"'Define this function outside of a loop.(ƒÀ„…şÿÿÿÿHiRMAJORZ
-CODE_SMELL
-’javascript:S2703¨"\Add the "let", "const" or "var" keyword to this declaration of "stauts" to make it explicit.(Š á¾H—iRBLOCKERZ
-CODE_SMELL
-javascript:S3973´"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØH“iRCRITICALZ
-CODE_SMELL
-ajavascript:EmptyBlock4")Either remove or fill this block of code.(Äé†ˆH”iRMAJORZ
-CODE_SMELL
-Vjavascript:S3002á"Remove this use of unary "-".(ãŠ°òùÿÿÿÿHiRMINORZ
-CODE_SMELL
