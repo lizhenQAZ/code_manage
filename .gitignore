@@ -264,7 +264,8 @@ __pycache__/
 
 # Java
 /Java/.metadata/
-/.recommenders/
+
+/Java/.recommenders/
 
 /Java/.sonarlint/
 /Java/JUnitTest/
