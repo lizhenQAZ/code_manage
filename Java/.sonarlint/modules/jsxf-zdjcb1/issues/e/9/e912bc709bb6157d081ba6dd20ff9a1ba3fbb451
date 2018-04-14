@@ -1,0 +1,209 @@
+
+¶%squid:RedundantThrowsDeclarationCheckW"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Š‹˜ÏHÉò@RMINORZ
+CODE_SMELL
+»%squid:RedundantThrowsDeclarationChecks"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ı˜öáşÿÿÿÿHÊò@RMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck—"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ò²û¨ÿÿÿÿÿHËò@RMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck£"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(˜Õ¢HÌò@RMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckê"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¿ß¹»HÍò@RMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck¿"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(°òÃûÿÿÿÿHÎò@RMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckÈ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(›ïØïHÏò@RMINORZ
+CODE_SMELL
+Ë%squid:RedundantThrowsDeclarationCheck€"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(ßÓÅ»ùÿÿÿÿHĞò@RMINORZ
+CODE_SMELL
+}squid:S1192¥"FDefine a constant instead of duplicating this literal "types" 3 times.(øÛºüÿÿÿÿHÑò@RCRITICALZ
+CODE_SMELL
+squid:S1192"HDefine a constant instead of duplicating this literal "org_loc" 8 times.(ÄæŠòúÿÿÿÿHÒò@RCRITICALZ
+CODE_SMELL
+€squid:S1192"NDefine a constant instead of duplicating this literal "ORG_LONGITUDE" 8 times.(ü­‰–HÓò@RCRITICALZ
+CODE_SMELL
+€squid:S1192Š"IDefine a constant instead of duplicating this literal "alarm_no" 7 times.(éö»ñÿÿÿÿÿHÔò@RCRITICALZ
+CODE_SMELL
+xsquid:S1192g"HDefine a constant instead of duplicating this literal "org_id" 12 times.(”‡ã}HÕò@RCRITICALZ
+CODE_SMELL
+xsquid:S1192ƒ"FDefine a constant instead of duplicating this literal "phone" 6 times.(¸†…ÂHÖò@RCRITICALZ
+CODE_SMELL
+wsquid:S1192¯"FDefine a constant instead of duplicating this literal "JTLXS" 4 times.(Ñá–"H×ò@RCRITICALZ
+CODE_SMELL
+{squid:S1192m"JDefine a constant instead of duplicating this literal "compTable" 4 times.(”¢‰HØò@RCRITICALZ
+CODE_SMELL
+~squid:S1192¬"GDefine a constant instead of duplicating this literal "isMhjy" 4 times.(ƒ£§áıÿÿÿÿHÙò@RCRITICALZ
+CODE_SMELL
+€squid:S1192"NDefine a constant instead of duplicating this literal "ORG_DIMENSION" 8 times.(ü­‰–HÚò@RCRITICALZ
+CODE_SMELL
+squid:S1192f"IDefine a constant instead of duplicating this literal "role_id" 12 times.(²©¶ŞÿÿÿÿÿHÛò@RCRITICALZ
+CODE_SMELL
+ysquid:S1192‡"GDefine a constant instead of duplicating this literal "userid" 7 times.(åÒ‡ÖHÜò@RCRITICALZ
+CODE_SMELL
+squid:S4144º"aUpdate this method so that its implementation is not identical to "createVIPCompnay" on line 289.(’ÕÖ÷Hİò@RMAJORZ
+CODE_SMELL
+‚squid:S2095"SUse try-with-resources or close this "ByteArrayOutputStream" in a "finally" clause.(÷ˆÎºüÿÿÿÿHŞò@RBLOCKERZBUG
+~squid:CommentedOutCodeLinek"<This block of commented-out lines of code should be removed.(„¼ë¬øÿÿÿÿHßò@RMAJORZ
+CODE_SMELL
+ysquid:CommentedOutCodeLine£"<This block of commented-out lines of code should be removed.(ÏÿHàò@RMAJORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLine¦"<This block of commented-out lines of code should be removed.(Ï¼ı—Háò@RMAJORZ
+CODE_SMELL
+ysquid:CommentedOutCodeLine¼"<This block of commented-out lines of code should be removed.(ÏÿHâò@RMAJORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLine¿"<This block of commented-out lines of code should be removed.(Ï¼ı—Hãò@RMAJORZ
+CODE_SMELL
+ysquid:CommentedOutCodeLineÿ"<This block of commented-out lines of code should be removed.(ì¼4Häò@RMAJORZ
+CODE_SMELL
+ysquid:CommentedOutCodeLine‚"<This block of commented-out lines of code should be removed.(ÏÿHåò@RMAJORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLine‡"<This block of commented-out lines of code should be removed.(Ï¼ı—Hæò@RMAJORZ
+CODE_SMELL
+lsquid:S2696N"6Make the enclosing method "static" or remove this set.(Óæ°ÔüÿÿÿÿHçò@RCRITICALZ
+CODE_SMELL
+`squid:S1135’"2Complete the task associated to this TODO comment.(‡ñÅ¼Hèò@RINFOZ
+CODE_SMELL
+esquid:S1135–"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHéò@RINFOZ
+CODE_SMELL
+esquid:S1135¾"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHêò@RINFOZ
+CODE_SMELL
+\squid:S1481"(Remove this unused "bos" local variable.(÷ˆÎºüÿÿÿÿHëò@RMINORZ
+CODE_SMELL
+~squid:S00100¼"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïˆ’·Hìò@RMINORZ
+CODE_SMELL
+ƒsquid:S00100ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»÷¿ÖÿÿÿÿÿHíò@RMINORZ
+CODE_SMELL
+}squid:S00100–"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Åå(Hîò@RMINORZ
+CODE_SMELL
+~squid:S00100Ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åğò‚Hïò@RMINORZ
+CODE_SMELL
+~squid:S00100å"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÕêHğò@RMINORZ
+CODE_SMELL
+ƒsquid:S00100ï"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ÊÇºùÿÿÿÿHñò@RMINORZ
+CODE_SMELL
+ƒsquid:S00100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÓÅ»ùÿÿÿÿHòò@RMINORZ
+CODE_SMELL
+Ysquid:S00108è")Either remove or fill this block of code.(”ı¾Hóò@RMAJORZ
+CODE_SMELL
+Ysquid:S00108ó")Either remove or fill this block of code.(”ı¾Hôò@RMAJORZ
+CODE_SMELL
+ksquid:S1854"7Remove this useless assignment to local variable "bos".(÷ˆÎºüÿÿÿÿHõò@RMAJORZ
+CODE_SMELL
+lsquid:S1854†"8Remove this useless assignment to local variable "role".(Ÿ‚Å©şÿÿÿÿHöò@RMAJORZ
+CODE_SMELL
+ˆsquid:S00116U"TRename this field "ImpOrgSer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¯²ºúÿÿÿÿH÷ò@RMINORZ
+CODE_SMELL
+…squid:S00117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHøò@RMINORZ
+CODE_SMELL
+…squid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿHùò@RMINORZ
+CODE_SMELL
+†squid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¶ÃùÿÿÿÿHúò@RMINORZ
+CODE_SMELL
+†squid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÚçáúÿÿÿÿHûò@RMINORZ
+CODE_SMELL
+squid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ôÑÛHüò@RMINORZ
+CODE_SMELL
+†squid:S00117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHıò@RMINORZ
+CODE_SMELL
+†squid:S00117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿHşò@RMINORZ
+CODE_SMELL
+squid:S00117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×˜Ğ›Hÿò@RMINORZ
+CODE_SMELL
+†squid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿH€ó@RMINORZ
+CODE_SMELL
+†squid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿHó@RMINORZ
+CODE_SMELL
+squid:S00117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×˜Ğ›H‚ó@RMINORZ
+CODE_SMELL
+†squid:S00117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHƒó@RMINORZ
+CODE_SMELL
+†squid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿH„ó@RMINORZ
+CODE_SMELL
+squid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×˜Ğ›H…ó@RMINORZ
+CODE_SMELL
+†squid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿH†ó@RMINORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿH‡ó@RMINORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHˆó@RMINORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿH‰ó@RMINORZ
+CODE_SMELL
+†squid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHŠó@RMINORZ
+CODE_SMELL
+†squid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿH‹ó@RMINORZ
+CODE_SMELL
+squid:S00117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãó±HŒó@RMINORZ
+CODE_SMELL
+†squid:S00117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö½ÌÉıÿÿÿÿHó@RMINORZ
+CODE_SMELL
+squid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õó´ŸHó@RMINORZ
+CODE_SMELL
+squid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®şŸ·Hó@RMINORZ
+CODE_SMELL
+†squid:S00117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëş§ıÿÿÿÿHó@RMINORZ
+CODE_SMELL
+squid:S00117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¹°ÈH‘ó@RMINORZ
+CODE_SMELL
+€squid:S00117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñá–"H’ó@RMINORZ
+CODE_SMELL
+squid:S00117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü…’H“ó@RMINORZ
+CODE_SMELL
+†squid:S00117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH”ó@RMINORZ
+CODE_SMELL
+†squid:S00117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH•ó@RMINORZ
+CODE_SMELL
+†squid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH–ó@RMINORZ
+CODE_SMELL
+squid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®şŸ·H—ó@RMINORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëş§ıÿÿÿÿH˜ó@RMINORZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¹°ÈH™ó@RMINORZ
+CODE_SMELL
+€squid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñá–"Hšó@RMINORZ
+CODE_SMELL
+squid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü…’H›ó@RMINORZ
+CODE_SMELL
+vsquid:UselessImportCheck("6Remove this unused import 'jiangdu.fire.util.MapUtil'.(´şıÿÿÿÿHœó@RMINORZ
+CODE_SMELL
+}squid:UselessImportCheck)"=Remove this unused import 'jiangdu.fire.util.SqlUtilService'.(¤ó„ÀûÿÿÿÿHó@RMINORZ
+CODE_SMELL
+‹squid:UselessImportCheck"KRemove this unused import 'jiangdu.fire.service.common.BusFeedbackService'.(™ÜÂÜùÿÿÿÿHó@RMINORZ
+CODE_SMELL
+fsquid:UselessImportCheck"+Remove this unused import 'java.io.Reader'.(µû¨éHŸó@RMINORZ
+CODE_SMELL
+usquid:UselessImportCheck"5Remove this unused import 'java.rmi.RemoteException'.(Ä÷àÿÿÿÿÿH ó@RMINORZ
+CODE_SMELL
+qsquid:UselessImportCheck9"7Remove this unused import 'com.yifeng.profile.Profile'.(ã¦ÛLH¡ó@RMINORZ
+CODE_SMELL
+ksquid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»ºH¢ó@RMINORZ
+CODE_SMELL
+Zsquid:S1148Î"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH£ó@RMINORZVULNERABILITY
+Zsquid:S1148—"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¤ó@RMINORZVULNERABILITY
+Zsquid:S1148µ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¥ó@RMINORZVULNERABILITY
+Zsquid:S1148Î"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¦ó@RMINORZVULNERABILITY
+Zsquid:S1148á"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH§ó@RMINORZVULNERABILITY
+Zsquid:S1148‘"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¨ó@RMINORZVULNERABILITY
+Zsquid:S1148¨"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH©ó@RMINORZVULNERABILITY
+Zsquid:S1148¿"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHªó@RMINORZVULNERABILITY
+Zsquid:S1148Ú"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH«ó@RMINORZVULNERABILITY
+Zsquid:S1148é"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¬ó@RMINORZVULNERABILITY
+Zsquid:S1148†"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH­ó@RMINORZVULNERABILITY
+Zsquid:S1148İ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH®ó@RMINORZVULNERABILITY
+Zsquid:S1148À"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¯ó@RMINORZVULNERABILITY
+Zsquid:S1148÷"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH°ó@RMINORZVULNERABILITY
+Zsquid:S1148¢"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH±ó@RMINORZVULNERABILITY
+fsquid:S1948F"0Make "compnayService" transient or serializable.(ú¸ØĞûÿÿÿÿH²ó@RCRITICALZ
+CODE_SMELL
+`squid:S1948Q"/Make "implCPService" transient or serializable.( ıäÌH³ó@RCRITICALZ
+CODE_SMELL
+]squid:S1948S",Make "orgService" transient or serializable.(èàÙ«H´ó@RCRITICALZ
+CODE_SMELL
+asquid:S1948U"+Make "ImpOrgSer" transient or serializable.(¿¯²ºúÿÿÿÿHµó@RCRITICALZ
+CODE_SMELL
+msquid:S1155§">Use isEmpty() to check whether the collection is empty or not.(áõ»†H¶ó@RMINORZ
+CODE_SMELL
+rsquid:S1155‰">Use isEmpty() to check whether the collection is empty or not.(çÃÜ•úÿÿÿÿH·ó@RMINORZ
+CODE_SMELL
+msquid:S1155">Use isEmpty() to check whether the collection is empty or not.(¼µ‰©H¸ó@RMINORZ
+CODE_SMELL

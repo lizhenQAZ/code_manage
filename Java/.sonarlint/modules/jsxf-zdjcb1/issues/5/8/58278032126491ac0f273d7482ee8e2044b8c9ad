@@ -1,0 +1,19 @@
+
+ˆsquid:S2068
+"P'pwd' detected in this expression, review this potentially hardcoded credential.(ÊÏº¢üÿÿÿÿH¹’iRBLOCKERZVULNERABILITY
+ksquid:S1197"8Move the array designator from the variable to the type.(ÜïçÏüÿÿÿÿHº’iRMINORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÉÐÉ*H»’iRMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(ÿà†œùÿÿÿÿH¼’iRMAJORZ
+CODE_SMELL
+msquid:S1118":Add a private constructor to hide the implicit public one.(òÐ“ÈûÿÿÿÿH½’iRMAJORZ
+CODE_SMELL
+^squid:S1172"+Remove this unused method parameter "user".(ÜïçÏüÿÿÿÿH¾’iRMAJORZ
+CODE_SMELL
+squid:S2259B"U"NullPointerException" will be thrown when invoking method "convertStreamToString()".(ž§‰ÏùÿÿÿÿH¿’iRMAJORZBUG
+Ysquid:S1148?"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÀ’iRMINORZVULNERABILITY
+Ysquid:S1148U"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÁ’iRMINORZVULNERABILITY
+Ysquid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÂ’iRMINORZVULNERABILITY
+squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(õÕËëHÃ’iRMAJORZ
+CODE_SMELL

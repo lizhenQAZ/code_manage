@@ -1,0 +1,8 @@
+
+‚javascript:S2814á"IRename "options" as this name is already used in declaration at line 217.(¬«òúùÿÿÿÿH¢ëiRMAJORZ
+CODE_SMELL
+~javascript:S2814"FRename "slide" as this name is already used in declaration at line 19.(»êÐ¥úÿÿÿÿH£ëiRMAJORZ
+CODE_SMELL
+Œjavascript:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ÈþÛÅýÿÿÿÿH¤ëiRMAJORZBUG
+”javascript:S2703¸"YAdd the "let", "const" or "var" keyword to this declaration of "con" to make it explicit.(¬£ÛŽÿÿÿÿÿH¥ëiRBLOCKERZ
+CODE_SMELL

@@ -1,0 +1,25 @@
+
+javascript:S2814n"GRename "label" as this name is already used in declaration at line 103.(©±£úÿÿÿÿHŸÕ4RMAJORZ
+CODE_SMELL
+javascript:S3973€"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØH¢Õ4RCRITICALZ
+CODE_SMELL
+mjavascript:S1854R":Remove this useless assignment to local variable "marker2"(í¸œÉH¦Õ4RMAJORZ
+CODE_SMELL
+•javascript:S2703B"[Add the "let", "const" or "var" keyword to this declaration of "alarm" to make it explicit.(Å›ïîÿÿÿÿÿH§Õ4RBLOCKERZ
+CODE_SMELL
+Ÿjavascript:S4165‰"fReview this useless assignment: "typecode" already holds the assigned value along all execution paths.(ù²ÄçşÿÿÿÿHÕ4RMAJORZ
+CODE_SMELL
+javascript:S3973Ò"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØH¤Õ4RCRITICALZ
+CODE_SMELL
+yjavascript:S2814"FRename "row_tz" as this name is already used in declaration at line 4.(Îå°—H¡Õ4RMAJORZ
+CODE_SMELL
+šjavascript:S2703"`Add the "let", "const" or "var" keyword to this declaration of "first_flag" to make it explicit.(Ûµî™ıÿÿÿÿH©Õ4RBLOCKERZ
+CODE_SMELL
+javascript:S3973ò"YUse curly braces or indentation to denote the code conditionally executed by this "else".(ÔÍØH£Õ4RCRITICALZ
+CODE_SMELL
+tjavascript:UnusedVariableR"8Remove the declaration of the unused 'marker2' variable.(í¸œÉH¥Õ4RMINORZ
+CODE_SMELL
+–javascript:S27035"aAdd the "let", "const" or "var" keyword to this declaration of "currentCity" to make it explicit.(Ş²ºıH¨Õ4RBLOCKERZ
+CODE_SMELL
+zjavascript:S2814u"GRename "label" as this name is already used in declaration at line 103.(¤î‚H Õ4RMAJORZ
+CODE_SMELL

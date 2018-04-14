@@ -1,0 +1,34 @@
+
+squid:S00116
+"RRename this field "role_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼½ÉğHÉê@RMINORZ
+CODE_SMELL
+}squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éæ¤HÊê@RMINORZ
+CODE_SMELL
+€squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õœÊÙHËê@RMINORZ
+CODE_SMELL
+‚squid:S00116"TRename this field "role_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…³İ`HÌê@RMINORZ
+CODE_SMELL
+|squid:S00100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¢¨vHÍê@RMINORZ
+CODE_SMELL
+…squid:S00117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’„„ûÿÿÿÿHÎê@RMINORZ
+CODE_SMELL
+‚squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì³ù¬ûÿÿÿÿHÏê@RMINORZ
+CODE_SMELL
+|squid:S00100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ·ç0HĞê@RMINORZ
+CODE_SMELL
+}squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õœÊÙHÑê@RMINORZ
+CODE_SMELL
+‚squid:S00100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’„„ûÿÿÿÿHÒê@RMINORZ
+CODE_SMELL
+‚squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Š‚§ıÿÿÿÿHÓê@RMINORZ
+CODE_SMELL
+‚squid:S00100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­™¼ÚøÿÿÿÿHÔê@RMINORZ
+CODE_SMELL
+squid:S00116	"QRename this field "org_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¾«HÕê@RMINORZ
+CODE_SMELL
+‡squid:S00116"SRename this field "org_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ÿ“ÅüÿÿÿÿHÖê@RMINORZ
+CODE_SMELL
+…squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Š‚§ıÿÿÿÿH×ê@RMINORZ
+CODE_SMELL
+…squid:S00117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­™¼ÚøÿÿÿÿHØê@RMINORZ
+CODE_SMELL

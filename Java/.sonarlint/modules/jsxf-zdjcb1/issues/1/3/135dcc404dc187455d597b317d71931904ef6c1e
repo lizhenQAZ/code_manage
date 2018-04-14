@@ -1,0 +1,186 @@
+
+Zsquid:S1148¹"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHéıaRMINORZVULNERABILITY
+Šsquid:S00100½"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İâıÎüÿÿÿÿ8ÄûÊ”¦,HêıaRMINORZ
+CODE_SMELL
+csquid:S1066Û"/Merge this if statement with the enclosing one.(ƒ…¢ŠùÿÿÿÿHëıaRMAJORZ
+CODE_SMELL
+squid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õó´ŸHìıaRMINORZ
+CODE_SMELL
+Ã%squid:RedundantThrowsDeclarationCheck¶"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Í›Ó×ùÿÿÿÿ8ÄûÊ”¦,HíıaRMINORZ
+CODE_SMELL
+†squid:S1192M"PDefine a constant instead of duplicating this literal "UserPrivileges_" 4 times.(ü‡³›ûÿÿÿÿHîıaRCRITICALZ
+CODE_SMELL
+squid:S00117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¼ÚHïıaRMINORZ
+CODE_SMELL
+†squid:S1192Æ"ODefine a constant instead of duplicating this literal "sessionAlarmNo" 4 times.(ÎÙ›ûøÿÿÿÿHğıaRCRITICALZ
+CODE_SMELL
+„squid:S1192N"NDefine a constant instead of duplicating this literal "tableRoleAll_" 4 times.(ÃüÀàşÿÿÿÿHñıaRCRITICALZ
+CODE_SMELL
+zsquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(ÂµÃØHòıaRMAJORZ
+CODE_SMELL
+esquid:S1135§"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHóıaRINFOZ
+CODE_SMELL
+Æsquid:S1192Ó"”Define a constant instead of duplicating this literal "select org_id from jsxf_org_jcj where org_name like '%æ€»é˜Ÿ' Start With org_id = '" 3 times.(íî¹ HôıaRCRITICALZ
+CODE_SMELL
+esquid:S1135¸"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHõıaRINFOZ
+CODE_SMELL
+hsquid:S1854¢"9Remove this useless assignment to local variable "orgid".(·€òHöıaRMAJORZ
+CODE_SMELL
+~squid:UselessImportCheck"CRemove this unused import 'javax.servlet.http.HttpServletResponse'.(Á¨ïëH÷ıaRMINORZ
+CODE_SMELL
+Zsquid:S1148¿"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHøıaRMINORZVULNERABILITY
+hsquid:S1854Õ"9Remove this useless assignment to local variable "orgid".(·€òHùıaRMAJORZ
+CODE_SMELL
+msquid:S1155Â">Use isEmpty() to check whether the collection is empty or not.(¼µ‰©HúıaRMINORZ
+CODE_SMELL
+†squid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö½ÌÉıÿÿÿÿHûıaRMINORZ
+CODE_SMELL
+‚squid:S1192Ç"PDefine a constant instead of duplicating this literal "ç™»å½•æˆåŠŸï¼" 3 times.(… ººHüıaRCRITICALZ
+CODE_SMELL
+squid:S2068p"U'password' detected in this expression, review this potentially hardcoded credential.(Ù„¹¯şÿÿÿÿHııaRBLOCKERZVULNERABILITY
+squid:S00117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¼ÚHşıaRMINORZ
+CODE_SMELL
+squid:S00117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍË´HÿıaRMINORZ
+CODE_SMELL
+hsquid:S1854Ï"9Remove this useless assignment to local variable "orgid".(·€òH€şaRMAJORZ
+CODE_SMELL
+`squid:S1135Ó"2Complete the task associated to this TODO comment.(‡ñÅ¼HşaRINFOZ
+CODE_SMELL
+}squid:UselessImportCheck"=Remove this unused import 'jiangdu.fire.util.UrlDecodAction'.(ş ŞğüÿÿÿÿH‚şaRMINORZ
+CODE_SMELL
+xsquid:UselessImportCheck4"8Remove this unused import 'com.yifeng.utils.CacheUtils'.(ã’úßøÿÿÿÿHƒşaRMINORZ
+CODE_SMELL
+ssquid:S1854Ü"?Remove this useless assignment to local variable "paginations".(Èã•‹şÿÿÿÿH„şaRMAJORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckÕ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ìú‰ê8ÄûÊ”¦,H…şaRMINORZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆøÊ»H†şaRMINORZ
+CODE_SMELL
+Zsquid:S1148­"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‡şaRMINORZVULNERABILITY
+€squid:S1192Q"JDefine a constant instead of duplicating this literal "password" 11 times.(Ù„¹¯şÿÿÿÿHˆşaRCRITICALZ
+CODE_SMELL
+fsquid:S1948C".Make "alarmService" transient or serializable.(ó‰¨š8ÄûÊ”¦,H‰şaRCRITICALZ
+CODE_SMELL
+ysquid:UselessImportCheck">Remove this unused import 'jiangdu.fire.util.wj.FastJsonUtil'.(ˆÀì™HŠşaRMINORZ
+CODE_SMELL
+squid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢·åÚH‹şaRMINORZ
+CODE_SMELL
+Nsquid:S2386="Make this member "protected".(œ©‡õHŒşaRMINORZVULNERABILITY
+squid:S1192P"IDefine a constant instead of duplicating this literal "account" 12 times.(ÖÃúÀüÿÿÿÿHşaRCRITICALZ
+CODE_SMELL
+squid:S00117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãó±HşaRMINORZ
+CODE_SMELL
+ysquid:S1192"GDefine a constant instead of duplicating this literal "manage" 7 times.(§ˆ°šHşaRCRITICALZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢·åÚHşaRMINORZ
+CODE_SMELL
+Šsquid:S3776ï"SRefactor this method to reduce its Cognitive Complexity from 110 to the 15 allowed.(Ù‰ßúÿÿÿÿH‘şaRCRITICALZ
+CODE_SMELL
+†squid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó€×‰úÿÿÿÿH’şaRMINORZ
+CODE_SMELL
+|squid:UselessImportCheck5"ARemove this unused import 'com.yifeng.utils.ContextCacheHandler'.(º§„¥H“şaRMINORZ
+CODE_SMELL
+rsquid:S1155…">Use isEmpty() to check whether the collection is empty or not.(çÃÜ•úÿÿÿÿH”şaRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLineô"<This block of commented-out lines of code should be removed.(ØíİÒıÿÿÿÿH•şaRMAJORZ
+CODE_SMELL
+squid:S00117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›„ƒèH–şaRMINORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLineé"<This block of commented-out lines of code should be removed.(¶»ÙŠH—şaRMAJORZ
+CODE_SMELL
+squid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›„ƒèH˜şaRMINORZ
+CODE_SMELL
+squid:S00117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä§œH™şaRMINORZ
+CODE_SMELL
+ksquid:UselessImportCheck"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛHšşaRMINORZ
+CODE_SMELL
+Zsquid:S1148¨"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH›şaRMINORZVULNERABILITY
+†squid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¤¦ŞüÿÿÿÿHœşaRMINORZ
+CODE_SMELL
+†squid:S00117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó€×‰úÿÿÿÿHşaRMINORZ
+CODE_SMELL
+rsquid:S1155¹">Use isEmpty() to check whether the collection is empty or not.(¡ÿ•ÊşÿÿÿÿHşaRMINORZ
+CODE_SMELL
+zsquid:S1192ò"HDefine a constant instead of duplicating this literal "role_id" 5 times.(Ãó±HŸşaRCRITICALZ
+CODE_SMELL
+`squid:S1135Ù"2Complete the task associated to this TODO comment.(‡ñÅ¼H şaRINFOZ
+CODE_SMELL
+csquid:EmptyStatementUsageCheckŞ"Remove this empty statement.(ôŸìúÿÿÿÿH¡şaRMINORZ
+CODE_SMELL
+squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆøÊ»H¢şaRMINORZ
+CODE_SMELL
+squid:S1192Ê"MDefine a constant instead of duplicating this literal "jdbcTemplate" 3 times.(À†êH£şaRCRITICALZ
+CODE_SMELL
+}squid:S1192›"LDefine a constant instead of duplicating this literal "manageCorps" 5 times.(ˆ©ÜDH¤şaRCRITICALZ
+CODE_SMELL
+ysquid:S1192ü"GDefine a constant instead of duplicating this literal "locked" 3 times.(¡ç›£H¥şaRCRITICALZ
+CODE_SMELL
+squid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍË´H¦şaRMINORZ
+CODE_SMELL
+rsquid:S1155±">Use isEmpty() to check whether the collection is empty or not.(çÃÜ•úÿÿÿÿH§şaRMINORZ
+CODE_SMELL
+esquid:S1135¿"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¨şaRINFOZ
+CODE_SMELL
+isquid:S1948â"0Make "authentication" transient or serializable.(‚Õ¸8ÄûÊ”¦,H©şaRCRITICALZ
+CODE_SMELL
+squid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(·×”÷úÿÿÿÿHªşaRMAJORZ
+CODE_SMELL
+jsquid:S1948A"-Make "userService" transient or serializable.( óŒİÿÿÿÿÿ8ÄûÊ”¦,H«şaRCRITICALZ
+CODE_SMELL
+†squid:S1192L"VDefine a constant instead of duplicating this literal "sessionUserPrivileges" 5 times.(À¨ßCH¬şaRCRITICALZ
+CODE_SMELL
+„squid:S00100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ğâ8ÄûÊ”¦,H­şaRMINORZ
+CODE_SMELL
+„squid:S1192O"NDefine a constant instead of duplicating this literal "cur_userInfo_" 4 times.(¦§Õ•øÿÿÿÿH®şaRCRITICALZ
+CODE_SMELL
+€squid:S1192¹"IDefine a constant instead of duplicating this literal "alarm_no" 9 times.(éö»ñÿÿÿÿÿH¯şaRCRITICALZ
+CODE_SMELL
+ôsquid:S1192Ï"¼Define a constant instead of duplicating this literal "select org_id from jsxf_org_jcj where org_name like '%æ”¯é˜Ÿ' or org_name like '%æ€»é˜Ÿ' and rownum=1 Start With org_id = '" 3 times.(„Åó“øÿÿÿÿH°şaRCRITICALZ
+CODE_SMELL
+Nsquid:S2386;"Make this member "protected".(¡–óH±şaRMINORZVULNERABILITY
+squid:S00117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õó´ŸH²şaRMINORZ
+CODE_SMELL
+…squid:UselessImportCheck"JRemove this unused import 'jiangdu.fire.service.common.impl.AlarmService'.(Íæ£H³şaRMINORZ
+CODE_SMELL
+Ssquid:S2386?"Make this member "protected".(®Ü•„ûÿÿÿÿH´şaRMINORZVULNERABILITY
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÎ»şÿÿÿÿHµşaRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine”"<This block of commented-out lines of code should be removed.(Òè²ÖøÿÿÿÿH¶şaRMAJORZ
+CODE_SMELL
+qsquid:UselessImportCheck1"7Remove this unused import 'com.yifeng.profile.Profile'.(ã¦ÛLH·şaRMINORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(ÔÔ‡­H¸şaRMAJORZ
+CODE_SMELL
+Zsquid:S1148À"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¹şaRMINORZVULNERABILITY
+rsquid:S1155¸">Use isEmpty() to check whether the collection is empty or not.(çÃÜ•úÿÿÿÿHºşaRMINORZ
+CODE_SMELL
+msquid:S1155‰">Use isEmpty() to check whether the collection is empty or not.(¼µ‰©H»şaRMINORZ
+CODE_SMELL
+`squid:S1135¦"2Complete the task associated to this TODO comment.(‡ñÅ¼H¼şaRINFOZ
+CODE_SMELL
+†squid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¤¦ŞüÿÿÿÿH½şaRMINORZ
+CODE_SMELL
+msquid:S1155»">Use isEmpty() to check whether the collection is empty or not.(¼µ‰©H¾şaRMINORZ
+CODE_SMELL
+esquid:S1135¬"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¿şaRINFOZ
+CODE_SMELL
+zsquid:CommentedOutCodeLineü"<This block of commented-out lines of code should be removed.(¡ç›£HÀşaRMAJORZ
+CODE_SMELL
+†squid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÎ»şÿÿÿÿHÁşaRMINORZ
+CODE_SMELL
+squid:S2068õ"U'password' detected in this expression, review this potentially hardcoded credential.(Ù„¹¯şÿÿÿÿHÂşaRBLOCKERZVULNERABILITY
+lsquid:S1197…"8Move the array designator from the variable to the type.(Èİà°øÿÿÿÿHÃşaRMINORZ
+CODE_SMELL
+squid:S2068Q"U'password' detected in this expression, review this potentially hardcoded credential.(Ù„¹¯şÿÿÿÿHÄşaRBLOCKERZVULNERABILITY
+^squid:S00108‚")Either remove or fill this block of code.(Ó€´÷ùÿÿÿÿHÅşaRMAJORZ
+CODE_SMELL
+œsquid:S1192Ï"eDefine a constant instead of duplicating this literal "' Connect By Prior parent_id=org_id " 6 times.(„Åó“øÿÿÿÿHÆşaRCRITICALZ
+CODE_SMELL
+dsquid:S1481Ü"0Remove this unused "paginations" local variable.(Èã•‹şÿÿÿÿHÇşaRMINORZ
+CODE_SMELL
+squid:S00117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õó´ŸHÈşaRMINORZ
+CODE_SMELL
+esquid:S1135¾"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÉşaRINFOZ
+CODE_SMELL
+ƒsquid:S3776i"RRefactor this method to reduce its Cognitive Complexity from 43 to the 15 allowed.(»ĞâHÊşaRCRITICALZ
+CODE_SMELL

@@ -1,0 +1,13 @@
+
+„javascript:S3699I"XRemove this use of the output from this function; this function doesn't return anything.(ÜÖÎûH®¦ERMAJORZBUG
+…javascript:S3699Ø"XRemove this use of the output from this function; this function doesn't return anything.(ñé§“H¯¦ERMAJORZBUG
+€javascript:S2589€"LRefactor this code so that this expression does not always evaluate to true.(àšŸ™H°¦ERMAJORZ
+CODE_SMELL
+njavascript:UnusedVariableI"2Remove the declaration of the unused 'L' variable.(ÜÖÎûH±¦ERMINORZ
+CODE_SMELL
+ojavascript:UnusedVariableØ"2Remove the declaration of the unused 'D' variable.(ñé§“H²¦ERMINORZ
+CODE_SMELL
+hjavascript:S1854Ø"4Remove this useless assignment to local variable "D"(ñé§“H³¦ERMAJORZ
+CODE_SMELL
+gjavascript:S1854I"4Remove this useless assignment to local variable "L"(ÜÖÎûH´¦ERMAJORZ
+CODE_SMELL

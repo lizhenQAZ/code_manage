@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"SquareNum","h":"","u":""}]

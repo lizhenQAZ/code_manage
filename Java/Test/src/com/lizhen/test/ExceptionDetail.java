@@ -1,0 +1,39 @@
+package com.lizhen.test;
+import java.io.FileReader;
+
+public class ExceptionDetail {
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        //检查异常1.打开文件
+        FileReader fr=null;
+        try {
+            fr=new FileReader("d:\\aa.text");
+            // 在出现异常的地方，下面的代码的就不执行
+            System.out.println("aaa");
+        } catch (Exception e) {
+            System.out.println("进入catch");
+            // 文档读取异常
+            // System.exit(-1);
+            System.out.println("message="+e.getLocalizedMessage());  //没有报哪一行出错
+            e.printStackTrace();   // 打印出错异常还出现可以报出错先异常的行
+        }
+        // 这个语句块不管发生没有发生异常，都会执行
+        // 一般来说，把需要关闭的资源，文件，连接，内存等
+        finally
+        {
+            System.out.println("进入finally");
+            if(fr!=null);
+            {
+                try {
+                    fr.close();
+                } catch (Exception e) {
+                    // TODO: handle exception
+                    e.printStackTrace();
+                }
+            }
+        }
+        System.out.println("OK");
+    }
+}

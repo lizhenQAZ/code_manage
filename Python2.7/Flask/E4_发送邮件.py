@@ -12,11 +12,11 @@ app = Flask(__name__)
 
 app.config.update(
     DEBUG=True,
-    MAIL_SERVER='smtp.qq.com',
-    MAIL_PROT=465,
+    MAIL_SERVER='smtp.163.com',
+    MAIL_PROT=25,
     MAIL_USE_TLS=True,
-    MAIL_USERNAME='516960831@qq.com',
-    MAIL_PASSWORD='pdqerqvsvsdlbgij',
+    MAIL_USERNAME='lz15251847740@163.com',
+    MAIL_PASSWORD='qazwsx741852',
 )
 
 mail = Mail(app)
@@ -24,7 +24,7 @@ mail = Mail(app)
 
 @app.route('/')
 def index():
-    msg = Message("Hello test", html='Hello test mail', sender='516960831@qq.com', recipients=['516960831@qq.com'])
+    msg = Message("Hello test", html='Hello test mail', sender='lz15251847740@163.com', recipients=['lz15251847740@163.com'])
     mail.send(msg)
     print "Mail sent"
     return "Send successfully"

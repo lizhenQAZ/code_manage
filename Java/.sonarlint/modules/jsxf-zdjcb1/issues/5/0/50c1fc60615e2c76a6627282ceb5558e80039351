@@ -1,0 +1,31 @@
+
+}javascript:S2814İ"IRename "subpost" as this name is already used in declaration at line 597.(¦³ìHó3RMAJORZ
+CODE_SMELL
+zjavascript:S2814Â"FRename "sync" as this name is already used in declaration at line 693.(¾ªùH‘ó3RMAJORZ
+CODE_SMELL
+ƒjavascript:S2814”"JRename "selector" as this name is already used in declaration at line 914.(¤˜•ªÿÿÿÿÿH’ó3RMAJORZ
+CODE_SMELL
+|javascript:S2814d"IRename "settings" as this name is already used in declaration at line 99.(á³°ÚH“ó3RMAJORZ
+CODE_SMELL
+ƒjavascript:S2814‰"JRename "selector" as this name is already used in declaration at line 903.(¤˜•ªÿÿÿÿÿH”ó3RMAJORZ
+CODE_SMELL
+javascript:S2814ï"KRename "selector" as this name is already used in declaration at line 1002.(ìØòöH•ó3RMAJORZ
+CODE_SMELL
+~javascript:S2814Ä"JRename "theother" as this name is already used in declaration at line 395.(–š²ĞH–ó3RMAJORZ
+CODE_SMELL
+ƒjavascript:S2814‹"JRename "datatype" as this name is already used in declaration at line 487.(´¶™øÿÿÿÿH—ó3RMAJORZ
+CODE_SMELL
+‚javascript:S2814ş"IRename "curform" as this name is already used in declaration at line 381.(ŠÌÊ½ûÿÿÿÿH˜ó3RMAJORZ
+CODE_SMELL
+zjavascript:S2814„"FRename "top" as this name is already used in declaration at line 1026.(’±ÏÎH™ó3RMAJORZ
+CODE_SMELL
+javascript:S2814­"FRename "rule" as this name is already used in declaration at line 925.(øÇÌøÿÿÿÿHšó3RMAJORZ
+CODE_SMELL
+Ujavascript:S1116œ"Remove this empty statement.(ôŸìúÿÿÿÿH›ó3RMINORZ
+CODE_SMELL
+yjavascript:UnusedVariableï"7Remove the declaration of the unused 'passed' variable.(–ÍßàüÿÿÿÿHœó3RMINORZ
+CODE_SMELL
+rjavascript:UnusedVariableğ"5Remove the declaration of the unused 'type' variable.(¡òÜHó3RMINORZ
+CODE_SMELL
+kjavascript:S1854ğ"7Remove this useless assignment to local variable "type"(¡òÜHó3RMAJORZ
+CODE_SMELL

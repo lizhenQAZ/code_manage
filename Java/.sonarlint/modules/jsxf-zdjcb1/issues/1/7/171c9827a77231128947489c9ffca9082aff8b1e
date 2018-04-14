@@ -1,0 +1,217 @@
+
+~squid:S1192·"LDefine a constant instead of duplicating this literal "TEMPERATURE" 3 times.(¾•¤ÿHüÄ`RCRITICALZ
+CODE_SMELL
+ysquid:S1192´"GDefine a constant instead of duplicating this literal "STATUS" 3 times.(‰½ã¯HıÄ`RCRITICALZ
+CODE_SMELL
+|squid:S1192¹"JDefine a constant instead of duplicating this literal "TOTALTIME" 3 times.(¢ÛÎ´HşÄ`RCRITICALZ
+CODE_SMELL
+€squid:S1192¼"NDefine a constant instead of duplicating this literal "ä¿å­˜æˆåŠŸ!" 5 times.(ŒÁ®ÎHÿÄ`RCRITICALZ
+CODE_SMELL
+€squid:S1192U"JDefine a constant instead of duplicating this literal "alarm_no" 22 times.(‘Õ«ãùÿÿÿÿH€Å`RCRITICALZ
+CODE_SMELL
+€squid:S1192¹"NDefine a constant instead of duplicating this literal "ä¿å­˜å¤±è´¥!" 7 times.(àÛ£€HÅ`RCRITICALZ
+CODE_SMELL
+squid:S1192º"HDefine a constant instead of duplicating this literal "REPTIME" 3 times.(ìƒô„úÿÿÿÿH‚Å`RCRITICALZ
+CODE_SMELL
+squid:S1192¬"HDefine a constant instead of duplicating this literal "org_id" 18 times.(±ÿ°îıÿÿÿÿHƒÅ`RCRITICALZ
+CODE_SMELL
+xsquid:S1192í"FDefine a constant instead of duplicating this literal "table" 3 times.(®°üÓH„Å`RCRITICALZ
+CODE_SMELL
+squid:S1192¶"JDefine a constant instead of duplicating this literal "AUTOALARM" 3 times.(õùú¢ıÿÿÿÿH…Å`RCRITICALZ
+CODE_SMELL
+~squid:S1192µ"LDefine a constant instead of duplicating this literal "MANUALALARM" 3 times.(›ëæÿH†Å`RCRITICALZ
+CODE_SMELL
+…squid:S1192¸"NDefine a constant instead of duplicating this literal "TOTALDISTANCE" 3 times.(Û¬×ıÿÿÿÿH‡Å`RCRITICALZ
+CODE_SMELL
+‚squid:S1192”"PDefine a constant instead of duplicating this literal "ä¿å­˜å¤±è´¥ï¼" 5 times.(ŠÖ½®HˆÅ`RCRITICALZ
+CODE_SMELL
+‡squid:S1192–"PDefine a constant instead of duplicating this literal "ä¿å­˜æˆåŠŸï¼" 6 times.(ë¢‘şûÿÿÿÿH‰Å`RCRITICALZ
+CODE_SMELL
+‘squid:S4144v"^Update this method so that its implementation is not identical to "commandCenter1" on line 82.(”À•ÆşÿÿÿÿHŠÅ`RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLineX"<This block of commented-out lines of code should be removed.(¶¹Í7H‹Å`RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine{"<This block of commented-out lines of code should be removed.(¶¹Í7HŒÅ`RMAJORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLineâ"<This block of commented-out lines of code should be removed.(šİ—éHÅ`RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLineõ"<This block of commented-out lines of code should be removed.(ü‚ş—üÿÿÿÿHÅ`RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine£"<This block of commented-out lines of code should be removed.(ü‚ş—üÿÿÿÿHÅ`RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLineÌ"<This block of commented-out lines of code should be removed.(ü‚ş—üÿÿÿÿHÅ`RMAJORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ÎŞÀH‘Å`RMAJORZ
+CODE_SMELL
+_squid:S11353"2Complete the task associated to this TODO comment.(Üğ£ÅH’Å`RINFOZ
+CODE_SMELL
+`squid:S1135"2Complete the task associated to this TODO comment.(Üğ£ÅH“Å`RINFOZ
+CODE_SMELL
+`squid:S1135¾"2Complete the task associated to this TODO comment.(Üğ£ÅH”Å`RINFOZ
+CODE_SMELL
+`squid:S1135ƒ"2Complete the task associated to this TODO comment.(Üğ£ÅH•Å`RINFOZ
+CODE_SMELL
+`squid:S1135—"2Complete the task associated to this TODO comment.(Üğ£ÅH–Å`RINFOZ
+CODE_SMELL
+`squid:S1135Õ"2Complete the task associated to this TODO comment.(Üğ£ÅH—Å`RINFOZ
+CODE_SMELL
+`squid:S1135ù"2Complete the task associated to this TODO comment.(Üğ£ÅH˜Å`RINFOZ
+CODE_SMELL
+Asquid:S2438í""g" is a "Thread".(•Â§şH™Å`RMAJORZ
+CODE_SMELL
+asquid:S1481×"-Remove this unused "org_name" local variable.(œ®‹—üÿÿÿÿHšÅ`RMINORZ
+CODE_SMELL
+‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 68 to the 15 allowed.(îé˜ñùÿÿÿÿH›Å`RCRITICALZ
+CODE_SMELL
+qsquid:CallToDeprecatedMethodÜ"2Remove this use of "SqlAdapter"; it is deprecated.(„‰ƒHœÅ`RMINORZ
+CODE_SMELL
+wsquid:CallToDeprecatedMethodó"2Remove this use of "SqlAdapter"; it is deprecated.(¹†‹‚úÿÿÿÿHÅ`RMINORZ
+CODE_SMELL
+ƒsquid:S00100É"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¦ÒúÿÿÿÿHÅ`RMINORZ
+CODE_SMELL
+}squid:S00100Ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚËŞHŸÅ`RMINORZ
+CODE_SMELL
+ƒsquid:S00100ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¨¢ÇùÿÿÿÿH Å`RMINORZ
+CODE_SMELL
+psquid:S1854×"<Remove this useless assignment to local variable "org_name".(œ®‹—üÿÿÿÿH¡Å`RMAJORZ
+CODE_SMELL
+msquid:S1854¨"9Remove this useless assignment to local variable "t_row".(Ö¯óõıÿÿÿÿH¢Å`RMAJORZ
+CODE_SMELL
+fsquid:S1854§"7Remove this useless assignment to local variable "row".(Ì®Ô©H£Å`RMAJORZ
+CODE_SMELL
+…squid:S00117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Õ«ãùÿÿÿÿH¤Å`RMINORZ
+CODE_SMELL
+…squid:S00117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH¥Å`RMINORZ
+CODE_SMELL
+…squid:S00117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Õ«ãùÿÿÿÿH¦Å`RMINORZ
+CODE_SMELL
+†squid:S00117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH§Å`RMINORZ
+CODE_SMELL
+†squid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÕæ¼şÿÿÿÿH¨Å`RMINORZ
+CODE_SMELL
+†squid:S00117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üçØøÿÿÿÿH©Å`RMINORZ
+CODE_SMELL
+†squid:S00117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Õ«ãùÿÿÿÿHªÅ`RMINORZ
+CODE_SMELL
+†squid:S00117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH«Å`RMINORZ
+CODE_SMELL
+†squid:S00117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üçØøÿÿÿÿH¬Å`RMINORZ
+CODE_SMELL
+†squid:S00117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Õ«ãùÿÿÿÿH­Å`RMINORZ
+CODE_SMELL
+†squid:S00117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH®Å`RMINORZ
+CODE_SMELL
+†squid:S00117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Õ«ãùÿÿÿÿH¯Å`RMINORZ
+CODE_SMELL
+†squid:S00117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH°Å`RMINORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Õ«ãùÿÿÿÿH±Å`RMINORZ
+CODE_SMELL
+†squid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH²Å`RMINORZ
+CODE_SMELL
+†squid:S00117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Õ«ãùÿÿÿÿH³Å`RMINORZ
+CODE_SMELL
+†squid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH´Å`RMINORZ
+CODE_SMELL
+squid:S00117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›“­âHµÅ`RMINORZ
+CODE_SMELL
+†squid:S00117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¶Å`RMINORZ
+CODE_SMELL
+†squid:S00117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH·Å`RMINORZ
+CODE_SMELL
+†squid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¸Å`RMINORZ
+CODE_SMELL
+squid:S00117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›“­âH¹Å`RMINORZ
+CODE_SMELL
+†squid:S00117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHºÅ`RMINORZ
+CODE_SMELL
+†squid:S00117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÑşÕùÿÿÿÿH»Å`RMINORZ
+CODE_SMELL
+†squid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¼Å`RMINORZ
+CODE_SMELL
+squid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¯œH½Å`RMINORZ
+CODE_SMELL
+†squid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¾Å`RMINORZ
+CODE_SMELL
+squid:S00117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•à¿ÑH¿Å`RMINORZ
+CODE_SMELL
+†squid:S00117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡‹ÅÂûÿÿÿÿHÀÅ`RMINORZ
+CODE_SMELL
+†squid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ®‹—üÿÿÿÿHÁÅ`RMINORZ
+CODE_SMELL
+†squid:S00117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô·¦øÿÿÿÿHÂÅ`RMINORZ
+CODE_SMELL
+†squid:S00117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÜ‹ÖøÿÿÿÿHÃÅ`RMINORZ
+CODE_SMELL
+†squid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¯óõıÿÿÿÿHÄÅ`RMINORZ
+CODE_SMELL
+†squid:S00117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„åšòıÿÿÿÿHÅÅ`RMINORZ
+CODE_SMELL
+†squid:S00117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¾ˆÆÿÿÿÿÿHÆÅ`RMINORZ
+CODE_SMELL
+squid:S00117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÉŒµHÇÅ`RMINORZ
+CODE_SMELL
+†squid:S00117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÎ‡‡ûÿÿÿÿHÈÅ`RMINORZ
+CODE_SMELL
+†squid:S00117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô‹²·üÿÿÿÿHÉÅ`RMINORZ
+CODE_SMELL
+squid:S00117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ÀÆæHÊÅ`RMINORZ
+CODE_SMELL
+squid:S00117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Œ·‡HËÅ`RMINORZ
+CODE_SMELL
+†squid:S00117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸßÙ®ÿÿÿÿÿHÌÅ`RMINORZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÄİµHÍÅ`RMINORZ
+CODE_SMELL
+†squid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÎÅ`RMINORZ
+CODE_SMELL
+…squid:UselessImportCheck"JRemove this unused import 'jiangdu.fire.service.common.impl.AlarmService'.(Íæ£HÏÅ`RMINORZ
+CODE_SMELL
+vsquid:UselessImportCheck";Remove this unused import 'jiangdu.fire.util.BaiduMessage'.(…îØ‹HĞÅ`RMINORZ
+CODE_SMELL
+ˆsquid:UselessImportCheck+"NRemove this unused import 'com.yifeng.security.authentication.Authentication'.(“ùóHÑÅ`RMINORZ
+CODE_SMELL
+Ysquid:S1148`"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÒÅ`RMINORZVULNERABILITY
+Zsquid:S1148ƒ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÓÅ`RMINORZVULNERABILITY
+Zsquid:S1148¦"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÔÅ`RMINORZVULNERABILITY
+Zsquid:S1148º"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÕÅ`RMINORZVULNERABILITY
+Zsquid:S1148Ì"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÖÅ`RMINORZVULNERABILITY
+Zsquid:S1148æ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH×Å`RMINORZVULNERABILITY
+Zsquid:S1148û"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHØÅ`RMINORZVULNERABILITY
+Zsquid:S1148’"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÙÅ`RMINORZVULNERABILITY
+Zsquid:S1148¨"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÚÅ`RMINORZVULNERABILITY
+Zsquid:S1148º"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÛÅ`RMINORZVULNERABILITY
+Zsquid:S1148Ñ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÜÅ`RMINORZVULNERABILITY
+Zsquid:S1148ã"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHİÅ`RMINORZVULNERABILITY
+Zsquid:S1148ô"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHŞÅ`RMINORZVULNERABILITY
+Zsquid:S1148†"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHßÅ`RMINORZVULNERABILITY
+Zsquid:S1148“"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHàÅ`RMINORZVULNERABILITY
+Zsquid:S1148«"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHáÅ`RMINORZVULNERABILITY
+Zsquid:S1148¾"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHâÅ`RMINORZVULNERABILITY
+Zsquid:S1148Ñ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHãÅ`RMINORZVULNERABILITY
+Zsquid:S1148ê"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHäÅ`RMINORZVULNERABILITY
+Zsquid:S1148€"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHåÅ`RMINORZVULNERABILITY
+Zsquid:S1148–"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHæÅ`RMINORZVULNERABILITY
+Zsquid:S1148§"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHçÅ`RMINORZVULNERABILITY
+Zsquid:S1148´"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHèÅ`RMINORZVULNERABILITY
+Zsquid:S1148ö"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHéÅ`RMINORZVULNERABILITY
+Zsquid:S1148ä"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHêÅ`RMINORZVULNERABILITY
+Zsquid:S1148Š"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHëÅ`RMINORZVULNERABILITY
+_squid:S1948:".Make "alarmService" transient or serializable.(ó‰¨šHìÅ`RCRITICALZ
+CODE_SMELL
+csquid:S1948<"-Make "jczdService" transient or serializable.(­ïõİùÿÿÿÿHíÅ`RCRITICALZ
+CODE_SMELL
+Ysquid:S1948>"(Make "assess" transient or serializable.(è´HîÅ`RCRITICALZ
+CODE_SMELL
+]squid:S1948@",Make "orgService" transient or serializable.(èàÙ«HïÅ`RCRITICALZ
+CODE_SMELL
+Ysquid:S1948B"(Make "impbwk" transient or serializable.(Ôÿ”ºHğÅ`RCRITICALZ
+CODE_SMELL
+osquid:S1948F"9Make "alarmForDisposalService" transient or serializable.(…¾­óùÿÿÿÿHñÅ`RCRITICALZ
+CODE_SMELL
+^squid:S1948K"-Make "consService" transient or serializable.(Ü¹ÜÄHòÅ`RCRITICALZ
+CODE_SMELL
+msquid:S1155Ò">Use isEmpty() to check whether the collection is empty or not.(µõï¼HóÅ`RMINORZ
+CODE_SMELL
+msquid:S1155É">Use isEmpty() to check whether the collection is empty or not.(ÙîÚ•HôÅ`RMINORZ
+CODE_SMELL

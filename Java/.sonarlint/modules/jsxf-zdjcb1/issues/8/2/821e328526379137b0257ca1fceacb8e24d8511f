@@ -1,0 +1,620 @@
+
+€squid:S1192„"IDefine a constant instead of duplicating this literal "contacts" 3 times.(ŒŸùÅúÿÿÿÿHŒbRCRITICALZ
+CODE_SMELL
+†squid:S00117Î
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH€bRMINORZ
+CODE_SMELL
+ƒsquid:S1192ş"LDefine a constant instead of duplicating this literal "parent_name" 3 times.(ØÚâ‡üÿÿÿÿHúÿaRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckº"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Š­ú–úÿÿÿÿHö€bRMINORZ
+CODE_SMELL
+ysquid:S1192Í
+"GDefine a constant instead of duplicating this literal "p_type" 4 times.(ıÈéıHÄÿaRCRITICALZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(÷Ï¢ÂH¶bRMINORZ
+CODE_SMELL
+Zsquid:S1148ş"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÙÿaRMINORZVULNERABILITY
+†squid:S00117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHôÿaRMINORZ
+CODE_SMELL
+squid:S00117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—€áËHïÿaRMINORZ
+CODE_SMELL
+–squid:S4144û"bUpdate this method so that its implementation is not identical to "listPlanForReport" on line 456.(²ç¾ûÿÿÿÿH¨bRMAJORZ
+CODE_SMELL
+µ%squid:RedundantThrowsDeclarationCheckØ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(˜­²ƒH€bRMINORZ
+CODE_SMELL
+º%squid:RedundantThrowsDeclarationCheckØ"qRemove the declaration of thrown exception 'java.rmi.RemoteException', as it cannot be thrown from method's body.(½åúÂHÚ€bRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck–"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ñ¾äH¡bRMINORZ
+CODE_SMELL
+zsquid:S1192Ñ"HDefine a constant instead of duplicating this literal "notices" 5 times.(’ĞÍ‚HşÿaRCRITICALZ
+CODE_SMELL
+€squid:S1192ñ"IDefine a constant instead of duplicating this literal "username" 6 times.(ŒøËôøÿÿÿÿH€bRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck¬"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¶¯šıÿÿÿÿH˜bRMINORZ
+CODE_SMELL
+µ%squid:RedundantThrowsDeclarationCheck—"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‡Ò¨ıHÿÿaRMINORZ
+CODE_SMELL
+º%squid:RedundantThrowsDeclarationCheck•"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÄÒòµúÿÿÿÿHá€bRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckŸ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(€‡¦øÿÿÿÿH´ÿaRMINORZ
+CODE_SMELL
+}squid:S1192Ğ"FDefine a constant instead of duplicating this literal "alarm" 5 times.(‚§µîıÿÿÿÿHŸbRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck“"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(æúÙ¨øÿÿÿÿHğ€bRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck…"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ë¡ƒşÿÿÿÿHìÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckà"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÛğŸ¯ûÿÿÿÿHÈÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck«"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¿ĞĞÓH¦bRMINORZ
+CODE_SMELL
+l
+squid:S106¥"9Replace this use of System.out or System.err by a logger.(æÎÏüÿÿÿÿÿH–ÿaRMAJORZ
+CODE_SMELL
+]squid:S1481ò")Remove this unused "card" local variable.(‚½¶¶úÿÿÿÿH»€bRMINORZ
+CODE_SMELL
+ƒsquid:S3776‹"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(š·¬Hè€bRCRITICALZ
+CODE_SMELL
+¾%squid:RedundantThrowsDeclarationCheck½"vRemove the declaration of thrown exception 'org.quartz.SchedulerException', as it cannot be thrown from method's body.(­Àá;HÑÿaRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(Ã÷ªÍøÿÿÿÿH±bRMAJORZ
+CODE_SMELL
+†squid:S00117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHÁÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckŒ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÌçéõøÿÿÿÿHó€bRMINORZ
+CODE_SMELL
+squid:S1192¹"JDefine a constant instead of duplicating this literal "photoList" 6 times.(ä³âóúÿÿÿÿH²bRCRITICALZ
+CODE_SMELL
+†squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿHËÿaRMINORZ
+CODE_SMELL
+squid:S00117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢­ŸHÿaRMINORZ
+CODE_SMELL
+†squid:S00117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHŸÿaRMINORZ
+CODE_SMELL
+†squid:S00117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHĞ€bRMINORZ
+CODE_SMELL
+fsquid:S1948e"0Make "compnayService" transient or serializable.(ú¸ØĞûÿÿÿÿH³bRCRITICALZ
+CODE_SMELL
+lsquid:S1948t"6Make "alarmFeedbackService" transient or serializable.(èİ§úÿÿÿÿHäÿaRCRITICALZ
+CODE_SMELL
+~squid:S1192ş"GDefine a constant instead of duplicating this literal "types" 12 times.(•¥©®úÿÿÿÿHÃ€bRCRITICALZ
+CODE_SMELL
+csquid:S1948c"2Make "specialEquipment" transient or serializable.(ï÷ÅéHœbRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckñ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¤×ø©şÿÿÿÿH¥bRMINORZ
+CODE_SMELL
+…squid:S1192è"NDefine a constant instead of duplicating this literal "ä¿®æ”¹æˆåŠŸ!" 9 times.(Îñ…ãşÿÿÿÿH‹€bRCRITICALZ
+CODE_SMELL
+†squid:S00117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©³¸üÿÿÿÿHú€bRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckÜ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¥ÁŠ²HÍÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck£
+"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(±÷™‰üÿÿÿÿHßÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckÈ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(‰Ú±óH™bRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckİ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(üÊàšûÿÿÿÿH¿ÿaRMINORZ
+CODE_SMELL
+|squid:S1192Î"JDefine a constant instead of duplicating this literal "catesubid" 3 times.(ÿ¹ä‘H¬bRCRITICALZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckù"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¯›òíHbRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck«"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ØÿĞ¿H›€bRMINORZ
+CODE_SMELL
+†squid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¡ÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckè"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(£İÙ°ùÿÿÿÿH½ÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckÊ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(È¼Š”H¿€bRMINORZ
+CODE_SMELL
+squid:S1192Ü"JDefine a constant instead of duplicating this literal "begintime" 3 times.(‘…­øÿÿÿÿH‘bRCRITICALZ
+CODE_SMELL
+squid:S1192Ä"JDefine a constant instead of duplicating this literal "html_path" 3 times.(½¿­¦şÿÿÿÿH€bRCRITICALZ
+CODE_SMELL
+squid:S00117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆŒÍHıÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck²"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ö¦®äHbRMINORZ
+CODE_SMELL
+^squid:S1066ö
+"/Merge this if statement with the enclosing one.(€æ‚ºHÔ€bRMAJORZ
+CODE_SMELL
+†squid:S00117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿHš€bRMINORZ
+CODE_SMELL
+ysquid:S1192œ"HDefine a constant instead of duplicating this literal "address" 3 times.(ä³Û4H®€bRCRITICALZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckÖ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ö ³¤Hî€bRMINORZ
+CODE_SMELL
+usquid:UselessImportCheck2":Remove this unused import 'jiangdu.fire.model.CjtBusInfo'.(›ÿ‚ÃHÂ€bRMINORZ
+CODE_SMELL
+ksquid:S1948s"5Make "waterManagerService" transient or serializable.(Êä£õøÿÿÿÿHİÿaRCRITICALZ
+CODE_SMELL
+`squid:S1135Ç"2Complete the task associated to this TODO comment.(Üğ£ÅH•ÿaRINFOZ
+CODE_SMELL
+†squid:S00117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇŸ‘ÁûÿÿÿÿHƒ€bRMINORZ
+CODE_SMELL
+†squid:S00117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHœÿaRMINORZ
+CODE_SMELL
+]squid:S1948a",Make "orgService" transient or serializable.(èàÙ«H«€bRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÃáÑÈøÿÿÿÿHéÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckÏ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(‚ÖæÆH£€bRMINORZ
+CODE_SMELL
+¶%squid:RedundantThrowsDeclarationCheck—
+"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ç¿±-Hº€bRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLineí"<This block of commented-out lines of code should be removed.(ûËú®úÿÿÿÿH€€bRMAJORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck‰"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(µôËğûÿÿÿÿHÊ€bRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(‡ªƒÒûÿÿÿÿH¢€bRMAJORZ
+CODE_SMELL
+squid:S1192ˆ"HDefine a constant instead of duplicating this literal "role_id" 9 times.(²©¶ŞÿÿÿÿÿHÔÿaRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckº"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ƒ«²¹øÿÿÿÿHÒÿaRMINORZ
+CODE_SMELL
+¹%squid:RedundantThrowsDeclarationCheckÈ"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(­Àá;H¾ÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck "nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(œ—ú¼ıÿÿÿÿH§bRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckç"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÊıØÕøÿÿÿÿH¨ÿaRMINORZ
+CODE_SMELL
+squid:S00117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•à¿ÑHÛÿaRMINORZ
+CODE_SMELL
+_squid:S1948g".Make "alarmService" transient or serializable.(ó‰¨šHÎÿaRCRITICALZ
+CODE_SMELL
+¾%squid:RedundantThrowsDeclarationCheckÈ"vRemove the declaration of thrown exception 'org.quartz.SchedulerException', as it cannot be thrown from method's body.(­Àá;H¹ÿaRMINORZ
+CODE_SMELL
+‘squid:S1192«"ZDefine a constant instead of duplicating this literal "è·å–çƒ­ç‚¹ä¿¡æ¯æˆåŠŸ!" 4 times.(”ëşÆıÿÿÿÿH—bRCRITICALZ
+CODE_SMELL
+†squid:S00117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÅ€bRMINORZ
+CODE_SMELL
+€squid:S00117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şø.H·ÿaRMINORZ
+CODE_SMELL
+squid:S4144û"ZUpdate this method so that its implementation is not identical to "createOrg" on line 152.(’©şÿÿÿÿHÏÿaRMAJORZ
+CODE_SMELL
+†squid:S00117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHàÿaRMINORZ
+CODE_SMELL
+fsquid:S1948b"0Make "fireMapService" transient or serializable.(êîÇåøÿÿÿÿH‰€bRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÖğšõşÿÿÿÿH‹bRMINORZ
+CODE_SMELL
+¶%squid:RedundantThrowsDeclarationCheck‚	"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ƒ‚’jH¦ÿaRMINORZ
+CODE_SMELL
+ˆsquid:S00116i"TRename this field "ImpOrgSer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¯²ºúÿÿÿÿHŸ€bRMINORZ
+CODE_SMELL
+†squid:S00117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÚ‚üÿÿÿÿHñÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckŒ
+"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(æÈØ©Hí€bRMINORZ
+CODE_SMELL
+zsquid:S1192¶"IDefine a constant instead of duplicating this literal "o_photo" 12 times.( ú¶<HÕÿaRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck¼"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ìîåİøÿÿÿÿH—ÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckİ	"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(à„Ó–H¼ÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck¸"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ê€ÁHbRMINORZ
+CODE_SMELL
+†squid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Ş·äûÿÿÿÿH·bRMINORZ
+CODE_SMELL
+‚squid:S1192÷"KDefine a constant instead of duplicating this literal "equip_name" 3 times.(©ıã¾ùÿÿÿÿHöÿaRCRITICALZ
+CODE_SMELL
+Ä%squid:RedundantThrowsDeclarationCheck…"vRemove the declaration of thrown exception 'org.quartz.SchedulerException', as it cannot be thrown from method's body.(•°¢ıÿÿÿÿHª€bRMINORZ
+CODE_SMELL
+†squid:S00117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH±ÿaRMINORZ
+CODE_SMELL
+asquid:S1948i"+Make "ImpOrgSer" transient or serializable.(¿¯²ºúÿÿÿÿHõ€bRCRITICALZ
+CODE_SMELL
+squid:S1192ï"JDefine a constant instead of duplicating this literal "alarm_no" 20 times.(«‰È¸ùÿÿÿÿH¯ÿaRCRITICALZ
+CODE_SMELL
+squid:S00117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢­ŸH«ÿaRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine÷"<This block of commented-out lines of code should be removed.(äÂÌÄüÿÿÿÿH¢bRMAJORZ
+CODE_SMELL
+¹%squid:RedundantThrowsDeclarationCheck½"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(­Àá;H«bRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckÂ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(±¶èÌùÿÿÿÿH›bRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckÂ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(»üƒâÿÿÿÿÿH²€bRMINORZ
+CODE_SMELL
+squid:S4144ñ"jUpdate this method so that its implementation is not identical to "listPlanForReportAndroid1" on line 487.(ùÿ§±øÿÿÿÿHØÿaRMAJORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckŸ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ú¡ß¸ûÿÿÿÿH”ÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck "nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÑûëäûÿÿÿÿH§€bRMINORZ
+CODE_SMELL
+’squid:S4144ƒ"^Update this method so that its implementation is not identical to "listChemicals" on line 632.(Ó¤‡ÿÿÿÿÿH·€bRMAJORZ
+CODE_SMELL
+†squid:S00117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ´ìıÿÿÿÿH­ÿaRMINORZ
+CODE_SMELL
+†squid:S00117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÜ—°ûÿÿÿÿH¹bRMINORZ
+CODE_SMELL
+}squid:S1192Î"KDefine a constant instead of duplicating this literal "parent_id" 10 times.(—€áËHµÿaRCRITICALZ
+CODE_SMELL
+~squid:S1192Ê"GDefine a constant instead of duplicating this literal "zyList" 5 times.(’™‹…øÿÿÿÿHİ€bRCRITICALZ
+CODE_SMELL
+`squid:S1135µ"2Complete the task associated to this TODO comment.(Üğ£ÅHÆ€bRINFOZ
+CODE_SMELL
+isquid:S1854ó":Remove this useless assignment to local variable "mobile".(Ğøé¾HüÿaRMAJORZ
+CODE_SMELL
+_squid:S1135"2Complete the task associated to this TODO comment.(Üğ£ÅHbRINFOZ
+CODE_SMELL
+‚squid:S1192£"PDefine a constant instead of duplicating this literal "æ–°å¢å¤±è´¥ï¼" 3 times.(šŞÈH•bRCRITICALZ
+CODE_SMELL
+†squid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHÀÿaRMINORZ
+CODE_SMELL
+squid:S4144ü"ZUpdate this method so that its implementation is not identical to "poiSearch" on line 746.(¬úšúÿÿÿÿH³€bRMAJORZ
+CODE_SMELL
+gsquid:S3878"8Remove this array creation and simply pass the elements.(š©„…H¦€bRMINORZ
+CODE_SMELL
+squid:S00117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•à¿ÑHÈ€bRMINORZ
+CODE_SMELL
+_squid:S1948]".Make "jdbcTemplate" transient or serializable.(—®¦öHµ€bRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck‹"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÒÈóúÿÿÿÿHÜÿaRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLineÅ"<This block of commented-out lines of code should be removed.(“Àä³ıÿÿÿÿHÕ€bRMAJORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(µøî HÛ€bRMINORZ
+CODE_SMELL
+squid:S00117Ò
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢­ŸH¤€bRMINORZ
+CODE_SMELL
+Æ%squid:RedundantThrowsDeclarationCheck"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(÷Ï¢ÂHƒbRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck‘"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(½ÑçİH€bRMINORZ
+CODE_SMELL
+isquid:S1854ğ":Remove this useless assignment to local variable "userid".(’ÈìšHç€bRMAJORZ
+CODE_SMELL
+†squid:S00117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿH¸bRMINORZ
+CODE_SMELL
+€squid:S00117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¾ÛHÖÿaRMINORZ
+CODE_SMELL
+´%squid:RedundantThrowsDeclarationCheck»"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(à¼†dHô€bRMINORZ
+CODE_SMELL
+~squid:S1192Ã"LDefine a constant instead of duplicating this literal "equip_level" 4 times.(óÔá¤HŒ€bRCRITICALZ
+CODE_SMELL
+`squid:S1135÷"2Complete the task associated to this TODO comment.(Üğ£ÅH†bRINFOZ
+CODE_SMELL
+†squid:S00117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿHªÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ı¾Ó¥ÿÿÿÿÿHø€bRMINORZ
+CODE_SMELL
+Zsquid:S1481ğ"+Remove this unused "userid" local variable.(’ÈìšHÿaRMINORZ
+CODE_SMELL
+squid:S00117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢­ŸHºÿaRMINORZ
+CODE_SMELL
+†squid:S00117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÚ‚üÿÿÿÿHóÿaRMINORZ
+CODE_SMELL
+€squid:S1192"NDefine a constant instead of duplicating this literal "æ–°å¢å¤±è´¥!" 9 times.(áÿªáHÿ€bRCRITICALZ
+CODE_SMELL
+ysquid:S1192Î"GDefine a constant instead of duplicating this literal "zwList" 4 times.(¹°¼±H…bRCRITICALZ
+CODE_SMELL
+fsquid:S1948_"5Make "systemManageService" transient or serializable.(Ô‚ïHºbRCRITICALZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckí"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¯ÛÂóH“€bRMINORZ
+CODE_SMELL
+^squid:S1066Ö"/Merge this if statement with the enclosing one.(€æ‚ºH´bRMAJORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck©"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÄüÄìùÿÿÿÿH–bRMINORZ
+CODE_SMELL
+~squid:S1192Ï"GDefine a constant instead of duplicating this literal "j_type" 4 times.(ñ¾ùöıÿÿÿÿH¶ÿaRCRITICALZ
+CODE_SMELL
+\squid:S1481ô".Remove this unused "machineid" local variable.(ˆßıHûÿaRMINORZ
+CODE_SMELL
+†squid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¿­¦şÿÿÿÿHÀ€bRMINORZ
+CODE_SMELL
+squid:S00117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢­ŸHÌ€bRMINORZ
+CODE_SMELL
+¶%squid:RedundantThrowsDeclarationCheckä"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(„¬ÓdHŠ€bRMINORZ
+CODE_SMELL
+¹%squid:RedundantThrowsDeclarationCheckƒ"qRemove the declaration of thrown exception 'java.rmi.RemoteException', as it cannot be thrown from method's body.(é«ÍIH±€bRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckì"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ŠØíÆHâÿaRMINORZ
+CODE_SMELL
+~squid:S1192È"GDefine a constant instead of duplicating this literal "cateid" 3 times.(Ã´Ô•şÿÿÿÿHîÿaRCRITICALZ
+CODE_SMELL
+ysquid:S1192ÿ"GDefine a constant instead of duplicating this literal "parent" 3 times.(íàŞ¥H„€bRCRITICALZ
+CODE_SMELL
+†squid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH÷ÿaRMINORZ
+CODE_SMELL
+†squid:S00117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH €bRMINORZ
+CODE_SMELL
+†squid:S00117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHû€bRMINORZ
+CODE_SMELL
+_squid:S1135P"2Complete the task associated to this TODO comment.(Üğ£ÅH’bRINFOZ
+CODE_SMELL
+psquid:S1854ñ"<Remove this useless assignment to local variable "username".(ŒøËôøÿÿÿÿH¤bRMAJORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckñ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ùÿ§±øÿÿÿÿHü€bRMINORZ
+CODE_SMELL
+¹%squid:RedundantThrowsDeclarationCheckô"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(­Àá;H¥ÿaRMINORZ
+CODE_SMELL
+µ%squid:RedundantThrowsDeclarationCheck‘"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(½ÑçİH®ÿaRMINORZ
+CODE_SMELL
+asquid:S1481ñ"-Remove this unused "username" local variable.(ŒøËôøÿÿÿÿH´€bRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLineş"<This block of commented-out lines of code should be removed.(‡ªƒÒûÿÿÿÿH½€bRMAJORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ì´Ì©ùÿÿÿÿHÓÿaRMINORZ
+CODE_SMELL
+dsquid:S1948q"3Make "igiveOrderService" transient or serializable.(üÑ„îH–€bRCRITICALZ
+CODE_SMELL
+`squid:S1135ñ"2Complete the task associated to this TODO comment.(Üğ£ÅH€bRINFOZ
+CODE_SMELL
+csquid:S1481õ"/Remove this unused "bus_number" local variable.(‚™ÿÿÿÿÿHÎ€bRMINORZ
+CODE_SMELL
+{squid:S00112•"FDefine and throw a dedicated exception instead of using a generic one.(ÄÒòµúÿÿÿÿH£bRMAJORZ
+CODE_SMELL
+†squid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHØ€bRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLineì"<This block of commented-out lines of code should be removed.(í·³ÿÿÿÿÿHœ€bRMAJORZ
+CODE_SMELL
+`squid:S1135î	"2Complete the task associated to this TODO comment.(Üğ£ÅH‡bRINFOZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckâ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(İ„±ŠHÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckÇ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Òô™H‚€bRMINORZ
+CODE_SMELL
+zsquid:S1192€"HDefine a constant instead of duplicating this literal "p_state" 3 times.(³ã¹­HªbRCRITICALZ
+CODE_SMELL
+Vsquid:S1481İ"'Remove this unused "id" local variable.(³ŠÒÈHáÿaRMINORZ
+CODE_SMELL
+squid:S00117Í
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÈéıHÌÿaRMINORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH©bRMINORZ
+CODE_SMELL
+^squid:S1066¸"/Merge this if statement with the enclosing one.(€æ‚ºHÍ€bRMAJORZ
+CODE_SMELL
+zsquid:S1192İ"HDefine a constant instead of duplicating this literal "endtime" 3 times.(­Û’H×ÿaRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckô	"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ñÍ‚ŒıÿÿÿÿH²ÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck·
+"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ú·Î”şÿÿÿÿHõÿaRMINORZ
+CODE_SMELL
+º%squid:RedundantThrowsDeclarationCheckõ	"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(œŒ²½H†€bRMINORZ
+CODE_SMELL
+‚squid:S1192¡"PDefine a constant instead of duplicating this literal "æ–°å¢æˆåŠŸï¼" 3 times.(ÿµ½áH­bRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckš"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(îİ²ÑşÿÿÿÿHùÿaRMINORZ
+CODE_SMELL
+¹%squid:RedundantThrowsDeclarationChecké"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(­Àá;H¤ÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckü"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(šäæöH£ÿaRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(«Â­ÿÿÿÿÿHĞÿaRMAJORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck¹	"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¨£íÓHµbRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck®"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Õò¬ÀHçÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck¥"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(…·²±ıÿÿÿÿH™ÿaRMINORZ
+CODE_SMELL
+…squid:S1192ê"NDefine a constant instead of duplicating this literal "ä¿®æ”¹å¤±è´¥!" 9 times.(÷ôÃËùÿÿÿÿH bRCRITICALZ
+CODE_SMELL
+^squid:S1066–"/Merge this if statement with the enclosing one.(€æ‚ºHÅÿaRMAJORZ
+CODE_SMELL
+¿%squid:RedundantThrowsDeclarationCheck®"qRemove the declaration of thrown exception 'java.rmi.RemoteException', as it cannot be thrown from method's body.(¸»œ•ûÿÿÿÿHå€bRMINORZ
+CODE_SMELL
+„squid:S3776é
+"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ò²ÁÏH’€bRCRITICALZ
+CODE_SMELL
+squid:S4144Ì"[Update this method so that its implementation is not identical to "modifyPlan" on line 569.(ü±¾†úÿÿÿÿHù€bRMAJORZ
+CODE_SMELL
+Zsquid:S1948k")Make "ImplPRS" transient or serializable.(¡ĞˆHß€bRCRITICALZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck–"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(üË¤ŞHà€bRMINORZ
+CODE_SMELL
+‰squid:S4144"ZUpdate this method so that its implementation is not identical to "createOrg" on line 152.(÷Ï¢ÂH˜€bRMAJORZ
+CODE_SMELL
+†squid:S00117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH‰bRMINORZ
+CODE_SMELL
+squid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×˜Ğ›H˜ÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckû"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(²ç¾ûÿÿÿÿH¶€bRMINORZ
+CODE_SMELL
+ksquid:S1854ô"=Remove this useless assignment to local variable "machineid".(ˆßıH»ÿaRMAJORZ
+CODE_SMELL
+†squid:S00117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿH¾€bRMINORZ
+CODE_SMELL
+†squid:S00117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ëæîúÿÿÿÿHë€bRMINORZ
+CODE_SMELL
+squid:S1192¶"HDefine a constant instead of duplicating this literal "org_id" 20 times.(ÜáĞ·ûÿÿÿÿHŞÿaRCRITICALZ
+CODE_SMELL
+rsquid:S1854õ">Remove this useless assignment to local variable "bus_number".(‚™ÿÿÿÿÿH¼€bRMAJORZ
+CODE_SMELL
+€squid:S1192Ã"IDefine a constant instead of duplicating this literal "org_role" 9 times.(‰œ´ìıÿÿÿÿH°bRCRITICALZ
+CODE_SMELL
+¤squid:S1319É"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(›™º¦ÿÿÿÿÿHbRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckÒ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(©ÉÁÒşÿÿÿÿHëÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck…"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(óú‰H¹€bRMINORZ
+CODE_SMELL
+†squid:S00117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿH©€bRMINORZ
+CODE_SMELL
+squid:S00117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãó±HÁ€bRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckó"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ç¬ØãûÿÿÿÿH®bRMINORZ
+CODE_SMELL
+lsquid:S1155à">Use isEmpty() to check whether the collection is empty or not.(á‘Û)HŞ€bRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck”"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Î¦Œ²Hä€bRMINORZ
+CODE_SMELL
+‚squid:S1192»"PDefine a constant instead of duplicating this literal "åˆ é™¤å¤±è´¥ï¼" 3 times.(¸–ƒH¯€bRCRITICALZ
+CODE_SMELL
+¶%squid:RedundantThrowsDeclarationCheckÕ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(†Ûß|H•€bRMINORZ
+CODE_SMELL
+€squid:S1192¤"IDefine a constant instead of duplicating this literal "32.38547" 4 times.(ùùöÓùÿÿÿÿH’ÿaRCRITICALZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck˜"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¾ı¼¬ùÿÿÿÿH×€bRMINORZ
+CODE_SMELL
+†squid:S00117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿHÿaRMINORZ
+CODE_SMELL
+†squid:S00117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHË€bRMINORZ
+CODE_SMELL
+†squid:S00117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH°ÿaRMINORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(¤¦ÊÌHê€bRMAJORZ
+CODE_SMELL
+†squid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı‡üÈúÿÿÿÿH°€bRMINORZ
+CODE_SMELL
+†squid:S00117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿH›ÿaRMINORZ
+CODE_SMELL
+¿%squid:RedundantThrowsDeclarationCheck¯"qRemove the declaration of thrown exception 'java.rmi.RemoteException', as it cannot be thrown from method's body.(ø–¢´şÿÿÿÿH“ÿaRMINORZ
+CODE_SMELL
+squid:S4144Ò"YUpdate this method so that its implementation is not identical to "listPlan" on line 440.(©ÉÁÒşÿÿÿÿH¸ÿaRMAJORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckƒ
+"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ïëóøÿÿÿÿHì€bRMINORZ
+CODE_SMELL
+…squid:S1192Œ"NDefine a constant instead of duplicating this literal "æ–°å¢æˆåŠŸ!" 9 times.(¡ÛüÓúÿÿÿÿH—€bRCRITICALZ
+CODE_SMELL
+squid:S1192ä"ODefine a constant instead of duplicating this literal "åˆ é™¤æˆåŠŸ!" 11 times.(¥ÄúÙHêÿaRCRITICALZ
+CODE_SMELL
+†squid:S00117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿHâ€bRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckŠ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Ìí“íHŒÿaRMINORZ
+CODE_SMELL
+[squid:S1481­"'Remove this unused "of" local variable.(·§¨ÙûÿÿÿÿHÃÿaRMINORZ
+CODE_SMELL
+†squid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÜ—°ûÿÿÿÿHíÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck÷"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(€Óâ÷H‘€bRMINORZ
+CODE_SMELL
+Zsquid:S1481ó"+Remove this unused "mobile" local variable.(Ğøé¾H©ÿaRMINORZ
+CODE_SMELL
+squid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢­ŸHšÿaRMINORZ
+CODE_SMELL
+¶%squid:RedundantThrowsDeclarationCheckî"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ú–¿HÇÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck²"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(˜©‚½HÿaRMINORZ
+CODE_SMELL
+†squid:S00117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH‚bRMINORZ
+CODE_SMELL
+†squid:S00117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¹¢ºÿÿÿÿÿHòÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck·"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(å®”ıøÿÿÿÿHŠbRMINORZ
+CODE_SMELL
+†squid:S00117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚™ÿÿÿÿÿH€bRMINORZ
+CODE_SMELL
+†squid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÜ—°ûÿÿÿÿH‡€bRMINORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÚ‚üÿÿÿÿHÿaRMINORZ
+CODE_SMELL
+¾%squid:RedundantThrowsDeclarationCheckô"vRemove the declaration of thrown exception 'org.quartz.SchedulerException', as it cannot be thrown from method's body.(­Àá;H¬€bRMINORZ
+CODE_SMELL
+squid:S1192Ã"HDefine a constant instead of duplicating this literal "content" 6 times.(‰˜¶¾ûÿÿÿÿHbRCRITICALZ
+CODE_SMELL
+‰squid:S4144Ï"ZUpdate this method so that its implementation is not identical to "createOrg" on line 152.(‚ÖæÆH§ÿaRMAJORZ
+CODE_SMELL
+†squid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHÊÿaRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheck¢"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(‹–¢¿üÿÿÿÿHÙ€bRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck·"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¬‹ú—HÂÿaRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine½"<This block of commented-out lines of code should be removed.(¡³ƒ„ùÿÿÿÿHbRMAJORZ
+CODE_SMELL
+º%squid:RedundantThrowsDeclarationCheckÌ
+"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.( ±™ıÿÿÿÿH ÿaRMINORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Š©êøÿÿÿÿHã€bRMINORZ
+CODE_SMELL
+º%squid:RedundantThrowsDeclarationCheck†"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(œŒ²½HÖ€bRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine—"<This block of commented-out lines of code should be removed.(í·³ÿÿÿÿÿHÉ€bRMAJORZ
+CODE_SMELL
+¾%squid:RedundantThrowsDeclarationChecké"vRemove the declaration of thrown exception 'org.quartz.SchedulerException', as it cannot be thrown from method's body.(­Àá;HãÿaRMINORZ
+CODE_SMELL
+†squid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHæÿaRMINORZ
+CODE_SMELL
+Ÿsquid:S4144®"kUpdate this method so that its implementation is not identical to "timelineForPhone_forPhone" on line 1496.(¸»œ•ûÿÿÿÿH™€bRMAJORZ
+CODE_SMELL
+dsquid:S1948o".Make "audioService" transient or serializable.(ã°¨îıÿÿÿÿH“bRCRITICALZ
+CODE_SMELL
+|squid:S1192ü
+"JDefine a constant instead of duplicating this literal "p_address" 3 times.(”¢´Hı€bRCRITICALZ
+CODE_SMELL
+esquid:S1854İ"6Remove this useless assignment to local variable "id".(³ŠÒÈHş€bRMAJORZ
+CODE_SMELL
+~squid:S00100Ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁŠ²Hñ€bRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckÜ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(¼¥ÍøÿÿÿÿH³ÿaRMINORZ
+CODE_SMELL
+¶%squid:RedundantThrowsDeclarationCheck˜"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(…Õ H”€bRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck‡"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(âˆŠºHøÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck·"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(…ÄÁùHé€bRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckÎ	"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ãèÛşÿÿÿÿH€bRMINORZ
+CODE_SMELL
+º%squid:RedundantThrowsDeclarationCheck²"qRemove the declaration of thrown exception 'java.rmi.RemoteException', as it cannot be thrown from method's body.(˜©‚½H„bRMINORZ
+CODE_SMELL
+‡squid:S1192¹"PDefine a constant instead of duplicating this literal "åˆ é™¤æˆåŠŸï¼" 3 times.(şçÔàÿÿÿÿÿHˆbRCRITICALZ
+CODE_SMELL
+^squid:S00108Ï")Either remove or fill this block of code.(¶ÿé¤ùÿÿÿÿH÷€bRMAJORZ
+CODE_SMELL
+squid:S00116k"RRename this field "ImplPRS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ĞˆH¯bRMINORZ
+CODE_SMELL
+~squid:S00100Ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½åúÂHÒ€bRMINORZ
+CODE_SMELL
+lsquid:S1854ò"8Remove this useless assignment to local variable "card".(‚½¶¶úÿÿÿÿHÄ€bRMAJORZ
+CODE_SMELL
+†squid:S00117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿH¡€bRMINORZ
+CODE_SMELL
+†squid:S00117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH‘ÿaRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck¬"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Û­À¹HåÿaRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLineÂ"<This block of commented-out lines of code should be removed.(í·³ÿÿÿÿÿH”bRMAJORZ
+CODE_SMELL
+`squid:S1135‘"2Complete the task associated to this TODO comment.(Üğ£ÅHÚÿaRINFOZ
+CODE_SMELL
+|squid:S1192‚"JDefine a constant instead of duplicating this literal "telephone" 3 times.(üÓÑĞHèÿaRCRITICALZ
+CODE_SMELL
+‚squid:S1192¡"KDefine a constant instead of duplicating this literal "119.431858" 4 times.(’ÁÕğıÿÿÿÿHÏ€bRCRITICALZ
+CODE_SMELL
+jsquid:S1854­"6Remove this useless assignment to local variable "of".(·§¨ÙûÿÿÿÿHï€bRMAJORZ
+CODE_SMELL
+†squid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö½ÌÉıÿÿÿÿH¢ÿaRMINORZ
+CODE_SMELL
+squid:S00117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ”µHÑ€bRMINORZ
+CODE_SMELL
+Ä%squid:RedundantThrowsDeclarationCheckô	"vRemove the declaration of thrown exception 'org.quartz.SchedulerException', as it cannot be thrown from method's body.(ñÍ‚ŒıÿÿÿÿH­€bRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheckó"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ƒ°¢ÊHæ€bRMINORZ
+CODE_SMELL
+^squid:S1948m"-Make "caseService" transient or serializable.(Š—ùİH¸€bRCRITICALZ
+CODE_SMELL
+†squid:S00117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH…€bRMINORZ
+CODE_SMELL
+`squid:S1135×"2Complete the task associated to this TODO comment.(Üğ£ÅHÉÿaRINFOZ
+CODE_SMELL
+squid:S00117é
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò²ÁÏHğÿaRMINORZ
+CODE_SMELL
+†squid:S00117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH¬ÿaRMINORZ
+CODE_SMELL
+†squid:S00117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§–ÒìşÿÿÿÿHÇ€bRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck¹"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(êëı‰H¨€bRMINORZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck’	"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(³¤Ø€H¥€bRMINORZ
+CODE_SMELL
+…squid:S1192æ"NDefine a constant instead of duplicating this literal "åˆ é™¤å¤±è´¥!" 9 times.(¶¯ıçúÿÿÿÿHÓ€bRCRITICALZ
+CODE_SMELL
+†squid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èï´®ÿÿÿÿÿHÜ€bRMINORZ
+CODE_SMELL
+Usquid:S1148¦"#Use a logger to log this exception.(Ç’ÇêHÆÿaRMINORZVULNERABILITY
+squid:S1192¾"JDefine a constant instead of duplicating this literal "groupname" 3 times.(îŒµ ÿÿÿÿÿHšbRCRITICALZ
+CODE_SMELL
+·%squid:RedundantThrowsDeclarationCheck¡"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(İ½‡×Hˆ€bRMINORZ
+CODE_SMELL
+†squid:S00117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿHò€bRMINORZ
+CODE_SMELL

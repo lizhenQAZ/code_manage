@@ -1,0 +1,186 @@
+
+‡squid:S00117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù©·“8¢åö•«,H£kRMINORZ
+CODE_SMELL
+ˆsquid:S00117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Õ£8ÌÅëæ«,H×ˆlRMINORZ
+CODE_SMELL
+squid:S1149–"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ö´»H¯kRMAJORZ
+CODE_SMELL
+esquid:S1135¹"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¡kRINFOZ
+CODE_SMELL
+esquid:S1135ü"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHµkRINFOZ
+CODE_SMELL
+squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÍşÿHºkRMINORZ
+CODE_SMELL
+”squid:S1192j"^Define a constant instead of duplicating this literal " WHERE  A.ORG_ID=B.ORG_ID AND" 5 times.(š“çÅûÿÿÿÿHkRCRITICALZ
+CODE_SMELL
+…squid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÒ‚‰ûÿÿÿÿHÚkRMINORZ
+CODE_SMELL
+esquid:S1135Œ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHkRINFOZ
+CODE_SMELL
+vsquid:CallToDeprecatedMethodS"2Remove this use of "SqlAdapter"; it is deprecated.(îÎ ÆüÿÿÿÿH¿kRMINORZ
+CODE_SMELL
+†squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÖ©ûÿÿÿÿH×kRMINORZ
+CODE_SMELL
+zsquid:S1858"F"sql" is already a string, there's no need to call "toString()" on it.(À¼…ÙùÿÿÿÿH§kRMINORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethodª"2Remove this use of "SqlAdapter"; it is deprecated.(ÄÙ§ÆH kRMINORZ
+CODE_SMELL
+…squid:S00117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éïôöşÿÿÿÿHËkRMINORZ
+CODE_SMELL
+s
+squid:S106"9Replace this use of System.out or System.err by a logger.(Êİé«úÿÿÿÿ8ùê˜ç«,Hü‰lRMAJORZ
+CODE_SMELL
+zsquid:S1858ı"F"sql" is already a string, there's no need to call "toString()" on it.(ŒƒØ«ÿÿÿÿÿH·kRMINORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethod¬"2Remove this use of "SqlAdapter"; it is deprecated.(Â¼™ŞH´kRMINORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethod€"2Remove this use of "SqlAdapter"; it is deprecated.(Ó³ö·HßkRMINORZ
+CODE_SMELL
+usquid:S1858Š"F"sql" is already a string, there's no need to call "toString()" on it.(†”†H¸kRMINORZ
+CODE_SMELL
+esquid:S1135Í"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHªkRINFOZ
+CODE_SMELL
+¿squid:S1192ë"ŒDefine a constant instead of duplicating this literal " WHERE a.arr_b_id=b.arr_b_id(+) AND  b.org_id=c.org_id(+)  AND b.alarm_no='" 3 times.(úÆóáH½kRCRITICALZ
+CODE_SMELL
+tsquid:UselessImportCheck"2Remove this unused import 'com.yifeng.dto.MapRow'.(ÊíÑ£8Õ‰•ç«,H‰lRMINORZ
+CODE_SMELL
+qsquid:UselessImportCheck"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8Š¨±ç«,H´ŠlRMINORZ
+CODE_SMELL
+šsquid:S1192l"iDefine a constant instead of duplicating this literal "SELECT * FROM(SELECT A.*,ROWNUM RN FROM(" 5 times.(İÅ¹™H»kRCRITICALZ
+CODE_SMELL
+squid:S1149©"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(˜ô¢»HÀkRMAJORZ
+CODE_SMELL
+squid:S1149§"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ôî™H¨kRMAJORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethod¿"2Remove this use of "SqlAdapter"; it is deprecated.(Â¼™ŞHÖkRMINORZ
+CODE_SMELL
+†squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÖ©ûÿÿÿÿHÕkRMINORZ
+CODE_SMELL
+esquid:S1135Ò"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¤kRINFOZ
+CODE_SMELL
+Zsquid:S1148’"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH«kRMINORZVULNERABILITY
+†squid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê¯¿™ùÿÿÿÿH±kRMINORZ
+CODE_SMELL
+€squid:S00117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¥Ä;HÌkRMINORZ
+CODE_SMELL
+‰squid:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(˜éÖ©ûÿÿÿÿHákRCRITICALZ
+CODE_SMELL
+€squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇƒHÔkRMINORZ
+CODE_SMELL
+squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÍşÿHàkRMINORZ
+CODE_SMELL
+†squid:S00117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¤ŠÿÿÿÿÿH²kRMINORZ
+CODE_SMELL
+“squid:S1149€"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(µäˆúÿÿÿÿHkRMAJORZ
+CODE_SMELL
+dsquid:S1135d"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHİkRINFOZ
+CODE_SMELL
+…squid:S00117|"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É‘Š´şÿÿÿÿH•kRMINORZ
+CODE_SMELL
+lsquid:S1135Ç"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8¢åö•«,H°kRINFOZ
+CODE_SMELL
+vsquid:CallToDeprecatedMethodo"2Remove this use of "SqlAdapter"; it is deprecated.(à±¯üÿÿÿÿHŸkRMINORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethodÀ"2Remove this use of "SqlAdapter"; it is deprecated.(Ó³ö·HØkRMINORZ
+CODE_SMELL
+squid:S1192o"YDefine a constant instead of duplicating this literal "SELECT COUNT(0) N FROM (" 5 times.(à±¯üÿÿÿÿH¦kRCRITICALZ
+CODE_SMELL
+squid:S1149l"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(İÅ¹™HÒkRMAJORZ
+CODE_SMELL
+psquid:CallToDeprecatedMethod["2Remove this use of "SqlAdapter"; it is deprecated.(ßÄ‚IHĞkRMINORZ
+CODE_SMELL
+•squid:S1149‰"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(˜ô¢»8õ®À¢«,H—kRMAJORZ
+CODE_SMELL
+esquid:S1135µ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÊkRINFOZ
+CODE_SMELL
+†squid:S00117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûæÂÆüÿÿÿÿHÎkRMINORZ
+CODE_SMELL
+Zsquid:S1148…"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÄkRMINORZVULNERABILITY
+ˆsquid:S00117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×³îÛ8„¸ºç«,HïŠlRMINORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethod˜"2Remove this use of "SqlAdapter"; it is deprecated.(ôğõ HÆkRMINORZ
+CODE_SMELL
+…squid:S00117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH¶kRMINORZ
+CODE_SMELL
+•squid:S1149½"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(İÅ¹™8‰Æå«,HÄôkRMAJORZ
+CODE_SMELL
+†squid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éÖ©ûÿÿÿÿH¢kRMINORZ
+CODE_SMELL
+usquid:S1858­"F"sql" is already a string, there's no need to call "toString()" on it.(Ó³ö·HÜkRMINORZ
+CODE_SMELL
+ƒsquid:S1192é"LDefine a constant instead of duplicating this literal " UNION ALL " 3 times.(ÚÖÂÕıÿÿÿÿHÙkRCRITICALZ
+CODE_SMELL
+Zsquid:S1148²"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‘kRMINORZVULNERABILITY
+†squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“É­­şÿÿÿÿHÏkRMINORZ
+CODE_SMELL
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH–kRINFOZ
+CODE_SMELL
+dsquid:S1135~"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÉkRINFOZ
+CODE_SMELL
+zsquid:S1858ª"F"sql" is already a string, there's no need to call "toString()" on it.(ŒƒØ«ÿÿÿÿÿHÇkRMINORZ
+CODE_SMELL
+squid:S1149ü"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(˜ô¢»H’kRMAJORZ
+CODE_SMELL
+wsquid:CallToDeprecatedMethod"2Remove this use of "SqlAdapter"; it is deprecated.(À¼…ÙùÿÿÿÿH¾kRMINORZ
+CODE_SMELL
+†squid:S00117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(° ş’üÿÿÿÿH­kRMINORZ
+CODE_SMELL
+™squid:S1149i"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(œĞ‚ûÿÿÿÿ8¢åö•«,H›kRMAJORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethodÓ"2Remove this use of "SqlAdapter"; it is deprecated.(ÓÜ¼€HÈkRMINORZ
+CODE_SMELL
+“squid:S1149º"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(®—ÍİøÿÿÿÿHÁkRMAJORZ
+CODE_SMELL
+wsquid:CallToDeprecatedMethodƒ"2Remove this use of "SqlAdapter"; it is deprecated.(×Ú’ŸıÿÿÿÿHÓkRMINORZ
+CODE_SMELL
+esquid:S1135Œ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHkRINFOZ
+CODE_SMELL
+…squid:S00117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHÑkRMINORZ
+CODE_SMELL
+ysquid:CallToDeprecatedMethod­"2Remove this use of "SqlAdapter"; it is deprecated.(Ó³ö·8‰Æå«,HÃôkRMINORZ
+CODE_SMELL
+vsquid:CallToDeprecatedMethodn"2Remove this use of "SqlAdapter"; it is deprecated.(½æŸşùÿÿÿÿH©kRMINORZ
+CODE_SMELL
+squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ôî™HœkRMAJORZ
+CODE_SMELL
+dsquid:S1135Z"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHkRINFOZ
+CODE_SMELL
+~squid:CallToDeprecatedMethodŒ"2Remove this use of "SqlAdapter"; it is deprecated.(Ãå»ùÿÿÿÿ8õ®À¢«,HškRMINORZ
+CODE_SMELL
+squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÍşÿHÍkRMINORZ
+CODE_SMELL
+wsquid:CallToDeprecatedMethod’"2Remove this use of "SqlAdapter"; it is deprecated.(×Ú’ŸıÿÿÿÿHÃkRMINORZ
+CODE_SMELL
+€squid:S00117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¥Ä;HkRMINORZ
+CODE_SMELL
+†squid:S00117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ß¹ßşÿÿÿÿH¹kRMINORZ
+CODE_SMELL
+esquid:S1135×"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH³kRINFOZ
+CODE_SMELL
+€squid:S00117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù©·“HÛkRMINORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethodÈ"2Remove this use of "SqlAdapter"; it is deprecated.(ÓÜ¼€H™kRMINORZ
+CODE_SMELL
+€squid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê¦ºH“kRMINORZ
+CODE_SMELL
+wsquid:CallToDeprecatedMethodè"2Remove this use of "SqlAdapter"; it is deprecated.(ºĞªûÿÿÿÿH”kRMINORZ
+CODE_SMELL
+Ysquid:S1148t"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¬kRMINORZVULNERABILITY
+ƒsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(üô±½H˜kRCRITICALZ
+CODE_SMELL
+øsquid:S1192ê"ÀDefine a constant instead of duplicating this literal "' FLAG,'' F_VIDEO_MP3,'è½¦è¾†åé¦ˆ' param_value,b.arr_b_name FROM JSXF_BUS_FEEDBACK a , jsxf_base_arrange_bus b,JSXF_ORG_JCJ c" 3 times.(ğ‡ŞÿÿÿÿÿH¼kRCRITICALZ
+CODE_SMELL
+ysquid:CallToDeprecatedMethodÿ"2Remove this use of "SqlAdapter"; it is deprecated.(Â¼™Ş8¢åö•«,H®kRMINORZ
+CODE_SMELL
+usquid:S1858€"F"sql" is already a string, there's no need to call "toString()" on it.(Ó³ö·H¥kRMINORZ
+CODE_SMELL
+s
+squid:S106™"9Replace this use of System.out or System.err by a logger.(®õŸíøÿÿÿÿ8Õ‰•ç«,H‰lRMAJORZ
+CODE_SMELL
+…squid:S00117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù„ÒÔúÿÿÿÿHÅkRMINORZ
+CODE_SMELL
+–squid:S1192l"eDefine a constant instead of duplicating this literal ") A WHERE ROWNUM <= ?) WHERE RN >= ?" 3 times.(İÅ¹™HÂkRCRITICALZ
+CODE_SMELL
+Zsquid:S1148Å"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHŞkRMINORZVULNERABILITY
+ˆsquid:S00117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò‘é8ºï÷ç«,HÖnRMINORZ
+CODE_SMELL

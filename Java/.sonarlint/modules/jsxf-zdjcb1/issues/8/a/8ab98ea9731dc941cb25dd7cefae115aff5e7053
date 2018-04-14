@@ -1,0 +1,35 @@
+
+zsquid:S1192S"IDefine a constant instead of duplicating this literal "alarm_no" 4 times.(ÕÂÕÊH®Ä`RCRITICALZ
+CODE_SMELL
+zsquid:CommentedOutCodeLine§"<This block of commented-out lines of code should be removed.(îÑÔ—H¯Ä`RMAJORZ
+CODE_SMELL
+`squid:S1135„"2Complete the task associated to this TODO comment.(Üğ£ÅH°Ä`RINFOZ
+CODE_SMELL
+†squid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH±Ä`RMINORZ
+CODE_SMELL
+†squid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH²Ä`RMINORZ
+CODE_SMELL
+squid:S00117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Æç H³Ä`RMINORZ
+CODE_SMELL
+†squid:S00117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ğé™úÿÿÿÿH´Ä`RMINORZ
+CODE_SMELL
+ysquid:UselessImportCheck!">Remove this unused import 'com.yifeng.dao.adapter.SqlAdapter'.(¸¤  HµÄ`RMINORZ
+CODE_SMELL
+squid:UselessImportCheck"DRemove this unused import 'jiangdu.fire.service.common.IOrgService'.(¤³­H¶Ä`RMINORZ
+CODE_SMELL
+‘squid:UselessImportCheck"QRemove this unused import 'jiangdu.fire.service.common.impl.SystemManageService'.(Å¤¤øÿÿÿÿH·Ä`RMINORZ
+CODE_SMELL
+zsquid:UselessImportCheck&"?Remove this unused import 'com.yifeng.struts2.ResultConstants'.(×–ìÄH¸Ä`RMINORZ
+CODE_SMELL
+Œsquid:UselessImportCheck"LRemove this unused import 'jiangdu.fire.service.common.impl.FireInsService'.(§«•ÍıÿÿÿÿH¹Ä`RMINORZ
+CODE_SMELL
+Ysquid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHºÄ`RMINORZVULNERABILITY
+Ysquid:S1148e"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH»Ä`RMINORZVULNERABILITY
+osquid:S19480"9Make "alarmForDisposalService" transient or serializable.(…¾­óùÿÿÿÿH¼Ä`RCRITICALZ
+CODE_SMELL
+fsquid:S19482"0Make "fireInsService" transient or serializable.(¾Ï©ËûÿÿÿÿH½Ä`RCRITICALZ
+CODE_SMELL
+_squid:S19484".Make "alarmService" transient or serializable.(ó‰¨šH¾Ä`RCRITICALZ
+CODE_SMELL
+Ysquid:S19486"(Make "assess" transient or serializable.(è´H¿Ä`RCRITICALZ
+CODE_SMELL

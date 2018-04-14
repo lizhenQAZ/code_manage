@@ -1,0 +1,138 @@
+
+·%squid:RedundantThrowsDeclarationCheckÍ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ÄÕÃ®Hƒò@RMINORZ
+CODE_SMELL
+}squid:S1192Q"GDefine a constant instead of duplicating this literal "org_id" 3 times.(ÜáĞ·ûÿÿÿÿH„ò@RCRITICALZ
+CODE_SMELL
+‘squid:S4144"]Update this method so that its implementation is not identical to "viewCardPlan" on line 132.(„³ıºşÿÿÿÿH…ò@RMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(“õñˆøÿÿÿÿH†ò@RMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLineg"<This block of commented-out lines of code should be removed.(óŞÀÃúÿÿÿÿH‡ò@RMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine|"<This block of commented-out lines of code should be removed.(ô×ñ¤ûÿÿÿÿHˆò@RMAJORZ
+CODE_SMELL
+\squid:S1481o".Remove this unused "fire_type" local variable.(­‹¯H‰ò@RMINORZ
+CODE_SMELL
+bsquid:S1481p"/Remove this unused "alarm_name" local variable.(˜¨ŒäıÿÿÿÿHŠò@RMINORZ
+CODE_SMELL
+bsquid:S1481q"/Remove this unused "alarm_time" local variable.(±ş•éÿÿÿÿÿH‹ò@RMINORZ
+CODE_SMELL
+^squid:S1481r"+Remove this unused "org_id" local variable.(ÜáĞ·ûÿÿÿÿHŒò@RMINORZ
+CODE_SMELL
+_squid:S1481x",Remove this unused "content" local variable.(Íş£»ıÿÿÿÿHò@RMINORZ
+CODE_SMELL
+Zsquid:S1481y",Remove this unused "process" local variable.(±£ÔàHò@RMINORZ
+CODE_SMELL
+Vsquid:S1481z"(Remove this unused "exp" local variable.(ßªí‡Hò@RMINORZ
+CODE_SMELL
+msquid:S1854r":Remove this useless assignment to local variable "org_id".(ÜáĞ·ûÿÿÿÿHò@RMAJORZ
+CODE_SMELL
+qsquid:S1854q">Remove this useless assignment to local variable "alarm_time".(±ş•éÿÿÿÿÿH‘ò@RMAJORZ
+CODE_SMELL
+qsquid:S1854p">Remove this useless assignment to local variable "alarm_name".(˜¨ŒäıÿÿÿÿH’ò@RMAJORZ
+CODE_SMELL
+ksquid:S1854o"=Remove this useless assignment to local variable "fire_type".(­‹¯H“ò@RMAJORZ
+CODE_SMELL
+ksquid:S1854u"8Remove this useless assignment to local variable "orgs".(‹òü¨üÿÿÿÿH”ò@RMAJORZ
+CODE_SMELL
+esquid:S1854z"7Remove this useless assignment to local variable "exp".(ßªí‡H•ò@RMAJORZ
+CODE_SMELL
+isquid:S1854y";Remove this useless assignment to local variable "process".(±£ÔàH–ò@RMAJORZ
+CODE_SMELL
+nsquid:S1854x";Remove this useless assignment to local variable "content".(Íş£»ıÿÿÿÿH—ò@RMAJORZ
+CODE_SMELL
+ˆsquid:S00116E"TRename this field "ImpOrgSer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¯²ºúÿÿÿÿH˜ò@RMINORZ
+CODE_SMELL
+€squid:S00117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ìÙ§H™ò@RMINORZ
+CODE_SMELL
+…squid:S00117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHšò@RMINORZ
+CODE_SMELL
+…squid:S00117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼×¤ÓúÿÿÿÿH›ò@RMINORZ
+CODE_SMELL
+€squid:S00117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­‹¯Hœò@RMINORZ
+CODE_SMELL
+…squid:S00117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¨ŒäıÿÿÿÿHò@RMINORZ
+CODE_SMELL
+…squid:S00117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ş•éÿÿÿÿÿHò@RMINORZ
+CODE_SMELL
+…squid:S00117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHŸò@RMINORZ
+CODE_SMELL
+†squid:S00117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½µòøÿÿÿÿH ò@RMINORZ
+CODE_SMELL
+†squid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½µòøÿÿÿÿH¡ò@RMINORZ
+CODE_SMELL
+†squid:S00117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÑÀÀüÿÿÿÿH¢ò@RMINORZ
+CODE_SMELL
+†squid:S00117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒùÍëıÿÿÿÿH£ò@RMINORZ
+CODE_SMELL
+squid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×˜Ğ›H¤ò@RMINORZ
+CODE_SMELL
+†squid:S00117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Ş·äûÿÿÿÿH¥ò@RMINORZ
+CODE_SMELL
+†squid:S00117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½µòøÿÿÿÿH¦ò@RMINORZ
+CODE_SMELL
+†squid:S00117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½µòøÿÿÿÿH§ò@RMINORZ
+CODE_SMELL
+wsquid:UselessImportCheck("7Remove this unused import 'jiangdu.fire.util.DistUtil'.(¿øı»üÿÿÿÿH¨ò@RMINORZ
+CODE_SMELL
+†squid:UselessImportCheck"FRemove this unused import 'jiangdu.fire.service.common.IAlarmService'.(—îÅ˜üÿÿÿÿH©ò@RMINORZ
+CODE_SMELL
+msquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜ÉüÿÿÿÿHªò@RMINORZ
+CODE_SMELL
+nsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿH«ò@RMINORZ
+CODE_SMELL
+€squid:UselessImportCheck"@Remove this unused import 'jiangdu.fire.model.SpecialEquipment'.(´•ÑúÿÿÿÿH¬ò@RMINORZ
+CODE_SMELL
+squid:UselessImportCheck/"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿH­ò@RMINORZ
+CODE_SMELL
+ksquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒH®ò@RMINORZ
+CODE_SMELL
+zsquid:UselessImportCheck1":Remove this unused import 'org.quartz.SchedulerException'.(“áìØıÿÿÿÿH¯ò@RMINORZ
+CODE_SMELL
+ssquid:UselessImportCheck*"8Remove this unused import 'jiangdu.fire.util.JacobUtil'.(à²ˆ¿H°ò@RMINORZ
+CODE_SMELL
+{squid:UselessImportCheck="@Remove this unused import 'com.yifeng.struts2.ResultParameters'.(Ÿ„Ò¿H±ò@RMINORZ
+CODE_SMELL
+psquid:UselessImportCheck"5Remove this unused import 'java.text.ParseException'.(ñ®ï•H²ò@RMINORZ
+CODE_SMELL
+‡squid:UselessImportCheck"GRemove this unused import 'jiangdu.fire.service.common.FireMapService'.(Â¾˜“ùÿÿÿÿH³ò@RMINORZ
+CODE_SMELL
+zsquid:UselessImportCheck<"?Remove this unused import 'com.yifeng.struts2.ResultConstants'.(×–ìÄH´ò@RMINORZ
+CODE_SMELL
+}squid:UselessImportCheck+"=Remove this unused import 'jiangdu.fire.util.SqlUtilService'.(¤ó„ÀûÿÿÿÿHµò@RMINORZ
+CODE_SMELL
+‘squid:UselessImportCheck&"QRemove this unused import 'jiangdu.fire.service.common.impl.WaterManagerService'.(´ó»õşÿÿÿÿH¶ò@RMINORZ
+CODE_SMELL
+rsquid:UselessImportCheck"7Remove this unused import 'jiangdu.fire.model.BusInfo'.(æª•¹H·ò@RMINORZ
+CODE_SMELL
+usquid:UselessImportCheck":Remove this unused import 'jiangdu.fire.model.CjtBusInfo'.(›ÿ‚ÃH¸ò@RMINORZ
+CODE_SMELL
+nsquid:UselessImportCheck"3Remove this unused import 'jiangdu.fire.model.Org'.(ÍË³áH¹ò@RMINORZ
+CODE_SMELL
+‡squid:UselessImportCheck#"MRemove this unused import 'jiangdu.fire.service.common.ISystemManageService'.(Û„ˆHºò@RMINORZ
+CODE_SMELL
+usquid:UselessImportCheck"5Remove this unused import 'java.rmi.RemoteException'.(Ä÷àÿÿÿÿÿH»ò@RMINORZ
+CODE_SMELL
+ksquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±ÄøÿÿÿÿH¼ò@RMINORZ
+CODE_SMELL
+{squid:UselessImportCheck:";Remove this unused import 'com.yifeng.struts2.ActionUtils'.(°œôşÿÿÿÿÿH½ò@RMINORZ
+CODE_SMELL
+rsquid:UselessImportCheck,"2Remove this unused import 'net.sf.json.JSONArray'.(å¶ÿÿÿÿÿH¾ò@RMINORZ
+CODE_SMELL
+ssquid:UselessImportCheck-"3Remove this unused import 'net.sf.json.JSONObject'.(©ã¨şÿÿÿÿH¿ò@RMINORZ
+CODE_SMELL
+|squid:UselessImportCheck"ARemove this unused import 'java.io.UnsupportedEncodingException'.(Ãµ…“HÀò@RMINORZ
+CODE_SMELL
+squid:UselessImportCheck!"DRemove this unused import 'jiangdu.fire.service.common.IOrgService'.(¤³­HÁò@RMINORZ
+CODE_SMELL
+Zsquid:S1148ß"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÂò@RMINORZVULNERABILITY
+Zsquid:S1148ò"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÃò@RMINORZVULNERABILITY
+Zsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÄò@RMINORZVULNERABILITY
+asquid:S1948E"+Make "ImpOrgSer" transient or serializable.(¿¯²ºúÿÿÿÿHÅò@RCRITICALZ
+CODE_SMELL
+`squid:S1948G"/Make "implCPService" transient or serializable.( ıäÌHÆò@RCRITICALZ
+CODE_SMELL
+fsquid:S1948I"0Make "compnayService" transient or serializable.(ú¸ØĞûÿÿÿÿHÇò@RCRITICALZ
+CODE_SMELL
+isquid:S1948‚"7Make "companyAndroidService" transient or serializable.(ø£×—HÈò@RCRITICALZ
+CODE_SMELL

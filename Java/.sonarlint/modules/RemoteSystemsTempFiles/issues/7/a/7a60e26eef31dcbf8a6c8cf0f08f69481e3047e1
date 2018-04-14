@@ -1,0 +1,47 @@
+
+zjavascript:S930å"K"_initialize" declared at line 414 expects 0 arguments, but 1 was provided.(ºõøØH¾¦ERCRITICALZBUG
+Ÿjavascript:S2583Œ"mChange this condition so that it does not always evaluate to "false"; some subsequent code is never executed.(œŞ‚ûÿÿÿÿH¿¦ERMAJORZBUG
+{javascript:S2814{"CRename "e" as this name is already used in declaration at line 112.(ç¨¼ÅıÿÿÿÿHÀ¦ERMAJORZ
+CODE_SMELL
+‚javascript:S2814Ä"IRename "scripts" as this name is already used in declaration at line 417.(ô»ÚÏüÿÿÿÿHÁ¦ERMAJORZ
+CODE_SMELL
+yjavascript:S2814‘"ERename "tmp" as this name is already used in declaration at line 140.(ÅââHÂ¦ERMAJORZ
+CODE_SMELL
+…javascript:S2814„"LRename "flexAppUrl" as this name is already used in declaration at line 314.(§åÅƒùÿÿÿÿHÃ¦ERMAJORZ
+CODE_SMELL
+vjavascript:S2814z"CRename "o" as this name is already used in declaration at line 111.(ŞÕúHÄ¦ERMAJORZ
+CODE_SMELL
+|javascript:S2814Å"CRename "i" as this name is already used in declaration at line 418.(ºÅåøÿÿÿÿHÅ¦ERMAJORZ
+CODE_SMELL
+|javascript:S2814Å"CRename "s" as this name is already used in declaration at line 418.(ºÅåøÿÿÿÿHÆ¦ERMAJORZ
+CODE_SMELL
+}javascript:S2814Š"DRename "pl" as this name is already used in declaration at line 320.(ùıêíüÿÿÿÿHÇ¦ERMAJORZ
+CODE_SMELL
+wjavascript:S2814ó"CRename "i" as this name is already used in declaration at line 321.(‡éõŠHÈ¦ERMAJORZ
+CODE_SMELL
+|javascript:S2814ù"CRename "i" as this name is already used in declaration at line 321.(ŒÖıÿÿÿÿHÉ¦ERMAJORZ
+CODE_SMELL
+wjavascript:S2814‹"CRename "i" as this name is already used in declaration at line 321.(ÅøõHÊ¦ERMAJORZ
+CODE_SMELL
+javascript:S2814¬"HRename "newloc" as this name is already used in declaration at line 541.(¿¥§¤üÿÿÿÿHË¦ERMAJORZ
+CODE_SMELL
+gjavascript:EmptyBlockª")Either remove or fill this block of code.(¦ÛÁïÿÿÿÿÿHÌ¦ERMAJORZ
+CODE_SMELL
+]javascript:PrimitiveWrappers¤"Use a literal value for this.(ñ—¯¿HÍ¦ERMINORZ
+CODE_SMELL
+bjavascript:PrimitiveWrappersÇ"Use a literal value for this.(È»ø‘øÿÿÿÿHÎ¦ERMINORZ
+CODE_SMELL
+pjavascript:UnusedVariable¨"4Remove the declaration of the unused 'src' variable.(Ö¾¡HHÏ¦ERMINORZ
+CODE_SMELL
+kjavascript:S1854ˆ"7Remove this useless assignment to local variable "last"( Œ†ŒHĞ¦ERMAJORZ
+CODE_SMELL
+javascript:S2703"dAdd the "let", "const" or "var" keyword to this declaration of "BrowserHistory" to make it explicit.(¼üâçúÿÿÿÿHÑ¦ERBLOCKERZ
+CODE_SMELL
+›javascript:S2703Ó"`Add the "let", "const" or "var" keyword to this declaration of "pendingURL" to make it explicit.(¡è­ÎşÿÿÿÿHÒ¦ERBLOCKERZ
+CODE_SMELL
+•javascript:S2703Ç"ZAdd the "let", "const" or "var" keyword to this declaration of "html" to make it explicit.(È»ø‘øÿÿÿÿHÓ¦ERBLOCKERZ
+CODE_SMELL
+javascript:S2703õ"bAdd the "let", "const" or "var" keyword to this declaration of "arbitraryUrl" to make it explicit.(³õÉ´úÿÿÿÿHÔ¦ERBLOCKERZ
+CODE_SMELL
+javascript:S2703"iAdd the "let", "const" or "var" keyword to this declaration of "BrowserHistoryUtils" to make it explicit.(±ˆİ‚HÕ¦ERBLOCKERZ
+CODE_SMELL

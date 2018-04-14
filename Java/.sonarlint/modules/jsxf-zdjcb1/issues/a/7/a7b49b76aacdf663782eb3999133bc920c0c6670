@@ -1,0 +1,197 @@
+
+…squid:S00117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•êâÞýÿÿÿÿHíÜ@RMINORZ
+CODE_SMELL
+†squid:S00117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñæº­ûÿÿÿÿHîÜ@RMINORZ
+CODE_SMELL
+psquid:CallToDeprecatedMethodf"2Remove this use of "SqlAdapter"; it is deprecated.(ùÚòZHïÜ@RMINORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLineŠ"<This block of commented-out lines of code should be removed.(þœµÆHðÜ@RMAJORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethodý"2Remove this use of "SqlAdapter"; it is deprecated.(–¹ HñÜ@RMINORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLine—"<This block of commented-out lines of code should be removed.(õí¾ðHòÜ@RMAJORZ
+CODE_SMELL
+wsquid:CallToDeprecatedMethodÙ"2Remove this use of "SqlAdapter"; it is deprecated.(°ˆ˜„ýÿÿÿÿHóÜ@RMINORZ
+CODE_SMELL
+…squid:S1192Á"NDefine a constant instead of duplicating this literal "cur_userInfo_" 3 times.(ÔøûÏýÿÿÿÿHôÜ@RCRITICALZ
+CODE_SMELL
+Zsquid:S1148¦"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHõÜ@RMINORZVULNERABILITY
+qsquid:CallToDeprecatedMethod{"2Remove this use of "SqlAdapter"; it is deprecated.(þÇ‘áHöÜ@RMINORZ
+CODE_SMELL
+|squid:S1192q"FDefine a constant instead of duplicating this literal "count" 3 times.(ÕÍÑÔúÿÿÿÿH÷Ü@RCRITICALZ
+CODE_SMELL
+qsquid:CallToDeprecatedMethodp"2Remove this use of "SqlAdapter"; it is deprecated.(–¹ HøÜ@RMINORZ
+CODE_SMELL
+qsquid:CallToDeprecatedMethodì"2Remove this use of "SqlAdapter"; it is deprecated.(šŒÆbHùÜ@RMINORZ
+CODE_SMELL
+qsquid:CallToDeprecatedMethodì"2Remove this use of "SqlAdapter"; it is deprecated.(¾–ˆ0HúÜ@RMINORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethodò"2Remove this use of "SqlAdapter"; it is deprecated.(ëÓÎHûÜ@RMINORZ
+CODE_SMELL
+ˆsquid:UselessImportCheck"HRemove this unused import 'org.springframework.dao.DataAccessException'.(·È³÷ûÿÿÿÿHüÜ@RMINORZ
+CODE_SMELL
+Žsquid:S1149‰"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰HýÜ@RMAJORZ
+CODE_SMELL
+‡squid:S2077Ê"RUse a variable binding mechanism to construct this query instead of concatenation.(¢˜‡ÇHþÜ@RCRITICALZVULNERABILITY
+esquid:S1854U"7Remove this useless assignment to local variable "row".(Ì®Ô©HÿÜ@RMAJORZ
+CODE_SMELL
+qsquid:CallToDeprecatedMethodÆ"2Remove this use of "SqlAdapter"; it is deprecated.(¾–ˆ0H€Ý@RMINORZ
+CODE_SMELL
+]squid:S1172„".Remove this unused method parameter "pwd_md5".(éÄêïHÝ@RMAJORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethod"2Remove this use of "SqlAdapter"; it is deprecated.(þÇ‘áH‚Ý@RMINORZ
+CODE_SMELL
+…squid:S00117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Æ”üÿÿÿÿHƒÝ@RMINORZ
+CODE_SMELL
+Osquid:S2129Ë" Remove this "String" constructor(¿‹Ç’H„Ý@RMAJORZ
+CODE_SMELL
+~squid:S1192Ï"LDefine a constant instead of duplicating this literal "manageCorps" 3 times.(ªÕ÷H…Ý@RCRITICALZ
+CODE_SMELL
+qsquid:CallToDeprecatedMethodN"2Remove this use of "SqlAdapter"; it is deprecated.(üË¯H†Ý@RMINORZ
+CODE_SMELL
+isquid:UselessImportCheck"/Remove this unused import 'java.sql.Timestamp'.(èò½+H‡Ý@RMINORZ
+CODE_SMELL
+`squid:S1135²"2Complete the task associated to this TODO comment.(Üð£ÅHˆÝ@RINFOZ
+CODE_SMELL
+¶squid:S1192‹"Define a constant instead of duplicating this literal " left join JSXF_ORG_JCJ jcj on(jcj.ORG_ID=T_BASE_USER.ORG_ID) " 4 times.(’ƒÎÁúÿÿÿÿH‰Ý@RCRITICALZ
+CODE_SMELL
+bsquid:S2441Ð":Make "User" serializable or don't store it in the session.(ë¶û×HŠÝ@RMAJORZBUG
+¡squid:S1192Œ"oDefine a constant instead of duplicating this literal " left join t_area_code a on (a.code=jcj.xzqdm)" 4 times.(Ù¹ˆ†H‹Ý@RCRITICALZ
+CODE_SMELL
+fsquid:S1854Œ"7Remove this useless assignment to local variable "map".(Ï†²©HŒÝ@RMAJORZ
+CODE_SMELL
+gsquid:S1854,"9Remove this useless assignment to local variable "table".(ïõãÜHÝ@RMAJORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethod"2Remove this use of "SqlAdapter"; it is deprecated.(³ÍÊ˜HŽÝ@RMINORZ
+CODE_SMELL
+~squid:S1192È"GDefine a constant instead of duplicating this literal "manage" 4 times.(Þø¿ÍùÿÿÿÿHÝ@RCRITICALZ
+CODE_SMELL
+…squid:S1192­"NDefine a constant instead of duplicating this literal "org_longitude" 8 times.(×ˆ¼¾úÿÿÿÿHÝ@RCRITICALZ
+CODE_SMELL
+zsquid:CommentedOutCodeLine“"<This block of commented-out lines of code should be removed.(ËíÈûH‘Ý@RMAJORZ
+CODE_SMELL
+¶%squid:RedundantThrowsDeclarationCheck‰"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Çÿ¯%H’Ý@RMINORZ
+CODE_SMELL
+wsquid:CallToDeprecatedMethodà"2Remove this use of "SqlAdapter"; it is deprecated.(±šØ¡øÿÿÿÿH“Ý@RMINORZ
+CODE_SMELL
+‹squid:S1488•"]Immediately return this expression instead of assigning it to the temporary variable "table".(Ö¡BH”Ý@RMINORZ
+CODE_SMELL
+‘squid:S1488÷"]Immediately return this expression instead of assigning it to the temporary variable "relu_".(û‹¢õýÿÿÿÿH•Ý@RMINORZ
+CODE_SMELL
+‚squid:UselessImportCheck"GRemove this unused import 'com.yifeng.dao.template.JdbcTemplateHelper'.(¤í»H–Ý@RMINORZ
+CODE_SMELL
+hsquid:S1191"5Use classes from the Java API instead of Sun classes.(ð’•ÄüÿÿÿÿH—Ý@RMAJORZ
+CODE_SMELL
+wsquid:CallToDeprecatedMethod÷"2Remove this use of "SqlAdapter"; it is deprecated.(û‹¢õýÿÿÿÿH˜Ý@RMINORZ
+CODE_SMELL
+Zsquid:S1148“"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH™Ý@RMINORZVULNERABILITY
+…squid:S00117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þÐðÀúÿÿÿÿHšÝ@RMINORZ
+CODE_SMELL
+—squid:S1192¼"eDefine a constant instead of duplicating this literal "' Connect By Prior parent_id=org_id " 4 times.(’¼ô½H›Ý@RCRITICALZ
+CODE_SMELL
+‰squid:S2068 "P'pwd' detected in this expression, review this potentially hardcoded credential.(öÈ·ÃüÿÿÿÿHœÝ@RBLOCKERZVULNERABILITY
+Zsquid:S1148Þ"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÝ@RMINORZVULNERABILITY
+…squid:S00117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ýÕýþÿÿÿÿHžÝ@RMINORZ
+CODE_SMELL
+esquid:S1135î"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿHŸÝ@RINFOZ
+CODE_SMELL
+€squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï›„³H Ý@RMINORZ
+CODE_SMELL
+wsquid:CallToDeprecatedMethod£"2Remove this use of "SqlAdapter"; it is deprecated.(áÐ¢òýÿÿÿÿH¡Ý@RMINORZ
+CODE_SMELL
+†squid:S00117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÞðÝŠùÿÿÿÿH¢Ý@RMINORZ
+CODE_SMELL
+gsquid:S1854T"9Remove this useless assignment to local variable "table".(ïõãÜH£Ý@RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine‘"<This block of commented-out lines of code should be removed.(˜ÿÓ¾ûÿÿÿÿH¤Ý@RMAJORZ
+CODE_SMELL
+‚squid:S1192º"KDefine a constant instead of duplicating this literal "CREATETIME" 3 times.(¿—Ä™úÿÿÿÿH¥Ý@RCRITICALZ
+CODE_SMELL
+Zsquid:S1148é"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH¦Ý@RMINORZVULNERABILITY
+wsquid:CallToDeprecatedMethodª"2Remove this use of "SqlAdapter"; it is deprecated.(ŒÜ¿¼ûÿÿÿÿH§Ý@RMINORZ
+CODE_SMELL
+…squid:UselessImportCheck"ERemove this unused import 'com.sun.tools.javac.code.Attribute.Array'.(ð’•ÄüÿÿÿÿH¨Ý@RMINORZ
+CODE_SMELL
+squid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ôß¡H©Ý@RMINORZ
+CODE_SMELL
+`squid:S1135ú"2Complete the task associated to this TODO comment.(Üð£ÅHªÝ@RINFOZ
+CODE_SMELL
+squid:S1192§"JDefine a constant instead of duplicating this literal "org_name" 13 times.(ï¹ÊÅúÿÿÿÿH«Ý@RCRITICALZ
+CODE_SMELL
+squid:S00117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ö³òH¬Ý@RMINORZ
+CODE_SMELL
+squid:S00117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü›ä¼H­Ý@RMINORZ
+CODE_SMELL
+vsquid:CallToDeprecatedMethodJ"2Remove this use of "SqlAdapter"; it is deprecated.(¬±¡÷úÿÿÿÿH®Ý@RMINORZ
+CODE_SMELL
+asquid:S1172ˆ"2Remove this unused method parameter "paginations".(€ôæH¯Ý@RMAJORZ
+CODE_SMELL
+vsquid:CallToDeprecatedMethod?"2Remove this use of "SqlAdapter"; it is deprecated.(Ó¤§ëüÿÿÿÿH°Ý@RMINORZ
+CODE_SMELL
+Ysquid:S1172‰"+Remove this unused method parameter "imei".(Çÿ¯%H±Ý@RMAJORZ
+CODE_SMELL
+esquid:S1135¥"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿH²Ý@RINFOZ
+CODE_SMELL
+qsquid:CallToDeprecatedMethod¤"2Remove this use of "SqlAdapter"; it is deprecated.(¾–ˆ0H³Ý@RMINORZ
+CODE_SMELL
+ysquid:S1192¼"GDefine a constant instead of duplicating this literal "org_id" 9 times.(’¼ô½H´Ý@RCRITICALZ
+CODE_SMELL
+squid:CommentedOutCodeLine’"<This block of commented-out lines of code should be removed.(ûüôÇÿÿÿÿÿHµÝ@RMAJORZ
+CODE_SMELL
+Zsquid:S1148ï"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH¶Ý@RMINORZVULNERABILITY
+„squid:S2068ö"P'PWD' detected in this expression, review this potentially hardcoded credential.(»¨òÖH·Ý@RBLOCKERZVULNERABILITY
+squid:S1192È"HDefine a constant instead of duplicating this literal "role_id" 3 times.(Þø¿ÍùÿÿÿÿH¸Ý@RCRITICALZ
+CODE_SMELL
+†squid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²‚ªèøÿÿÿÿH¹Ý@RMINORZ
+CODE_SMELL
+zsquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(Á…ùÓHºÝ@RMAJORZ
+CODE_SMELL
+zsquid:HiddenFieldCheck›"@Rename "jdbcTemplate" which hides the field declared at line 38.(À†êH»Ý@RMAJORZ
+CODE_SMELL
+‰squid:S3776š"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ÞðÝŠùÿÿÿÿH¼Ý@RCRITICALZ
+CODE_SMELL
+zsquid:HiddenFieldCheck·"@Rename "jdbcTemplate" which hides the field declared at line 38.(À†êH½Ý@RMAJORZ
+CODE_SMELL
+esquid:S1854-"7Remove this useless assignment to local variable "row".(Ì®Ô©H¾Ý@RMAJORZ
+CODE_SMELL
+esquid:S1135’"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿH¿Ý@RINFOZ
+CODE_SMELL
+€squid:S1192»"NDefine a constant instead of duplicating this literal "ORG_DIMENSION" 4 times.(·üÍ«HÀÝ@RCRITICALZ
+CODE_SMELL
+squid:S00117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÄêïHÁÝ@RMINORZ
+CODE_SMELL
+†squid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û‹¢õýÿÿÿÿHÂÝ@RMINORZ
+CODE_SMELL
+g
+squid:S106"9Replace this use of System.out or System.err by a logger.(÷ ì²HÃÝ@RMAJORZ
+CODE_SMELL
+rsquid:CallToDeprecatedMethod¹"2Remove this use of "SqlAdapter"; it is deprecated.(³ÍÊ˜HÄÝ@RMINORZ
+CODE_SMELL
+Zsquid:S1148Î"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÅÝ@RMINORZVULNERABILITY
+†squid:S00117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÞðÝŠùÿÿÿÿHÆÝ@RMINORZ
+CODE_SMELL
+qsquid:CallToDeprecatedMethodv"2Remove this use of "SqlAdapter"; it is deprecated.(ÿýœ¬HÇÝ@RMINORZ
+CODE_SMELL
+Øsquid:S1192‰" Define a constant instead of duplicating this literal "( SELECT org_id From JSXF_ORG_JCJ oa where oa.jgtree =   substr( jcj.jgtree,0,24))  org_id_zd  " 4 times.(È‡ñ»ÿÿÿÿÿHÈÝ@RCRITICALZ
+CODE_SMELL
+qsquid:CallToDeprecatedMethod•"2Remove this use of "SqlAdapter"; it is deprecated.(Ö¡BHÉÝ@RMINORZ
+CODE_SMELL
+vsquid:CallToDeprecatedMethode"2Remove this use of "SqlAdapter"; it is deprecated.(ÿ÷œ¼ÿÿÿÿÿHÊÝ@RMINORZ
+CODE_SMELL
+ƒsquid:S00100Þ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛâÇ·ùÿÿÿÿHËÝ@RMINORZ
+CODE_SMELL
+qsquid:CallToDeprecatedMethod@"2Remove this use of "SqlAdapter"; it is deprecated.(ÑÑ©óHÌÝ@RMINORZ
+CODE_SMELL
+€squid:S1192®"NDefine a constant instead of duplicating this literal "org_dimension" 8 times.(¥îÕËHÍÝ@RCRITICALZ
+CODE_SMELL
+€squid:S1192»"NDefine a constant instead of duplicating this literal "ORG_LONGITUDE" 4 times.(·üÍ«HÎÝ@RCRITICALZ
+CODE_SMELL
+…squid:S1192Š"SDefine a constant instead of duplicating this literal " from T_BASE_USER " 4 times.(¡×Ù€HÏÝ@RCRITICALZ
+CODE_SMELL
+Îsquid:S1192ˆ"–Define a constant instead of duplicating this literal "select T_BASE_USER.*,jcj.ORG_LONGITUDE,jcj.ORG_DIMENSION,jcj.ORG_NAME, a.area,a.city," 4 times.(ä…ŸÓþÿÿÿÿHÐÝ@RCRITICALZ
+CODE_SMELL
+„squid:S2068³"P'pwd' detected in this expression, review this potentially hardcoded credential.(ÿ©ÂÑHÑÝ@RBLOCKERZVULNERABILITY
+‘squid:S1488à"]Immediately return this expression instead of assigning it to the temporary variable "table".(±šØ¡øÿÿÿÿHÒÝ@RMINORZ
+CODE_SMELL
+wsquid:CallToDeprecatedMethod"2Remove this use of "SqlAdapter"; it is deprecated.(šÂÍ”þÿÿÿÿHÓÝ@RMINORZ
+CODE_SMELL

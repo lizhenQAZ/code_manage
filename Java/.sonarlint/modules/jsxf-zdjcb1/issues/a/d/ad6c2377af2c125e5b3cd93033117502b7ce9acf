@@ -1,0 +1,30 @@
+
+†squid:S2077z"RUse a variable binding mechanism to construct this query instead of concatenation.(ÔÎÏìHå‘iRCRITICALZVULNERABILITY
+squid:S1192"IDefine a constant instead of duplicating this literal "alarm_no" 3 times.(«‰È¸ùÿÿÿÿHæ‘iRCRITICALZ
+CODE_SMELL
+f
+squid:S106f"9Replace this use of System.out or System.err by a logger.(ô§ÿ¢Hç‘iRMAJORZ
+CODE_SMELL
+f
+squid:S106}"9Replace this use of System.out or System.err by a logger.(ô§ÿ¢Hè‘iRMAJORZ
+CODE_SMELL
+Ysquid:S1168h"+Return an empty collection instead of null.(¥¹ïHé‘iRMAJORZ
+CODE_SMELL
+…squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHê‘iRMINORZ
+CODE_SMELL
+…squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHë‘iRMINORZ
+CODE_SMELL
+squid:S00117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ƒHì‘iRMINORZ
+CODE_SMELL
+€squid:S00117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘…şHí‘iRMINORZ
+CODE_SMELL
+…squid:S00117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÜä¥ûÿÿÿÿHî‘iRMINORZ
+CODE_SMELL
+…squid:S00117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHï‘iRMINORZ
+CODE_SMELL
+…squid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHğ‘iRMINORZ
+CODE_SMELL
+…squid:S00117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHñ‘iRMINORZ
+CODE_SMELL
+€squid:S00117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ÒÅãHò‘iRMINORZ
+CODE_SMELL

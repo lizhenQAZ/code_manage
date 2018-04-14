@@ -1,0 +1,204 @@
+
+—javascript:S2703ƒ8"\Add the "let", "const" or "var" keyword to this declaration of "_error" to make it explicit.(‹ø’™ûÿÿÿÿH¤¦ERBLOCKERZ
+CODE_SMELL
+ojavascript:UnusedVariable¥"2Remove the declaration of the unused 'k' variable.(ÈöÜÁHú¥ERMINORZ
+CODE_SMELL
+hjavascript:S1854‡1"4Remove this useless assignment to local variable "H"(ÅÖ’­H–¦ERMAJORZ
+CODE_SMELL
+ojavascript:UnusedVariableØ"2Remove the declaration of the unused 'd' variable.(¯üH÷¥ERMINORZ
+CODE_SMELL
+›javascript:S2692õ"bThis check ignores index 0; consider using 'includes' method to make this check safe and explicit.(¾ğÍ­ùÿÿÿÿHÒ¥ERMAJORZ
+CODE_SMELL
+’javascript:S2703Ó*"WAdd the "let", "const" or "var" keyword to this declaration of "i" to make it explicit.(®©²æşÿÿÿÿHœ¦ERBLOCKERZ
+CODE_SMELL
+Ujavascript:S2870ª"Remove this use of "delete".(â÷Ò¡ÿÿÿÿÿHâ¥ERMAJORZ
+CODE_SMELL
+Xjavascript:UnusedVariable•"Remove unused function 'd'.(¦¨ßøHù¥ERMINORZ
+CODE_SMELL
+ojavascript:UnusedVariable­"2Remove the declaration of the unused 'c' variable.(´Å»çHé¥ERMINORZ
+CODE_SMELL
+›javascript:S2703Ü4"eAdd the "let", "const" or "var" keyword to this declaration of "_previousHieght" to make it explicit.(éŞ¥ªH ¦ERBLOCKERZ
+CODE_SMELL
+javascript:S2703í"cAdd the "let", "const" or "var" keyword to this declaration of "_instreamArea" to make it explicit.(¬‹¸’ÿÿÿÿÿH¦ERBLOCKERZ
+CODE_SMELL
+hjavascript:S1854ş&"4Remove this useless assignment to local variable "n"(„çöìH¦ERMAJORZ
+CODE_SMELL
+mjavascript:S1854‹?"4Remove this useless assignment to local variable "H"(øØàÒùÿÿÿÿH‘¦ERMAJORZ
+CODE_SMELL
+–javascript:S2692Ú&"bThis check ignores index 0; consider using 'includes' method to make this check safe and explicit.(–™ÈHÖ¥ERMAJORZ
+CODE_SMELL
+hjavascript:S1854Ï"4Remove this useless assignment to local variable "p"(å°³åHˆ¦ERMAJORZ
+CODE_SMELL
+œjavascript:S2703•"aAdd the "let", "const" or "var" keyword to this declaration of "playerReady" to make it explicit.(ûôœàıÿÿÿÿH—¦ERBLOCKERZ
+CODE_SMELL
+œjavascript:S2703Â"aAdd the "let", "const" or "var" keyword to this declaration of "_imageWidth" to make it explicit.(®Ë÷ŞøÿÿÿÿHš¦ERBLOCKERZ
+CODE_SMELL
+|javascript:S930œ;"N"_loadComplete" declared at line 7585 expects 0 arguments, but 1 was provided.(Ò¤ËmHÅ¥ERCRITICALZBUG
+–javascript:S2703ş>"[Add the "let", "const" or "var" keyword to this declaration of "items" to make it explicit.(¤¬¯¯ÿÿÿÿÿH˜¦ERBLOCKERZ
+CODE_SMELL
+tjavascript:UnusedVariable‹?"2Remove the declaration of the unused 'H' variable.(øØàÒùÿÿÿÿHë¥ERMINORZ
+CODE_SMELL
+Xjavascript:UnusedVariable•"Remove unused function 'n'.(è®Ø°Hõ¥ERMINORZ
+CODE_SMELL
+–javascript:S2703†"[Add the "let", "const" or "var" keyword to this declaration of "newID" to make it explicit.(á§¯œüÿÿÿÿH£¦ERBLOCKERZ
+CODE_SMELL
+›javascript:S2703í1"`Add the "let", "const" or "var" keyword to this declaration of "_fakemodel" to make it explicit.(Èá—àşÿÿÿÿHª¦ERBLOCKERZ
+CODE_SMELL
+€javascript:S2589³"LRefactor this code so that this expression does not always evaluate to true.(Ç¿½úHÌ¥ERMAJORZ
+CODE_SMELL
+ojavascript:UnusedVariable¿"2Remove the declaration of the unused 'f' variable.(ß·°ÜHô¥ERMINORZ
+CODE_SMELL
+javascript:S2703Ã"bAdd the "let", "const" or "var" keyword to this declaration of "_imageHeight" to make it explicit.(…œ›ËşÿÿÿÿH«¦ERBLOCKERZ
+CODE_SMELL
+hjavascript:S1854ä""5Remove this useless assignment to local variable "aq"(ŸèlH¦ERMAJORZ
+CODE_SMELL
+ojavascript:UnusedVariable¦"2Remove the declaration of the unused 'l' variable.(¶¥šŸHí¥ERMINORZ
+CODE_SMELL
+…javascript:S2589ó"LRefactor this code so that this expression does not always evaluate to true.(“ÚÂªûÿÿÿÿHÍ¥ERMAJORZ
+CODE_SMELL
+hjavascript:S1854ß"4Remove this useless assignment to local variable "e"(íÛñÖH€¦ERMAJORZ
+CODE_SMELL
+mjavascript:S1854ä8"4Remove this useless assignment to local variable "c"(‘ñË²ıÿÿÿÿH•¦ERMAJORZ
+CODE_SMELL
+pjavascript:UnusedVariable8"3Remove the declaration of the unused 'aa' variable.(óáÈñHò¥ERMINORZ
+CODE_SMELL
+ijavascript:S18548"5Remove this useless assignment to local variable "aa"(óáÈñH”¦ERMAJORZ
+CODE_SMELL
+ojavascript:UnusedVariable¤"2Remove the declaration of the unused 'g' variable.(†¾º€Hû¥ERMINORZ
+CODE_SMELL
+ojavascript:UnusedVariableÏ"2Remove the declaration of the unused 'p' variable.(å°³åHè¥ERMINORZ
+CODE_SMELL
+mjavascript:S1854û&"4Remove this useless assignment to local variable "a"(Ñ³ŞƒşÿÿÿÿH¦ERMAJORZ
+CODE_SMELL
+šjavascript:S2703¥"dAdd the "let", "const" or "var" keyword to this declaration of "browserCanPlay" to make it explicit.(İä¦H©¦ERBLOCKERZ
+CODE_SMELL
+~javascript:S2814™""ERename "aq" as this name is already used in declaration at line 4371.(æ±ñÆüÿÿÿÿHÙ¥ERMAJORZ
+CODE_SMELL
+mjavascript:S1854Û7"4Remove this useless assignment to local variable "Y"(ïğßùÿÿÿÿH“¦ERMAJORZ
+CODE_SMELL
+hjavascript:S1854Ø"4Remove this useless assignment to local variable "d"(¯üHƒ¦ERMAJORZ
+CODE_SMELL
+mjavascript:S1854Ç"4Remove this useless assignment to local variable "C"(³Ş×¦şÿÿÿÿH‹¦ERMAJORZ
+CODE_SMELL
+hjavascript:S1854¤"4Remove this useless assignment to local variable "g"(†¾º€H…¦ERMAJORZ
+CODE_SMELL
+–javascript:S2692	"bThis check ignores index 0; consider using 'includes' method to make this check safe and explicit.(‘–œHĞ¥ERMAJORZ
+CODE_SMELL
+javascript:S2589ş	"LRefactor this code so that this expression does not always evaluate to true.(²ˆª6HÊ¥ERMAJORZ
+CODE_SMELL
+}javascript:S2814Ô"DRename "q" as this name is already used in declaration at line 2768.(«‡ÉºıÿÿÿÿHÜ¥ERMAJORZ
+CODE_SMELL
+—javascript:S2703â"\Add the "let", "const" or "var" keyword to this declaration of "plugin" to make it explicit.(¬Ê ”ıÿÿÿÿH¨¦ERBLOCKERZ
+CODE_SMELL
+javascript:S2703ˆ "[Add the "let", "const" or "var" keyword to this declaration of "_show" to make it explicit.(¡ˆ·OH¥¦ERBLOCKERZ
+CODE_SMELL
+‚javascript:S930–;"N"_loadComplete" declared at line 7585 expects 0 arguments, but 1 was provided.(—¤ÙôÿÿÿÿÿHÄ¥ERCRITICALZBUG
+hjavascript:S1854š"4Remove this useless assignment to local variable "d"(íáú×Hÿ¥ERMAJORZ
+CODE_SMELL
+tjavascript:UnusedVariableÇ"2Remove the declaration of the unused 'C' variable.(³Ş×¦şÿÿÿÿHî¥ERMINORZ
+CODE_SMELL
+|javascript:S2814‚"CRename "g" as this name is already used in declaration at line 495.(¾“˜âûÿÿÿÿHÚ¥ERMAJORZ
+CODE_SMELL
+‚javascript:Evalî"IReview the arguments of this "eval" call to make sure they are validated.(ÇÈÿŸHà¥ERCRITICALZVULNERABILITY
+hjavascript:S1854Å"4Remove this useless assignment to local variable "k"(óŸàH‡¦ERMAJORZ
+CODE_SMELL
+ujavascript:UnusedVariableÃ&"3Remove the declaration of the unused 'au' variable.(øÙ¥ÒùÿÿÿÿHñ¥ERMINORZ
+CODE_SMELL
+…javascript:S2589Ä"LRefactor this code so that this expression does not always evaluate to true.(‘úÔüÿÿÿÿHË¥ERMAJORZ
+CODE_SMELL
+]javascript:UnusedVariable‹"Remove unused function 'b'.(ô§•´øÿÿÿÿHæ¥ERMINORZ
+CODE_SMELL
+‡javascript:Eval¼;"IReview the arguments of this "eval" call to make sure they are validated.(Ş¡ê²úÿÿÿÿHß¥ERCRITICALZVULNERABILITY
+ujavascript:S28144"BRename "e" as this name is already used in declaration at line 46.(óˆÕ›H×¥ERMAJORZ
+CODE_SMELL
+™javascript:S2583Á%"mChange this condition so that it does not always evaluate to "false"; some subsequent code is never executed.(òæïgHÇ¥ERMAJORZBUG
+xjavascript:S2814¨@"DRename "f" as this name is already used in declaration at line 8230.(ê·¯¡HÛ¥ERMAJORZ
+CODE_SMELL
+tjavascript:UnusedVariableû&"2Remove the declaration of the unused 'a' variable.(Ñ³ŞƒşÿÿÿÿHì¥ERMINORZ
+CODE_SMELL
+gjavascript:S1854¥"4Remove this useless assignment to local variable "D"(®œùDHŠ¦ERMAJORZ
+CODE_SMELL
+Xjavascript:UnusedVariable±/"Remove unused function 't'.(‰ÀõâHç¥ERMINORZ
+CODE_SMELL
+Yjavascript:UnreachableCode—	"Remove this unreachable code.(ô–†ÛùÿÿÿÿHü¥ERMAJORZBUG
+mjavascript:S1854û"4Remove this useless assignment to local variable "h"(Éœ—¢ÿÿÿÿÿH¦ERMAJORZ
+CODE_SMELL
+›javascript:S2692ƒ#"bThis check ignores index 0; consider using 'includes' method to make this check safe and explicit.(ú ÁûÿÿÿÿHÔ¥ERMAJORZ
+CODE_SMELL
+ojavascript:UnusedVariableÅ"2Remove the declaration of the unused 'k' variable.(óŸàHï¥ERMINORZ
+CODE_SMELL
+—javascript:S2703ö*"\Add the "let", "const" or "var" keyword to this declaration of "parser" to make it explicit.(±²†£şÿÿÿÿH¦ERBLOCKERZ
+CODE_SMELL
+gjavascript:S1854ˆ1"4Remove this useless assignment to local variable "o"(‰±ıJH’¦ERMAJORZ
+CODE_SMELL
+Ujavascript:S1116ÊC"Remove this empty statement.(ôŸìúÿÿÿÿHİ¥ERMINORZ
+CODE_SMELL
+ojavascript:UnusedVariable·5"2Remove the declaration of the unused 'Y' variable.(§¹ÉHê¥ERMINORZ
+CODE_SMELL
+›javascript:S2692é"bThis check ignores index 0; consider using 'includes' method to make this check safe and explicit.(Î¥¨´şÿÿÿÿHÑ¥ERMAJORZ
+CODE_SMELL
+”javascript:S2703í"YAdd the "let", "const" or "var" keyword to this declaration of "str" to make it explicit.(ŞÍğ·ıÿÿÿÿH¦¦ERBLOCKERZ
+CODE_SMELL
+t javascript:DuplicatePropertyName¡>"2Rename or remove duplicate property name 'margin'.(åÓÚ×ûÿÿÿÿHŞ¥ERMAJORZBUG
+javascript:S2589ñ	"MRefactor this code so that this expression does not always evaluate to false.(¹ü¨ÏHÈ¥ERMAJORZ
+CODE_SMELL
+javascript:S2703Œ"bAdd the "let", "const" or "var" keyword to this declaration of "html5CanPlay" to make it explicit.(¹ùèüÿÿÿÿH§¦ERBLOCKERZ
+CODE_SMELL
+xjavascript:S2814¼C"DRename "q" as this name is already used in declaration at line 8632.(Ë¥øHØ¥ERMAJORZ
+CODE_SMELL
+€javascript:S2589ö"LRefactor this code so that this expression does not always evaluate to true.(§¹É¢HÎ¥ERMAJORZ
+CODE_SMELL
+ojavascript:UnusedVariableß"2Remove the declaration of the unused 'e' variable.(íÛñÖHğ¥ERMINORZ
+CODE_SMELL
+djavascript:UnreachableCodeç"-Remove this code after the "throw" statement.(ÙãŞŸHş¥ERMAJORZBUG
+javascript:S2703¾"bAdd the "let", "const" or "var" keyword to this declaration of "flashCanPlay" to make it explicit.(ÁˆÕıÿÿÿÿH¡¦ERBLOCKERZ
+CODE_SMELL
+†javascript:S1301‘"MReplace this "switch" statement with "if" statements to increase readability.(Ş—¶¢şÿÿÿÿH¬¦ERMINORZ
+CODE_SMELL
+hjavascript:S1854¥"4Remove this useless assignment to local variable "k"(ÈöÜÁH†¦ERMAJORZ
+CODE_SMELL
+hjavascript:S1854Ê""5Remove this useless assignment to local variable "aq"(ŸèlHŒ¦ERMAJORZ
+CODE_SMELL
+•javascript:S2703º"ZAdd the "let", "const" or "var" keyword to this declaration of "_css" to make it explicit.(Ô­õùüÿÿÿÿH›¦ERBLOCKERZ
+CODE_SMELL
+™javascript:S2703Å"cAdd the "let", "const" or "var" keyword to this declaration of "_videowrapper" to make it explicit.(Ê¸¤ÇH™¦ERBLOCKERZ
+CODE_SMELL
+ojavascript:UnusedVariableş&"2Remove the declaration of the unused 'n' variable.(„çöìHå¥ERMINORZ
+CODE_SMELL
+qjavascript:S2259Û/"?TypeError can be thrown as "R" might be null or undefined here.(‰ÏÖıÿÿÿÿHÃ¥ERMAJORZBUG
+‚javascript:EvalĞ"IReview the arguments of this "eval" call to make sure they are validated.(ÇÈÿŸHá¥ERCRITICALZVULNERABILITY
+tjavascript:UnusedVariableä8"2Remove the declaration of the unused 'c' variable.(‘ñË²ıÿÿÿÿHø¥ERMINORZ
+CODE_SMELL
+mjavascript:S1854Ü"4Remove this useless assignment to local variable "A"(•¡ÚÆşÿÿÿÿH‰¦ERMAJORZ
+CODE_SMELL
+mjavascript:S1854ÿ"4Remove this useless assignment to local variable "h"(Ê±´ÀúÿÿÿÿH‚¦ERMAJORZ
+CODE_SMELL
+njavascript:S1854Ã&"5Remove this useless assignment to local variable "au"(øÙ¥ÒùÿÿÿÿH¦ERMAJORZ
+CODE_SMELL
+hjavascript:S1854"4Remove this useless assignment to local variable "d"(Üá¬ŞH„¦ERMAJORZ
+CODE_SMELL
+›javascript:S2692“#"bThis check ignores index 0; consider using 'includes' method to make this check safe and explicit.(ıªÆ³úÿÿÿÿHÕ¥ERMAJORZ
+CODE_SMELL
+ojavascript:UnusedVariable–*"2Remove the declaration of the unused 'T' variable.(±¯úÈHä¥ERMINORZ
+CODE_SMELL
+›javascript:S2692ú"bThis check ignores index 0; consider using 'includes' method to make this check safe and explicit.(­ğÎıÿÿÿÿHÓ¥ERMAJORZ
+CODE_SMELL
+njavascript:UnusedVariable¥"2Remove the declaration of the unused 'D' variable.(®œùDHã¥ERMINORZ
+CODE_SMELL
+djavascript:UnreachableCodeì
+".Remove this code after the "return" statement.(ÍÁ¤Hı¥ERMAJORZBUG
+ojavascript:UnusedVariable¥"2Remove the declaration of the unused 'm' variable.(“´ÒäHö¥ERMINORZ
+CODE_SMELL
+njavascript:UnusedVariable…="2Remove the declaration of the unused 'g' variable.(Éº³4Hó¥ERMINORZ
+CODE_SMELL
+…javascript:S2589ò	"LRefactor this code so that this expression does not always evaluate to true.(”ÙÄ ÿÿÿÿÿHÉ¥ERMAJORZ
+CODE_SMELL
+wjavascript:S3403Á%"KRemove this "===" check; it will always be false. Did you mean to use "=="?(òæïgHÆ¥ERMAJORZBUG
+’javascript:S2703 "\Add the "let", "const" or "var" keyword to this declaration of "_utils" to make it explicit.(¾™À”HŸ¦ERBLOCKERZ
+CODE_SMELL
+…javascript:S2589œ/"LRefactor this code so that this expression does not always evaluate to true.(Ÿ¬•‚úÿÿÿÿHÏ¥ERMAJORZ
+CODE_SMELL
+‘javascript:S2703»"[Add the "let", "const" or "var" keyword to this declaration of "_hide" to make it explicit.(ëøù¾H¢¦ERBLOCKERZ
+CODE_SMELL
+†javascript:S1301´?"MReplace this "switch" statement with "if" statements to increase readability.(Œ¥åûÿÿÿÿH­¦ERMINORZ
+CODE_SMELL

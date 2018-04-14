@@ -1,0 +1,13 @@
+
+“javascript:S3973 "WUse curly braces or indentation to denote the code conditionally executed by this "if".(¦…› øÿÿÿÿHèARCRITICALZ
+CODE_SMELL
+ajavascript:EmptyBlockN")Either remove or fill this block of code.(¼¢ŞßHèARMAJORZ
+CODE_SMELL
+ajavascript:EmptyBlocky")Either remove or fill this block of code.(å¥‡HèARMAJORZ
+CODE_SMELL
+javascript:S2703§"cAdd the "let", "const" or "var" keyword to this declaration of "mTargetUserId" to make it explicit.(ËÉ”´ÿÿÿÿÿH‘èARBLOCKERZ
+CODE_SMELL
+–javascript:S2703\"aAdd the "let", "const" or "var" keyword to this declaration of "mSelfUserId" to make it explicit.(ŒÒ›”H’èARBLOCKERZ
+CODE_SMELL
+javascript:S2703r"iAdd the "let", "const" or "var" keyword to this declaration of "mRefreshVolumeTimer" to make it explicit.(ï¢„ƒH“èARBLOCKERZ
+CODE_SMELL

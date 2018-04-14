@@ -1,0 +1,234 @@
+
+squid:S1149ã"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(öó«ÎH¨¸cRMAJORZ
+CODE_SMELL
+@squid:S2438b""g" is a "Thread".(•Â§şH©¸cRMAJORZ
+CODE_SMELL
+^squid:S1905|"+Remove this unnecessary cast to "DtoTable".(–í…İûÿÿÿÿHª¸cRMINORZ
+CODE_SMELL
+„squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ä‘¿ãH«¸cRCRITICALZ
+CODE_SMELL
+xsquid:S11921"GDefine a constant instead of duplicating this literal "userid" 4 times.(’ÈìšH¬¸cRCRITICALZ
+CODE_SMELL
+Ísquid:S1192]"›Define a constant instead of duplicating this literal " select USERID from t_base_user a,t_alarm_order b where a.org_id=b.org_id and b.alarm_id='" 4 times.(İ¡¤–H­¸cRCRITICALZ
+CODE_SMELL
+lsquid:S1854‹"=Remove this useless assignment to local variable "countsql2".(öó«ÎH®¸cRMAJORZ
+CODE_SMELL
+µ%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ä‘¿ãH¯¸cRMINORZ
+CODE_SMELL
+vsquid:UselessImportCheck";Remove this unused import 'jiangdu.fire.util.BaiduMessage'.(…îØ‹H°¸cRMINORZ
+CODE_SMELL
+¼%squid:RedundantThrowsDeclarationCheckÇ"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(œ»ğúÿÿÿÿH±¸cRMINORZ
+CODE_SMELL
+squid:S1192Z"IDefine a constant instead of duplicating this literal "messType" 5 times.(ãï™‘ûÿÿÿÿH²¸cRCRITICALZ
+CODE_SMELL
+zsquid:S1192K"IDefine a constant instead of duplicating this literal "typename" 3 times.(ÑİÍêH³¸cRCRITICALZ
+CODE_SMELL
+†squid:S00117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôëÉÄÿÿÿÿÿH´¸cRMINORZ
+CODE_SMELL
+fsquid:S38785"8Remove this array creation and simply pass the elements.(¼›“Hµ¸cRMINORZ
+CODE_SMELL
+vsquid:UselessImportCheck"6Remove this unused import 'jiangdu.fire.model.SysOrg'.(ÓÕª†øÿÿÿÿH¶¸cRMINORZ
+CODE_SMELL
+…squid:S00117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¾íˆøÿÿÿÿH·¸cRMINORZ
+CODE_SMELL
+~squid:S1192¹"LDefine a constant instead of duplicating this literal "uploadTypeB" 4 times.(¼šÑÖH¸¸cRCRITICALZ
+CODE_SMELL
+^squid:S1905À"*Remove this unnecessary cast to "IDtoRow".(ÿÇ°³ûÿÿÿÿH¹¸cRMINORZ
+CODE_SMELL
+†squid:S00117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¾íˆøÿÿÿÿHº¸cRMINORZ
+CODE_SMELL
+€squid:S1192J"JDefine a constant instead of duplicating this literal "ptypename" 3 times.(€ë²œûÿÿÿÿH»¸cRCRITICALZ
+CODE_SMELL
+squid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹İ½ƒH¼¸cRMINORZ
+CODE_SMELL
+squid:S1149Œ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¹İ½ƒH½¸cRMAJORZ
+CODE_SMELL
+squid:S1192U"KDefine a constant instead of duplicating this literal "CREATETIME" 4 times.(Ë˜ƒæüÿÿÿÿH¾¸cRCRITICALZ
+CODE_SMELL
+lsquid:S3878§"8Remove this array creation and simply pass the elements.(Õöù“ÿÿÿÿÿH¿¸cRMINORZ
+CODE_SMELL
+†squid:S00117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÆ¶ªüÿÿÿÿHÀ¸cRMINORZ
+CODE_SMELL
+gsquid:S3878©"8Remove this array creation and simply pass the elements.(ÿ¡¡›HÁ¸cRMINORZ
+CODE_SMELL
+‹squid:S2077^"RUse a variable binding mechanism to construct this query instead of concatenation.(ÅíÁôüÿÿÿÿHÂ¸cRCRITICALZVULNERABILITY
+…squid:S00117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷½­ÚşÿÿÿÿHÃ¸cRMINORZ
+CODE_SMELL
+†squid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ë²œûÿÿÿÿHÄ¸cRMINORZ
+CODE_SMELL
+“squid:S1149à"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(šÆ¶ªüÿÿÿÿHÅ¸cRMAJORZ
+CODE_SMELL
+squid:S1192N"PDefine a constant instead of duplicating this literal "å›¾åº“ä¸­æ›´æ–°" 4 times.( ´šHÆ¸cRCRITICALZ
+CODE_SMELL
+gsquid:S3878¬"8Remove this array creation and simply pass the elements.(£Å„©HÇ¸cRMINORZ
+CODE_SMELL
+_squid:S1905Ÿ"+Remove this unnecessary cast to "DtoTable".(½‘ç›şÿÿÿÿHÈ¸cRMINORZ
+CODE_SMELL
+…squid:S00117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôëÉÄÿÿÿÿÿHÉ¸cRMINORZ
+CODE_SMELL
+lsquid:S3878Ò"8Remove this array creation and simply pass the elements.(æ‹ÌşÿÿÿÿHÊ¸cRMINORZ
+CODE_SMELL
+~squid:S1192B"HDefine a constant instead of duplicating this literal "content" 5 times.(Íş£»ıÿÿÿÿHË¸cRCRITICALZ
+CODE_SMELL
+wsquid:S1192T"GDefine a constant instead of duplicating this literal "O_PICS" 4 times.(øò×#HÌ¸cRCRITICALZ
+CODE_SMELL
+ksquid:S3878I"8Remove this array creation and simply pass the elements.(°õ’ŒüÿÿÿÿHÍ¸cRMINORZ
+CODE_SMELL
+Vsquid:S1905"'Remove this unnecessary cast to "Long".(Ö„ßƒHÎ¸cRMINORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÀƒ©üÿÿÿÿHÏ¸cRMINORZ
+CODE_SMELL
+squid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜîÜEHĞ¸cRMINORZ
+CODE_SMELL
+lsquid:S3878˜"8Remove this array creation and simply pass the elements.(æ‹ÌşÿÿÿÿHÑ¸cRMINORZ
+CODE_SMELL
+€squid:S00117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ë„pHÒ¸cRMINORZ
+CODE_SMELL
+squid:S00117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¬ç¶HÓ¸cRMINORZ
+CODE_SMELL
+Zsquid:S1905”"+Remove this unnecessary cast to "DtoTable".(ÒåHÔ¸cRMINORZ
+CODE_SMELL
+]squid:S1905H"*Remove this unnecessary cast to "IDtoRow".(ÿÇ°³ûÿÿÿÿHÕ¸cRMINORZ
+CODE_SMELL
+Vsquid:S1905ú"'Remove this unnecessary cast to "Long".(Ù¤¬ÎHÖ¸cRMINORZ
+CODE_SMELL
+zsquid:S1192Q"IDefine a constant instead of duplicating this literal "alarm_no" 8 times.(õ†™¦H×¸cRCRITICALZ
+CODE_SMELL
+isquid:S2259ğ"AA "NullPointerException" could be thrown; "pid" is nullable here.(¿©‹ÄHØ¸cRMAJORZBUG
+lsquid:S3878£"8Remove this array creation and simply pass the elements.(“Äà®ÿÿÿÿÿHÙ¸cRMINORZ
+CODE_SMELL
+gsquid:S3878´"8Remove this array creation and simply pass the elements.(†¤Æ¦HÚ¸cRMINORZ
+CODE_SMELL
+Vsquid:S1905ˆ"'Remove this unnecessary cast to "Long".(Ö„ßƒHÛ¸cRMINORZ
+CODE_SMELL
+“squid:S1149‡"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ş²—¸üÿÿÿÿHÜ¸cRMAJORZ
+CODE_SMELL
+†squid:S00117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôëÉÄÿÿÿÿÿHİ¸cRMINORZ
+CODE_SMELL
+†squid:S00117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ë–­úÿÿÿÿHŞ¸cRMINORZ
+CODE_SMELL
+…squid:S00117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äê“õıÿÿÿÿHß¸cRMINORZ
+CODE_SMELL
+îsquid:S11923"·Define a constant instead of duplicating this literal "insert into t_Alarm_Drawing(ID,ALARM_NO,PIC,CREATEUSER,TYPEID,CONTENT)  values (SEQ_T_ALARM_DRAWING.NEXTVAL,?,?,?,?,?)" 7 times.(‹‘ûıÿÿÿÿHà¸cRCRITICALZ
+CODE_SMELL
+€squid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Ùš®Há¸cRMINORZ
+CODE_SMELL
+†squid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ë²œûÿÿÿÿHâ¸cRMINORZ
+CODE_SMELL
+fsquid:S3878D"8Remove this array creation and simply pass the elements.(÷“ËåHã¸cRMINORZ
+CODE_SMELL
+squid:S1192™"WDefine a constant instead of duplicating this literal "SELECT COUNT(1) FROM (" 5 times.(Ş²—¸üÿÿÿÿHä¸cRCRITICALZ
+CODE_SMELL
+squid:S1192•"lDefine a constant instead of duplicating this literal "SELECT * FROM (SELECT A.*, ROWNUM RN FROM (" 3 times.(§ÛÃ	Hå¸cRCRITICALZ
+CODE_SMELL
+…squid:S00117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äê“õıÿÿÿÿHæ¸cRMINORZ
+CODE_SMELL
+squid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹İ½ƒHç¸cRMINORZ
+CODE_SMELL
+lsquid:S1854â">Remove this useless assignment to local variable "select_sql".(äÅ•Hè¸cRMAJORZ
+CODE_SMELL
+lsquid:S1854ã"=Remove this useless assignment to local variable "countsql2".(öó«ÎHé¸cRMAJORZ
+CODE_SMELL
+ksquid:S3878r"8Remove this array creation and simply pass the elements.(ìèé‹ÿÿÿÿÿHê¸cRMINORZ
+CODE_SMELL
+_squid:S1905­"+Remove this unnecessary cast to "DtoTable".(–í…İûÿÿÿÿHë¸cRMINORZ
+CODE_SMELL
+†squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿHì¸cRMINORZ
+CODE_SMELL
+€squid:S00117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‘µ@Hí¸cRMINORZ
+CODE_SMELL
+†squid:S00117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¦®ˆÿÿÿÿÿHî¸cRMINORZ
+CODE_SMELL
+†squid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHï¸cRMINORZ
+CODE_SMELL
+lsquid:S3878Ø"8Remove this array creation and simply pass the elements.(ÎÔüÁúÿÿÿÿHğ¸cRMINORZ
+CODE_SMELL
+zsquid:S1192X"IDefine a constant instead of duplicating this literal "username" 4 times.(º¹ÈÈHñ¸cRCRITICALZ
+CODE_SMELL
+~squid:S1192R"HDefine a constant instead of duplicating this literal "CONTENT" 4 times.(’¦Á…øÿÿÿÿHò¸cRCRITICALZ
+CODE_SMELL
+squid:S1192S"KDefine a constant instead of duplicating this literal "O_CONTENTS" 4 times.(ÄŞ²ÏÿÿÿÿÿHó¸cRCRITICALZ
+CODE_SMELL
+squid:CommentedOutCodeLineö"<This block of commented-out lines of code should be removed.(ÇÃÙûÿÿÿÿHô¸cRMAJORZ
+CODE_SMELL
+[squid:S1905¦"'Remove this unnecessary cast to "Long".(ãöÄşûÿÿÿÿHõ¸cRMINORZ
+CODE_SMELL
+†squid:S00117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¾íˆøÿÿÿÿHö¸cRMINORZ
+CODE_SMELL
+gsquid:S3878ç"8Remove this array creation and simply pass the elements.(¸ìŸ»H÷¸cRMINORZ
+CODE_SMELL
+†squid:S00117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¾íˆøÿÿÿÿHø¸cRMINORZ
+CODE_SMELL
+msquid:UselessImportCheck"2Remove this unused import 'com.yifeng.dto.DtoRow'.(†¶‚¾Hù¸cRMINORZ
+CODE_SMELL
+squid:S1149›"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¹İ½ƒHú¸cRMAJORZ
+CODE_SMELL
+“squid:S1149™"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ş²—¸üÿÿÿÿHû¸cRMAJORZ
+CODE_SMELL
+º%squid:RedundantThrowsDeclarationCheckÇ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œ»ğúÿÿÿÿHü¸cRMINORZ
+CODE_SMELL
+_squid:S1905§"+Remove this unnecessary cast to "DtoTable".(–í…İûÿÿÿÿHı¸cRMINORZ
+CODE_SMELL
+gsquid:S3878Á"8Remove this array creation and simply pass the elements.(„ïî¡Hş¸cRMINORZ
+CODE_SMELL
+_squid:S1905‚"+Remove this unnecessary cast to "DtoTable".(½‘ç›şÿÿÿÿHÿ¸cRMINORZ
+CODE_SMELL
+lsquid:S3878„"8Remove this array creation and simply pass the elements.(‹óñÌøÿÿÿÿH€¹cRMINORZ
+CODE_SMELL
+gsquid:S3878Á"8Remove this array creation and simply pass the elements.(æ‘ëÜH¹cRMINORZ
+CODE_SMELL
+_squid:S1905‚"+Remove this unnecessary cast to "DtoTable".(–í…İûÿÿÿÿH‚¹cRMINORZ
+CODE_SMELL
+squid:S00117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¬ç¶Hƒ¹cRMINORZ
+CODE_SMELL
+“squid:S1149¥"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ş²—¸üÿÿÿÿH„¹cRMAJORZ
+CODE_SMELL
+Zsquid:S1905"+Remove this unnecessary cast to "DtoTable".(…‚Ñ˜H…¹cRMINORZ
+CODE_SMELL
+_squid:S1905«"+Remove this unnecessary cast to "DtoTable".(ìä×–ıÿÿÿÿH†¹cRMINORZ
+CODE_SMELL
+gsquid:S3878¼"8Remove this array creation and simply pass the elements.(¸ìŸ»H‡¹cRMINORZ
+CODE_SMELL
+†squid:S00117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHˆ¹cRMINORZ
+CODE_SMELL
+squid:S1149â"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(äÅ•H‰¹cRMAJORZ
+CODE_SMELL
+†squid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÆ¶ªüÿÿÿÿHŠ¹cRMINORZ
+CODE_SMELL
+gsquid:S3878¯"8Remove this array creation and simply pass the elements.(ç÷ÄÜH‹¹cRMINORZ
+CODE_SMELL
+†squid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿHŒ¹cRMINORZ
+CODE_SMELL
+“squid:S1149Š"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(šÆ¶ªüÿÿÿÿH¹cRMAJORZ
+CODE_SMELL
+…squid:S00117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ë²œûÿÿÿÿH¹cRMINORZ
+CODE_SMELL
+ksquid:S3878~"8Remove this array creation and simply pass the elements.(‹óñÌøÿÿÿÿH¹cRMINORZ
+CODE_SMELL
+Asquid:S2438Ú""g" is a "Thread".(•Â§şH¹cRMAJORZ
+CODE_SMELL
+Asquid:S2438‡""g" is a "Thread".(•Â§şH‘¹cRMAJORZ
+CODE_SMELL
+squid:S1149‹"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(öó«ÎH’¹cRMAJORZ
+CODE_SMELL
+fsquid:S3878u"8Remove this array creation and simply pass the elements.(ñœÖëH“¹cRMINORZ
+CODE_SMELL
+gsquid:S3878¼"8Remove this array creation and simply pass the elements.(¼›“H”¹cRMINORZ
+CODE_SMELL
+gsquid:S3878ì"8Remove this array creation and simply pass the elements.(æ‘ëÜH•¹cRMINORZ
+CODE_SMELL
+†squid:S00117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜáĞ·ûÿÿÿÿH–¹cRMINORZ
+CODE_SMELL
+€squid:S00117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÅ•H—¹cRMINORZ
+CODE_SMELL
+^squid:S1905ë"*Remove this unnecessary cast to "IDtoRow".(ÿÇ°³ûÿÿÿÿH˜¹cRMINORZ
+CODE_SMELL
+Asquid:S2438¹""g" is a "Thread".(•Â§şH™¹cRMAJORZ
+CODE_SMELL
+†squid:S2077ƒ"RUse a variable binding mechanism to construct this query instead of concatenation.(§ÛÃ	Hš¹cRCRITICALZVULNERABILITY
+†squid:S00117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‰È¸ùÿÿÿÿH›¹cRMINORZ
+CODE_SMELL
+[squid:S1905œ"'Remove this unnecessary cast to "Long".(—µã÷üÿÿÿÿHœ¹cRMINORZ
+CODE_SMELL
+„squid:S11922"NDefine a constant instead of duplicating this literal "uploadContent" 6 times.(ÓÍ·¼şÿÿÿÿH¹cRCRITICALZ
+CODE_SMELL

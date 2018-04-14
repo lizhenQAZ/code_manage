@@ -27,7 +27,7 @@ app = Flask(__name__)
 # 迁移第一步：实例化管理器对象
 manager = Manager(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://guest:guest@localhost/001test'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://guest:guest@localhost/user'
 # 动态追踪修改
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
