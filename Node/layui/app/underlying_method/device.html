@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>设备</title>
+    <link rel="stylesheet" href="../../css/layui.css">
+</head>
+
+<body>
+    <script src="../../js/layui.all.js"></script>
+    <script>
+        ; !function () {
+            // 查询设备信息
+            console.log(layui.device());
+            // 查询应用信息
+            if (layui.device('myapp')) {
+                console.log(layui.device('myapp'))
+            }
+        }();    
+    </script>
+</body>
+
+</html>

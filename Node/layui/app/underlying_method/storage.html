@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>存储</title>
+    <link rel="stylesheet" href="../../css/layui.css">
+</head>
+
+<body>
+    <script src="../../js/layui.all.js"></script>
+    <script>
+        ; !function () {
+            // 插入/修改字段
+            layui.data('test', {
+                key: 'nickname'
+                ,value: 'haha'
+            });
+            console.log(layui.data('test').nickname);
+            
+            // 删除字段
+            layui.data('test', {
+                key: 'nickname'
+                ,remove: true
+            });
+            // 删除表
+            layui.data('test', null);
+            
+            // 查询字段
+            var localTest = layui.data('test');
+            console.log(localTest.nickname);
+        }();    
+    </script>
+</body>
+
+</html>
